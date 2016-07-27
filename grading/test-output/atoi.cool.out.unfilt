@@ -1,0 +1,664 @@
+#name "./atoi.cool"
+#1 '('
+#1 '*'
+#2 LET
+#2 THEN
+#2 CLASS
+#2 TYPEID A2I
+#2 OBJECTID provides
+#2 FI
+#2 OBJECTID nteger
+#2 '-'
+#2 OBJECTID to
+#2 '-'
+#2 OBJECTID string
+#2 OBJECTID and
+#2 OBJECTID string
+#2 '-'
+#2 OBJECTID to
+#2 '-'
+#2 OBJECTID integer
+#3 OBJECTID conversion
+#3 OBJECTID routines
+#3 '.'
+#3 LET
+#3 OF
+#3 OBJECTID use
+#3 OBJECTID these
+#3 OBJECTID routines
+#3 ','
+#3 OBJECTID either
+#3 FI
+#3 OBJECTID nherit
+#3 OBJECTID them
+#4 IN
+#4 THEN
+#4 CLASS
+#4 OBJECTID where
+#4 IN
+#4 OBJECTID eeded
+#4 ','
+#4 OBJECTID have
+#4 OBJECTID a
+#4 OBJECTID dummy
+#4 OBJECTID variable
+#4 OBJECTID bound
+#4 OBJECTID to
+#5 OBJECTID something
+#5 OF
+#5 OBJECTID type
+#5 TYPEID A2I
+#5 ','
+#5 OBJECTID or
+#5 OBJECTID simpl
+#5 OBJECTID write
+#5 '('
+#5 NEW
+#5 TYPEID A2I
+#5 ')'
+#5 '.'
+#5 OBJECTID method
+#5 '('
+#5 OBJECTID argument
+#5 ')'
+#5 '.'
+#6 '*'
+#6 ')'
+#9 '('
+#9 '*'
+#10 ESAC
+#10 INT_CONST 2
+#10 IF
+#10 FI
+#10 TYPEID Converts
+#10 OBJECTID a
+#10 INT_CONST 1
+#10 '-'
+#10 OBJECTID character
+#10 OBJECTID string
+#10 OBJECTID to
+#10 OBJECTID an
+#10 FI
+#10 OBJECTID nteger
+#10 '.'
+#10 FI
+#10 TYPEID Aborts
+#11 INHERITS
+#11 FI
+#11 FI
+#11 THEN
+#11 OBJECTID string
+#11 FI
+#11 OBJECTID s
+#11 IN
+#11 OBJECTID ot
+#11 STR_CONST "0\" through \"9"
+#12 '*'
+#12 ')'
+#13 CLASS
+#13 TYPEID A2I
+#13 '{'
+#15 CLASS
+#15 OBJECTID c2i
+#15 '('
+#15 OBJECTID char
+#15 ':'
+#15 TYPEID String
+#15 ')'
+#15 ':'
+#15 FI
+#15 OBJECTID nt
+#15 '{'
+#16 IF
+#16 OBJECTID char
+#16 '='
+#16 STR_CONST "0\" then 0 else\n\tif char = \"1\" then 1 else\n\tif char = \"2\" then 2 else\n        if char = \"3\" then 3 else\n        if char = \"4\" then 4 else\n        if char = \"5\" then 5 else\n        if char = \"6\" then 6 else\n        if char = \"7\" then 7 else\n        if char = \"8\" then 8 else\n        if char = \"9"
+#16 THEN
+#16 INT_CONST 9
+#16 ELSE
+#17 INHERITS
+#17 '{'
+#17 OBJECTID abort
+#17 '('
+#17 ')'
+#17 ';'
+#17 INT_CONST 0
+#17 ';'
+#17 '}'
+#17 FI
+#17 '-'
+#17 '-'
+#17 THEN
+#17 INT_CONST 0
+#17 FI
+#17 OBJECTID s
+#17 IN
+#17 OBJECTID eeded
+#17 OBJECTID to
+#17 OBJECTID satisfy
+#17 THEN
+#17 OBJECTID typchecker
+#18 INHERITS
+#18 FI
+#18 IF
+#18 IF
+#18 FI
+#18 IF
+#18 IF
+#18 FI
+#18 IF
+#18 IF
+#18 FI
+#18 IF
+#18 IF
+#18 FI
+#18 IF
+#18 OBJECTID i
+#19 CLASS
+#19 '}'
+#19 ';'
+#21 '('
+#21 '*'
+#22 LET
+#22 OBJECTID i2c
+#22 FI
+#22 OBJECTID s
+#22 THEN
+#22 OBJECTID inverse
+#22 OF
+#22 OBJECTID c2i
+#22 '.'
+#23 '*'
+#23 ')'
+#24 CLASS
+#24 OBJECTID i2c
+#24 '('
+#24 IF
+#24 ':'
+#24 FI
+#24 OBJECTID nt
+#24 ')'
+#24 ':'
+#24 TYPEID String
+#24 '{'
+#25 IF
+#25 FI
+#25 '='
+#25 INT_CONST 0
+#25 THEN
+#25 STR_CONST "0\" else\n\tif i = 1 then \"1\" else\n\tif i = 2 then \"2\" else\n\tif i = 3 then \"3\" else\n\tif i = 4 then \"4\" else\n\tif i = 5 then \"5\" else\n\tif i = 6 then \"6\" else\n\tif i = 7 then \"7\" else\n\tif i = 8 then \"8\" else\n\tif i = 9 then \"9\" else\n\t{ abort(); \"\"; }  -- the \""
+#25 FI
+#25 OBJECTID s
+#25 IN
+#25 OBJECTID eeded
+#25 OBJECTID to
+#25 OBJECTID satisfy
+#25 THEN
+#25 OBJECTID typchecker
+#26 INHERITS
+#26 FI
+#26 IF
+#26 IF
+#26 FI
+#26 IF
+#26 IF
+#26 FI
+#26 IF
+#26 IF
+#26 FI
+#26 IF
+#26 IF
+#26 FI
+#26 IF
+#26 OBJECTID i
+#27 CLASS
+#27 '}'
+#27 ';'
+#29 '('
+#29 '*'
+#30 LET
+#30 OBJECTID a2i
+#30 OBJECTID converts
+#30 OBJECTID an
+#30 TYPEID ASCII
+#30 OBJECTID string
+#30 FI
+#30 OBJECTID nto
+#30 OBJECTID an
+#30 FI
+#30 OBJECTID nteger
+#30 '.'
+#30 LET
+#30 OBJECTID he
+#30 OBJECTID empty
+#30 OBJECTID string
+#31 OBJECTID is
+#31 OBJECTID converted
+#31 OBJECTID to
+#31 INT_CONST 0
+#31 '.'
+#31 FI
+#31 TYPEID Signed
+#31 OBJECTID and
+#31 OBJECTID unsigned
+#31 OBJECTID strings
+#31 OBJECTID are
+#31 OBJECTID handled
+#31 '.'
+#31 LET
+#31 OBJECTID he
+#32 OBJECTID method
+#32 OBJECTID aborts
+#32 FI
+#32 FI
+#32 THEN
+#32 OBJECTID string
+#32 OBJECTID does
+#32 IN
+#32 OBJECTID ot
+#32 OBJECTID represent
+#32 OBJECTID an
+#32 FI
+#32 OBJECTID nteger
+#32 '.'
+#32 FI
+#32 TYPEID Very
+#33 OBJECTID long
+#33 OBJECTID strings
+#33 OF
+#33 OBJECTID digits
+#33 OBJECTID produce
+#33 OBJECTID strange
+#33 OBJECTID answers
+#33 OBJECTID because
+#33 OF
+#33 OBJECTID arithmetic
+#34 OBJECTID overflow
+#34 '.'
+#36 '*'
+#36 ')'
+#37 CLASS
+#37 OBJECTID a2i
+#37 '('
+#37 OBJECTID s
+#37 ':'
+#37 TYPEID String
+#37 ')'
+#37 ':'
+#37 FI
+#37 OBJECTID nt
+#37 '{'
+#38 INHERITS
+#38 IF
+#38 OBJECTID s
+#38 '.'
+#38 OBJECTID length
+#38 '('
+#38 ')'
+#38 '='
+#38 INT_CONST 0
+#38 THEN
+#38 INT_CONST 0
+#38 ELSE
+#39 IF
+#39 OBJECTID s
+#39 '.'
+#39 OBJECTID substr
+#39 '('
+#39 INT_CONST 0
+#39 ','
+#39 INT_CONST 1
+#39 ')'
+#39 '='
+#39 STR_CONST "-"
+#39 THEN
+#39 '~'
+#39 OBJECTID a2i
+LEXER BUG - UNMATCHED: _
+#39 OBJECTID aux
+#39 '('
+#39 OBJECTID s
+#39 '.'
+#39 OBJECTID substr
+#39 '('
+#39 INT_CONST 1
+#39 ','
+#39 OBJECTID s
+#39 '.'
+#39 OBJECTID length
+#39 '('
+#39 ')'
+#39 '-'
+#39 INT_CONST 1
+#39 ')'
+#39 ')'
+#39 ELSE
+#40 INHERITS
+#40 IF
+#40 OBJECTID s
+#40 '.'
+#40 OBJECTID substr
+#40 '('
+#40 INT_CONST 0
+#40 ','
+#40 INT_CONST 1
+#40 ')'
+#40 '='
+#40 STR_CONST "+"
+#40 THEN
+#40 OBJECTID a2i
+LEXER BUG - UNMATCHED: _
+#40 OBJECTID aux
+#40 '('
+#40 OBJECTID s
+#40 '.'
+#40 OBJECTID substr
+#40 '('
+#40 INT_CONST 1
+#40 ','
+#40 OBJECTID s
+#40 '.'
+#40 OBJECTID length
+#40 '('
+#40 ')'
+#40 '-'
+#40 INT_CONST 1
+#40 ')'
+#40 ')'
+#40 ELSE
+#41 INHERITS
+#41 LET
+#41 OBJECTID a2i
+LEXER BUG - UNMATCHED: _
+#41 OBJECTID aux
+#41 '('
+#41 OBJECTID s
+#41 ')'
+#42 INHERITS
+#42 FI
+#42 IF
+#42 IF
+#42 FI
+#43 CLASS
+#43 '}'
+#43 ';'
+#45 '('
+#45 '*'
+#46 FI
+#46 OBJECTID a2i
+LEXER BUG - UNMATCHED: _
+#46 OBJECTID aux
+#46 OBJECTID converts
+#46 THEN
+#46 OBJECTID usigned
+#46 OBJECTID portion
+#46 OF
+#46 THEN
+#46 OBJECTID string
+#46 '.'
+#46 CLASS
+#46 OBJECTID a
+#46 OBJECTID programming
+#47 OBJECTID example
+#47 ','
+#47 OBJECTID this
+#47 OBJECTID method
+#47 FI
+#47 OBJECTID s
+#47 OBJECTID written
+#47 FI
+#47 OBJECTID teratively
+#47 '.'
+#48 '*'
+#48 ')'
+#49 CLASS
+#49 OBJECTID a2i
+LEXER BUG - UNMATCHED: _
+#49 OBJECTID aux
+#49 '('
+#49 OBJECTID s
+#49 ':'
+#49 TYPEID String
+#49 ')'
+#49 ':'
+#49 FI
+#49 OBJECTID nt
+#49 '{'
+#50 '('
+#50 LET
+#50 FI
+#50 OBJECTID nt
+#50 ':'
+#50 FI
+#50 OBJECTID nt
+#50 ASSIGN
+#50 INT_CONST 0
+#50 FI
+#50 OBJECTID n
+#51 INHERITS
+#51 LET
+#51 '{'
+#52 INHERITS
+#52 CLASS
+#52 FI
+#52 '('
+#52 LET
+#52 OBJECTID j
+#52 ':'
+#52 FI
+#52 OBJECTID nt
+#52 ASSIGN
+#52 OBJECTID s
+#52 '.'
+#52 OBJECTID length
+#52 '('
+#52 ')'
+#52 FI
+#52 OBJECTID n
+#53 INHERITS
+#53 FI
+#53 '('
+#53 LET
+#53 FI
+#53 ':'
+#53 FI
+#53 OBJECTID nt
+#53 ASSIGN
+#53 INT_CONST 0
+#53 FI
+#53 OBJECTID n
+#54 ELSE
+#54 WHILE
+#54 FI
+#54 '<'
+#54 OBJECTID j
+#54 LOOP
+#55 '{'
+#56 ELSE
+#56 OBJECTID int
+#56 ASSIGN
+#56 FI
+#56 OBJECTID nt
+#56 '*'
+#56 INT_CONST 10
+#56 '+'
+#56 OBJECTID c2i
+#56 '('
+#56 OBJECTID s
+#56 '.'
+#56 OBJECTID substr
+#56 '('
+#56 OBJECTID i
+#56 ','
+#56 INT_CONST 1
+#56 ')'
+#56 ')'
+#56 ';'
+#57 ELSE
+#57 IF
+#57 ASSIGN
+#57 FI
+#57 '+'
+#57 INT_CONST 1
+#57 ';'
+#58 '}'
+#59 ELSE
+#59 POOL
+#60 FI
+#60 ')'
+#61 CLASS
+#61 FI
+#61 ')'
+#61 ';'
+#62 INHERITS
+#62 CLASS
+#62 FI
+#62 OBJECTID nt
+#62 ';'
+#63 ELSE
+#63 '}'
+#64 INHERITS
+#64 ')'
+#65 CLASS
+#65 '}'
+#65 ';'
+#67 '('
+#67 '*'
+#68 ELSE
+#68 OBJECTID i2a
+#68 OBJECTID converts
+#68 OBJECTID an
+#68 FI
+#68 OBJECTID nteger
+#68 OBJECTID to
+#68 OBJECTID a
+#68 OBJECTID string
+#68 '.'
+#68 FI
+#68 TYPEID Positive
+#68 OBJECTID and
+#68 IN
+#68 OBJECTID egative
+#69 OBJECTID numbers
+#69 OBJECTID are
+#69 OBJECTID handled
+#69 OBJECTID correctly
+#69 '.'
+#69 FI
+#70 '*'
+#70 ')'
+#71 ELSE
+#71 OBJECTID i2a
+#71 '('
+#71 IF
+#71 ':'
+#71 FI
+#71 OBJECTID nt
+#71 ')'
+#71 ':'
+#71 TYPEID String
+#71 '{'
+#72 IF
+#72 FI
+#72 '='
+#72 INT_CONST 0
+#72 THEN
+#72 STR_CONST "0\" else \n        if 0 < i then i2a_aux(i) else\n          \"-"
+#72 '.'
+#72 OBJECTID concat
+#72 '('
+#72 OBJECTID i2a
+LEXER BUG - UNMATCHED: _
+#72 OBJECTID aux
+#72 '('
+#72 IF
+#72 '*'
+#72 '~'
+#72 INT_CONST 1
+#72 ')'
+#72 ')'
+#73 INHERITS
+#73 FI
+#73 IF
+#73 OBJECTID i
+#74 ELSE
+#74 '}'
+#74 ';'
+#76 '('
+#76 '*'
+#77 ELSE
+#77 OBJECTID i2a
+LEXER BUG - UNMATCHED: _
+#77 OBJECTID aux
+#77 FI
+#77 OBJECTID s
+#77 OBJECTID an
+#77 OBJECTID example
+#77 OBJECTID using
+#77 OBJECTID recursion
+#77 '.'
+#78 '*'
+#78 ')'
+#79 ELSE
+#79 OBJECTID i2a
+LEXER BUG - UNMATCHED: _
+#79 OBJECTID aux
+#79 '('
+#79 IF
+#79 ':'
+#79 FI
+#79 OBJECTID nt
+#79 ')'
+#79 ':'
+#79 TYPEID String
+#79 '{'
+#80 INHERITS
+#80 IF
+#80 FI
+#80 '='
+#80 INT_CONST 0
+#80 THEN
+#80 STR_CONST ""
+#80 ELSE
+#81 ELSE
+#81 '('
+#81 LET
+#81 IN
+#81 OBJECTID ext
+#81 ':'
+#81 FI
+#81 OBJECTID nt
+#81 ASSIGN
+#81 FI
+#81 '/'
+#81 INT_CONST 10
+#81 FI
+#81 OBJECTID n
+#82 OBJECTID i2a
+LEXER BUG - UNMATCHED: _
+#82 OBJECTID aux
+#82 '('
+#82 OBJECTID next
+#82 ')'
+#82 '.'
+#82 OBJECTID concat
+#82 '('
+#82 OBJECTID i2c
+#82 '('
+#82 IF
+#82 '-'
+#82 IN
+#82 OBJECTID ext
+#82 '*'
+#82 INT_CONST 10
+#82 ')'
+#82 ')'
+#83 ELSE
+#83 ')'
+#84 INHERITS
+#84 FI
+#85 ELSE
+#85 '}'
+#85 ';'
+#87 '}'
+#87 ';'

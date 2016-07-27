@@ -1,0 +1,2527 @@
+'('
+'*'
+'*'
+ESAC
+OBJECTID contribution
+IF
+OBJECTID rom
+TYPEID Anne
+TYPEID Sheets
+'('
+OBJECTID sheets
+'@'
+OBJECTID cory
+')'
+'*'
+'*'
+LET
+OBJECTID ests
+THEN
+OBJECTID arithmetic
+OBJECTID operations
+OBJECTID and
+OBJECTID various
+OBJECTID other
+OBJECTID things
+'*'
+')'
+CLASS
+TYPEID A
+'{'
+LET
+OBJECTID var
+':'
+FI
+OBJECTID nt
+ASSIGN
+INT_CONST 0
+';'
+LET
+OBJECTID value
+'('
+')'
+':'
+FI
+OBJECTID nt
+'{'
+OBJECTID var
+'}'
+';'
+LET
+OBJECTID set
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+'('
+OBJECTID num
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID SELF_TYPE
+'{'
+CLASS
+'{'
+INHERITS
+OBJECTID var
+ASSIGN
+IN
+OBJECTID um
+';'
+INHERITS
+OBJECTID self
+';'
+CLASS
+'}'
+LET
+'}'
+';'
+LET
+OBJECTID method1
+'('
+OBJECTID num
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID SELF_TYPE
+'{'
+FI
+'-'
+'-'
+OBJECTID same
+CLASS
+OBJECTID self
+LET
+'}'
+';'
+LET
+OBJECTID method2
+'('
+OBJECTID num1
+':'
+FI
+OBJECTID nt
+','
+IN
+OBJECTID um2
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID B
+'{'
+FI
+'-'
+'-'
+OBJECTID plus
+CLASS
+'('
+LET
+OBJECTID x
+':'
+FI
+OBJECTID nt
+FI
+OBJECTID n
+'{'
+INHERITS
+ELSE
+OBJECTID x
+ASSIGN
+IN
+OBJECTID um1
+'+'
+IN
+OBJECTID um2
+';'
+ELSE
+'('
+NEW
+TYPEID B
+')'
+'.'
+OBJECTID set
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+'('
+OBJECTID x
+')'
+';'
+'}'
+CLASS
+')'
+LET
+'}'
+';'
+LET
+OBJECTID method3
+'('
+OBJECTID num
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID C
+'{'
+FI
+'-'
+'-'
+IN
+OBJECTID egate
+CLASS
+'('
+LET
+OBJECTID x
+':'
+FI
+OBJECTID nt
+FI
+OBJECTID n
+'{'
+INHERITS
+ELSE
+OBJECTID x
+ASSIGN
+'~'
+OBJECTID num
+';'
+ELSE
+'('
+NEW
+TYPEID C
+')'
+'.'
+OBJECTID set
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+'('
+OBJECTID x
+')'
+';'
+'}'
+CLASS
+')'
+LET
+'}'
+';'
+LET
+OBJECTID method4
+'('
+OBJECTID num1
+':'
+FI
+OBJECTID nt
+','
+IN
+OBJECTID um2
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID D
+'{'
+FI
+'-'
+'-'
+OBJECTID diff
+INHERITS
+ELSE
+IF
+IN
+OBJECTID um2
+'<'
+IN
+OBJECTID um1
+THEN
+INHERITS
+CLASS
+FI
+'('
+LET
+OBJECTID x
+':'
+FI
+OBJECTID nt
+FI
+OBJECTID n
+FI
+'{'
+INHERITS
+INHERITS
+CLASS
+OBJECTID x
+ASSIGN
+IN
+OBJECTID um1
+'-'
+IN
+OBJECTID um2
+';'
+INHERITS
+CLASS
+'('
+NEW
+TYPEID D
+')'
+'.'
+OBJECTID set
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+'('
+OBJECTID x
+')'
+';'
+INHERITS
+FI
+'}'
+INHERITS
+CLASS
+FI
+')'
+INHERITS
+WHILE
+OBJECTID lse
+INHERITS
+CLASS
+FI
+'('
+LET
+OBJECTID x
+':'
+FI
+OBJECTID nt
+FI
+OBJECTID n
+FI
+'{'
+INHERITS
+CLASS
+OBJECTID x
+ASSIGN
+IN
+OBJECTID um2
+'-'
+IN
+OBJECTID um1
+';'
+INHERITS
+CLASS
+'('
+NEW
+TYPEID D
+')'
+'.'
+OBJECTID set
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+'('
+OBJECTID x
+')'
+';'
+FI
+'}'
+INHERITS
+CLASS
+FI
+')'
+INHERITS
+ELSE
+FI
+LET
+'}'
+';'
+LET
+OBJECTID method5
+'('
+OBJECTID num
+':'
+FI
+OBJECTID nt
+')'
+':'
+LET
+'{'
+FI
+'-'
+'-'
+IF
+OBJECTID actorial
+CLASS
+'('
+LET
+OBJECTID x
+':'
+FI
+OBJECTID nt
+ASSIGN
+INT_CONST 1
+FI
+OBJECTID n
+'{'
+ELSE
+'('
+LET
+OBJECTID y
+':'
+FI
+OBJECTID nt
+ASSIGN
+INT_CONST 1
+FI
+OBJECTID n
+CLASS
+NEW
+OBJECTID hile
+OBJECTID y
+LE
+IN
+OBJECTID um
+LOOP
+INHERITS
+FI
+'{'
+INHERITS
+INHERITS
+CLASS
+OBJECTID x
+ASSIGN
+OBJECTID x
+'*'
+OBJECTID y
+';'
+INHERITS
+CLASS
+OBJECTID y
+ASSIGN
+OBJECTID y
+'+'
+INT_CONST 1
+';'
+INHERITS
+FI
+'}'
+CLASS
+FI
+POOL
+ELSE
+')'
+';'
+ELSE
+'('
+NEW
+TYPEID E
+')'
+'.'
+OBJECTID set
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+'('
+OBJECTID x
+')'
+';'
+'}'
+CLASS
+')'
+LET
+'}'
+';'
+'}'
+';'
+CLASS
+TYPEID B
+FI
+OBJECTID nherits
+TYPEID A
+'{'
+FI
+'-'
+'-'
+TYPEID B
+FI
+OBJECTID s
+OBJECTID a
+IN
+OBJECTID umber
+OBJECTID squared
+LET
+OBJECTID method5
+'('
+OBJECTID num
+':'
+FI
+OBJECTID nt
+')'
+':'
+LET
+'{'
+'-'
+'-'
+OBJECTID square
+CLASS
+'('
+LET
+OBJECTID x
+':'
+FI
+OBJECTID nt
+FI
+OBJECTID n
+'{'
+INHERITS
+ELSE
+OBJECTID x
+ASSIGN
+IN
+OBJECTID um
+'*'
+IN
+OBJECTID um
+';'
+ELSE
+'('
+NEW
+TYPEID E
+')'
+'.'
+OBJECTID set
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+'('
+OBJECTID x
+')'
+';'
+'}'
+CLASS
+')'
+LET
+'}'
+';'
+'}'
+';'
+CLASS
+TYPEID C
+FI
+OBJECTID nherits
+TYPEID B
+'{'
+LET
+OBJECTID method6
+'('
+OBJECTID num
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID A
+'{'
+'-'
+'-'
+IN
+OBJECTID egate
+CLASS
+'('
+LET
+OBJECTID x
+':'
+FI
+OBJECTID nt
+FI
+OBJECTID n
+INHERITS
+'{'
+INHERITS
+ELSE
+OBJECTID x
+ASSIGN
+'~'
+OBJECTID num
+';'
+ELSE
+'('
+NEW
+TYPEID A
+')'
+'.'
+OBJECTID set
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+'('
+OBJECTID x
+')'
+';'
+INHERITS
+'}'
+CLASS
+')'
+LET
+'}'
+';'
+LET
+OBJECTID method5
+'('
+OBJECTID num
+':'
+FI
+OBJECTID nt
+')'
+':'
+LET
+'{'
+FI
+'-'
+'-'
+OBJECTID cube
+CLASS
+'('
+LET
+OBJECTID x
+':'
+FI
+OBJECTID nt
+FI
+OBJECTID n
+'{'
+INHERITS
+ELSE
+OBJECTID x
+ASSIGN
+IN
+OBJECTID um
+'*'
+IN
+OBJECTID um
+'*'
+IN
+OBJECTID um
+';'
+ELSE
+'('
+NEW
+TYPEID E
+')'
+'.'
+OBJECTID set
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+'('
+OBJECTID x
+')'
+';'
+'}'
+CLASS
+')'
+LET
+'}'
+';'
+'}'
+';'
+CLASS
+TYPEID D
+FI
+OBJECTID nherits
+TYPEID B
+'{'
+FI
+LET
+OBJECTID method7
+'('
+OBJECTID num
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID Bool
+'{'
+FI
+'-'
+'-'
+OBJECTID divisible
+OBJECTID by
+INT_CONST 3
+CLASS
+'('
+LET
+OBJECTID x
+':'
+FI
+OBJECTID nt
+ASSIGN
+IN
+OBJECTID um
+FI
+OBJECTID n
+INHERITS
+ELSE
+IF
+OBJECTID x
+'<'
+INT_CONST 0
+THEN
+OBJECTID method7
+'('
+'~'
+OBJECTID x
+')'
+ELSE
+INHERITS
+ELSE
+IF
+INT_CONST 0
+'='
+OBJECTID x
+THEN
+BOOL_CONST true
+ELSE
+INHERITS
+ELSE
+IF
+INT_CONST 1
+'='
+OBJECTID x
+THEN
+IF
+OBJECTID alse
+ELSE
+ELSE
+IF
+INT_CONST 2
+'='
+OBJECTID x
+THEN
+IF
+OBJECTID alse
+ELSE
+CLASS
+FI
+OBJECTID method7
+'('
+OBJECTID x
+'-'
+INT_CONST 3
+')'
+ELSE
+FI
+IF
+IF
+FI
+IF
+OBJECTID i
+CLASS
+')'
+LET
+'}'
+';'
+'}'
+';'
+CLASS
+LET
+INHERITS
+TYPEID D
+'{'
+LET
+OBJECTID method6
+'('
+OBJECTID num
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID A
+'{'
+FI
+'-'
+'-'
+OBJECTID division
+CLASS
+'('
+LET
+OBJECTID x
+':'
+FI
+OBJECTID nt
+FI
+OBJECTID n
+INHERITS
+'{'
+INHERITS
+ELSE
+OBJECTID x
+ASSIGN
+IN
+OBJECTID um
+'/'
+INT_CONST 8
+';'
+ELSE
+'('
+NEW
+TYPEID A
+')'
+'.'
+OBJECTID set
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+'('
+OBJECTID x
+')'
+';'
+INHERITS
+'}'
+CLASS
+')'
+LET
+'}'
+';'
+'}'
+';'
+'('
+'*'
+THEN
+OBJECTID following
+OBJECTID code
+FI
+OBJECTID s
+IF
+OBJECTID rom
+OBJECTID atoi
+'.'
+OBJECTID cl
+FI
+OBJECTID n
+'~'
+OBJECTID cs164
+'/'
+OBJECTID examples
+'*'
+')'
+'('
+'*'
+LET
+THEN
+CLASS
+TYPEID A2I
+OBJECTID provides
+FI
+OBJECTID nteger
+'-'
+OBJECTID to
+'-'
+OBJECTID string
+OBJECTID and
+OBJECTID string
+'-'
+OBJECTID to
+'-'
+OBJECTID integer
+OBJECTID conversion
+OBJECTID routines
+'.'
+LET
+OF
+OBJECTID use
+OBJECTID these
+OBJECTID routines
+','
+OBJECTID either
+FI
+OBJECTID nherit
+OBJECTID them
+IN
+THEN
+CLASS
+OBJECTID where
+IN
+OBJECTID eeded
+','
+OBJECTID have
+OBJECTID a
+OBJECTID dummy
+OBJECTID variable
+OBJECTID bound
+OBJECTID to
+OBJECTID something
+OF
+OBJECTID type
+TYPEID A2I
+','
+OBJECTID or
+OBJECTID simpl
+OBJECTID write
+'('
+NEW
+TYPEID A2I
+')'
+'.'
+OBJECTID method
+'('
+OBJECTID argument
+')'
+'.'
+'*'
+')'
+'('
+'*'
+ESAC
+INT_CONST 2
+IF
+FI
+TYPEID Converts
+OBJECTID a
+INT_CONST 1
+'-'
+OBJECTID character
+OBJECTID string
+OBJECTID to
+OBJECTID an
+FI
+OBJECTID nteger
+'.'
+FI
+TYPEID Aborts
+INHERITS
+FI
+FI
+THEN
+OBJECTID string
+FI
+OBJECTID s
+IN
+OBJECTID ot
+STR_CONST "0\" through \"9"
+'*'
+')'
+CLASS
+TYPEID A2I
+'{'
+CLASS
+OBJECTID c2i
+'('
+OBJECTID char
+':'
+TYPEID String
+')'
+':'
+FI
+OBJECTID nt
+'{'
+IF
+OBJECTID char
+'='
+STR_CONST "0\" then 0 else\n\tif char = \"1\" then 1 else\n\tif char = \"2\" then 2 else\n        if char = \"3\" then 3 else\n        if char = \"4\" then 4 else\n        if char = \"5\" then 5 else\n        if char = \"6\" then 6 else\n        if char = \"7\" then 7 else\n        if char = \"8\" then 8 else\n        if char = \"9"
+THEN
+INT_CONST 9
+ELSE
+INHERITS
+'{'
+OBJECTID abort
+'('
+')'
+';'
+INT_CONST 0
+';'
+'}'
+FI
+'('
+'*'
+THEN
+INT_CONST 0
+FI
+OBJECTID s
+IN
+OBJECTID eeded
+OBJECTID to
+OBJECTID satisfy
+OBJECTID the
+LET
+OBJECTID ypchecker
+'*'
+')'
+INHERITS
+FI
+IF
+IF
+FI
+IF
+IF
+FI
+IF
+IF
+FI
+IF
+IF
+FI
+IF
+OBJECTID i
+CLASS
+'}'
+';'
+'('
+'*'
+LET
+OBJECTID i2c
+FI
+OBJECTID s
+THEN
+OBJECTID inverse
+OF
+OBJECTID c2i
+'.'
+'*'
+')'
+CLASS
+OBJECTID i2c
+'('
+IF
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID String
+'{'
+IF
+FI
+'='
+INT_CONST 0
+THEN
+STR_CONST "0\" else\n\tif i = 1 then \"1\" else\n\tif i = 2 then \"2\" else\n\tif i = 3 then \"3\" else\n\tif i = 4 then \"4\" else\n\tif i = 5 then \"5\" else\n\tif i = 6 then \"6\" else\n\tif i = 7 then \"7\" else\n\tif i = 8 then \"8\" else\n\tif i = 9 then \"9\" else\n\t{ abort(); \"\"; }  -- the \""
+FI
+OBJECTID s
+IN
+OBJECTID eeded
+OBJECTID to
+OBJECTID satisfy
+THEN
+OBJECTID typchecker
+INHERITS
+FI
+IF
+IF
+FI
+IF
+IF
+FI
+IF
+IF
+FI
+IF
+IF
+FI
+IF
+OBJECTID i
+CLASS
+'}'
+';'
+'('
+'*'
+LET
+OBJECTID a2i
+OBJECTID converts
+OBJECTID an
+TYPEID ASCII
+OBJECTID string
+FI
+OBJECTID nto
+OBJECTID an
+FI
+OBJECTID nteger
+'.'
+LET
+OBJECTID he
+OBJECTID empty
+OBJECTID string
+OBJECTID is
+OBJECTID converted
+OBJECTID to
+INT_CONST 0
+'.'
+FI
+TYPEID Signed
+OBJECTID and
+OBJECTID unsigned
+OBJECTID strings
+OBJECTID are
+OBJECTID handled
+'.'
+LET
+OBJECTID he
+OBJECTID method
+OBJECTID aborts
+FI
+FI
+THEN
+OBJECTID string
+OBJECTID does
+IN
+OBJECTID ot
+OBJECTID represent
+OBJECTID an
+FI
+OBJECTID nteger
+'.'
+FI
+TYPEID Very
+OBJECTID long
+OBJECTID strings
+OF
+OBJECTID digits
+OBJECTID produce
+OBJECTID strange
+OBJECTID answers
+OBJECTID because
+OF
+OBJECTID arithmetic
+OBJECTID overflow
+'.'
+'*'
+')'
+CLASS
+OBJECTID a2i
+'('
+OBJECTID s
+':'
+TYPEID String
+')'
+':'
+FI
+OBJECTID nt
+'{'
+INHERITS
+IF
+OBJECTID s
+'.'
+OBJECTID length
+'('
+')'
+'='
+INT_CONST 0
+THEN
+INT_CONST 0
+ELSE
+IF
+OBJECTID s
+'.'
+OBJECTID substr
+'('
+INT_CONST 0
+','
+INT_CONST 1
+')'
+'='
+STR_CONST "-"
+THEN
+'~'
+OBJECTID a2i
+LEXER BUG - UNMATCHED: _
+OBJECTID aux
+'('
+OBJECTID s
+'.'
+OBJECTID substr
+'('
+INT_CONST 1
+','
+OBJECTID s
+'.'
+OBJECTID length
+'('
+')'
+'-'
+INT_CONST 1
+')'
+')'
+ELSE
+INHERITS
+IF
+OBJECTID s
+'.'
+OBJECTID substr
+'('
+INT_CONST 0
+','
+INT_CONST 1
+')'
+'='
+STR_CONST "+"
+THEN
+OBJECTID a2i
+LEXER BUG - UNMATCHED: _
+OBJECTID aux
+'('
+OBJECTID s
+'.'
+OBJECTID substr
+'('
+INT_CONST 1
+','
+OBJECTID s
+'.'
+OBJECTID length
+'('
+')'
+'-'
+INT_CONST 1
+')'
+')'
+ELSE
+INHERITS
+LET
+OBJECTID a2i
+LEXER BUG - UNMATCHED: _
+OBJECTID aux
+'('
+OBJECTID s
+')'
+INHERITS
+FI
+IF
+IF
+FI
+CLASS
+'}'
+';'
+'('
+'*'
+OBJECTID a2i
+LEXER BUG - UNMATCHED: _
+OBJECTID aux
+OBJECTID converts
+THEN
+OBJECTID usigned
+OBJECTID portion
+OF
+THEN
+OBJECTID string
+'.'
+CLASS
+OBJECTID a
+LOOP
+OBJECTID rogramming
+OBJECTID example
+','
+OBJECTID this
+OBJECTID method
+FI
+OBJECTID s
+OBJECTID written
+FI
+OBJECTID teratively
+'.'
+FI
+'*'
+')'
+CLASS
+OBJECTID a2i
+LEXER BUG - UNMATCHED: _
+OBJECTID aux
+'('
+OBJECTID s
+':'
+TYPEID String
+')'
+':'
+FI
+OBJECTID nt
+'{'
+'('
+LET
+FI
+OBJECTID nt
+':'
+FI
+OBJECTID nt
+ASSIGN
+INT_CONST 0
+FI
+OBJECTID n
+INHERITS
+LET
+'{'
+INHERITS
+CLASS
+FI
+'('
+LET
+OBJECTID j
+':'
+FI
+OBJECTID nt
+ASSIGN
+OBJECTID s
+'.'
+OBJECTID length
+'('
+')'
+FI
+OBJECTID n
+INHERITS
+FI
+'('
+LET
+FI
+':'
+FI
+OBJECTID nt
+ASSIGN
+INT_CONST 0
+FI
+OBJECTID n
+ELSE
+WHILE
+FI
+'<'
+OBJECTID j
+LOOP
+'{'
+ELSE
+OBJECTID int
+ASSIGN
+FI
+OBJECTID nt
+'*'
+INT_CONST 10
+'+'
+OBJECTID c2i
+'('
+OBJECTID s
+'.'
+OBJECTID substr
+'('
+OBJECTID i
+','
+INT_CONST 1
+')'
+')'
+';'
+ELSE
+IF
+ASSIGN
+FI
+'+'
+INT_CONST 1
+';'
+'}'
+ELSE
+POOL
+FI
+')'
+CLASS
+FI
+')'
+';'
+INHERITS
+CLASS
+FI
+OBJECTID nt
+';'
+ELSE
+'}'
+INHERITS
+')'
+CLASS
+'}'
+';'
+'('
+'*'
+FI
+INT_CONST 2
+OBJECTID a
+OBJECTID converts
+OBJECTID an
+FI
+OBJECTID nteger
+OBJECTID to
+OBJECTID a
+OBJECTID string
+'.'
+FI
+TYPEID Positive
+OBJECTID and
+IN
+OBJECTID egative
+THEN
+OBJECTID umbers
+OBJECTID are
+OBJECTID handled
+OBJECTID correctly
+'.'
+FI
+'*'
+')'
+ELSE
+OBJECTID i2a
+'('
+IF
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID String
+'{'
+IF
+FI
+'='
+INT_CONST 0
+THEN
+STR_CONST "0\" else \n        if 0 < i then i2a_aux(i) else\n          \"-"
+'.'
+OBJECTID concat
+'('
+OBJECTID i2a
+LEXER BUG - UNMATCHED: _
+OBJECTID aux
+'('
+IF
+'*'
+'~'
+INT_CONST 1
+')'
+')'
+INHERITS
+FI
+IF
+OBJECTID i
+ELSE
+'}'
+';'
+'('
+'*'
+FI
+INT_CONST 2
+OBJECTID a
+LEXER BUG - UNMATCHED: _
+OBJECTID aux
+FI
+OBJECTID s
+OBJECTID an
+OBJECTID example
+OBJECTID using
+OBJECTID recursion
+'.'
+FI
+'*'
+')'
+ELSE
+OBJECTID i2a
+LEXER BUG - UNMATCHED: _
+OBJECTID aux
+'('
+IF
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID String
+'{'
+INHERITS
+IF
+FI
+'='
+INT_CONST 0
+THEN
+STR_CONST ""
+ELSE
+ELSE
+'('
+LET
+IN
+OBJECTID ext
+':'
+FI
+OBJECTID nt
+ASSIGN
+FI
+'/'
+INT_CONST 10
+FI
+OBJECTID n
+OBJECTID i2a
+LEXER BUG - UNMATCHED: _
+OBJECTID aux
+'('
+OBJECTID next
+')'
+'.'
+OBJECTID concat
+'('
+OBJECTID i2c
+'('
+IF
+'-'
+IN
+OBJECTID ext
+'*'
+INT_CONST 10
+')'
+')'
+ELSE
+')'
+INHERITS
+FI
+ELSE
+'}'
+';'
+'}'
+';'
+CLASS
+TYPEID Main
+FI
+OBJECTID nherits
+FI
+OF
+'{'
+LET
+ESAC
+OBJECTID har
+':'
+TYPEID String
+';'
+LET
+OBJECTID avar
+':'
+TYPEID A
+';'
+LET
+OBJECTID a
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+':'
+TYPEID A
+';'
+LET
+OBJECTID flag
+':'
+TYPEID Bool
+ASSIGN
+BOOL_CONST true
+';'
+LET
+OBJECTID menu
+'('
+')'
+':'
+TYPEID String
+'{'
+CLASS
+'{'
+INHERITS
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+STR_CONST "\\n\\tTo add a number to \");\n         print(avar);\n         out_string("
+'.'
+'.'
+'.'
+OBJECTID enter
+OBJECTID a
+':'
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+STR_CONST ");\n         out_string(\"\\tTo negate \");\n         print(avar);\n         out_string("
+'.'
+'.'
+'.'
+OBJECTID enter
+OBJECTID b
+':'
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+STR_CONST ");\n         out_string(\"\\tTo find the difference between \");\n         print(avar);\n         out_string("
+OBJECTID and
+OBJECTID another
+IN
+OBJECTID umber
+'.'
+'.'
+'.'
+OBJECTID enter
+OBJECTID c
+':'
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+STR_CONST ");\n         out_string(\"\\tTo find the factorial of \");\n         print(avar);\n         out_string("
+'.'
+'.'
+'.'
+OBJECTID enter
+OBJECTID d
+':'
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+STR_CONST ");\n         out_string(\"\\tTo square \");\n         print(avar);\n         out_string("
+'.'
+'.'
+'.'
+OBJECTID enter
+OBJECTID e
+':'
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+STR_CONST ");\n         out_string(\"\\tTo cube \");\n         print(avar);\n         out_string("
+'.'
+'.'
+'.'
+OBJECTID enter
+IF
+':'
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+STR_CONST ");\n         out_string(\"\\tTo find out if \");\n         print(avar);\n         out_string("
+OBJECTID is
+OBJECTID a
+OBJECTID multiple
+OF
+INT_CONST 3
+'.'
+'.'
+'.'
+OBJECTID enter
+OBJECTID g
+':'
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+STR_CONST ");\n         out_string(\"\\tTo divide \");\n         print(avar);\n         out_string("
+OBJECTID by
+INT_CONST 8
+'.'
+'.'
+'.'
+OBJECTID enter
+OBJECTID h
+':'
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+STR_CONST ");\n\t out_string("
+LEXER BUG - UNMATCHED: \
+OBJECTID tTo
+OBJECTID get
+OBJECTID a
+IN
+OBJECTID ew
+IN
+OBJECTID umber
+'.'
+'.'
+'.'
+OBJECTID enter
+OBJECTID j
+':'
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+STR_CONST ");\n\t out_string("
+LEXER BUG - UNMATCHED: \
+OBJECTID tTo
+OBJECTID quit
+'.'
+'.'
+'.'
+OBJECTID enter
+OBJECTID q
+':'
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+STR_CONST ");\n         in_string();\n      }\n   };\n\n   prompt() : String {\n      {\n         out_string(\"\\n\");\n         out_string("
+TYPEID Please
+OBJECTID enter
+OBJECTID a
+IN
+OBJECTID umber
+'.'
+'.'
+'.'
+FI
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+FI
+OBJECTID n
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+')'
+';'
+CLASS
+'}'
+LET
+'}'
+';'
+LET
+OBJECTID get
+LEXER BUG - UNMATCHED: _
+OBJECTID int
+'('
+')'
+':'
+FI
+OBJECTID nt
+'{'
+CLASS
+'{'
+'('
+LET
+OBJECTID z
+':'
+TYPEID A2I
+ASSIGN
+IN
+OBJECTID ew
+TYPEID A2I
+FI
+OBJECTID n
+ELSE
+'('
+LET
+OBJECTID s
+':'
+TYPEID String
+ASSIGN
+OBJECTID prompt
+'('
+')'
+FI
+OBJECTID n
+CLASS
+FI
+OBJECTID z
+'.'
+OBJECTID a2i
+'('
+OBJECTID s
+')'
+ELSE
+')'
+INHERITS
+')'
+';'
+CLASS
+'}'
+LET
+'}'
+';'
+LET
+OBJECTID is
+LEXER BUG - UNMATCHED: _
+OBJECTID even
+'('
+OBJECTID num
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID Bool
+'{'
+CLASS
+'('
+LET
+OBJECTID x
+':'
+FI
+OBJECTID nt
+ASSIGN
+IN
+OBJECTID um
+FI
+OBJECTID n
+INHERITS
+ELSE
+IF
+OBJECTID x
+'<'
+INT_CONST 0
+THEN
+FI
+OBJECTID s
+LEXER BUG - UNMATCHED: _
+OBJECTID even
+'('
+'~'
+OBJECTID x
+')'
+ELSE
+INHERITS
+ELSE
+IF
+INT_CONST 0
+'='
+OBJECTID x
+THEN
+BOOL_CONST true
+ELSE
+ELSE
+IF
+INT_CONST 1
+'='
+OBJECTID x
+THEN
+IF
+OBJECTID alse
+ELSE
+INHERITS
+FI
+OBJECTID is
+LEXER BUG - UNMATCHED: _
+OBJECTID even
+'('
+OBJECTID x
+'-'
+INT_CONST 2
+')'
+ELSE
+FI
+IF
+IF
+FI
+CLASS
+')'
+LET
+'}'
+';'
+ESAC
+OBJECTID lass
+LEXER BUG - UNMATCHED: _
+OBJECTID type
+'('
+OBJECTID var
+':'
+TYPEID A
+')'
+':'
+TYPEID SELF_TYPE
+'{'
+CLASS
+CASE
+OBJECTID var
+OF
+OBJECTID a
+':'
+TYPEID A
+DARROW
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+STR_CONST "Class type is now A\\n\");\n\t b : B => out_string(\"Class type is now B\\n\");\n\t c : C => out_string(\"Class type is now C\\n\");\n\t d : D => out_string(\"Class type is now D\\n\");\n\t e : E => out_string(\"Class type is now E\\n\");\n\t o : Object => out_string(\"Oooops\\n"
+')'
+';'
+CLASS
+ESAC
+LET
+'}'
+';'
+LOOP
+OBJECTID rint
+'('
+OBJECTID var
+':'
+TYPEID A
+')'
+':'
+TYPEID SELF_TYPE
+'{'
+CLASS
+'('
+LET
+OBJECTID z
+':'
+TYPEID A2I
+ASSIGN
+IN
+OBJECTID ew
+TYPEID A2I
+FI
+OBJECTID n
+'{'
+LET
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+OBJECTID z
+'.'
+OBJECTID i2a
+'('
+OBJECTID var
+'.'
+OBJECTID value
+'('
+')'
+')'
+')'
+';'
+LET
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+STR_CONST " "
+')'
+';'
+'}'
+CLASS
+')'
+LET
+'}'
+';'
+LET
+OBJECTID main
+'('
+')'
+':'
+TYPEID Object
+'{'
+CLASS
+'{'
+INHERITS
+OBJECTID avar
+ASSIGN
+'('
+NEW
+TYPEID A
+')'
+';'
+INHERITS
+WHILE
+IF
+OBJECTID lag
+LOOP
+INHERITS
+ELSE
+'{'
+CLASS
+FI
+'-'
+'-'
+OBJECTID avar
+ASSIGN
+'('
+NEW
+TYPEID A
+')'
+'.'
+OBJECTID set
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+'('
+OBJECTID get
+LEXER BUG - UNMATCHED: _
+OBJECTID int
+'('
+')'
+')'
+';'
+CLASS
+FI
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+STR_CONST "number "
+')'
+';'
+CLASS
+FI
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+CLASS
+FI
+IF
+FI
+OBJECTID s
+LEXER BUG - UNMATCHED: _
+OBJECTID even
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+')'
+THEN
+INHERITS
+FI
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+STR_CONST "is even!\\n\")\n\t       else\n\t          out_string(\"is odd!\\n\")\n\t       fi;\n\t       -- print(avar); -- prints out answer\n\t       class_type(avar);\n\t       char <- menu();\n                  if char = \"a"
+THEN
+'-'
+'-'
+OBJECTID add
+INHERITS
+INHERITS
+CLASS
+'{'
+INHERITS
+INHERITS
+INHERITS
+OBJECTID a
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+ASSIGN
+'('
+NEW
+TYPEID A
+')'
+'.'
+OBJECTID set
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+'('
+OBJECTID get
+LEXER BUG - UNMATCHED: _
+OBJECTID int
+'('
+')'
+')'
+';'
+INHERITS
+INHERITS
+OBJECTID avar
+ASSIGN
+'('
+NEW
+TYPEID B
+')'
+'.'
+OBJECTID method2
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+','
+OBJECTID a
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+'.'
+OBJECTID value
+'('
+')'
+')'
+';'
+INHERITS
+CLASS
+'}'
+ELSE
+INHERITS
+INHERITS
+FI
+IF
+OBJECTID char
+'='
+STR_CONST "b"
+THEN
+'-'
+'-'
+IN
+OBJECTID egate
+INHERITS
+INHERITS
+CLASS
+CASE
+OBJECTID avar
+OF
+INHERITS
+INHERITS
+ESAC
+':'
+TYPEID C
+DARROW
+OBJECTID avar
+ASSIGN
+OBJECTID c
+'.'
+OBJECTID method6
+'('
+OBJECTID c
+'.'
+OBJECTID value
+'('
+')'
+')'
+';'
+INHERITS
+INHERITS
+LET
+OBJECTID a
+':'
+TYPEID A
+DARROW
+OBJECTID avar
+ASSIGN
+OBJECTID a
+'.'
+OBJECTID method3
+'('
+OBJECTID a
+'.'
+OBJECTID value
+'('
+')'
+')'
+';'
+INHERITS
+INHERITS
+LET
+OF
+':'
+TYPEID Object
+DARROW
+'{'
+INHERITS
+INHERITS
+FI
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+STR_CONST "Oooops\\n\");\n\t\t                  abort(); 0;\n\t\t               };\n                     esac else\n                  if char = \"c"
+THEN
+'-'
+'-'
+OBJECTID diff
+INHERITS
+INHERITS
+CLASS
+'{'
+INHERITS
+INHERITS
+INHERITS
+OBJECTID a
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+ASSIGN
+'('
+NEW
+TYPEID A
+')'
+'.'
+OBJECTID set
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+'('
+OBJECTID get
+LEXER BUG - UNMATCHED: _
+OBJECTID int
+'('
+')'
+')'
+';'
+INHERITS
+INHERITS
+OBJECTID avar
+ASSIGN
+'('
+NEW
+TYPEID D
+')'
+'.'
+OBJECTID method4
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+','
+OBJECTID a
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+'.'
+OBJECTID value
+'('
+')'
+')'
+';'
+INHERITS
+CLASS
+'}'
+ELSE
+INHERITS
+INHERITS
+FI
+IF
+OBJECTID char
+'='
+STR_CONST "d"
+THEN
+OBJECTID avar
+ASSIGN
+'('
+NEW
+TYPEID C
+')'
+'@'
+TYPEID A
+'.'
+OBJECTID method5
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+')'
+ELSE
+INHERITS
+FI
+'-'
+'-'
+IF
+OBJECTID actorial
+INHERITS
+INHERITS
+FI
+IF
+OBJECTID char
+'='
+STR_CONST "e"
+THEN
+OBJECTID avar
+ASSIGN
+'('
+NEW
+TYPEID C
+')'
+'@'
+TYPEID B
+'.'
+OBJECTID method5
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+')'
+ELSE
+FI
+'-'
+'-'
+OBJECTID square
+INHERITS
+INHERITS
+FI
+IF
+OBJECTID char
+'='
+STR_CONST "f"
+THEN
+OBJECTID avar
+ASSIGN
+'('
+NEW
+TYPEID C
+')'
+'@'
+TYPEID C
+'.'
+OBJECTID method5
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+')'
+ELSE
+FI
+'-'
+'-'
+OBJECTID cube
+INHERITS
+INHERITS
+FI
+IF
+OBJECTID char
+'='
+STR_CONST "g"
+THEN
+'-'
+'-'
+OBJECTID multiple
+OF
+INT_CONST 3
+LEXER BUG - UNMATCHED: ?
+CLASS
+FI
+FI
+'('
+'('
+NEW
+TYPEID D
+')'
+'.'
+OBJECTID method7
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+')'
+')'
+INHERITS
+INHERITS
+CLASS
+LET
+OBJECTID hen
+'-'
+'-'
+OBJECTID avar
+ASSIGN
+'('
+NEW
+TYPEID A
+')'
+'.'
+OBJECTID method1
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+')'
+'{'
+INHERITS
+INHERITS
+ELSE
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+STR_CONST "number \");\n\t                    print(avar);\n\t                    out_string("
+OBJECTID is
+OBJECTID divisible
+OBJECTID by
+INT_CONST 3
+'.'
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+'}'
+ELSE
+FI
+'-'
+'-'
+OBJECTID avar
+ASSIGN
+'('
+NEW
+TYPEID A
+')'
+'.'
+OBJECTID set
+LEXER BUG - UNMATCHED: _
+OBJECTID var
+'('
+INT_CONST 0
+')'
+'{'
+INHERITS
+INHERITS
+ELSE
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+STR_CONST "number \");\n\t                    print(avar);\n\t                    out_string("
+OBJECTID is
+IN
+OBJECTID ot
+OBJECTID divisible
+OBJECTID by
+INT_CONST 3
+'.'
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+STR_CONST ");\n\t\t\t }\n\t\t      fi else\n                  if char = \"h"
+THEN
+CLASS
+'('
+LET
+OBJECTID x
+':'
+TYPEID A
+FI
+OBJECTID n
+'{'
+INHERITS
+ELSE
+OBJECTID x
+ASSIGN
+'('
+NEW
+TYPEID E
+')'
+'.'
+OBJECTID method6
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+')'
+';'
+ELSE
+'('
+LET
+OBJECTID r
+':'
+FI
+OBJECTID nt
+ASSIGN
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+'-'
+'('
+OBJECTID x
+'.'
+OBJECTID value
+'('
+')'
+'*'
+INT_CONST 8
+')'
+')'
+FI
+OBJECTID n
+CLASS
+FI
+'{'
+INHERITS
+FI
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+STR_CONST "number \");\n\t\t\t          print(avar);\n\t\t\t          out_string(\"is equal to \");\n\t\t\t          print(x);\n\t\t\t          out_string(\"times 8 with a remainder of "
+')'
+';'
+FI
+'('
+LET
+OBJECTID a
+':'
+TYPEID A2I
+ASSIGN
+IN
+OBJECTID ew
+TYPEID A2I
+FI
+OBJECTID n
+CLASS
+'{'
+INHERITS
+INHERITS
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+OBJECTID a
+'.'
+OBJECTID i2a
+'('
+OBJECTID r
+')'
+')'
+';'
+INHERITS
+INHERITS
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+STR_CONST "\\n\");\n\t\t\t\t     }\n\t\t\t\t  ); -- end let a:\n\t\t\t       }\n                            ); -- end let r:\n\t\t\t    avar <- x;\n\t\t         } \n\t\t      )  -- end let x:\n\t\t      else\n                  if char = \"j\" then avar <- (new A)\n\t\t      else\n                  if char = \"q"
+THEN
+IF
+OBJECTID lag
+ASSIGN
+IF
+OBJECTID alse
+CLASS
+ELSE
+INHERITS
+INHERITS
+CLASS
+OBJECTID avar
+ASSIGN
+'('
+NEW
+TYPEID A
+')'
+'.'
+OBJECTID method1
+'('
+OBJECTID avar
+'.'
+OBJECTID value
+'('
+')'
+')'
+'-'
+'-'
+OBJECTID divide
+'/'
+INT_CONST 8
+INHERITS
+INHERITS
+FI
+FI
+IF
+IF
+FI
+IF
+IF
+FI
+IF
+IF
+FI
+IF
+IF
+FI
+IF
+OBJECTID i
+';'
+INHERITS
+ELSE
+'}'
+INHERITS
+POOL
+';'
+CLASS
+FI
+'}'
+LET
+'}'
+';'
+'}'
+';'

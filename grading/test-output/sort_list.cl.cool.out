@@ -1,0 +1,990 @@
+'('
+'*'
+LET
+TYPEID This
+IF
+OBJECTID ile
+OBJECTID presents
+OBJECTID a
+IF
+OBJECTID airly
+OBJECTID large
+OBJECTID example
+OF
+TYPEID Cool
+OBJECTID programming
+'.'
+LET
+OBJECTID he
+CLASS
+TYPEID List
+OBJECTID defines
+THEN
+OBJECTID names
+OF
+OBJECTID standard
+OBJECTID list
+OBJECTID operations
+OBJECTID ala
+TYPEID Scheme
+':'
+OBJECTID car
+','
+OBJECTID cdr
+','
+OBJECTID cons
+','
+FI
+OBJECTID sNil
+','
+OBJECTID rev
+','
+OBJECTID sort
+','
+OBJECTID rcons
+'('
+OBJECTID add
+OBJECTID an
+OBJECTID element
+OBJECTID to
+THEN
+OBJECTID end
+OF
+THEN
+OBJECTID list
+')'
+','
+OBJECTID and
+OBJECTID print
+LEXER BUG - UNMATCHED: _
+OBJECTID list
+'.'
+FI
+IN
+THEN
+TYPEID List
+CLASS
+OBJECTID most
+OF
+OBJECTID these
+IF
+OBJECTID unctions
+OBJECTID are
+OBJECTID just
+OBJECTID stubs
+OBJECTID that
+OBJECTID abort
+FI
+FI
+OBJECTID ever
+OBJECTID called
+'.'
+LET
+OBJECTID he
+OBJECTID classes
+IN
+OBJECTID il
+OBJECTID and
+TYPEID Cons
+INHERITS
+OBJECTID from
+TYPEID List
+OBJECTID and
+OBJECTID define
+THEN
+OBJECTID same
+OBJECTID operations
+','
+OBJECTID but
+IN
+OBJECTID ow
+OBJECTID as
+OBJECTID appropriate
+OBJECTID to
+THEN
+OBJECTID empty
+OBJECTID list
+'('
+OBJECTID for
+THEN
+TYPEID Nil
+CLASS
+')'
+OBJECTID and
+IF
+OBJECTID or
+OBJECTID cons
+OBJECTID cells
+'('
+OBJECTID for
+THEN
+TYPEID Cons
+CLASS
+')'
+'.'
+THEN
+TYPEID Main
+CLASS
+OBJECTID puts
+OBJECTID all
+OF
+OBJECTID this
+OBJECTID code
+OBJECTID through
+THEN
+OBJECTID following
+OBJECTID silly
+OBJECTID test
+OBJECTID exercise
+':'
+LET
+INT_CONST 1
+'.'
+OBJECTID prompt
+IF
+OBJECTID or
+OBJECTID a
+IN
+OBJECTID umber
+IN
+LET
+INT_CONST 2
+'.'
+OBJECTID generate
+OBJECTID a
+OBJECTID list
+OF
+IN
+OBJECTID umbers
+INT_CONST 0
+'.'
+'.'
+TYPEID N
+'-'
+INT_CONST 1
+LET
+INT_CONST 3
+'.'
+OBJECTID reverse
+THEN
+OBJECTID list
+LET
+INT_CONST 4
+'.'
+OBJECTID sort
+THEN
+OBJECTID list
+LET
+INT_CONST 5
+'.'
+OBJECTID print
+THEN
+OBJECTID sorted
+OBJECTID list
+TYPEID Because
+THEN
+OBJECTID sort
+OBJECTID used
+FI
+OBJECTID s
+OBJECTID a
+OBJECTID quadratic
+OBJECTID space
+FI
+OBJECTID nsertion
+OBJECTID sort
+','
+OBJECTID sorting
+OBJECTID moderately
+OBJECTID large
+OBJECTID lists
+OBJECTID will
+OBJECTID cause
+OBJECTID spim
+OBJECTID to
+OBJECTID run
+OBJECTID out
+OF
+OBJECTID memory
+'.'
+'*'
+')'
+CLASS
+TYPEID List
+FI
+OBJECTID nherits
+FI
+OF
+'{'
+INHERITS
+'('
+'*'
+TYPEID Since
+OBJECTID abort
+'('
+')'
+OBJECTID returns
+TYPEID Object
+','
+OBJECTID we
+IN
+OBJECTID eed
+OBJECTID something
+OF
+LET
+OBJECTID type
+TYPEID Bool
+OBJECTID at
+THEN
+OBJECTID end
+OF
+THEN
+OBJECTID block
+OBJECTID to
+OBJECTID satisfy
+THEN
+OBJECTID typechecker
+'.'
+INHERITS
+LET
+TYPEID This
+OBJECTID code
+FI
+OBJECTID s
+OBJECTID unreachable
+','
+OBJECTID since
+OBJECTID abort
+'('
+')'
+OBJECTID halts
+THEN
+OBJECTID program
+'.'
+'*'
+')'
+OBJECTID isNil
+'('
+')'
+':'
+TYPEID Bool
+'{'
+'{'
+OBJECTID abort
+'('
+')'
+';'
+BOOL_CONST true
+';'
+'}'
+'}'
+';'
+OBJECTID cons
+'('
+OBJECTID hd
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID Cons
+'{'
+FI
+'('
+LET
+IN
+OBJECTID ew
+LEXER BUG - UNMATCHED: _
+OBJECTID cell
+':'
+TYPEID Cons
+ASSIGN
+IN
+OBJECTID ew
+TYPEID Cons
+FI
+OBJECTID n
+NEW
+LEXER BUG - UNMATCHED: _
+OBJECTID cell
+'.'
+OBJECTID init
+'('
+OBJECTID hd
+','
+OBJECTID self
+')'
+FI
+')'
+'}'
+';'
+'('
+'*'
+LET
+TYPEID Since
+OBJECTID abort
+STR_CONST "returns"
+OBJECTID type
+TYPEID Object
+','
+OBJECTID we
+OBJECTID have
+OBJECTID to
+OBJECTID add
+LET
+OBJECTID an
+OBJECTID expression
+OF
+OBJECTID type
+FI
+OBJECTID nt
+OBJECTID here
+OBJECTID to
+OBJECTID satisfy
+THEN
+OBJECTID typechecker
+'.'
+LET
+TYPEID This
+OBJECTID code
+FI
+OBJECTID s
+','
+OF
+OBJECTID course
+','
+OBJECTID unreachable
+'.'
+INHERITS
+'*'
+')'
+OBJECTID car
+'('
+')'
+':'
+FI
+OBJECTID nt
+'{'
+'{'
+OBJECTID abort
+'('
+')'
+';'
+IN
+OBJECTID ew
+FI
+OBJECTID nt
+';'
+'}'
+'}'
+';'
+OBJECTID cdr
+'('
+')'
+':'
+TYPEID List
+'{'
+'{'
+OBJECTID abort
+'('
+')'
+';'
+IN
+OBJECTID ew
+TYPEID List
+';'
+'}'
+'}'
+';'
+OBJECTID rev
+'('
+')'
+':'
+TYPEID List
+'{'
+OBJECTID cdr
+'('
+')'
+'}'
+';'
+OBJECTID sort
+'('
+')'
+':'
+TYPEID List
+'{'
+OBJECTID cdr
+'('
+')'
+'}'
+';'
+OBJECTID insert
+'('
+IF
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID List
+'{'
+OBJECTID cdr
+'('
+')'
+'}'
+';'
+OBJECTID rcons
+'('
+IF
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID List
+'{'
+OBJECTID cdr
+'('
+')'
+'}'
+';'
+OBJECTID print
+LEXER BUG - UNMATCHED: _
+OBJECTID list
+'('
+')'
+':'
+TYPEID Object
+'{'
+OBJECTID abort
+'('
+')'
+'}'
+';'
+'}'
+';'
+CLASS
+TYPEID Cons
+FI
+OBJECTID nherits
+TYPEID List
+'{'
+OBJECTID xcar
+':'
+FI
+OBJECTID nt
+';'
+FI
+'-'
+'-'
+TYPEID We
+OBJECTID keep
+THEN
+OBJECTID car
+FI
+OBJECTID n
+OBJECTID cdr
+FI
+OBJECTID n
+OBJECTID attributes
+'.'
+OBJECTID xcdr
+':'
+TYPEID List
+';'
+'-'
+'-'
+TYPEID Because
+OBJECTID methods
+OBJECTID and
+IF
+OBJECTID eatures
+OBJECTID must
+OBJECTID have
+OBJECTID different
+IN
+OBJECTID ames
+','
+CLASS
+'-'
+'-'
+OBJECTID we
+OBJECTID use
+OBJECTID xcar
+OBJECTID and
+OBJECTID xcdr
+IF
+OBJECTID or
+THEN
+OBJECTID attributes
+OBJECTID and
+OBJECTID reserve
+CLASS
+'-'
+'-'
+OBJECTID cons
+OBJECTID and
+OBJECTID car
+IF
+OBJECTID or
+THEN
+OBJECTID features
+'.'
+OBJECTID isNil
+'('
+')'
+':'
+TYPEID Bool
+'{'
+IF
+OBJECTID alse
+'}'
+';'
+OBJECTID init
+'('
+OBJECTID hd
+':'
+FI
+OBJECTID nt
+','
+OBJECTID tl
+':'
+TYPEID List
+')'
+':'
+TYPEID Cons
+'{'
+FI
+'{'
+ELSE
+OBJECTID xcar
+ASSIGN
+OBJECTID hd
+';'
+ELSE
+OBJECTID xcdr
+ASSIGN
+OBJECTID tl
+';'
+CLASS
+OBJECTID elf
+';'
+FI
+'}'
+'}'
+';'
+FI
+OBJECTID car
+'('
+')'
+':'
+FI
+OBJECTID nt
+'{'
+OBJECTID xcar
+'}'
+';'
+OBJECTID cdr
+'('
+')'
+':'
+TYPEID List
+'{'
+OBJECTID xcdr
+'}'
+';'
+OBJECTID rev
+'('
+')'
+':'
+TYPEID List
+'{'
+'('
+OBJECTID xcdr
+'.'
+OBJECTID rev
+'('
+')'
+')'
+'.'
+OBJECTID rcons
+'('
+OBJECTID xcar
+')'
+'}'
+';'
+OBJECTID sort
+'('
+')'
+':'
+TYPEID List
+'{'
+'('
+OBJECTID xcdr
+'.'
+OBJECTID sort
+'('
+')'
+')'
+'.'
+OBJECTID insert
+'('
+OBJECTID xcar
+')'
+'}'
+';'
+OBJECTID insert
+'('
+IF
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID List
+'{'
+IF
+FI
+'<'
+OBJECTID xcar
+THEN
+'('
+NEW
+TYPEID Cons
+')'
+'.'
+OBJECTID init
+'('
+OBJECTID i
+','
+OBJECTID self
+')'
+ELSE
+'('
+NEW
+TYPEID Cons
+')'
+'.'
+OBJECTID init
+'('
+OBJECTID xcar
+','
+OBJECTID xcdr
+'.'
+OBJECTID insert
+'('
+OBJECTID i
+')'
+')'
+FI
+'}'
+';'
+OBJECTID rcons
+'('
+IF
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID List
+'{'
+'('
+NEW
+TYPEID Cons
+')'
+'.'
+OBJECTID init
+'('
+OBJECTID xcar
+','
+OBJECTID xcdr
+'.'
+OBJECTID rcons
+'('
+OBJECTID i
+')'
+')'
+'}'
+';'
+OBJECTID print
+LEXER BUG - UNMATCHED: _
+OBJECTID list
+'('
+')'
+':'
+TYPEID Object
+'{'
+'{'
+CLASS
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID int
+'('
+OBJECTID xcar
+')'
+';'
+CLASS
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+STR_CONST "\\n"
+')'
+';'
+CLASS
+OBJECTID xcdr
+'.'
+OBJECTID print
+LEXER BUG - UNMATCHED: _
+OBJECTID list
+'('
+')'
+';'
+'}'
+'}'
+';'
+'}'
+';'
+CLASS
+IN
+OBJECTID il
+FI
+OBJECTID nherits
+TYPEID List
+'{'
+OBJECTID isNil
+'('
+')'
+':'
+TYPEID Bool
+'{'
+BOOL_CONST true
+'}'
+';'
+INHERITS
+OBJECTID rev
+'('
+')'
+':'
+TYPEID List
+'{'
+OBJECTID self
+'}'
+';'
+OBJECTID sort
+'('
+')'
+':'
+TYPEID List
+'{'
+OBJECTID self
+'}'
+';'
+OBJECTID insert
+'('
+IF
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID List
+'{'
+OBJECTID rcons
+'('
+OBJECTID i
+')'
+'}'
+';'
+OBJECTID rcons
+'('
+IF
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID List
+'{'
+'('
+NEW
+TYPEID Cons
+')'
+'.'
+OBJECTID init
+'('
+OBJECTID i
+','
+OBJECTID self
+')'
+'}'
+';'
+OBJECTID print
+LEXER BUG - UNMATCHED: _
+OBJECTID list
+'('
+')'
+':'
+TYPEID Object
+'{'
+BOOL_CONST true
+'}'
+';'
+'}'
+';'
+CLASS
+TYPEID Main
+FI
+OBJECTID nherits
+FI
+OF
+'{'
+OBJECTID l
+':'
+TYPEID List
+';'
+'('
+'*'
+FI
+OBJECTID ota
+OBJECTID maps
+FI
+OBJECTID ts
+FI
+OBJECTID nteger
+OBJECTID argument
+IN
+FI
+OBJECTID nto
+THEN
+OBJECTID list
+INT_CONST 0
+'.'
+'.'
+OBJECTID n
+'-'
+INT_CONST 1
+'*'
+')'
+OBJECTID iota
+'('
+IF
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID List
+'{'
+ELSE
+'{'
+OBJECTID l
+ASSIGN
+IN
+OBJECTID ew
+IN
+OBJECTID il
+';'
+'('
+LET
+OBJECTID j
+':'
+FI
+OBJECTID nt
+ASSIGN
+INT_CONST 0
+FI
+OBJECTID n
+LET
+WHILE
+OBJECTID j
+'<'
+FI
+POOL
+OBJECTID oop
+CLASS
+'{'
+CLASS
+FI
+OBJECTID l
+ASSIGN
+'('
+NEW
+TYPEID Cons
+')'
+'.'
+OBJECTID init
+'('
+OBJECTID j
+','
+OBJECTID l
+')'
+';'
+CLASS
+FI
+OBJECTID j
+ASSIGN
+OBJECTID j
+'+'
+INT_CONST 1
+';'
+CLASS
+'}'
+LOOP
+OBJECTID ool
+')'
+';'
+OBJECTID l
+';'
+ELSE
+'}'
+'}'
+';'
+OBJECTID main
+'('
+')'
+':'
+TYPEID Object
+'{'
+LET
+'{'
+CLASS
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+STR_CONST "How many numbers to sort?"
+')'
+';'
+CLASS
+OBJECTID iota
+'('
+IN
+LEXER BUG - UNMATCHED: _
+OBJECTID int
+'('
+')'
+')'
+'.'
+OBJECTID rev
+'('
+')'
+'.'
+OBJECTID sort
+'('
+')'
+'.'
+OBJECTID print
+LEXER BUG - UNMATCHED: _
+OBJECTID list
+'('
+')'
+';'
+LET
+'}'
+'}'
+';'
+'}'
+';'
+ELSE

@@ -1,0 +1,77 @@
+0a1,8
+> '('
+> '*'
+> OBJECTID some
+> FI
+> OBJECTID nteger
+> OBJECTID literals
+> '*'
+> ')'
+3a12,26
+> INHERITS
+> INHERITS
+> INHERITS
+> CLASS
+> '('
+> '*'
+> OBJECTID this
+> FI
+> OBJECTID s
+> '*'
+> OBJECTID decimal
+> '*'
+> INT_CONST 777
+> '*'
+> ')'
+4a28,37
+> INHERITS
+> INHERITS
+> CLASS
+> FI
+> '('
+> '*'
+> OBJECTID largest
+> OBJECTID representable
+> '*'
+> ')'
+5a39,49
+> INHERITS
+> INHERITS
+> CLASS
+> FI
+> '('
+> '*'
+> OBJECTID one
+> OBJECTID too
+> OBJECTID big
+> '*'
+> ')'
+6a51,59
+> LET
+> '('
+> '*'
+> OBJECTID long
+> '.'
+> '.'
+> '.'
+> '*'
+> ')'
+7a61,78
+> INHERITS
+> INHERITS
+> CLASS
+> FI
+> '('
+> '*'
+> OBJECTID largest
+> OBJECTID representable
+> '('
+> OBJECTID again
+> OBJECTID to
+> OBJECTID ensure
+> OBJECTID errno
+> OBJECTID resetting
+> OBJECTID works
+> ')'
+> '*'
+> ')'

@@ -1,0 +1,29 @@
+'('
+'*'
+FI
+'('
+'*'
+LEXER BUG - UNMATCHED: \
+'*'
+')'
+'*'
+LEXER BUG - UNMATCHED: \
+')'
+FI
+OBJECTID abc
+FI
+LEXER BUG - UNMATCHED: \
+'('
+'*'
+OBJECTID def
+'('
+LEXER BUG - UNMATCHED: \
+'*'
+OBJECTID ghi
+FI
+'*'
+')'
+OBJECTID jkl
+'*'
+')'
+OBJECTID mno

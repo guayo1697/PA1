@@ -1,0 +1,34 @@
+0a1,7
+> '('
+> '*'
+> OBJECTID object
+> FI
+> OBJECTID dentifiers
+> '*'
+> ')'
+2,4c9,29
+< OBJECTID obj_id
+< OBJECTID oBJ_ID
+< OBJECTID this1321321isth382t843____daLong_IDIDd
+---
+> OBJECTID obj
+> LEXER BUG - UNMATCHED: _
+> OBJECTID id
+> OBJECTID oBJ
+> LEXER BUG - UNMATCHED: _
+> TYPEID ID
+> OBJECTID this1321321isth382t843
+> LEXER BUG - UNMATCHED: _
+> LEXER BUG - UNMATCHED: _
+> LEXER BUG - UNMATCHED: _
+> LEXER BUG - UNMATCHED: _
+> OBJECTID daLong
+> LEXER BUG - UNMATCHED: _
+> TYPEID IDIDd
+> '('
+> '*'
+> OBJECTID type
+> FI
+> OBJECTID dentifiers
+> '*'
+> ')'

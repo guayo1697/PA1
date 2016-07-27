@@ -1,0 +1,10 @@
+4c4,5
+< OBJECTID never
+---
+> IN
+> OBJECTID ever
+6c7,8
+< LONGERROR
+---
+> '*'
+> ')'

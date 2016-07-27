@@ -1,0 +1,16 @@
+1,3c1,11
+< LONGERROR
+< OBJECTID d
+< LONGERROR
+---
+> '('
+> '*'
+> FI
+> OBJECTID llegal
+> ':'
+> OBJECTID unescaped
+> IN
+> OBJECTID ewline
+> '*'
+> ')'
+> STR_CONST "c\nd"

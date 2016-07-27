@@ -1,0 +1,406 @@
+2a3,4
+> '('
+> '*'
+4a7,321
+> '*'
+> ')'
+> '('
+> '*'
+> '('
+> '*'
+> TYPEID Comment
+> OBJECTID test
+> '*'
+> ')'
+> '*'
+> ')'
+> '('
+> '*'
+> TYPEID Comment
+> '('
+> '*'
+> OBJECTID test
+> '*'
+> ')'
+> TYPEID Comment
+> '*'
+> ')'
+> '('
+> '*'
+> TYPEID Comment
+> OBJECTID test
+> '('
+> '*'
+> OBJECTID comment
+> OBJECTID test
+> '*'
+> ')'
+> '*'
+> ')'
+> '('
+> '*'
+> '('
+> '*'
+> '('
+> '*'
+> '('
+> '*'
+> '('
+> '*'
+> '('
+> '*'
+> '('
+> '*'
+> '('
+> '*'
+> '('
+> '*'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '('
+> '*'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '('
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> ')'
+> '('
+> '*'
+> '*'
+> ')'
+> '('
+> '*'
+> '*'
+> '*'
+> ')'
+> '('
+> '*'
+> '*'
+> '*'
+> '*'
+> ')'
+> '('
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> ')'
+> '('
+> '*'
+> '*'
+> '*'
+> ')'
+> '('
+> '*'
+> LEXER BUG - UNMATCHED: \
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> ')'
+> '-'
+> '-'
+> OBJECTID single
+> OBJECTID line
+> OBJECTID comments
+> '-'
+> '-'
+> LEXER BUG - UNMATCHED: $
+> LEXER BUG - UNMATCHED: #
+> LEXER BUG - UNMATCHED: %
+> LEXER BUG - UNMATCHED: ^
+> LEXER BUG - UNMATCHED: ^
+> LEXER BUG - UNMATCHED: $
+> LEXER BUG - UNMATCHED: %
+> LEXER BUG - UNMATCHED: &
+> LEXER BUG - UNMATCHED: %
+> LEXER BUG - UNMATCHED: ^
+> LEXER BUG - UNMATCHED: &
+> LEXER BUG - UNMATCHED: %
+> LEXER BUG - UNMATCHED: &
+> LEXER BUG - UNMATCHED: %
+> LEXER BUG - UNMATCHED: #
+> '*'
+> LEXER BUG - UNMATCHED: &
+> '*'
+> LEXER BUG - UNMATCHED: $
+> LEXER BUG - UNMATCHED: ^
+> '*'
+> LEXER BUG - UNMATCHED: %
+> LEXER BUG - UNMATCHED: >
+> TYPEID G
+> LEXER BUG - UNMATCHED: %
+> LEXER BUG - UNMATCHED: >
+> TYPEID GH
+> LEXER BUG - UNMATCHED: >
+> LEXER BUG - UNMATCHED: %
+> TYPEID TH
+> LEXER BUG - UNMATCHED: %
+> LEXER BUG - UNMATCHED: >
+> LEXER BUG - UNMATCHED: ^
+> '*'
+> LEXER BUG - UNMATCHED: ^
+> LEXER BUG - UNMATCHED: $
+> LEXER BUG - UNMATCHED: $
+> '*'
+> LEXER BUG - UNMATCHED: &
+> LEXER BUG - UNMATCHED: ^
+> LEXER BUG - UNMATCHED: $
+> TYPEID Comment
+> OBJECTID test
+> '('
+> '*'
+> TYPEID Comment
+> OBJECTID test
+> '*'
+> ')'
+> '('
+> '*'
+> FI
+> '('
+> '*'
+> TYPEID Comment
+> OBJECTID test
+> '*'
+> ')'
+> '*'
+> ')'
+> '('
+> '*'
+> TYPEID Comment
+> '('
+> '*'
+> OBJECTID test
+> '*'
+> ')'
+> TYPEID Comment
+> '*'
+> ')'
+> '('
+> '*'
+> TYPEID Comment
+> OBJECTID test
+> '('
+> '*'
+> OBJECTID comment
+> OBJECTID test
+> '*'
+> ')'
+> '*'
+> ')'
+> '('
+> '*'
+> '('
+> '*'
+> '('
+> '*'
+> '('
+> '*'
+> '('
+> '*'
+> '('
+> '*'
+> '('
+> '*'
+> '('
+> '*'
+> '('
+> '*'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '('
+> '*'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '*'
+> ')'
+> '('
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> ')'
+> '('
+> '*'
+> '*'
+> '*'
+> ')'
+> '('
+> '*'
+> LEXER BUG - UNMATCHED: \
+> '*'
+> '('
+> '*'
+> '*'
+> ')'
+> INHERITS
+> INHERITS
+> '('
+> '*'
+> '('
+> '*'
+> TYPEID Comment
+> '*'
+> FI
+> '*'
+> ')'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> '*'
+> ')'
+6a324,352
+> '-'
+> '-'
+> OBJECTID hello
+> OBJECTID my
+> IN
+> OBJECTID ame
+> FI
+> OBJECTID s
+> OBJECTID george
+> ';'
+> '@'
+> LEXER BUG - UNMATCHED: #
+> LEXER BUG - UNMATCHED: $
+> LEXER BUG - UNMATCHED: #
+> '@'
+> LEXER BUG - UNMATCHED: !
+> LEXER BUG - UNMATCHED: ^
+> LEXER BUG - UNMATCHED: %
+> LEXER BUG - UNMATCHED: &
+> LEXER BUG - UNMATCHED: $
+> LEXER BUG - UNMATCHED: &
+> '@'
+> LEXER BUG - UNMATCHED: $
+> LEXER BUG - UNMATCHED: #
+> LEXER BUG - UNMATCHED: $
+> TYPEID ESFsej
+> OBJECTID ok34
+> ';'
+> OBJECTID u90
+8a355,372
+> '-'
+> '-'
+> '-'
+> OBJECTID heelo
+> OBJECTID my
+> IN
+> OBJECTID ma
+> OBJECTID ei
+> OBJECTID sgeoegre
+> ';'
+> INT_CONST 234
+> INT_CONST 2
+> LEXER BUG - UNMATCHED: #
+> LEXER BUG - UNMATCHED: $
+> '@'
+> LEXER BUG - UNMATCHED: #
+> LEXER BUG - UNMATCHED: $
+> IF
+11a376,401
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+> '-'
+12a403,404
+> '-'
+> '-'
+14a407,410
+> '-'
+> '-'
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+15a412,413
+> '-'
+> '-'

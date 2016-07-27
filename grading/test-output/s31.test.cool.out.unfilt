@@ -1,0 +1,13 @@
+#name "./s31.test.cool"
+#1 '('
+#1 '*'
+#1 OBJECTID subtle
+#1 ':'
+#1 OBJECTID this
+#1 FI
+#1 OBJECTID s
+#1 FI
+#1 OBJECTID llegal
+#1 '*'
+#1 ')'
+LEXER BUG - UNMATCHED: _

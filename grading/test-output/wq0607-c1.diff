@@ -1,0 +1,17 @@
+1c1,14
+< STR_CONST "--"
+---
+> '('
+> '*'
+> TYPEID COMMENT
+> ','
+> TYPEID STRING
+> ','
+> TYPEID COMMENT
+> ','
+> TYPEID COMMENT
+> '*'
+> ')'
+> '-'
+> '-'
+> STR_CONST "--\"--\"\n\"--\"--\"--\n--\"--\"--"

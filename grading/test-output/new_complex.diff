@@ -1,0 +1,296 @@
+3,4c3,6
+< INHERITS
+< TYPEID IO
+---
+> FI
+> OBJECTID nherits
+> FI
+> OF
+5a8
+> ELSE
+29c32,34
+< IN
+---
+> FI
+> OBJECTID n
+> ELSE
+30a36,45
+> INHERITS
+> '-'
+> '-'
+> OBJECTID trivially
+> OBJECTID equal
+> '('
+> OBJECTID see
+> TYPEID CoolAid
+> ')'
+> INHERITS
+34c49,51
+< OBJECTID reflect_X
+---
+> OBJECTID reflect
+> LEXER BUG - UNMATCHED: _
+> TYPEID X
+40c57,59
+< OBJECTID reflect_0
+---
+> OBJECTID reflect
+> LEXER BUG - UNMATCHED: _
+> INT_CONST 0
+42a62
+> INHERITS
+44c64,66
+< OBJECTID out_string
+---
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+46,51c68
+< STR_CONST "=)\n"
+< ')'
+< ELSE
+< OBJECTID out_string
+< '('
+< STR_CONST "=(\n"
+---
+> STR_CONST "=)\\n\")\n\t        else out_string(\"=(\\n"
+52a70
+> INHERITS
+54a73,76
+> '-'
+> '-'
+> OBJECTID equal
+> INHERITS
+58c80,82
+< OBJECTID reflect_X
+---
+> OBJECTID reflect
+> LEXER BUG - UNMATCHED: _
+> TYPEID X
+62c86,88
+< OBJECTID reflect_Y
+---
+> OBJECTID reflect
+> LEXER BUG - UNMATCHED: _
+> TYPEID Y
+70c96,98
+< OBJECTID reflect_0
+---
+> OBJECTID reflect
+> LEXER BUG - UNMATCHED: _
+> INT_CONST 0
+73a102
+> INHERITS
+75,80c104,106
+< OBJECTID out_string
+< '('
+< STR_CONST "=)\n"
+< ')'
+< ELSE
+< OBJECTID out_string
+---
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+82c108
+< STR_CONST "=(\n"
+---
+> STR_CONST "=)\\n\")\n\t        else out_string(\"=(\\n"
+83a110
+> INHERITS
+85a113
+> ELSE
+87a116
+> ELSE
+94,95c123,126
+< INHERITS
+< TYPEID IO
+---
+> FI
+> OBJECTID nherits
+> FI
+> OF
+96a128
+> ELSE
+99c131,132
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+100a134
+> ELSE
+103c137,138
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+104a140
+> ELSE
+109c145,146
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+113c150,151
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+118a157
+> ELSE
+122a162
+> ELSE
+127c167,168
+< OBJECTID self
+---
+> CLASS
+> OBJECTID elf
+129a171
+> ELSE
+131a174
+> ELSE
+143c186,188
+< OBJECTID out_int
+---
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID int
+148c193,195
+< OBJECTID out_int
+---
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID int
+153c200,202
+< OBJECTID out_string
+---
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+158c207,209
+< OBJECTID out_int
+---
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID int
+163c214,216
+< OBJECTID out_string
+---
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+167a221
+> ELSE
+170c224,227
+< OBJECTID reflect_0
+---
+> ELSE
+> OBJECTID reflect
+> LEXER BUG - UNMATCHED: _
+> INT_CONST 0
+176a234
+> ELSE
+181a240
+> ELSE
+187c246,247
+< OBJECTID self
+---
+> CLASS
+> OBJECTID elf
+189a250
+> ELSE
+192c253,256
+< OBJECTID reflect_X
+---
+> ELSE
+> OBJECTID reflect
+> LEXER BUG - UNMATCHED: _
+> TYPEID X
+198a263
+> ELSE
+204c269,270
+< OBJECTID self
+---
+> CLASS
+> OBJECTID elf
+206a273
+> ELSE
+209c276,279
+< OBJECTID reflect_Y
+---
+> ELSE
+> OBJECTID reflect
+> LEXER BUG - UNMATCHED: _
+> TYPEID Y
+215a286
+> ELSE
+221c292,293
+< OBJECTID self
+---
+> CLASS
+> OBJECTID elf
+223a296
+> ELSE
+226c299,300
+< OBJECTID equal
+---
+> WHILE
+> OBJECTID qual
+240c314,316
+< OBJECTID x_value
+---
+> OBJECTID x
+> LEXER BUG - UNMATCHED: _
+> OBJECTID value
+243a320
+> ELSE
+249c326,328
+< OBJECTID y_value
+---
+> OBJECTID y
+> LEXER BUG - UNMATCHED: _
+> OBJECTID value
+251a331
+> ELSE
+253a334,337
+> WHILE
+> OBJECTID lse
+> IF
+> OBJECTID alse
+255d338
+< BOOL_CONST false
+258c341,342
+< BOOL_CONST false
+---
+> IF
+> OBJECTID alse
+259a344
+> ELSE
+262c347,350
+< OBJECTID x_value
+---
+> ELSE
+> OBJECTID x
+> LEXER BUG - UNMATCHED: _
+> OBJECTID value
+266c354,355
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+268a358
+> ELSE
+271c361,364
+< OBJECTID y_value
+---
+> ELSE
+> OBJECTID y
+> LEXER BUG - UNMATCHED: _
+> OBJECTID value
+275c368,369
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+277a372
+> ELSE

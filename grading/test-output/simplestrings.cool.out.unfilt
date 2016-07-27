@@ -1,0 +1,21 @@
+#name "./simplestrings.cool"
+#1 STR_CONST "this is a string\" \"so is this\"\n\"one more string\"\n\n\"strings can have keywords inside: if else case\"\n"
+LEXER BUG - UNMATCHED: !
+#1 '@'
+LEXER BUG - UNMATCHED: #
+LEXER BUG - UNMATCHED: $
+LEXER BUG - UNMATCHED: %
+LEXER BUG - UNMATCHED: ^
+LEXER BUG - UNMATCHED: &
+#1 '*'
+#1 '('
+#1 ')'
+LEXER BUG - UNMATCHED: _
+#1 '+'
+#1 INT_CONST 1234567890
+#1 '-'
+#1 '='
+#1 OBJECTID justanother
+#1 OBJECTID string
+#1 LET
+LEXER BUG - UNMATCHED: "

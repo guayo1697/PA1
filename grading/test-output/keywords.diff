@@ -1,0 +1,8 @@
+11c11
+< ISVOID
+---
+> TYPEID IsvoiD
+15c15
+< NOT
+---
+> TYPEID NOT

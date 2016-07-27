@@ -1,0 +1,50 @@
+1c1,13
+< STR_CONST "\\-"
+---
+> '('
+> '*'
+> TYPEID Complicated
+> OBJECTID sequence
+> OF
+> OBJECTID strings
+> OBJECTID and
+> OBJECTID escaped
+> OBJECTID quotes
+> OBJECTID and
+> OBJECTID errors
+> OBJECTID and
+> OBJECTID single
+3,29c15,19
+< STR_CONST "--"
+< STR_CONST "\\"
+< STR_CONST "\"--\""
+< LONGERROR
+< '-'
+< LONGERROR
+< STR_CONST ""
+< LONGERROR
+< STR_CONST "--\\"
+< LONGERROR
+< STR_CONST "\\"
+< STR_CONST "\\"
+< STR_CONST "\"--\""
+< LONGERROR
+< LONGERROR
+< STR_CONST ""
+< LONGERROR
+< STR_CONST "--\\"
+< LONGERROR
+< STR_CONST "\\"
+< STR_CONST "--"
+< LONGERROR
+< STR_CONST "\""
+< LONGERROR
+< LONGERROR
+< STR_CONST "-\""
+< LONGERROR
+---
+> OBJECTID line
+> OBJECTID comments
+> '*'
+> ')'
+> STR_CONST "\\\\-\"-\"-\\-\"--\\\"\"\\\\\"-\"\\\"\\\\\"-\\-\"\\\\\"\"\"\\--\"\\\"\"\\\"\n\"\\\\\"\"\\\"--\\\"\"\\-\\\"\"\\\"--\\\\\"\\\"\\\\\"--\"\"\\\"\\--\"\"\\\"\n\"\\\\\"\"\\\"--\\\"\"\\\\\"\"\\\"--\\\\\"\\\"\\\\\"\"--\"\\\"\\\"\"\\\"\n\"\\-\\\"\"\\--\"\\\"\"\\--\\\"\"\\\"\\\\\"\\--\"\\\\\"\"\"\\--\"\\\"\"\\"

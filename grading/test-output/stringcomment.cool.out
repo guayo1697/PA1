@@ -1,0 +1,16 @@
+STR_CONST "This is a string--and it's still a string\"\n--This is a comment, \"not a string"
+'('
+'*'
+STR_CONST "not a string"
+'*'
+')'
+LEXER BUG - UNMATCHED: "
+'('
+'*'
+IN
+OBJECTID ot
+OBJECTID a
+OBJECTID comment
+'*'
+')'
+LEXER BUG - UNMATCHED: "

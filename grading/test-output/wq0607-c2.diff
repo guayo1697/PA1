@@ -1,0 +1,44 @@
+1,3c1,39
+< STR_CONST "(*"
+< LONGERROR
+< STR_CONST "*)(*"
+---
+> '('
+> '*'
+> TYPEID COMMENT
+> ','
+> TYPEID STRING
+> ','
+> TYPEID ERROR
+> LEXER BUG - UNMATCHED: [
+> OBJECTID unmatched
+> OBJECTID close
+> OBJECTID comment
+> LEXER BUG - UNMATCHED: ]
+> ','
+> TYPEID STRING
+> '*'
+> ')'
+> '('
+> '*'
+> LEXER BUG - UNMATCHED: "
+> '('
+> '*'
+> LEXER BUG - UNMATCHED: "
+> '*'
+> ')'
+> LEXER BUG - UNMATCHED: "
+> '*'
+> ')'
+> LEXER BUG - UNMATCHED: "
+> '('
+> '*'
+> LEXER BUG - UNMATCHED: "
+> '*'
+> ')'
+> LEXER BUG - UNMATCHED: "
+> '*'
+> ')'
+> '('
+> '*'
+> LEXER BUG - UNMATCHED: "

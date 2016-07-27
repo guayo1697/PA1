@@ -1,0 +1,11 @@
+'('
+'*'
+FI
+OBJECTID llegal
+':'
+OBJECTID unescaped
+IN
+OBJECTID ewline
+'*'
+')'
+STR_CONST "c\nd"

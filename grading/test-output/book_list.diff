@@ -1,0 +1,724 @@
+0a1,13
+> '-'
+> '-'
+> OBJECTID example
+> OF
+> OBJECTID static
+> OBJECTID and
+> OBJECTID dynamic
+> OBJECTID type
+> OBJECTID differing
+> IF
+> OBJECTID or
+> OBJECTID a
+> OBJECTID dispatch
+3,4c16,19
+< INHERITS
+< TYPEID IO
+---
+> FI
+> OBJECTID nherits
+> FI
+> OF
+5a21
+> ELSE
+9a26
+> ELSE
+13a31
+> ELSE
+16c34,36
+< OBJECTID title_p
+---
+> OBJECTID title
+> LEXER BUG - UNMATCHED: _
+> OBJECTID p
+20c40,42
+< OBJECTID author_p
+---
+> OBJECTID author
+> LEXER BUG - UNMATCHED: _
+> OBJECTID p
+26a49
+> INHERITS
+27a51,52
+> INHERITS
+> ELSE
+30c55,57
+< OBJECTID title_p
+---
+> OBJECTID title
+> LEXER BUG - UNMATCHED: _
+> OBJECTID p
+31a59,60
+> INHERITS
+> ELSE
+34c63,65
+< OBJECTID author_p
+---
+> OBJECTID author
+> LEXER BUG - UNMATCHED: _
+> OBJECTID p
+36c67,69
+< OBJECTID self
+---
+> INHERITS
+> CLASS
+> OBJECTID elf
+37a71
+> INHERITS
+38a73
+> ELSE
+40a76
+> ELSE
+46a83
+> INHERITS
+48c85,89
+< OBJECTID out_string
+---
+> INHERITS
+> ELSE
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+53c94,96
+< OBJECTID out_string
+---
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+58c101,103
+< OBJECTID out_string
+---
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+60,65c105
+< STR_CONST "\n"
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "author:     "
+---
+> STR_CONST "\\n\");\n            out_string(\"author:     "
+68c108,110
+< OBJECTID out_string
+---
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+73c115,117
+< OBJECTID out_string
+---
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+75c119
+< STR_CONST "\n"
+---
+> STR_CONST "\\n"
+78c122,124
+< OBJECTID self
+---
+> INHERITS
+> CLASS
+> OBJECTID elf
+79a126
+> INHERITS
+80a128
+> ELSE
+87c135,136
+< INHERITS
+---
+> FI
+> OBJECTID nherits
+90c139,142
+< OBJECTID per_title
+---
+> ELSE
+> OBJECTID per
+> LEXER BUG - UNMATCHED: _
+> OBJECTID title
+93a146
+> ELSE
+96c149,151
+< OBJECTID title_p
+---
+> OBJECTID title
+> LEXER BUG - UNMATCHED: _
+> OBJECTID p
+100c155,157
+< OBJECTID author_p
+---
+> OBJECTID author
+> LEXER BUG - UNMATCHED: _
+> OBJECTID p
+104c161,165
+< OBJECTID per_title_p
+---
+> OBJECTID per
+> LEXER BUG - UNMATCHED: _
+> OBJECTID title
+> LEXER BUG - UNMATCHED: _
+> OBJECTID p
+110a172
+> INHERITS
+111a174,175
+> INHERITS
+> ELSE
+114c178,180
+< OBJECTID title_p
+---
+> OBJECTID title
+> LEXER BUG - UNMATCHED: _
+> OBJECTID p
+116c182,184
+< OBJECTID author_p
+---
+> OBJECTID author
+> LEXER BUG - UNMATCHED: _
+> OBJECTID p
+119c187,191
+< OBJECTID per_title
+---
+> INHERITS
+> ELSE
+> OBJECTID per
+> LEXER BUG - UNMATCHED: _
+> OBJECTID title
+121c193,197
+< OBJECTID per_title_p
+---
+> OBJECTID per
+> LEXER BUG - UNMATCHED: _
+> OBJECTID title
+> LEXER BUG - UNMATCHED: _
+> OBJECTID p
+123c199,201
+< OBJECTID self
+---
+> INHERITS
+> CLASS
+> OBJECTID elf
+124a203
+> INHERITS
+125a205
+> ELSE
+127a208
+> ELSE
+133a215
+> INHERITS
+135c217,218
+< OBJECTID self
+---
+> CLASS
+> OBJECTID elf
+143c226,230
+< OBJECTID out_string
+---
+> INHERITS
+> ELSE
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+148c235,237
+< OBJECTID out_string
+---
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+150c239,241
+< OBJECTID per_title
+---
+> OBJECTID per
+> LEXER BUG - UNMATCHED: _
+> OBJECTID title
+153c244,246
+< OBJECTID out_string
+---
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+155c248
+< STR_CONST "\n"
+---
+> STR_CONST "\\n"
+158c251,253
+< OBJECTID self
+---
+> INHERITS
+> CLASS
+> OBJECTID elf
+159a255
+> INHERITS
+160a257
+> ELSE
+167,168c264,267
+< INHERITS
+< TYPEID IO
+---
+> FI
+> OBJECTID nherits
+> FI
+> OF
+169a269,314
+> ELSE
+> '('
+> '*'
+> TYPEID Since
+> OBJECTID abort
+> STR_CONST "returns"
+> OBJECTID type
+> TYPEID Object
+> ','
+> OBJECTID we
+> OBJECTID have
+> OBJECTID to
+> OBJECTID add
+> CLASS
+> FI
+> OBJECTID an
+> OBJECTID expression
+> OF
+> OBJECTID type
+> TYPEID Bool
+> OBJECTID here
+> OBJECTID to
+> OBJECTID satisfy
+> THEN
+> OBJECTID typechecker
+> '.'
+> CLASS
+> LET
+> OBJECTID his
+> OBJECTID code
+> FI
+> OBJECTID s
+> OBJECTID unreachable
+> ','
+> OBJECTID since
+> OBJECTID abort
+> '('
+> ')'
+> OBJECTID halts
+> THEN
+> OBJECTID program
+> '.'
+> ELSE
+> '*'
+> ')'
+> ELSE
+185a331,332
+> ELSE
+> ELSE
+194a342
+> INHERITS
+197c345,348
+< OBJECTID new_cell
+---
+> IN
+> OBJECTID ew
+> LEXER BUG - UNMATCHED: _
+> OBJECTID cell
+201,202d351
+< NEW
+< TYPEID Cons
+204c353,361
+< OBJECTID new_cell
+---
+> OBJECTID ew
+> TYPEID Cons
+> FI
+> OBJECTID n
+> INHERITS
+> ELSE
+> NEW
+> LEXER BUG - UNMATCHED: _
+> OBJECTID cell
+211a369
+> INHERITS
+212a371
+> ELSE
+214a374,419
+> ELSE
+> '('
+> '*'
+> TYPEID Since
+> OBJECTID abort
+> STR_CONST "returns"
+> OBJECTID type
+> TYPEID Object
+> ','
+> OBJECTID we
+> OBJECTID have
+> OBJECTID to
+> OBJECTID add
+> CLASS
+> FI
+> OBJECTID an
+> OBJECTID expression
+> OF
+> OBJECTID type
+> TYPEID Book
+> OBJECTID here
+> OBJECTID to
+> OBJECTID satisfy
+> THEN
+> OBJECTID typechecker
+> '.'
+> CLASS
+> LET
+> OBJECTID his
+> OBJECTID code
+> FI
+> OBJECTID s
+> OBJECTID unreachable
+> ','
+> OBJECTID since
+> OBJECTID abort
+> '('
+> ')'
+> OBJECTID halts
+> THEN
+> OBJECTID program
+> '.'
+> ELSE
+> '*'
+> ')'
+> ELSE
+226c431,432
+< NEW
+---
+> IN
+> OBJECTID ew
+231a438,484
+> ELSE
+> ELSE
+> '('
+> '*'
+> TYPEID Since
+> OBJECTID abort
+> STR_CONST "returns"
+> OBJECTID type
+> TYPEID Object
+> ','
+> OBJECTID we
+> OBJECTID have
+> OBJECTID to
+> OBJECTID add
+> CLASS
+> FI
+> OBJECTID an
+> OBJECTID expression
+> OF
+> OBJECTID type
+> TYPEID BookList
+> OBJECTID here
+> OBJECTID to
+> OBJECTID satisfy
+> THEN
+> OBJECTID typechecker
+> '.'
+> CLASS
+> LET
+> OBJECTID his
+> OBJECTID code
+> FI
+> OBJECTID s
+> OBJECTID unreachable
+> ','
+> OBJECTID since
+> OBJECTID abort
+> '('
+> ')'
+> OBJECTID halts
+> THEN
+> OBJECTID program
+> '.'
+> ELSE
+> '*'
+> ')'
+> ELSE
+243c496,497
+< NEW
+---
+> IN
+> OBJECTID ew
+249c503,507
+< OBJECTID print_list
+---
+> ELSE
+> ELSE
+> OBJECTID print
+> LEXER BUG - UNMATCHED: _
+> OBJECTID list
+264c522,523
+< INHERITS
+---
+> FI
+> OBJECTID nherits
+266a526
+> ELSE
+270a531,544
+> FI
+> '-'
+> '-'
+> TYPEID We
+> OBJECTID keep
+> THEN
+> OBJECTID car
+> OBJECTID and
+> OBJECTID cdr
+> FI
+> OBJECTID n
+> OBJECTID attributes
+> '.'
+> ELSE
+274a549,588
+> '-'
+> '-'
+> TYPEID Because
+> OBJECTID methods
+> OBJECTID and
+> IF
+> OBJECTID eatures
+> OBJECTID must
+> OBJECTID have
+> OBJECTID different
+> IN
+> OBJECTID ames
+> ','
+> ELSE
+> '-'
+> '-'
+> OBJECTID we
+> OBJECTID use
+> OBJECTID xcar
+> OBJECTID and
+> OBJECTID xcdr
+> IF
+> OBJECTID or
+> THEN
+> OBJECTID attributes
+> OBJECTID and
+> OBJECTID reserve
+> ELSE
+> '-'
+> '-'
+> OBJECTID car
+> OBJECTID and
+> OBJECTID cdr
+> IF
+> OBJECTID or
+> THEN
+> OBJECTID features
+> '.'
+> ELSE
+> ELSE
+281c595,596
+< BOOL_CONST false
+---
+> IF
+> OBJECTID alse
+283a599,600
+> ELSE
+> ELSE
+296a614
+> INHERITS
+297a616,617
+> INHERITS
+> ELSE
+301a622,623
+> INHERITS
+> ELSE
+306c628,630
+< OBJECTID self
+---
+> INHERITS
+> CLASS
+> OBJECTID elf
+307a632
+> INHERITS
+308a634
+> ELSE
+310a637
+> ELSE
+319a647
+> ELSE
+329c657,661
+< OBJECTID print_list
+---
+> ELSE
+> ELSE
+> OBJECTID print
+> LEXER BUG - UNMATCHED: _
+> OBJECTID list
+334a667
+> INHERITS
+335a669,670
+> INHERITS
+> ELSE
+342a678,679
+> INHERITS
+> INHERITS
+347,356c684,686
+< OBJECTID out_string
+< '('
+< STR_CONST "- dynamic type was Book -\n"
+< ')'
+< ';'
+< OBJECTID dummy
+< ':'
+< TYPEID Article
+< DARROW
+< OBJECTID out_string
+---
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+358c688
+< STR_CONST "- dynamic type was Article -\n"
+---
+> STR_CONST "- dynamic type was Book -\\n\");\n                dummy : Article => out_string(\"- dynamic type was Article -\\n"
+361c691,693
+< ESAC
+---
+> INHERITS
+> WHILE
+> OBJECTID sac
+362a695,696
+> INHERITS
+> ELSE
+365c699,701
+< OBJECTID print_list
+---
+> OBJECTID print
+> LEXER BUG - UNMATCHED: _
+> OBJECTID list
+368a705
+> INHERITS
+369a707
+> ELSE
+375,376c713,716
+< TYPEID Nil
+< INHERITS
+---
+> IN
+> OBJECTID il
+> FI
+> OBJECTID nherits
+378a719
+> ELSE
+388c729,732
+< OBJECTID print_list
+---
+> ELSE
+> OBJECTID print
+> LEXER BUG - UNMATCHED: _
+> OBJECTID list
+401a746
+> ELSE
+405a751
+> ELSE
+411a758
+> INHERITS
+414c761,763
+< OBJECTID a_book
+---
+> OBJECTID a
+> LEXER BUG - UNMATCHED: _
+> OBJECTID book
+417a767,768
+> INHERITS
+> ELSE
+425,427c776
+< STR_CONST "Compilers, Principles, Techniques, and Tools"
+< ','
+< STR_CONST "Aho, Sethi, and Ullman"
+---
+> STR_CONST "Compilers, Principles, Techniques, and Tools\",\n                                \"Aho, Sethi, and Ullman"
+428a778
+> INHERITS
+429a780,781
+> INHERITS
+> ELSE
+432c784,786
+< OBJECTID an_article
+---
+> OBJECTID an
+> LEXER BUG - UNMATCHED: _
+> OBJECTID article
+435a790,791
+> INHERITS
+> INHERITS
+443,447c799
+< STR_CONST "The Top 100 CD_ROMs"
+< ','
+< STR_CONST "Ulanoff"
+< ','
+< STR_CONST "PC Magazine"
+---
+> STR_CONST "The Top 100 CD_ROMs\",\n                                          \"Ulanoff\",\n                                          \"PC Magazine"
+448a801,802
+> INHERITS
+> ELSE
+449a804,805
+> INHERITS
+> INHERITS
+450a807,809
+> INHERITS
+> INHERITS
+> ELSE
+455c814,815
+< TYPEID Nil
+---
+> IN
+> OBJECTID il
+460c820,822
+< OBJECTID a_book
+---
+> OBJECTID a
+> LEXER BUG - UNMATCHED: _
+> OBJECTID book
+465c827,829
+< OBJECTID an_article
+---
+> OBJECTID an
+> LEXER BUG - UNMATCHED: _
+> OBJECTID article
+467a832,834
+> INHERITS
+> INHERITS
+> ELSE
+470c837,839
+< OBJECTID print_list
+---
+> OBJECTID print
+> LEXER BUG - UNMATCHED: _
+> OBJECTID list
+473a843,844
+> INHERITS
+> INHERITS
+474a846,847
+> INHERITS
+> ELSE
+475a849,857
+> FI
+> '-'
+> '-'
+> OBJECTID end
+> LET
+> OBJECTID an
+> LEXER BUG - UNMATCHED: _
+> OBJECTID article
+> INHERITS
+476a859,867
+> FI
+> '-'
+> '-'
+> OBJECTID end
+> LET
+> OBJECTID a
+> LEXER BUG - UNMATCHED: _
+> OBJECTID book
+> ELSE

@@ -1,0 +1,25 @@
+LEXER BUG - UNMATCHED: "
+OBJECTID string
+'('
+'*'
+INT_CONST 123
+'*'
+')'
+OBJECTID string
+STR_CONST "\n"
+OBJECTID string
+LEXER BUG - UNMATCHED: \
+'('
+'*'
+INT_CONST 123
+'*'
+')'
+STR_CONST "\n"
+OBJECTID string
+'('
+'*'
+LEXER BUG - UNMATCHED: \
+INT_CONST 123
+'*'
+')'
+LEXER BUG - UNMATCHED: "

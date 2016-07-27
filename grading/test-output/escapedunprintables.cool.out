@@ -1,0 +1,1 @@
+STR_CONST "This is a tab:\\\t\"\n\"This is a backspace:\\\b\"\n\"This is a formfeed:\\\f\"\n\"This is a carriage return:\015\"\n\"This is an escape:\033"

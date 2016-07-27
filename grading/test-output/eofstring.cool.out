@@ -1,0 +1,26 @@
+LEXER BUG - UNMATCHED: "
+OBJECTID there
+FI
+OBJECTID s
+OBJECTID an
+TYPEID EOF
+OBJECTID coming
+'.'
+'.'
+'.'
+OBJECTID wait
+IF
+OBJECTID or
+FI
+OBJECTID t
+'.'
+'.'
+'.'
+OBJECTID wait
+IF
+OBJECTID or
+FI
+OBJECTID t
+'.'
+'.'
+'.'

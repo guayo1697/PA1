@@ -1,0 +1,34 @@
+'-'
+'-'
+'('
+'*'
+TYPEID This
+FI
+OBJECTID sn
+LEXER BUG - UNMATCHED: '
+OBJECTID t
+OBJECTID what
+THEN
+OBJECTID programmer
+OBJECTID thought
+FI
+OBJECTID t
+OBJECTID was
+'*'
+')'
+'.'
+'('
+'*'
+'-'
+'-'
+IN
+OBJECTID either
+FI
+OBJECTID s
+OBJECTID this
+'*'
+')'
+FI
+FI
+INT_CONST 5
+THEN

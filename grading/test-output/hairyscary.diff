@@ -1,0 +1,257 @@
+0a1,9
+> '('
+> '*'
+> OBJECTID hairy
+> FI
+> '.'
+> '.'
+> '.'
+> '*'
+> ')'
+2,3c11,14
+< TYPEID Foo
+< INHERITS
+---
+> IF
+> OBJECTID oo
+> FI
+> OBJECTID nherits
+5a17
+> CLASS
+13c25,26
+< OBJECTID n
+---
+> CLASS
+> IN
+22c35,36
+< OBJECTID n
+---
+> CLASS
+> IN
+24c38,39
+< TYPEID Foo
+---
+> IF
+> OBJECTID oo
+31c46,47
+< OBJECTID n
+---
+> CLASS
+> IN
+35c51
+< OBJECTID n
+---
+> IN
+36a53,54
+> LET
+> INHERITS
+38a57
+> CLASS
+41c60,61
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+62a83
+> CLASS
+67c88,89
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+71c93
+< OBJECTID i
+---
+> FI
+73c95,96
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+76c99,100
+< IN
+---
+> FI
+> OBJECTID n
+84c108
+< OBJECTID i
+---
+> FI
+94c118,119
+< INHERITS
+---
+> FI
+> OBJECTID nherits
+96a122
+> CLASS
+99c125,126
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+104a132
+> CLASS
+117,118c145,148
+< INHERITS
+< TYPEID Foo
+---
+> FI
+> OBJECTID nherits
+> IF
+> OBJECTID oo
+119a150
+> CLASS
+126a158
+> FI
+135a168
+> FI
+140c173
+< OBJECTID n
+---
+> IN
+144c177,178
+< OBJECTID f
+---
+> CLASS
+> FI
+146c180,181
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+180,181c215,218
+< INHERITS
+< TYPEID IO
+---
+> FI
+> OBJECTID nherits
+> FI
+> OF
+182a220
+> CLASS
+185c223,224
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+188a228
+> CLASS
+191c231,233
+< TYPEID Foo
+---
+> IF
+> OBJECTID oo
+> FI
+195a238
+> CLASS
+202c245,246
+< TYPEID Foo
+---
+> IF
+> OBJECTID oo
+204a249
+> CLASS
+216c261,263
+< TYPEID Foo
+---
+> IF
+> OBJECTID oo
+> FI
+227c274
+< OBJECTID n
+---
+> IN
+228a276
+> FI
+231c279,280
+< OBJECTID i
+---
+> CLASS
+> IF
+238a288
+> CLASS
+243c293,294
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+246c297,299
+< OBJECTID out_int
+---
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID int
+255a309
+> CLASS
+260c314,315
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+264c319
+< OBJECTID i
+---
+> FI
+266c321,322
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+269c325,326
+< IN
+---
+> FI
+> OBJECTID n
+277c334
+< OBJECTID i
+---
+> FI
+284a342,349
+> '('
+> '*'
+> OBJECTID scary
+> '.'
+> '.'
+> '.'
+> '*'
+> ')'
+288c353
+< OBJECTID a
+---
+> ESAC
+292c357,358
+< NEW
+---
+> IN
+> OBJECTID ew
+294a361
+> FI
+297c364,365
+< TYPEID Foo
+---
+> IF
+> OBJECTID oo
+299,300c367,370
+< NEW
+< TYPEID Foo
+---
+> IN
+> OBJECTID ew
+> IF
+> OBJECTID oo
+301a372
+> FI
+306c377,378
+< NEW
+---
+> IN
+> OBJECTID ew
+308a381
+> FI
+313c386,387
+< NEW
+---
+> IN
+> OBJECTID ew
+315a390
+> FI

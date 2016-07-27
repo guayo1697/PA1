@@ -1,0 +1,2538 @@
+0a1,27
+> '('
+> '*'
+> '*'
+> ESAC
+> OBJECTID contribution
+> IF
+> OBJECTID rom
+> TYPEID Anne
+> TYPEID Sheets
+> '('
+> OBJECTID sheets
+> '@'
+> OBJECTID cory
+> ')'
+> '*'
+> '*'
+> LET
+> OBJECTID ests
+> THEN
+> OBJECTID arithmetic
+> OBJECTID operations
+> OBJECTID and
+> OBJECTID various
+> OBJECTID other
+> OBJECTID things
+> '*'
+> ')'
+3a31
+> LET
+6c34,35
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+9a39
+> LET
+14c44,45
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+19c50,53
+< OBJECTID set_var
+---
+> LET
+> OBJECTID set
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+23c57,58
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+27a63
+> CLASS
+28a65
+> INHERITS
+31c68,69
+< OBJECTID num
+---
+> IN
+> OBJECTID um
+32a71
+> INHERITS
+34a74
+> CLASS
+35a76
+> LET
+37a79
+> LET
+42c84,85
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+46a90,94
+> FI
+> '-'
+> '-'
+> OBJECTID same
+> CLASS
+47a96
+> LET
+49a99
+> LET
+54c104,105
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+56c107,108
+< OBJECTID num2
+---
+> IN
+> OBJECTID um2
+58c110,111
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+62a116,120
+> FI
+> '-'
+> '-'
+> OBJECTID plus
+> CLASS
+67,68c125,128
+< TYPEID Int
+< IN
+---
+> FI
+> OBJECTID nt
+> FI
+> OBJECTID n
+69a130,131
+> INHERITS
+> ELSE
+72c134,135
+< OBJECTID num1
+---
+> IN
+> OBJECTID um1
+74c137,138
+< OBJECTID num2
+---
+> IN
+> OBJECTID um2
+75a140
+> ELSE
+81c146,148
+< OBJECTID set_var
+---
+> OBJECTID set
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+86a154
+> CLASS
+87a156
+> LET
+89a159
+> LET
+94c164,165
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+98a170,175
+> FI
+> '-'
+> '-'
+> IN
+> OBJECTID egate
+> CLASS
+103,104c180,183
+< TYPEID Int
+< IN
+---
+> FI
+> OBJECTID nt
+> FI
+> OBJECTID n
+105a185,186
+> INHERITS
+> ELSE
+110a192
+> ELSE
+116c198,200
+< OBJECTID set_var
+---
+> OBJECTID set
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+121a206
+> CLASS
+122a208
+> LET
+124a211
+> LET
+129c216,217
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+131c219,220
+< OBJECTID num2
+---
+> IN
+> OBJECTID um2
+133c222,223
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+137a228,233
+> FI
+> '-'
+> '-'
+> OBJECTID diff
+> INHERITS
+> ELSE
+139c235,236
+< OBJECTID num2
+---
+> IN
+> OBJECTID um2
+141c238,239
+< OBJECTID num1
+---
+> IN
+> OBJECTID um1
+142a241,243
+> INHERITS
+> CLASS
+> FI
+147,148c248,252
+< TYPEID Int
+< IN
+---
+> FI
+> OBJECTID nt
+> FI
+> OBJECTID n
+> FI
+149a254,256
+> INHERITS
+> INHERITS
+> CLASS
+152c259,260
+< OBJECTID num1
+---
+> IN
+> OBJECTID um1
+154c262,263
+< OBJECTID num2
+---
+> IN
+> OBJECTID um2
+155a265,266
+> INHERITS
+> CLASS
+161c272,274
+< OBJECTID set_var
+---
+> OBJECTID set
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+165a279,280
+> INHERITS
+> FI
+166a282,284
+> INHERITS
+> CLASS
+> FI
+168c286,291
+< ELSE
+---
+> INHERITS
+> WHILE
+> OBJECTID lse
+> INHERITS
+> CLASS
+> FI
+173,174c296,300
+< TYPEID Int
+< IN
+---
+> FI
+> OBJECTID nt
+> FI
+> OBJECTID n
+> FI
+175a302,303
+> INHERITS
+> CLASS
+178c306,307
+< OBJECTID num2
+---
+> IN
+> OBJECTID um2
+180c309,310
+< OBJECTID num1
+---
+> IN
+> OBJECTID um1
+181a312,313
+> INHERITS
+> CLASS
+187c319,321
+< OBJECTID set_var
+---
+> OBJECTID set
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+191a326
+> FI
+192a328,330
+> INHERITS
+> CLASS
+> FI
+193a332,333
+> INHERITS
+> ELSE
+194a335
+> LET
+196a338
+> LET
+201c343,344
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+204c347
+< TYPEID E
+---
+> LET
+205a349,354
+> FI
+> '-'
+> '-'
+> IF
+> OBJECTID actorial
+> CLASS
+210c359,360
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+213c363,364
+< IN
+---
+> FI
+> OBJECTID n
+214a366
+> ELSE
+219c371,372
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+222,223c375,379
+< IN
+< WHILE
+---
+> FI
+> OBJECTID n
+> CLASS
+> NEW
+> OBJECTID hile
+226c382,383
+< OBJECTID num
+---
+> IN
+> OBJECTID um
+227a385,386
+> INHERITS
+> FI
+228a388,390
+> INHERITS
+> INHERITS
+> CLASS
+234a397,398
+> INHERITS
+> CLASS
+240a405,406
+> INHERITS
+> FI
+241a408,409
+> CLASS
+> FI
+242a411
+> ELSE
+244a414
+> ELSE
+250c420,422
+< OBJECTID set_var
+---
+> OBJECTID set
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+255a428
+> CLASS
+256a430
+> LET
+263c437,438
+< INHERITS
+---
+> FI
+> OBJECTID nherits
+265a441,451
+> FI
+> '-'
+> '-'
+> TYPEID B
+> FI
+> OBJECTID s
+> OBJECTID a
+> IN
+> OBJECTID umber
+> OBJECTID squared
+> LET
+270c456,457
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+273c460
+< TYPEID E
+---
+> LET
+274a462,465
+> '-'
+> '-'
+> OBJECTID square
+> CLASS
+279,280c470,473
+< TYPEID Int
+< IN
+---
+> FI
+> OBJECTID nt
+> FI
+> OBJECTID n
+281a475,476
+> INHERITS
+> ELSE
+284c479,480
+< OBJECTID num
+---
+> IN
+> OBJECTID um
+286c482,483
+< OBJECTID num
+---
+> IN
+> OBJECTID um
+287a485
+> ELSE
+293c491,493
+< OBJECTID set_var
+---
+> OBJECTID set
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+298a499
+> CLASS
+299a501
+> LET
+306c508,509
+< INHERITS
+---
+> FI
+> OBJECTID nherits
+308a512
+> LET
+313c517,518
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+317a523,527
+> '-'
+> '-'
+> IN
+> OBJECTID egate
+> CLASS
+322,323c532,536
+< TYPEID Int
+< IN
+---
+> FI
+> OBJECTID nt
+> FI
+> OBJECTID n
+> INHERITS
+324a538,539
+> INHERITS
+> ELSE
+329a545
+> ELSE
+335c551,553
+< OBJECTID set_var
+---
+> OBJECTID set
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+339a558
+> INHERITS
+340a560
+> CLASS
+341a562
+> LET
+343a565
+> LET
+348c570,571
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+351c574
+< TYPEID E
+---
+> LET
+352a576,580
+> FI
+> '-'
+> '-'
+> OBJECTID cube
+> CLASS
+357,358c585,588
+< TYPEID Int
+< IN
+---
+> FI
+> OBJECTID nt
+> FI
+> OBJECTID n
+359a590,591
+> INHERITS
+> ELSE
+362c594,595
+< OBJECTID num
+---
+> IN
+> OBJECTID um
+364c597,598
+< OBJECTID num
+---
+> IN
+> OBJECTID um
+366c600,601
+< OBJECTID num
+---
+> IN
+> OBJECTID um
+367a603
+> ELSE
+373c609,611
+< OBJECTID set_var
+---
+> OBJECTID set
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+378a617
+> CLASS
+379a619
+> LET
+386c626,627
+< INHERITS
+---
+> FI
+> OBJECTID nherits
+388a630,631
+> FI
+> LET
+393c636,637
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+397a642,648
+> FI
+> '-'
+> '-'
+> OBJECTID divisible
+> OBJECTID by
+> INT_CONST 3
+> CLASS
+402c653,654
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+404d655
+< OBJECTID num
+405a657,661
+> OBJECTID um
+> FI
+> OBJECTID n
+> INHERITS
+> ELSE
+416a673,674
+> INHERITS
+> ELSE
+424c682,684
+< IF
+---
+> INHERITS
+> ELSE
+> IF
+429c689,691
+< BOOL_CONST false
+---
+> IF
+> OBJECTID alse
+> ELSE
+436c698,699
+< BOOL_CONST false
+---
+> IF
+> OBJECTID alse
+437a701,702
+> CLASS
+> FI
+443a709
+> ELSE
+444a711,712
+> IF
+> IF
+446,447c714,716
+< FI
+< FI
+---
+> IF
+> OBJECTID i
+> CLASS
+448a718
+> LET
+454c724
+< TYPEID E
+---
+> LET
+457a728
+> LET
+462c733,734
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+466a739,743
+> FI
+> '-'
+> '-'
+> OBJECTID division
+> CLASS
+471,472c748,752
+< TYPEID Int
+< IN
+---
+> FI
+> OBJECTID nt
+> FI
+> OBJECTID n
+> INHERITS
+473a754,755
+> INHERITS
+> ELSE
+476c758,759
+< OBJECTID num
+---
+> IN
+> OBJECTID um
+479a763
+> ELSE
+485c769,771
+< OBJECTID set_var
+---
+> OBJECTID set
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+489a776
+> INHERITS
+490a778
+> CLASS
+491a780
+> LET
+495a785,900
+> '('
+> '*'
+> THEN
+> OBJECTID following
+> OBJECTID code
+> FI
+> OBJECTID s
+> IF
+> OBJECTID rom
+> OBJECTID atoi
+> '.'
+> OBJECTID cl
+> FI
+> OBJECTID n
+> '~'
+> OBJECTID cs164
+> '/'
+> OBJECTID examples
+> '*'
+> ')'
+> '('
+> '*'
+> LET
+> THEN
+> CLASS
+> TYPEID A2I
+> OBJECTID provides
+> FI
+> OBJECTID nteger
+> '-'
+> OBJECTID to
+> '-'
+> OBJECTID string
+> OBJECTID and
+> OBJECTID string
+> '-'
+> OBJECTID to
+> '-'
+> OBJECTID integer
+> OBJECTID conversion
+> OBJECTID routines
+> '.'
+> LET
+> OF
+> OBJECTID use
+> OBJECTID these
+> OBJECTID routines
+> ','
+> OBJECTID either
+> FI
+> OBJECTID nherit
+> OBJECTID them
+> IN
+> THEN
+> CLASS
+> OBJECTID where
+> IN
+> OBJECTID eeded
+> ','
+> OBJECTID have
+> OBJECTID a
+> OBJECTID dummy
+> OBJECTID variable
+> OBJECTID bound
+> OBJECTID to
+> OBJECTID something
+> OF
+> OBJECTID type
+> TYPEID A2I
+> ','
+> OBJECTID or
+> OBJECTID simpl
+> OBJECTID write
+> '('
+> NEW
+> TYPEID A2I
+> ')'
+> '.'
+> OBJECTID method
+> '('
+> OBJECTID argument
+> ')'
+> '.'
+> '*'
+> ')'
+> '('
+> '*'
+> ESAC
+> INT_CONST 2
+> IF
+> FI
+> TYPEID Converts
+> OBJECTID a
+> INT_CONST 1
+> '-'
+> OBJECTID character
+> OBJECTID string
+> OBJECTID to
+> OBJECTID an
+> FI
+> OBJECTID nteger
+> '.'
+> FI
+> TYPEID Aborts
+> INHERITS
+> FI
+> FI
+> THEN
+> OBJECTID string
+> FI
+> OBJECTID s
+> IN
+> OBJECTID ot
+> STR_CONST "0\" through \"9"
+> '*'
+> ')'
+498a904
+> CLASS
+506c912,913
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+511,574c918
+< STR_CONST "0"
+< THEN
+< INT_CONST 0
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "1"
+< THEN
+< INT_CONST 1
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "2"
+< THEN
+< INT_CONST 2
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "3"
+< THEN
+< INT_CONST 3
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "4"
+< THEN
+< INT_CONST 4
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "5"
+< THEN
+< INT_CONST 5
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "6"
+< THEN
+< INT_CONST 6
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "7"
+< THEN
+< INT_CONST 7
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "8"
+< THEN
+< INT_CONST 8
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "9"
+---
+> STR_CONST "0\" then 0 else\n\tif char = \"1\" then 1 else\n\tif char = \"2\" then 2 else\n        if char = \"3\" then 3 else\n        if char = \"4\" then 4 else\n        if char = \"5\" then 5 else\n        if char = \"6\" then 6 else\n        if char = \"7\" then 7 else\n        if char = \"8\" then 8 else\n        if char = \"9"
+577a922
+> INHERITS
+586a932,935
+> '('
+> '*'
+> THEN
+> INT_CONST 0
+587a937,947
+> OBJECTID s
+> IN
+> OBJECTID eeded
+> OBJECTID to
+> OBJECTID satisfy
+> OBJECTID the
+> LET
+> OBJECTID ypchecker
+> '*'
+> ')'
+> INHERITS
+588a949,950
+> IF
+> IF
+589a952,953
+> IF
+> IF
+590a955,956
+> IF
+> IF
+591a958,959
+> IF
+> IF
+593,595c961,963
+< FI
+< FI
+< FI
+---
+> IF
+> OBJECTID i
+> CLASS
+597a966,979
+> '('
+> '*'
+> LET
+> OBJECTID i2c
+> FI
+> OBJECTID s
+> THEN
+> OBJECTID inverse
+> OF
+> OBJECTID c2i
+> '.'
+> '*'
+> ')'
+> CLASS
+600c982
+< OBJECTID i
+---
+> IF
+602c984,985
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+608c991
+< OBJECTID i
+---
+> FI
+612,617c995,1001
+< STR_CONST "0"
+< ELSE
+< IF
+< OBJECTID i
+< '='
+< INT_CONST 1
+---
+> STR_CONST "0\" else\n\tif i = 1 then \"1\" else\n\tif i = 2 then \"2\" else\n\tif i = 3 then \"3\" else\n\tif i = 4 then \"4\" else\n\tif i = 5 then \"5\" else\n\tif i = 6 then \"6\" else\n\tif i = 7 then \"7\" else\n\tif i = 8 then \"8\" else\n\tif i = 9 then \"9\" else\n\t{ abort(); \"\"; }  -- the \""
+> FI
+> OBJECTID s
+> IN
+> OBJECTID eeded
+> OBJECTID to
+> OBJECTID satisfy
+619,620c1003,1005
+< STR_CONST "1"
+< ELSE
+---
+> OBJECTID typchecker
+> INHERITS
+> FI
+622,627d1006
+< OBJECTID i
+< '='
+< INT_CONST 2
+< THEN
+< STR_CONST "2"
+< ELSE
+629,634c1008
+< OBJECTID i
+< '='
+< INT_CONST 3
+< THEN
+< STR_CONST "3"
+< ELSE
+---
+> FI
+636,641d1009
+< OBJECTID i
+< '='
+< INT_CONST 4
+< THEN
+< STR_CONST "4"
+< ELSE
+643,648c1011
+< OBJECTID i
+< '='
+< INT_CONST 5
+< THEN
+< STR_CONST "5"
+< ELSE
+---
+> FI
+650,655d1012
+< OBJECTID i
+< '='
+< INT_CONST 6
+< THEN
+< STR_CONST "6"
+< ELSE
+657,662c1014
+< OBJECTID i
+< '='
+< INT_CONST 7
+< THEN
+< STR_CONST "7"
+< ELSE
+---
+> FI
+664,669c1016,1017
+< OBJECTID i
+< '='
+< INT_CONST 8
+< THEN
+< STR_CONST "8"
+< ELSE
+---
+> IF
+> FI
+672,683c1020
+< '='
+< INT_CONST 9
+< THEN
+< STR_CONST "9"
+< ELSE
+< '{'
+< OBJECTID abort
+< '('
+< ')'
+< ';'
+< STR_CONST ""
+< ';'
+---
+> CLASS
+684a1022,1045
+> ';'
+> '('
+> '*'
+> LET
+> OBJECTID a2i
+> OBJECTID converts
+> OBJECTID an
+> TYPEID ASCII
+> OBJECTID string
+> FI
+> OBJECTID nto
+> OBJECTID an
+> FI
+> OBJECTID nteger
+> '.'
+> LET
+> OBJECTID he
+> OBJECTID empty
+> OBJECTID string
+> OBJECTID is
+> OBJECTID converted
+> OBJECTID to
+> INT_CONST 0
+> '.'
+685a1047,1057
+> TYPEID Signed
+> OBJECTID and
+> OBJECTID unsigned
+> OBJECTID strings
+> OBJECTID are
+> OBJECTID handled
+> '.'
+> LET
+> OBJECTID he
+> OBJECTID method
+> OBJECTID aborts
+687a1060,1066
+> THEN
+> OBJECTID string
+> OBJECTID does
+> IN
+> OBJECTID ot
+> OBJECTID represent
+> OBJECTID an
+688a1068,1069
+> OBJECTID nteger
+> '.'
+690,696c1071,1086
+< FI
+< FI
+< FI
+< FI
+< FI
+< '}'
+< ';'
+---
+> TYPEID Very
+> OBJECTID long
+> OBJECTID strings
+> OF
+> OBJECTID digits
+> OBJECTID produce
+> OBJECTID strange
+> OBJECTID answers
+> OBJECTID because
+> OF
+> OBJECTID arithmetic
+> OBJECTID overflow
+> '.'
+> '*'
+> ')'
+> CLASS
+704c1094,1095
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+705a1097
+> INHERITS
+730c1122,1124
+< OBJECTID a2i_aux
+---
+> OBJECTID a2i
+> LEXER BUG - UNMATCHED: _
+> OBJECTID aux
+747a1142
+> INHERITS
+760c1155,1157
+< OBJECTID a2i_aux
+---
+> OBJECTID a2i
+> LEXER BUG - UNMATCHED: _
+> OBJECTID aux
+778c1175,1179
+< OBJECTID a2i_aux
+---
+> INHERITS
+> LET
+> OBJECTID a2i
+> LEXER BUG - UNMATCHED: _
+> OBJECTID aux
+781a1183
+> INHERITS
+782a1185,1186
+> IF
+> IF
+784c1188
+< FI
+---
+> CLASS
+787c1191,1224
+< OBJECTID a2i_aux
+---
+> '('
+> '*'
+> OBJECTID a2i
+> LEXER BUG - UNMATCHED: _
+> OBJECTID aux
+> OBJECTID converts
+> THEN
+> OBJECTID usigned
+> OBJECTID portion
+> OF
+> THEN
+> OBJECTID string
+> '.'
+> CLASS
+> OBJECTID a
+> LOOP
+> OBJECTID rogramming
+> OBJECTID example
+> ','
+> OBJECTID this
+> OBJECTID method
+> FI
+> OBJECTID s
+> OBJECTID written
+> FI
+> OBJECTID teratively
+> '.'
+> FI
+> '*'
+> ')'
+> CLASS
+> OBJECTID a2i
+> LEXER BUG - UNMATCHED: _
+> OBJECTID aux
+794c1231,1232
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+798c1236,1237
+< OBJECTID int
+---
+> FI
+> OBJECTID nt
+800c1239,1240
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+803c1243,1246
+< IN
+---
+> FI
+> OBJECTID n
+> INHERITS
+> LET
+804a1248,1250
+> INHERITS
+> CLASS
+> FI
+809c1255,1256
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+816c1263,1266
+< IN
+---
+> FI
+> OBJECTID n
+> INHERITS
+> FI
+819c1269
+< OBJECTID i
+---
+> FI
+821c1271,1272
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+824c1275,1277
+< IN
+---
+> FI
+> OBJECTID n
+> ELSE
+826c1279
+< OBJECTID i
+---
+> FI
+830a1284
+> ELSE
+833c1287,1288
+< OBJECTID int
+---
+> FI
+> OBJECTID nt
+849c1304,1305
+< OBJECTID i
+---
+> ELSE
+> IF
+851c1307
+< OBJECTID i
+---
+> FI
+855a1312
+> ELSE
+856a1314
+> FI
+857a1316,1317
+> CLASS
+> FI
+860c1320,1323
+< OBJECTID int
+---
+> INHERITS
+> CLASS
+> FI
+> OBJECTID nt
+861a1325
+> ELSE
+862a1327
+> INHERITS
+863a1329
+> CLASS
+865a1332,1359
+> '('
+> '*'
+> FI
+> INT_CONST 2
+> OBJECTID a
+> OBJECTID converts
+> OBJECTID an
+> FI
+> OBJECTID nteger
+> OBJECTID to
+> OBJECTID a
+> OBJECTID string
+> '.'
+> FI
+> TYPEID Positive
+> OBJECTID and
+> IN
+> OBJECTID egative
+> THEN
+> OBJECTID umbers
+> OBJECTID are
+> OBJECTID handled
+> OBJECTID correctly
+> '.'
+> FI
+> '*'
+> ')'
+> ELSE
+868c1362
+< OBJECTID i
+---
+> IF
+870c1364,1365
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+876c1371
+< OBJECTID i
+---
+> FI
+880,892c1375
+< STR_CONST "0"
+< ELSE
+< IF
+< INT_CONST 0
+< '<'
+< OBJECTID i
+< THEN
+< OBJECTID i2a_aux
+< '('
+< OBJECTID i
+< ')'
+< ELSE
+< STR_CONST "-"
+---
+> STR_CONST "0\" else \n        if 0 < i then i2a_aux(i) else\n          \"-"
+896c1379,1381
+< OBJECTID i2a_aux
+---
+> OBJECTID i2a
+> LEXER BUG - UNMATCHED: _
+> OBJECTID aux
+898c1383
+< OBJECTID i
+---
+> IF
+903a1389
+> INHERITS
+905c1391,1393
+< FI
+---
+> IF
+> OBJECTID i
+> ELSE
+908d1395
+< OBJECTID i2a_aux
+910c1397,1418
+< OBJECTID i
+---
+> '*'
+> FI
+> INT_CONST 2
+> OBJECTID a
+> LEXER BUG - UNMATCHED: _
+> OBJECTID aux
+> FI
+> OBJECTID s
+> OBJECTID an
+> OBJECTID example
+> OBJECTID using
+> OBJECTID recursion
+> '.'
+> FI
+> '*'
+> ')'
+> ELSE
+> OBJECTID i2a
+> LEXER BUG - UNMATCHED: _
+> OBJECTID aux
+> '('
+> IF
+912c1420,1421
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+916a1426
+> INHERITS
+918c1428
+< OBJECTID i
+---
+> FI
+923a1434
+> ELSE
+926c1437,1438
+< OBJECTID next
+---
+> IN
+> OBJECTID ext
+928c1440,1441
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+930c1443
+< OBJECTID i
+---
+> FI
+933,934c1446,1450
+< IN
+< OBJECTID i2a_aux
+---
+> FI
+> OBJECTID n
+> OBJECTID i2a
+> LEXER BUG - UNMATCHED: _
+> OBJECTID aux
+943c1459
+< OBJECTID i
+---
+> IF
+945c1461,1462
+< OBJECTID next
+---
+> IN
+> OBJECTID ext
+949a1467
+> ELSE
+950a1469
+> INHERITS
+951a1471
+> ELSE
+954,1104c1474
+< '}'
+< ';'
+< CLASS
+< TYPEID Main
+< INHERITS
+< TYPEID IO
+< '{'
+< OBJECTID char
+< ':'
+< TYPEID String
+< ';'
+< OBJECTID avar
+< ':'
+< TYPEID A
+< ';'
+< OBJECTID a_var
+< ':'
+< TYPEID A
+< ';'
+< OBJECTID flag
+< ':'
+< TYPEID Bool
+< ASSIGN
+< BOOL_CONST true
+< ';'
+< OBJECTID menu
+< '('
+< ')'
+< ':'
+< TYPEID String
+< '{'
+< '{'
+< OBJECTID out_string
+< '('
+< STR_CONST "\n\tTo add a number to "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "...enter a:\n"
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "\tTo negate "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "...enter b:\n"
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "\tTo find the difference between "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "and another number...enter c:\n"
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "\tTo find the factorial of "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "...enter d:\n"
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "\tTo square "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "...enter e:\n"
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "\tTo cube "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "...enter f:\n"
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "\tTo find out if "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "is a multiple of 3...enter g:\n"
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "\tTo divide "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "by 8...enter h:\n"
+< ')'
+---
+> '}'
+1106,1109c1476,1487
+< OBJECTID out_string
+< '('
+< STR_CONST "\tTo get a new number...enter j:\n"
+< ')'
+---
+> CLASS
+> TYPEID Main
+> FI
+> OBJECTID nherits
+> FI
+> OF
+> '{'
+> LET
+> ESAC
+> OBJECTID har
+> ':'
+> TYPEID String
+1111,1114c1489,1492
+< OBJECTID out_string
+< '('
+< STR_CONST "\tTo quit...enter q:\n\n"
+< ')'
+---
+> LET
+> OBJECTID avar
+> ':'
+> TYPEID A
+1116,1118c1494,1499
+< OBJECTID in_string
+< '('
+< ')'
+---
+> LET
+> OBJECTID a
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+> ':'
+> TYPEID A
+1120,1121c1501,1506
+< '}'
+< '}'
+---
+> LET
+> OBJECTID flag
+> ':'
+> TYPEID Bool
+> ASSIGN
+> BOOL_CONST true
+1123c1508,1509
+< OBJECTID prompt
+---
+> LET
+> OBJECTID menu
+1128a1515
+> CLASS
+1130,1135c1517,1520
+< OBJECTID out_string
+< '('
+< STR_CONST "\n"
+< ')'
+< ';'
+< OBJECTID out_string
+---
+> INHERITS
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+1137c1522,1646
+< STR_CONST "Please enter a number...  "
+---
+> STR_CONST "\\n\\tTo add a number to \");\n         print(avar);\n         out_string("
+> '.'
+> '.'
+> '.'
+> OBJECTID enter
+> OBJECTID a
+> ':'
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> STR_CONST ");\n         out_string(\"\\tTo negate \");\n         print(avar);\n         out_string("
+> '.'
+> '.'
+> '.'
+> OBJECTID enter
+> OBJECTID b
+> ':'
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> STR_CONST ");\n         out_string(\"\\tTo find the difference between \");\n         print(avar);\n         out_string("
+> OBJECTID and
+> OBJECTID another
+> IN
+> OBJECTID umber
+> '.'
+> '.'
+> '.'
+> OBJECTID enter
+> OBJECTID c
+> ':'
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> STR_CONST ");\n         out_string(\"\\tTo find the factorial of \");\n         print(avar);\n         out_string("
+> '.'
+> '.'
+> '.'
+> OBJECTID enter
+> OBJECTID d
+> ':'
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> STR_CONST ");\n         out_string(\"\\tTo square \");\n         print(avar);\n         out_string("
+> '.'
+> '.'
+> '.'
+> OBJECTID enter
+> OBJECTID e
+> ':'
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> STR_CONST ");\n         out_string(\"\\tTo cube \");\n         print(avar);\n         out_string("
+> '.'
+> '.'
+> '.'
+> OBJECTID enter
+> IF
+> ':'
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> STR_CONST ");\n         out_string(\"\\tTo find out if \");\n         print(avar);\n         out_string("
+> OBJECTID is
+> OBJECTID a
+> OBJECTID multiple
+> OF
+> INT_CONST 3
+> '.'
+> '.'
+> '.'
+> OBJECTID enter
+> OBJECTID g
+> ':'
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> STR_CONST ");\n         out_string(\"\\tTo divide \");\n         print(avar);\n         out_string("
+> OBJECTID by
+> INT_CONST 8
+> '.'
+> '.'
+> '.'
+> OBJECTID enter
+> OBJECTID h
+> ':'
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> STR_CONST ");\n\t out_string("
+> LEXER BUG - UNMATCHED: \
+> OBJECTID tTo
+> OBJECTID get
+> OBJECTID a
+> IN
+> OBJECTID ew
+> IN
+> OBJECTID umber
+> '.'
+> '.'
+> '.'
+> OBJECTID enter
+> OBJECTID j
+> ':'
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> STR_CONST ");\n\t out_string("
+> LEXER BUG - UNMATCHED: \
+> OBJECTID tTo
+> OBJECTID quit
+> '.'
+> '.'
+> '.'
+> OBJECTID enter
+> OBJECTID q
+> ':'
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> STR_CONST ");\n         in_string();\n      }\n   };\n\n   prompt() : String {\n      {\n         out_string(\"\\n\");\n         out_string("
+> TYPEID Please
+> OBJECTID enter
+> OBJECTID a
+> IN
+> OBJECTID umber
+> '.'
+> '.'
+> '.'
+> FI
+> LEXER BUG - UNMATCHED: "
+1140c1649,1653
+< OBJECTID in_string
+---
+> INHERITS
+> FI
+> OBJECTID n
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+1143a1657
+> CLASS
+1144a1659
+> LET
+1147c1662,1665
+< OBJECTID get_int
+---
+> LET
+> OBJECTID get
+> LEXER BUG - UNMATCHED: _
+> OBJECTID int
+1151c1669,1670
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+1152a1672
+> CLASS
+1160,1161d1679
+< NEW
+< TYPEID A2I
+1162a1681,1685
+> OBJECTID ew
+> TYPEID A2I
+> FI
+> OBJECTID n
+> ELSE
+1172c1695,1698
+< IN
+---
+> FI
+> OBJECTID n
+> CLASS
+> FI
+1178a1705
+> ELSE
+1179a1707
+> INHERITS
+1181a1710
+> CLASS
+1182a1712
+> LET
+1185c1715,1718
+< OBJECTID is_even
+---
+> LET
+> OBJECTID is
+> LEXER BUG - UNMATCHED: _
+> OBJECTID even
+1189c1722,1723
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+1193a1728
+> CLASS
+1198c1733,1734
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+1200d1735
+< OBJECTID num
+1201a1737,1741
+> OBJECTID um
+> FI
+> OBJECTID n
+> INHERITS
+> ELSE
+1207c1747,1750
+< OBJECTID is_even
+---
+> FI
+> OBJECTID s
+> LEXER BUG - UNMATCHED: _
+> OBJECTID even
+1212a1756,1757
+> INHERITS
+> ELSE
+1219a1765
+> ELSE
+1225c1771,1772
+< BOOL_CONST false
+---
+> IF
+> OBJECTID alse
+1227c1774,1778
+< OBJECTID is_even
+---
+> INHERITS
+> FI
+> OBJECTID is
+> LEXER BUG - UNMATCHED: _
+> OBJECTID even
+1232a1784
+> ELSE
+1233a1786,1787
+> IF
+> IF
+1235c1789
+< FI
+---
+> CLASS
+1236a1791
+> LET
+1239c1794,1797
+< OBJECTID class_type
+---
+> ESAC
+> OBJECTID lass
+> LEXER BUG - UNMATCHED: _
+> OBJECTID type
+1247a1806
+> CLASS
+1255,1300c1814,1816
+< OBJECTID out_string
+< '('
+< STR_CONST "Class type is now A\n"
+< ')'
+< ';'
+< OBJECTID b
+< ':'
+< TYPEID B
+< DARROW
+< OBJECTID out_string
+< '('
+< STR_CONST "Class type is now B\n"
+< ')'
+< ';'
+< OBJECTID c
+< ':'
+< TYPEID C
+< DARROW
+< OBJECTID out_string
+< '('
+< STR_CONST "Class type is now C\n"
+< ')'
+< ';'
+< OBJECTID d
+< ':'
+< TYPEID D
+< DARROW
+< OBJECTID out_string
+< '('
+< STR_CONST "Class type is now D\n"
+< ')'
+< ';'
+< OBJECTID e
+< ':'
+< TYPEID E
+< DARROW
+< OBJECTID out_string
+< '('
+< STR_CONST "Class type is now E\n"
+< ')'
+< ';'
+< OBJECTID o
+< ':'
+< TYPEID Object
+< DARROW
+< OBJECTID out_string
+---
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+1302c1818
+< STR_CONST "Oooops\n"
+---
+> STR_CONST "Class type is now A\\n\");\n\t b : B => out_string(\"Class type is now B\\n\");\n\t c : C => out_string(\"Class type is now C\\n\");\n\t d : D => out_string(\"Class type is now D\\n\");\n\t e : E => out_string(\"Class type is now E\\n\");\n\t o : Object => out_string(\"Oooops\\n"
+1304a1821
+> CLASS
+1305a1823
+> LET
+1308c1826,1827
+< OBJECTID print
+---
+> LOOP
+> OBJECTID rint
+1316a1836
+> CLASS
+1323,1324d1842
+< NEW
+< TYPEID A2I
+1325a1844,1847
+> OBJECTID ew
+> TYPEID A2I
+> FI
+> OBJECTID n
+1327c1849,1852
+< OBJECTID out_string
+---
+> LET
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+1341c1866,1869
+< OBJECTID out_string
+---
+> LET
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+1346a1875
+> CLASS
+1347a1877
+> LET
+1349a1880
+> LET
+1355a1887
+> CLASS
+1356a1889
+> INHERITS
+1363a1897
+> INHERITS
+1365c1899,1900
+< OBJECTID flag
+---
+> IF
+> OBJECTID lag
+1366a1902,1903
+> INHERITS
+> ELSE
+1368c1905,1931
+< OBJECTID out_string
+---
+> CLASS
+> FI
+> '-'
+> '-'
+> OBJECTID avar
+> ASSIGN
+> '('
+> NEW
+> TYPEID A
+> ')'
+> '.'
+> OBJECTID set
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+> '('
+> OBJECTID get
+> LEXER BUG - UNMATCHED: _
+> OBJECTID int
+> '('
+> ')'
+> ')'
+> ';'
+> CLASS
+> FI
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+1372a1936,1937
+> CLASS
+> FI
+1377a1943,1944
+> CLASS
+> FI
+1379c1946,1949
+< OBJECTID is_even
+---
+> FI
+> OBJECTID s
+> LEXER BUG - UNMATCHED: _
+> OBJECTID even
+1388,1396c1958
+< OBJECTID out_string
+< '('
+< STR_CONST "is even!\n"
+< ')'
+< ELSE
+< OBJECTID out_string
+< '('
+< STR_CONST "is odd!\n"
+< ')'
+---
+> INHERITS
+1398,1406c1960,1962
+< ';'
+< OBJECTID class_type
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID char
+< ASSIGN
+< OBJECTID menu
+---
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+1408,1413c1964
+< ')'
+< ';'
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "a"
+---
+> STR_CONST "is even!\\n\")\n\t       else\n\t          out_string(\"is odd!\\n\")\n\t       fi;\n\t       -- print(avar); -- prints out answer\n\t       class_type(avar);\n\t       char <- menu();\n                  if char = \"a"
+1414a1966,1971
+> '-'
+> '-'
+> OBJECTID add
+> INHERITS
+> INHERITS
+> CLASS
+1416c1973,1978
+< OBJECTID a_var
+---
+> INHERITS
+> INHERITS
+> INHERITS
+> OBJECTID a
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+1423c1985,1987
+< OBJECTID set_var
+---
+> OBJECTID set
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+1425c1989,1991
+< OBJECTID get_int
+---
+> OBJECTID get
+> LEXER BUG - UNMATCHED: _
+> OBJECTID int
+1429a1996,1997
+> INHERITS
+> INHERITS
+1445c2013,2015
+< OBJECTID a_var
+---
+> OBJECTID a
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+1451a2022,2023
+> INHERITS
+> CLASS
+1453a2026,2028
+> INHERITS
+> INHERITS
+> FI
+1458a2034,2040
+> '-'
+> '-'
+> IN
+> OBJECTID egate
+> INHERITS
+> INHERITS
+> CLASS
+1462c2044,2046
+< OBJECTID c
+---
+> INHERITS
+> INHERITS
+> ESAC
+1478a2063,2065
+> INHERITS
+> INHERITS
+> LET
+1496c2083,2086
+< OBJECTID o
+---
+> INHERITS
+> INHERITS
+> LET
+> OF
+1501,1506c2091,2096
+< OBJECTID out_string
+< '('
+< STR_CONST "Oooops\n"
+< ')'
+< ';'
+< OBJECTID abort
+---
+> INHERITS
+> INHERITS
+> FI
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+1508,1519c2098
+< ')'
+< ';'
+< INT_CONST 0
+< ';'
+< '}'
+< ';'
+< ESAC
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "c"
+---
+> STR_CONST "Oooops\\n\");\n\t\t                  abort(); 0;\n\t\t               };\n                     esac else\n                  if char = \"c"
+1520a2100,2105
+> '-'
+> '-'
+> OBJECTID diff
+> INHERITS
+> INHERITS
+> CLASS
+1522c2107,2112
+< OBJECTID a_var
+---
+> INHERITS
+> INHERITS
+> INHERITS
+> OBJECTID a
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+1529c2119,2121
+< OBJECTID set_var
+---
+> OBJECTID set
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+1531c2123,2125
+< OBJECTID get_int
+---
+> OBJECTID get
+> LEXER BUG - UNMATCHED: _
+> OBJECTID int
+1535a2130,2131
+> INHERITS
+> INHERITS
+1551c2147,2149
+< OBJECTID a_var
+---
+> OBJECTID a
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+1557a2156,2157
+> INHERITS
+> CLASS
+1559a2160,2162
+> INHERITS
+> INHERITS
+> FI
+1582a2186,2194
+> INHERITS
+> FI
+> '-'
+> '-'
+> IF
+> OBJECTID actorial
+> INHERITS
+> INHERITS
+> FI
+1605a2218,2224
+> FI
+> '-'
+> '-'
+> OBJECTID square
+> INHERITS
+> INHERITS
+> FI
+1628a2248,2254
+> FI
+> '-'
+> '-'
+> OBJECTID cube
+> INHERITS
+> INHERITS
+> FI
+1634c2260,2268
+< IF
+---
+> '-'
+> '-'
+> OBJECTID multiple
+> OF
+> INT_CONST 3
+> LEXER BUG - UNMATCHED: ?
+> CLASS
+> FI
+> FI
+1650,1652c2284,2292
+< THEN
+< '{'
+< OBJECTID out_string
+---
+> INHERITS
+> INHERITS
+> CLASS
+> LET
+> OBJECTID hen
+> '-'
+> '-'
+> OBJECTID avar
+> ASSIGN
+1654c2294,2295
+< STR_CONST "number "
+---
+> NEW
+> TYPEID A
+1656,1657c2297,2298
+< ';'
+< OBJECTID print
+---
+> '.'
+> OBJECTID method1
+1660,1662c2301,2302
+< ')'
+< ';'
+< OBJECTID out_string
+---
+> '.'
+> OBJECTID value
+1664d2303
+< STR_CONST "is divisible by 3.\n"
+1666,1668c2305
+< ';'
+< '}'
+< ELSE
+---
+> ')'
+1670,1672c2307,2322
+< OBJECTID out_string
+< '('
+< STR_CONST "number "
+---
+> INHERITS
+> INHERITS
+> ELSE
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+> '('
+> STR_CONST "number \");\n\t                    print(avar);\n\t                    out_string("
+> OBJECTID is
+> OBJECTID divisible
+> OBJECTID by
+> INT_CONST 3
+> '.'
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+1675,1676c2325,2329
+< OBJECTID print
+< '('
+---
+> '}'
+> ELSE
+> FI
+> '-'
+> '-'
+1677a2331,2334
+> ASSIGN
+> '('
+> NEW
+> TYPEID A
+1679,1680c2336,2339
+< ';'
+< OBJECTID out_string
+---
+> '.'
+> OBJECTID set
+> LEXER BUG - UNMATCHED: _
+> OBJECTID var
+1682c2341
+< STR_CONST "is not divisible by 3.\n"
+---
+> INT_CONST 0
+1684,1686c2343,2345
+< ';'
+< '}'
+< FI
+---
+> '{'
+> INHERITS
+> INHERITS
+1688,1691c2347,2361
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "h"
+---
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+> '('
+> STR_CONST "number \");\n\t                    print(avar);\n\t                    out_string("
+> OBJECTID is
+> IN
+> OBJECTID ot
+> OBJECTID divisible
+> OBJECTID by
+> INT_CONST 3
+> '.'
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> STR_CONST ");\n\t\t\t }\n\t\t      fi else\n                  if char = \"h"
+1692a2363
+> CLASS
+1698c2369,2370
+< IN
+---
+> FI
+> OBJECTID n
+1699a2372,2373
+> INHERITS
+> ELSE
+1715a2390
+> ELSE
+1720c2395,2396
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+1739c2415,2418
+< IN
+---
+> FI
+> OBJECTID n
+> CLASS
+> FI
+1741,1761c2420,2424
+< OBJECTID out_string
+< '('
+< STR_CONST "number "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID avar
+< ')'
+< ';'
+< OBJECTID out_string
+< '('
+< STR_CONST "is equal to "
+< ')'
+< ';'
+< OBJECTID print
+< '('
+< OBJECTID x
+< ')'
+< ';'
+< OBJECTID out_string
+---
+> INHERITS
+> FI
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+1763c2426
+< STR_CONST "times 8 with a remainder of "
+---
+> STR_CONST "number \");\n\t\t\t          print(avar);\n\t\t\t          out_string(\"is equal to \");\n\t\t\t          print(x);\n\t\t\t          out_string(\"times 8 with a remainder of "
+1765a2429
+> FI
+1772,1773d2435
+< NEW
+< TYPEID A2I
+1774a2437,2441
+> OBJECTID ew
+> TYPEID A2I
+> FI
+> OBJECTID n
+> CLASS
+1776c2443,2447
+< OBJECTID out_string
+---
+> INHERITS
+> INHERITS
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+1786c2457,2461
+< OBJECTID out_string
+---
+> INHERITS
+> INHERITS
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+1788,1807c2463
+< STR_CONST "\n"
+< ')'
+< ';'
+< '}'
+< ')'
+< ';'
+< '}'
+< ')'
+< ';'
+< OBJECTID avar
+< ASSIGN
+< OBJECTID x
+< ';'
+< '}'
+< ')'
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "j"
+---
+> STR_CONST "\\n\");\n\t\t\t\t     }\n\t\t\t\t  ); -- end let a:\n\t\t\t       }\n                            ); -- end let r:\n\t\t\t    avar <- x;\n\t\t         } \n\t\t      )  -- end let x:\n\t\t      else\n                  if char = \"j\" then avar <- (new A)\n\t\t      else\n                  if char = \"q"
+1809,1815d2464
+< OBJECTID avar
+< ASSIGN
+< '('
+< NEW
+< TYPEID A
+< ')'
+< ELSE
+1817,1821c2466
+< OBJECTID char
+< '='
+< STR_CONST "q"
+< THEN
+< OBJECTID flag
+---
+> OBJECTID lag
+1823c2468,2470
+< BOOL_CONST false
+---
+> IF
+> OBJECTID alse
+> CLASS
+1824a2472,2474
+> INHERITS
+> INHERITS
+> CLASS
+1839a2490,2496
+> '-'
+> '-'
+> OBJECTID divide
+> '/'
+> INT_CONST 8
+> INHERITS
+> INHERITS
+1841a2499,2500
+> IF
+> IF
+1842a2502,2503
+> IF
+> IF
+1843a2505,2506
+> IF
+> IF
+1844a2508,2509
+> IF
+> IF
+1846,1849c2511,2512
+< FI
+< FI
+< FI
+< FI
+---
+> IF
+> OBJECTID i
+1850a2514,2515
+> INHERITS
+> ELSE
+1851a2517
+> INHERITS
+1853a2520,2521
+> CLASS
+> FI
+1854a2523
+> LET

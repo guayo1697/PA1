@@ -1,0 +1,15 @@
+1c1,12
+< ERROR "_"
+---
+> '('
+> '*'
+> OBJECTID subtle
+> ':'
+> OBJECTID this
+> FI
+> OBJECTID s
+> FI
+> OBJECTID llegal
+> '*'
+> ')'
+> LEXER BUG - UNMATCHED: _

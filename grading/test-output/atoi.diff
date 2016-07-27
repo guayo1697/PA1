@@ -1,0 +1,720 @@
+0a1,96
+> '('
+> '*'
+> LET
+> THEN
+> CLASS
+> TYPEID A2I
+> OBJECTID provides
+> FI
+> OBJECTID nteger
+> '-'
+> OBJECTID to
+> '-'
+> OBJECTID string
+> OBJECTID and
+> OBJECTID string
+> '-'
+> OBJECTID to
+> '-'
+> OBJECTID integer
+> OBJECTID conversion
+> OBJECTID routines
+> '.'
+> LET
+> OF
+> OBJECTID use
+> OBJECTID these
+> OBJECTID routines
+> ','
+> OBJECTID either
+> FI
+> OBJECTID nherit
+> OBJECTID them
+> IN
+> THEN
+> CLASS
+> OBJECTID where
+> IN
+> OBJECTID eeded
+> ','
+> OBJECTID have
+> OBJECTID a
+> OBJECTID dummy
+> OBJECTID variable
+> OBJECTID bound
+> OBJECTID to
+> OBJECTID something
+> OF
+> OBJECTID type
+> TYPEID A2I
+> ','
+> OBJECTID or
+> OBJECTID simpl
+> OBJECTID write
+> '('
+> NEW
+> TYPEID A2I
+> ')'
+> '.'
+> OBJECTID method
+> '('
+> OBJECTID argument
+> ')'
+> '.'
+> '*'
+> ')'
+> '('
+> '*'
+> ESAC
+> INT_CONST 2
+> IF
+> FI
+> TYPEID Converts
+> OBJECTID a
+> INT_CONST 1
+> '-'
+> OBJECTID character
+> OBJECTID string
+> OBJECTID to
+> OBJECTID an
+> FI
+> OBJECTID nteger
+> '.'
+> FI
+> TYPEID Aborts
+> INHERITS
+> FI
+> FI
+> THEN
+> OBJECTID string
+> FI
+> OBJECTID s
+> IN
+> OBJECTID ot
+> STR_CONST "0\" through \"9"
+> '*'
+> ')'
+3a100
+> CLASS
+11c108,109
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+16,79c114
+< STR_CONST "0"
+< THEN
+< INT_CONST 0
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "1"
+< THEN
+< INT_CONST 1
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "2"
+< THEN
+< INT_CONST 2
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "3"
+< THEN
+< INT_CONST 3
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "4"
+< THEN
+< INT_CONST 4
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "5"
+< THEN
+< INT_CONST 5
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "6"
+< THEN
+< INT_CONST 6
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "7"
+< THEN
+< INT_CONST 7
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "8"
+< THEN
+< INT_CONST 8
+< ELSE
+< IF
+< OBJECTID char
+< '='
+< STR_CONST "9"
+---
+> STR_CONST "0\" then 0 else\n\tif char = \"1\" then 1 else\n\tif char = \"2\" then 2 else\n        if char = \"3\" then 3 else\n        if char = \"4\" then 4 else\n        if char = \"5\" then 5 else\n        if char = \"6\" then 6 else\n        if char = \"7\" then 7 else\n        if char = \"8\" then 8 else\n        if char = \"9"
+82a118
+> INHERITS
+91a128,131
+> '-'
+> '-'
+> THEN
+> INT_CONST 0
+92a133,140
+> OBJECTID s
+> IN
+> OBJECTID eeded
+> OBJECTID to
+> OBJECTID satisfy
+> THEN
+> OBJECTID typchecker
+> INHERITS
+93a142,143
+> IF
+> IF
+94a145,146
+> IF
+> IF
+95a148,149
+> IF
+> IF
+96a151,152
+> IF
+> IF
+98,100c154,156
+< FI
+< FI
+< FI
+---
+> IF
+> OBJECTID i
+> CLASS
+102a159,172
+> '('
+> '*'
+> LET
+> OBJECTID i2c
+> FI
+> OBJECTID s
+> THEN
+> OBJECTID inverse
+> OF
+> OBJECTID c2i
+> '.'
+> '*'
+> ')'
+> CLASS
+105c175
+< OBJECTID i
+---
+> IF
+107c177,178
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+113c184
+< OBJECTID i
+---
+> FI
+117,122c188,194
+< STR_CONST "0"
+< ELSE
+< IF
+< OBJECTID i
+< '='
+< INT_CONST 1
+---
+> STR_CONST "0\" else\n\tif i = 1 then \"1\" else\n\tif i = 2 then \"2\" else\n\tif i = 3 then \"3\" else\n\tif i = 4 then \"4\" else\n\tif i = 5 then \"5\" else\n\tif i = 6 then \"6\" else\n\tif i = 7 then \"7\" else\n\tif i = 8 then \"8\" else\n\tif i = 9 then \"9\" else\n\t{ abort(); \"\"; }  -- the \""
+> FI
+> OBJECTID s
+> IN
+> OBJECTID eeded
+> OBJECTID to
+> OBJECTID satisfy
+124,125c196,198
+< STR_CONST "1"
+< ELSE
+---
+> OBJECTID typchecker
+> INHERITS
+> FI
+127,132d199
+< OBJECTID i
+< '='
+< INT_CONST 2
+< THEN
+< STR_CONST "2"
+< ELSE
+134,139c201
+< OBJECTID i
+< '='
+< INT_CONST 3
+< THEN
+< STR_CONST "3"
+< ELSE
+---
+> FI
+141,146d202
+< OBJECTID i
+< '='
+< INT_CONST 4
+< THEN
+< STR_CONST "4"
+< ELSE
+148,153c204
+< OBJECTID i
+< '='
+< INT_CONST 5
+< THEN
+< STR_CONST "5"
+< ELSE
+---
+> FI
+155,160d205
+< OBJECTID i
+< '='
+< INT_CONST 6
+< THEN
+< STR_CONST "6"
+< ELSE
+162,167c207
+< OBJECTID i
+< '='
+< INT_CONST 7
+< THEN
+< STR_CONST "7"
+< ELSE
+---
+> FI
+169,174c209,210
+< OBJECTID i
+< '='
+< INT_CONST 8
+< THEN
+< STR_CONST "8"
+< ELSE
+---
+> IF
+> FI
+177,188c213
+< '='
+< INT_CONST 9
+< THEN
+< STR_CONST "9"
+< ELSE
+< '{'
+< OBJECTID abort
+< '('
+< ')'
+< ';'
+< STR_CONST ""
+< ';'
+---
+> CLASS
+189a215,223
+> ';'
+> '('
+> '*'
+> LET
+> OBJECTID a2i
+> OBJECTID converts
+> OBJECTID an
+> TYPEID ASCII
+> OBJECTID string
+190a225,226
+> OBJECTID nto
+> OBJECTID an
+191a228,238
+> OBJECTID nteger
+> '.'
+> LET
+> OBJECTID he
+> OBJECTID empty
+> OBJECTID string
+> OBJECTID is
+> OBJECTID converted
+> OBJECTID to
+> INT_CONST 0
+> '.'
+192a240,250
+> TYPEID Signed
+> OBJECTID and
+> OBJECTID unsigned
+> OBJECTID strings
+> OBJECTID are
+> OBJECTID handled
+> '.'
+> LET
+> OBJECTID he
+> OBJECTID method
+> OBJECTID aborts
+195,201c253,279
+< FI
+< FI
+< FI
+< FI
+< FI
+< '}'
+< ';'
+---
+> THEN
+> OBJECTID string
+> OBJECTID does
+> IN
+> OBJECTID ot
+> OBJECTID represent
+> OBJECTID an
+> FI
+> OBJECTID nteger
+> '.'
+> FI
+> TYPEID Very
+> OBJECTID long
+> OBJECTID strings
+> OF
+> OBJECTID digits
+> OBJECTID produce
+> OBJECTID strange
+> OBJECTID answers
+> OBJECTID because
+> OF
+> OBJECTID arithmetic
+> OBJECTID overflow
+> '.'
+> '*'
+> ')'
+> CLASS
+209c287,288
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+210a290
+> INHERITS
+235c315,317
+< OBJECTID a2i_aux
+---
+> OBJECTID a2i
+> LEXER BUG - UNMATCHED: _
+> OBJECTID aux
+252a335
+> INHERITS
+265c348,350
+< OBJECTID a2i_aux
+---
+> OBJECTID a2i
+> LEXER BUG - UNMATCHED: _
+> OBJECTID aux
+283c368,372
+< OBJECTID a2i_aux
+---
+> INHERITS
+> LET
+> OBJECTID a2i
+> LEXER BUG - UNMATCHED: _
+> OBJECTID aux
+286a376
+> INHERITS
+287a378,379
+> IF
+> IF
+289c381
+< FI
+---
+> CLASS
+292c384,416
+< OBJECTID a2i_aux
+---
+> '('
+> '*'
+> FI
+> OBJECTID a2i
+> LEXER BUG - UNMATCHED: _
+> OBJECTID aux
+> OBJECTID converts
+> THEN
+> OBJECTID usigned
+> OBJECTID portion
+> OF
+> THEN
+> OBJECTID string
+> '.'
+> CLASS
+> OBJECTID a
+> OBJECTID programming
+> OBJECTID example
+> ','
+> OBJECTID this
+> OBJECTID method
+> FI
+> OBJECTID s
+> OBJECTID written
+> FI
+> OBJECTID teratively
+> '.'
+> '*'
+> ')'
+> CLASS
+> OBJECTID a2i
+> LEXER BUG - UNMATCHED: _
+> OBJECTID aux
+299c423,424
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+303c428,429
+< OBJECTID int
+---
+> FI
+> OBJECTID nt
+305c431,432
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+308c435,438
+< IN
+---
+> FI
+> OBJECTID n
+> INHERITS
+> LET
+309a440,442
+> INHERITS
+> CLASS
+> FI
+314c447,448
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+321c455,458
+< IN
+---
+> FI
+> OBJECTID n
+> INHERITS
+> FI
+324c461
+< OBJECTID i
+---
+> FI
+326c463,464
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+329c467,469
+< IN
+---
+> FI
+> OBJECTID n
+> ELSE
+331c471
+< OBJECTID i
+---
+> FI
+335a476
+> ELSE
+338c479,480
+< OBJECTID int
+---
+> FI
+> OBJECTID nt
+354c496,497
+< OBJECTID i
+---
+> ELSE
+> IF
+356c499
+< OBJECTID i
+---
+> FI
+360a504
+> ELSE
+361a506
+> FI
+362a508,509
+> CLASS
+> FI
+365c512,515
+< OBJECTID int
+---
+> INHERITS
+> CLASS
+> FI
+> OBJECTID nt
+366a517
+> ELSE
+367a519
+> INHERITS
+368a521
+> CLASS
+370a524,549
+> '('
+> '*'
+> ELSE
+> OBJECTID i2a
+> OBJECTID converts
+> OBJECTID an
+> FI
+> OBJECTID nteger
+> OBJECTID to
+> OBJECTID a
+> OBJECTID string
+> '.'
+> FI
+> TYPEID Positive
+> OBJECTID and
+> IN
+> OBJECTID egative
+> OBJECTID numbers
+> OBJECTID are
+> OBJECTID handled
+> OBJECTID correctly
+> '.'
+> FI
+> '*'
+> ')'
+> ELSE
+373c552
+< OBJECTID i
+---
+> IF
+375c554,555
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+381c561
+< OBJECTID i
+---
+> FI
+385,397c565
+< STR_CONST "0"
+< ELSE
+< IF
+< INT_CONST 0
+< '<'
+< OBJECTID i
+< THEN
+< OBJECTID i2a_aux
+< '('
+< OBJECTID i
+< ')'
+< ELSE
+< STR_CONST "-"
+---
+> STR_CONST "0\" else \n        if 0 < i then i2a_aux(i) else\n          \"-"
+401c569,571
+< OBJECTID i2a_aux
+---
+> OBJECTID i2a
+> LEXER BUG - UNMATCHED: _
+> OBJECTID aux
+403c573
+< OBJECTID i
+---
+> IF
+408a579
+> INHERITS
+410c581,583
+< FI
+---
+> IF
+> OBJECTID i
+> ELSE
+413d585
+< OBJECTID i2a_aux
+415c587,606
+< OBJECTID i
+---
+> '*'
+> ELSE
+> OBJECTID i2a
+> LEXER BUG - UNMATCHED: _
+> OBJECTID aux
+> FI
+> OBJECTID s
+> OBJECTID an
+> OBJECTID example
+> OBJECTID using
+> OBJECTID recursion
+> '.'
+> '*'
+> ')'
+> ELSE
+> OBJECTID i2a
+> LEXER BUG - UNMATCHED: _
+> OBJECTID aux
+> '('
+> IF
+417c608,609
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+421a614
+> INHERITS
+423c616
+< OBJECTID i
+---
+> FI
+428a622
+> ELSE
+431c625,626
+< OBJECTID next
+---
+> IN
+> OBJECTID ext
+433c628,629
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+435c631
+< OBJECTID i
+---
+> FI
+438,439c634,638
+< IN
+< OBJECTID i2a_aux
+---
+> FI
+> OBJECTID n
+> OBJECTID i2a
+> LEXER BUG - UNMATCHED: _
+> OBJECTID aux
+448c647
+< OBJECTID i
+---
+> IF
+450c649,650
+< OBJECTID next
+---
+> IN
+> OBJECTID ext
+454a655
+> ELSE
+455a657
+> INHERITS
+456a659
+> ELSE

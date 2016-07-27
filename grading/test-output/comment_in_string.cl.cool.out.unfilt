@@ -1,0 +1,26 @@
+#name "./comment_in_string.cl.cool"
+LEXER BUG - UNMATCHED: "
+#1 OBJECTID string
+#1 '('
+#1 '*'
+#1 INT_CONST 123
+#1 '*'
+#1 ')'
+#1 OBJECTID string
+#1 STR_CONST "\n"
+#1 OBJECTID string
+LEXER BUG - UNMATCHED: \
+#2 '('
+#2 '*'
+#2 INT_CONST 123
+#2 '*'
+#2 ')'
+#2 STR_CONST "\n"
+#2 OBJECTID string
+#2 '('
+#2 '*'
+LEXER BUG - UNMATCHED: \
+#3 INT_CONST 123
+#3 '*'
+#3 ')'
+LEXER BUG - UNMATCHED: "

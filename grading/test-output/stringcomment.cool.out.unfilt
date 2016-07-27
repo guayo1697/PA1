@@ -1,0 +1,17 @@
+#name "./stringcomment.cool"
+#1 STR_CONST "This is a string--and it's still a string\"\n--This is a comment, \"not a string"
+#2 '('
+#2 '*'
+#2 STR_CONST "not a string"
+#2 '*'
+#2 ')'
+LEXER BUG - UNMATCHED: "
+#3 '('
+#3 '*'
+#3 IN
+#3 OBJECTID ot
+#3 OBJECTID a
+#3 OBJECTID comment
+#3 '*'
+#3 ')'
+LEXER BUG - UNMATCHED: "

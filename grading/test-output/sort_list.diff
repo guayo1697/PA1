@@ -1,0 +1,673 @@
+0a1,18
+> '('
+> '*'
+> LET
+> TYPEID This
+> IF
+> OBJECTID ile
+> OBJECTID presents
+> OBJECTID a
+> IF
+> OBJECTID airly
+> OBJECTID large
+> OBJECTID example
+> OF
+> TYPEID Cool
+> OBJECTID programming
+> '.'
+> LET
+> OBJECTID he
+2a21,88
+> OBJECTID defines
+> THEN
+> OBJECTID names
+> OF
+> OBJECTID standard
+> OBJECTID list
+> OBJECTID operations
+> OBJECTID ala
+> TYPEID Scheme
+> ':'
+> OBJECTID car
+> ','
+> OBJECTID cdr
+> ','
+> OBJECTID cons
+> ','
+> FI
+> OBJECTID sNil
+> ','
+> OBJECTID rev
+> ','
+> OBJECTID sort
+> ','
+> OBJECTID rcons
+> '('
+> OBJECTID add
+> OBJECTID an
+> OBJECTID element
+> OBJECTID to
+> THEN
+> OBJECTID end
+> OF
+> THEN
+> OBJECTID list
+> ')'
+> ','
+> OBJECTID and
+> OBJECTID print
+> LEXER BUG - UNMATCHED: _
+> OBJECTID list
+> '.'
+> FI
+> IN
+> THEN
+> TYPEID List
+> CLASS
+> OBJECTID most
+> OF
+> OBJECTID these
+> IF
+> OBJECTID unctions
+> OBJECTID are
+> OBJECTID just
+> OBJECTID stubs
+> OBJECTID that
+> OBJECTID abort
+> FI
+> FI
+> OBJECTID ever
+> OBJECTID called
+> '.'
+> LET
+> OBJECTID he
+> OBJECTID classes
+> IN
+> OBJECTID il
+> OBJECTID and
+> TYPEID Cons
+4c90,217
+< TYPEID IO
+---
+> OBJECTID from
+> TYPEID List
+> OBJECTID and
+> OBJECTID define
+> THEN
+> OBJECTID same
+> OBJECTID operations
+> ','
+> OBJECTID but
+> IN
+> OBJECTID ow
+> OBJECTID as
+> OBJECTID appropriate
+> OBJECTID to
+> THEN
+> OBJECTID empty
+> OBJECTID list
+> '('
+> OBJECTID for
+> THEN
+> TYPEID Nil
+> CLASS
+> ')'
+> OBJECTID and
+> IF
+> OBJECTID or
+> OBJECTID cons
+> OBJECTID cells
+> '('
+> OBJECTID for
+> THEN
+> TYPEID Cons
+> CLASS
+> ')'
+> '.'
+> THEN
+> TYPEID Main
+> CLASS
+> OBJECTID puts
+> OBJECTID all
+> OF
+> OBJECTID this
+> OBJECTID code
+> OBJECTID through
+> THEN
+> OBJECTID following
+> OBJECTID silly
+> OBJECTID test
+> OBJECTID exercise
+> ':'
+> LET
+> INT_CONST 1
+> '.'
+> OBJECTID prompt
+> IF
+> OBJECTID or
+> OBJECTID a
+> IN
+> OBJECTID umber
+> IN
+> LET
+> INT_CONST 2
+> '.'
+> OBJECTID generate
+> OBJECTID a
+> OBJECTID list
+> OF
+> IN
+> OBJECTID umbers
+> INT_CONST 0
+> '.'
+> '.'
+> TYPEID N
+> '-'
+> INT_CONST 1
+> LET
+> INT_CONST 3
+> '.'
+> OBJECTID reverse
+> THEN
+> OBJECTID list
+> LET
+> INT_CONST 4
+> '.'
+> OBJECTID sort
+> THEN
+> OBJECTID list
+> LET
+> INT_CONST 5
+> '.'
+> OBJECTID print
+> THEN
+> OBJECTID sorted
+> OBJECTID list
+> TYPEID Because
+> THEN
+> OBJECTID sort
+> OBJECTID used
+> FI
+> OBJECTID s
+> OBJECTID a
+> OBJECTID quadratic
+> OBJECTID space
+> FI
+> OBJECTID nsertion
+> OBJECTID sort
+> ','
+> OBJECTID sorting
+> OBJECTID moderately
+> OBJECTID large
+> OBJECTID lists
+> OBJECTID will
+> OBJECTID cause
+> OBJECTID spim
+> OBJECTID to
+> OBJECTID run
+> OBJECTID out
+> OF
+> OBJECTID memory
+> '.'
+> '*'
+> ')'
+> CLASS
+> TYPEID List
+> FI
+> OBJECTID nherits
+> FI
+> OF
+5a219,265
+> INHERITS
+> '('
+> '*'
+> TYPEID Since
+> OBJECTID abort
+> '('
+> ')'
+> OBJECTID returns
+> TYPEID Object
+> ','
+> OBJECTID we
+> IN
+> OBJECTID eed
+> OBJECTID something
+> OF
+> LET
+> OBJECTID type
+> TYPEID Bool
+> OBJECTID at
+> THEN
+> OBJECTID end
+> OF
+> THEN
+> OBJECTID block
+> OBJECTID to
+> OBJECTID satisfy
+> THEN
+> OBJECTID typechecker
+> '.'
+> INHERITS
+> LET
+> TYPEID This
+> OBJECTID code
+> FI
+> OBJECTID s
+> OBJECTID unreachable
+> ','
+> OBJECTID since
+> OBJECTID abort
+> '('
+> ')'
+> OBJECTID halts
+> THEN
+> OBJECTID program
+> '.'
+> '*'
+> ')'
+26c286,287
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+30a292
+> FI
+33c295,298
+< OBJECTID new_cell
+---
+> IN
+> OBJECTID ew
+> LEXER BUG - UNMATCHED: _
+> OBJECTID cell
+37,38d301
+< NEW
+< TYPEID Cons
+40c303,309
+< OBJECTID new_cell
+---
+> OBJECTID ew
+> TYPEID Cons
+> FI
+> OBJECTID n
+> NEW
+> LEXER BUG - UNMATCHED: _
+> OBJECTID cell
+47a317
+> FI
+50a321,360
+> '('
+> '*'
+> LET
+> TYPEID Since
+> OBJECTID abort
+> STR_CONST "returns"
+> OBJECTID type
+> TYPEID Object
+> ','
+> OBJECTID we
+> OBJECTID have
+> OBJECTID to
+> OBJECTID add
+> LET
+> OBJECTID an
+> OBJECTID expression
+> OF
+> OBJECTID type
+> FI
+> OBJECTID nt
+> OBJECTID here
+> OBJECTID to
+> OBJECTID satisfy
+> THEN
+> OBJECTID typechecker
+> '.'
+> LET
+> TYPEID This
+> OBJECTID code
+> FI
+> OBJECTID s
+> ','
+> OF
+> OBJECTID course
+> ','
+> OBJECTID unreachable
+> '.'
+> INHERITS
+> '*'
+> ')'
+55c365,366
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+62,63c373,376
+< NEW
+< TYPEID Int
+---
+> IN
+> OBJECTID ew
+> FI
+> OBJECTID nt
+79c392,393
+< NEW
+---
+> IN
+> OBJECTID ew
+109c423
+< OBJECTID i
+---
+> IF
+111c425,426
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+123c438
+< OBJECTID i
+---
+> IF
+125c440,441
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+135c451,453
+< OBJECTID print_list
+---
+> OBJECTID print
+> LEXER BUG - UNMATCHED: _
+> OBJECTID list
+150c468,469
+< INHERITS
+---
+> FI
+> OBJECTID nherits
+155c474,475
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+156a477,490
+> FI
+> '-'
+> '-'
+> TYPEID We
+> OBJECTID keep
+> THEN
+> OBJECTID car
+> FI
+> OBJECTID n
+> OBJECTID cdr
+> FI
+> OBJECTID n
+> OBJECTID attributes
+> '.'
+160a495,532
+> '-'
+> '-'
+> TYPEID Because
+> OBJECTID methods
+> OBJECTID and
+> IF
+> OBJECTID eatures
+> OBJECTID must
+> OBJECTID have
+> OBJECTID different
+> IN
+> OBJECTID ames
+> ','
+> CLASS
+> '-'
+> '-'
+> OBJECTID we
+> OBJECTID use
+> OBJECTID xcar
+> OBJECTID and
+> OBJECTID xcdr
+> IF
+> OBJECTID or
+> THEN
+> OBJECTID attributes
+> OBJECTID and
+> OBJECTID reserve
+> CLASS
+> '-'
+> '-'
+> OBJECTID cons
+> OBJECTID and
+> OBJECTID car
+> IF
+> OBJECTID or
+> THEN
+> OBJECTID features
+> '.'
+167c539,540
+< BOOL_CONST false
+---
+> IF
+> OBJECTID alse
+174c547,548
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+182a557
+> FI
+183a559
+> ELSE
+187a564
+> ELSE
+192c569,570
+< OBJECTID self
+---
+> CLASS
+> OBJECTID elf
+193a572
+> FI
+196a576
+> FI
+201c581,582
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+257c638
+< OBJECTID i
+---
+> IF
+259c640,641
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+265c647
+< OBJECTID i
+---
+> FI
+302c684
+< OBJECTID i
+---
+> IF
+304c686,687
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+327c710,712
+< OBJECTID print_list
+---
+> OBJECTID print
+> LEXER BUG - UNMATCHED: _
+> OBJECTID list
+334c719,722
+< OBJECTID out_int
+---
+> CLASS
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID int
+339c727,730
+< OBJECTID out_string
+---
+> CLASS
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+341c732
+< STR_CONST "\n"
+---
+> STR_CONST "\\n"
+343a735
+> CLASS
+346c738,740
+< OBJECTID print_list
+---
+> OBJECTID print
+> LEXER BUG - UNMATCHED: _
+> OBJECTID list
+356,357c750,753
+< TYPEID Nil
+< INHERITS
+---
+> IN
+> OBJECTID il
+> FI
+> OBJECTID nherits
+368a765
+> INHERITS
+389c786
+< OBJECTID i
+---
+> IF
+391c788,789
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+404c802
+< OBJECTID i
+---
+> IF
+406c804,805
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+424c823,825
+< OBJECTID print_list
+---
+> OBJECTID print
+> LEXER BUG - UNMATCHED: _
+> OBJECTID list
+437,438c838,841
+< INHERITS
+< TYPEID IO
+---
+> FI
+> OBJECTID nherits
+> FI
+> OF
+443a847,869
+> '('
+> '*'
+> FI
+> OBJECTID ota
+> OBJECTID maps
+> FI
+> OBJECTID ts
+> FI
+> OBJECTID nteger
+> OBJECTID argument
+> IN
+> FI
+> OBJECTID nto
+> THEN
+> OBJECTID list
+> INT_CONST 0
+> '.'
+> '.'
+> OBJECTID n
+> '-'
+> INT_CONST 1
+> '*'
+> ')'
+446c872
+< OBJECTID i
+---
+> IF
+448c874,875
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+452a880
+> ELSE
+456,457c884,887
+< NEW
+< TYPEID Nil
+---
+> IN
+> OBJECTID ew
+> IN
+> OBJECTID il
+463c893,894
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+466c897,899
+< IN
+---
+> FI
+> OBJECTID n
+> LET
+470,471c903,906
+< OBJECTID i
+< LOOP
+---
+> FI
+> POOL
+> OBJECTID oop
+> CLASS
+472a908,909
+> CLASS
+> FI
+486a924,925
+> CLASS
+> FI
+492a932
+> CLASS
+494c934,935
+< POOL
+---
+> LOOP
+> OBJECTID ool
+498a940
+> ELSE
+507a950
+> LET
+509c952,955
+< OBJECTID out_string
+---
+> CLASS
+> OBJECTID out
+> LEXER BUG - UNMATCHED: _
+> OBJECTID string
+513a960
+> CLASS
+516c963,965
+< OBJECTID in_int
+---
+> IN
+> LEXER BUG - UNMATCHED: _
+> OBJECTID int
+529c978,980
+< OBJECTID print_list
+---
+> OBJECTID print
+> LEXER BUG - UNMATCHED: _
+> OBJECTID list
+532a984
+> LET
+537a990
+> ELSE

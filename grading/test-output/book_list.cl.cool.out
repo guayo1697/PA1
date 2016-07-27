@@ -1,0 +1,871 @@
+'-'
+'-'
+OBJECTID example
+OF
+OBJECTID static
+OBJECTID and
+OBJECTID dynamic
+OBJECTID type
+OBJECTID differing
+IF
+OBJECTID or
+OBJECTID a
+OBJECTID dispatch
+CLASS
+TYPEID Book
+FI
+OBJECTID nherits
+FI
+OF
+'{'
+ELSE
+OBJECTID title
+':'
+TYPEID String
+';'
+ELSE
+OBJECTID author
+':'
+TYPEID String
+';'
+ELSE
+OBJECTID initBook
+'('
+OBJECTID title
+LEXER BUG - UNMATCHED: _
+OBJECTID p
+':'
+TYPEID String
+','
+OBJECTID author
+LEXER BUG - UNMATCHED: _
+OBJECTID p
+':'
+TYPEID String
+')'
+':'
+TYPEID Book
+'{'
+INHERITS
+'{'
+INHERITS
+ELSE
+OBJECTID title
+ASSIGN
+OBJECTID title
+LEXER BUG - UNMATCHED: _
+OBJECTID p
+';'
+INHERITS
+ELSE
+OBJECTID author
+ASSIGN
+OBJECTID author
+LEXER BUG - UNMATCHED: _
+OBJECTID p
+';'
+INHERITS
+CLASS
+OBJECTID elf
+';'
+INHERITS
+'}'
+ELSE
+'}'
+';'
+ELSE
+OBJECTID print
+'('
+')'
+':'
+TYPEID Book
+'{'
+INHERITS
+'{'
+INHERITS
+ELSE
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+STR_CONST "title:      "
+')'
+'.'
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+OBJECTID title
+')'
+'.'
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+STR_CONST "\\n\");\n            out_string(\"author:     "
+')'
+'.'
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+OBJECTID author
+')'
+'.'
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+STR_CONST "\\n"
+')'
+';'
+INHERITS
+CLASS
+OBJECTID elf
+';'
+INHERITS
+'}'
+ELSE
+'}'
+';'
+'}'
+';'
+CLASS
+TYPEID Article
+FI
+OBJECTID nherits
+TYPEID Book
+'{'
+ELSE
+OBJECTID per
+LEXER BUG - UNMATCHED: _
+OBJECTID title
+':'
+TYPEID String
+';'
+ELSE
+OBJECTID initArticle
+'('
+OBJECTID title
+LEXER BUG - UNMATCHED: _
+OBJECTID p
+':'
+TYPEID String
+','
+OBJECTID author
+LEXER BUG - UNMATCHED: _
+OBJECTID p
+':'
+TYPEID String
+','
+OBJECTID per
+LEXER BUG - UNMATCHED: _
+OBJECTID title
+LEXER BUG - UNMATCHED: _
+OBJECTID p
+':'
+TYPEID String
+')'
+':'
+TYPEID Article
+'{'
+INHERITS
+'{'
+INHERITS
+ELSE
+OBJECTID initBook
+'('
+OBJECTID title
+LEXER BUG - UNMATCHED: _
+OBJECTID p
+','
+OBJECTID author
+LEXER BUG - UNMATCHED: _
+OBJECTID p
+')'
+';'
+INHERITS
+ELSE
+OBJECTID per
+LEXER BUG - UNMATCHED: _
+OBJECTID title
+ASSIGN
+OBJECTID per
+LEXER BUG - UNMATCHED: _
+OBJECTID title
+LEXER BUG - UNMATCHED: _
+OBJECTID p
+';'
+INHERITS
+CLASS
+OBJECTID elf
+';'
+INHERITS
+'}'
+ELSE
+'}'
+';'
+ELSE
+OBJECTID print
+'('
+')'
+':'
+TYPEID Book
+'{'
+INHERITS
+'{'
+CLASS
+OBJECTID elf
+'@'
+TYPEID Book
+'.'
+OBJECTID print
+'('
+')'
+';'
+INHERITS
+ELSE
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+STR_CONST "periodical:  "
+')'
+'.'
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+OBJECTID per
+LEXER BUG - UNMATCHED: _
+OBJECTID title
+')'
+'.'
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+STR_CONST "\\n"
+')'
+';'
+INHERITS
+CLASS
+OBJECTID elf
+';'
+INHERITS
+'}'
+ELSE
+'}'
+';'
+'}'
+';'
+CLASS
+TYPEID BookList
+FI
+OBJECTID nherits
+FI
+OF
+'{'
+ELSE
+'('
+'*'
+TYPEID Since
+OBJECTID abort
+STR_CONST "returns"
+OBJECTID type
+TYPEID Object
+','
+OBJECTID we
+OBJECTID have
+OBJECTID to
+OBJECTID add
+CLASS
+FI
+OBJECTID an
+OBJECTID expression
+OF
+OBJECTID type
+TYPEID Bool
+OBJECTID here
+OBJECTID to
+OBJECTID satisfy
+THEN
+OBJECTID typechecker
+'.'
+CLASS
+LET
+OBJECTID his
+OBJECTID code
+FI
+OBJECTID s
+OBJECTID unreachable
+','
+OBJECTID since
+OBJECTID abort
+'('
+')'
+OBJECTID halts
+THEN
+OBJECTID program
+'.'
+ELSE
+'*'
+')'
+ELSE
+OBJECTID isNil
+'('
+')'
+':'
+TYPEID Bool
+'{'
+'{'
+OBJECTID abort
+'('
+')'
+';'
+BOOL_CONST true
+';'
+'}'
+'}'
+';'
+ELSE
+ELSE
+OBJECTID cons
+'('
+OBJECTID hd
+':'
+TYPEID Book
+')'
+':'
+TYPEID Cons
+'{'
+INHERITS
+'('
+LET
+IN
+OBJECTID ew
+LEXER BUG - UNMATCHED: _
+OBJECTID cell
+':'
+TYPEID Cons
+ASSIGN
+IN
+OBJECTID ew
+TYPEID Cons
+FI
+OBJECTID n
+INHERITS
+ELSE
+NEW
+LEXER BUG - UNMATCHED: _
+OBJECTID cell
+'.'
+OBJECTID init
+'('
+OBJECTID hd
+','
+OBJECTID self
+')'
+INHERITS
+')'
+ELSE
+'}'
+';'
+ELSE
+'('
+'*'
+TYPEID Since
+OBJECTID abort
+STR_CONST "returns"
+OBJECTID type
+TYPEID Object
+','
+OBJECTID we
+OBJECTID have
+OBJECTID to
+OBJECTID add
+CLASS
+FI
+OBJECTID an
+OBJECTID expression
+OF
+OBJECTID type
+TYPEID Book
+OBJECTID here
+OBJECTID to
+OBJECTID satisfy
+THEN
+OBJECTID typechecker
+'.'
+CLASS
+LET
+OBJECTID his
+OBJECTID code
+FI
+OBJECTID s
+OBJECTID unreachable
+','
+OBJECTID since
+OBJECTID abort
+'('
+')'
+OBJECTID halts
+THEN
+OBJECTID program
+'.'
+ELSE
+'*'
+')'
+ELSE
+OBJECTID car
+'('
+')'
+':'
+TYPEID Book
+'{'
+'{'
+OBJECTID abort
+'('
+')'
+';'
+IN
+OBJECTID ew
+TYPEID Book
+';'
+'}'
+'}'
+';'
+ELSE
+ELSE
+'('
+'*'
+TYPEID Since
+OBJECTID abort
+STR_CONST "returns"
+OBJECTID type
+TYPEID Object
+','
+OBJECTID we
+OBJECTID have
+OBJECTID to
+OBJECTID add
+CLASS
+FI
+OBJECTID an
+OBJECTID expression
+OF
+OBJECTID type
+TYPEID BookList
+OBJECTID here
+OBJECTID to
+OBJECTID satisfy
+THEN
+OBJECTID typechecker
+'.'
+CLASS
+LET
+OBJECTID his
+OBJECTID code
+FI
+OBJECTID s
+OBJECTID unreachable
+','
+OBJECTID since
+OBJECTID abort
+'('
+')'
+OBJECTID halts
+THEN
+OBJECTID program
+'.'
+ELSE
+'*'
+')'
+ELSE
+OBJECTID cdr
+'('
+')'
+':'
+TYPEID BookList
+'{'
+'{'
+OBJECTID abort
+'('
+')'
+';'
+IN
+OBJECTID ew
+TYPEID BookList
+';'
+'}'
+'}'
+';'
+ELSE
+ELSE
+OBJECTID print
+LEXER BUG - UNMATCHED: _
+OBJECTID list
+'('
+')'
+':'
+TYPEID Object
+'{'
+OBJECTID abort
+'('
+')'
+'}'
+';'
+'}'
+';'
+CLASS
+TYPEID Cons
+FI
+OBJECTID nherits
+TYPEID BookList
+'{'
+ELSE
+OBJECTID xcar
+':'
+TYPEID Book
+';'
+FI
+'-'
+'-'
+TYPEID We
+OBJECTID keep
+THEN
+OBJECTID car
+OBJECTID and
+OBJECTID cdr
+FI
+OBJECTID n
+OBJECTID attributes
+'.'
+ELSE
+OBJECTID xcdr
+':'
+TYPEID BookList
+';'
+'-'
+'-'
+TYPEID Because
+OBJECTID methods
+OBJECTID and
+IF
+OBJECTID eatures
+OBJECTID must
+OBJECTID have
+OBJECTID different
+IN
+OBJECTID ames
+','
+ELSE
+'-'
+'-'
+OBJECTID we
+OBJECTID use
+OBJECTID xcar
+OBJECTID and
+OBJECTID xcdr
+IF
+OBJECTID or
+THEN
+OBJECTID attributes
+OBJECTID and
+OBJECTID reserve
+ELSE
+'-'
+'-'
+OBJECTID car
+OBJECTID and
+OBJECTID cdr
+IF
+OBJECTID or
+THEN
+OBJECTID features
+'.'
+ELSE
+ELSE
+OBJECTID isNil
+'('
+')'
+':'
+TYPEID Bool
+'{'
+IF
+OBJECTID alse
+'}'
+';'
+ELSE
+ELSE
+OBJECTID init
+'('
+OBJECTID hd
+':'
+TYPEID Book
+','
+OBJECTID tl
+':'
+TYPEID BookList
+')'
+':'
+TYPEID Cons
+'{'
+INHERITS
+'{'
+INHERITS
+ELSE
+OBJECTID xcar
+ASSIGN
+OBJECTID hd
+';'
+INHERITS
+ELSE
+OBJECTID xcdr
+ASSIGN
+OBJECTID tl
+';'
+INHERITS
+CLASS
+OBJECTID elf
+';'
+INHERITS
+'}'
+ELSE
+'}'
+';'
+ELSE
+OBJECTID car
+'('
+')'
+':'
+TYPEID Book
+'{'
+OBJECTID xcar
+'}'
+';'
+ELSE
+OBJECTID cdr
+'('
+')'
+':'
+TYPEID BookList
+'{'
+OBJECTID xcdr
+'}'
+';'
+ELSE
+ELSE
+OBJECTID print
+LEXER BUG - UNMATCHED: _
+OBJECTID list
+'('
+')'
+':'
+TYPEID Object
+'{'
+INHERITS
+'{'
+INHERITS
+ELSE
+CASE
+OBJECTID xcar
+'.'
+OBJECTID print
+'('
+')'
+OF
+INHERITS
+INHERITS
+OBJECTID dummy
+':'
+TYPEID Book
+DARROW
+OBJECTID out
+LEXER BUG - UNMATCHED: _
+OBJECTID string
+'('
+STR_CONST "- dynamic type was Book -\\n\");\n                dummy : Article => out_string(\"- dynamic type was Article -\\n"
+')'
+';'
+INHERITS
+WHILE
+OBJECTID sac
+';'
+INHERITS
+ELSE
+OBJECTID xcdr
+'.'
+OBJECTID print
+LEXER BUG - UNMATCHED: _
+OBJECTID list
+'('
+')'
+';'
+INHERITS
+'}'
+ELSE
+'}'
+';'
+'}'
+';'
+CLASS
+IN
+OBJECTID il
+FI
+OBJECTID nherits
+TYPEID BookList
+'{'
+ELSE
+OBJECTID isNil
+'('
+')'
+':'
+TYPEID Bool
+'{'
+BOOL_CONST true
+'}'
+';'
+ELSE
+OBJECTID print
+LEXER BUG - UNMATCHED: _
+OBJECTID list
+'('
+')'
+':'
+TYPEID Object
+'{'
+BOOL_CONST true
+'}'
+';'
+'}'
+';'
+CLASS
+TYPEID Main
+'{'
+ELSE
+OBJECTID books
+':'
+TYPEID BookList
+';'
+ELSE
+OBJECTID main
+'('
+')'
+':'
+TYPEID Object
+'{'
+INHERITS
+'('
+LET
+OBJECTID a
+LEXER BUG - UNMATCHED: _
+OBJECTID book
+':'
+TYPEID Book
+ASSIGN
+INHERITS
+ELSE
+'('
+NEW
+TYPEID Book
+')'
+'.'
+OBJECTID initBook
+'('
+STR_CONST "Compilers, Principles, Techniques, and Tools\",\n                                \"Aho, Sethi, and Ullman"
+')'
+INHERITS
+IN
+INHERITS
+ELSE
+'('
+LET
+OBJECTID an
+LEXER BUG - UNMATCHED: _
+OBJECTID article
+':'
+TYPEID Article
+ASSIGN
+INHERITS
+INHERITS
+'('
+NEW
+TYPEID Article
+')'
+'.'
+OBJECTID initArticle
+'('
+STR_CONST "The Top 100 CD_ROMs\",\n                                          \"Ulanoff\",\n                                          \"PC Magazine"
+')'
+INHERITS
+ELSE
+IN
+INHERITS
+INHERITS
+'{'
+INHERITS
+INHERITS
+ELSE
+OBJECTID books
+ASSIGN
+'('
+NEW
+IN
+OBJECTID il
+')'
+'.'
+OBJECTID cons
+'('
+OBJECTID a
+LEXER BUG - UNMATCHED: _
+OBJECTID book
+')'
+'.'
+OBJECTID cons
+'('
+OBJECTID an
+LEXER BUG - UNMATCHED: _
+OBJECTID article
+')'
+';'
+INHERITS
+INHERITS
+ELSE
+OBJECTID books
+'.'
+OBJECTID print
+LEXER BUG - UNMATCHED: _
+OBJECTID list
+'('
+')'
+';'
+INHERITS
+INHERITS
+'}'
+INHERITS
+ELSE
+')'
+FI
+'-'
+'-'
+OBJECTID end
+LET
+OBJECTID an
+LEXER BUG - UNMATCHED: _
+OBJECTID article
+INHERITS
+')'
+FI
+'-'
+'-'
+OBJECTID end
+LET
+OBJECTID a
+LEXER BUG - UNMATCHED: _
+OBJECTID book
+ELSE
+'}'
+';'
+'}'
+';'

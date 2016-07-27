@@ -1,0 +1,14 @@
+'('
+'*'
+TYPEID Complicated
+OBJECTID sequence
+OF
+OBJECTID strings
+OBJECTID and
+OBJECTID escaped
+OBJECTID quotes
+OBJECTID and
+OBJECTID errors
+'*'
+')'
+STR_CONST "\\\\\"\"\\\"\\\"\"\\\\\"\"\\\"\\\\\"\\\"\\\\\"\"\"\\\"\\\"\"\\"

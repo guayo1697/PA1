@@ -1,0 +1,1 @@
+STR_CONST "I'm not going to escape this newline\n\"\n\n\"This is also not escaped \\\\\n\"\n\n\"This is, though \\\\\\\n\"\n\n\"\\\\\"\n\n\"It's fine to have this: \\n in a string"

@@ -1,0 +1,872 @@
+#name "./book_list.cl.cool"
+#1 '-'
+#1 '-'
+#1 OBJECTID example
+#1 OF
+#1 OBJECTID static
+#1 OBJECTID and
+#1 OBJECTID dynamic
+#1 OBJECTID type
+#1 OBJECTID differing
+#1 IF
+#1 OBJECTID or
+#1 OBJECTID a
+#1 OBJECTID dispatch
+#3 CLASS
+#3 TYPEID Book
+#3 FI
+#3 OBJECTID nherits
+#3 FI
+#3 OF
+#3 '{'
+#4 ELSE
+#4 OBJECTID title
+#4 ':'
+#4 TYPEID String
+#4 ';'
+#5 ELSE
+#5 OBJECTID author
+#5 ':'
+#5 TYPEID String
+#5 ';'
+#7 ELSE
+#7 OBJECTID initBook
+#7 '('
+#7 OBJECTID title
+LEXER BUG - UNMATCHED: _
+#7 OBJECTID p
+#7 ':'
+#7 TYPEID String
+#7 ','
+#7 OBJECTID author
+LEXER BUG - UNMATCHED: _
+#7 OBJECTID p
+#7 ':'
+#7 TYPEID String
+#7 ')'
+#7 ':'
+#7 TYPEID Book
+#7 '{'
+#8 INHERITS
+#8 '{'
+#9 INHERITS
+#9 ELSE
+#9 OBJECTID title
+#9 ASSIGN
+#9 OBJECTID title
+LEXER BUG - UNMATCHED: _
+#9 OBJECTID p
+#9 ';'
+#10 INHERITS
+#10 ELSE
+#10 OBJECTID author
+#10 ASSIGN
+#10 OBJECTID author
+LEXER BUG - UNMATCHED: _
+#10 OBJECTID p
+#10 ';'
+#11 INHERITS
+#11 CLASS
+#11 OBJECTID elf
+#11 ';'
+#12 INHERITS
+#12 '}'
+#13 ELSE
+#13 '}'
+#13 ';'
+#15 ELSE
+#15 OBJECTID print
+#15 '('
+#15 ')'
+#15 ':'
+#15 TYPEID Book
+#15 '{'
+#16 INHERITS
+#16 '{'
+#17 INHERITS
+#17 ELSE
+#17 OBJECTID out
+LEXER BUG - UNMATCHED: _
+#17 OBJECTID string
+#17 '('
+#17 STR_CONST "title:      "
+#17 ')'
+#17 '.'
+#17 OBJECTID out
+LEXER BUG - UNMATCHED: _
+#17 OBJECTID string
+#17 '('
+#17 OBJECTID title
+#17 ')'
+#17 '.'
+#17 OBJECTID out
+LEXER BUG - UNMATCHED: _
+#17 OBJECTID string
+#17 '('
+#17 STR_CONST "\\n\");\n            out_string(\"author:     "
+#17 ')'
+#17 '.'
+#17 OBJECTID out
+LEXER BUG - UNMATCHED: _
+#17 OBJECTID string
+#17 '('
+#17 OBJECTID author
+#17 ')'
+#17 '.'
+#17 OBJECTID out
+LEXER BUG - UNMATCHED: _
+#17 OBJECTID string
+#17 '('
+#17 STR_CONST "\\n"
+#17 ')'
+#17 ';'
+#18 INHERITS
+#18 CLASS
+#18 OBJECTID elf
+#18 ';'
+#19 INHERITS
+#19 '}'
+#20 ELSE
+#20 '}'
+#20 ';'
+#21 '}'
+#21 ';'
+#23 CLASS
+#23 TYPEID Article
+#23 FI
+#23 OBJECTID nherits
+#23 TYPEID Book
+#23 '{'
+#24 ELSE
+#24 OBJECTID per
+LEXER BUG - UNMATCHED: _
+#24 OBJECTID title
+#24 ':'
+#24 TYPEID String
+#24 ';'
+#26 ELSE
+#26 OBJECTID initArticle
+#26 '('
+#26 OBJECTID title
+LEXER BUG - UNMATCHED: _
+#26 OBJECTID p
+#26 ':'
+#26 TYPEID String
+#26 ','
+#26 OBJECTID author
+LEXER BUG - UNMATCHED: _
+#26 OBJECTID p
+#26 ':'
+#26 TYPEID String
+#26 ','
+#27 OBJECTID per
+LEXER BUG - UNMATCHED: _
+#27 OBJECTID title
+LEXER BUG - UNMATCHED: _
+#27 OBJECTID p
+#27 ':'
+#27 TYPEID String
+#27 ')'
+#27 ':'
+#27 TYPEID Article
+#27 '{'
+#28 INHERITS
+#28 '{'
+#29 INHERITS
+#29 ELSE
+#29 OBJECTID initBook
+#29 '('
+#29 OBJECTID title
+LEXER BUG - UNMATCHED: _
+#29 OBJECTID p
+#29 ','
+#29 OBJECTID author
+LEXER BUG - UNMATCHED: _
+#29 OBJECTID p
+#29 ')'
+#29 ';'
+#30 INHERITS
+#30 ELSE
+#30 OBJECTID per
+LEXER BUG - UNMATCHED: _
+#30 OBJECTID title
+#30 ASSIGN
+#30 OBJECTID per
+LEXER BUG - UNMATCHED: _
+#30 OBJECTID title
+LEXER BUG - UNMATCHED: _
+#30 OBJECTID p
+#30 ';'
+#31 INHERITS
+#31 CLASS
+#31 OBJECTID elf
+#31 ';'
+#32 INHERITS
+#32 '}'
+#33 ELSE
+#33 '}'
+#33 ';'
+#35 ELSE
+#35 OBJECTID print
+#35 '('
+#35 ')'
+#35 ':'
+#35 TYPEID Book
+#35 '{'
+#36 INHERITS
+#36 '{'
+#37 CLASS
+#37 OBJECTID elf
+#37 '@'
+#37 TYPEID Book
+#37 '.'
+#37 OBJECTID print
+#37 '('
+#37 ')'
+#37 ';'
+#38 INHERITS
+#38 ELSE
+#38 OBJECTID out
+LEXER BUG - UNMATCHED: _
+#38 OBJECTID string
+#38 '('
+#38 STR_CONST "periodical:  "
+#38 ')'
+#38 '.'
+#38 OBJECTID out
+LEXER BUG - UNMATCHED: _
+#38 OBJECTID string
+#38 '('
+#38 OBJECTID per
+LEXER BUG - UNMATCHED: _
+#38 OBJECTID title
+#38 ')'
+#38 '.'
+#38 OBJECTID out
+LEXER BUG - UNMATCHED: _
+#38 OBJECTID string
+#38 '('
+#38 STR_CONST "\\n"
+#38 ')'
+#38 ';'
+#39 INHERITS
+#39 CLASS
+#39 OBJECTID elf
+#39 ';'
+#40 INHERITS
+#40 '}'
+#41 ELSE
+#41 '}'
+#41 ';'
+#42 '}'
+#42 ';'
+#44 CLASS
+#44 TYPEID BookList
+#44 FI
+#44 OBJECTID nherits
+#44 FI
+#44 OF
+#44 '{'
+#45 ELSE
+#45 '('
+#45 '*'
+#45 TYPEID Since
+#45 OBJECTID abort
+#45 STR_CONST "returns"
+#45 OBJECTID type
+#45 TYPEID Object
+#45 ','
+#45 OBJECTID we
+#45 OBJECTID have
+#45 OBJECTID to
+#45 OBJECTID add
+#46 CLASS
+#46 FI
+#46 OBJECTID an
+#46 OBJECTID expression
+#46 OF
+#46 OBJECTID type
+#46 TYPEID Bool
+#46 OBJECTID here
+#46 OBJECTID to
+#46 OBJECTID satisfy
+#46 THEN
+#46 OBJECTID typechecker
+#46 '.'
+#47 CLASS
+#47 LET
+#47 OBJECTID his
+#47 OBJECTID code
+#47 FI
+#47 OBJECTID s
+#47 OBJECTID unreachable
+#47 ','
+#47 OBJECTID since
+#47 OBJECTID abort
+#47 '('
+#47 ')'
+#47 OBJECTID halts
+#47 THEN
+#47 OBJECTID program
+#47 '.'
+#48 ELSE
+#48 '*'
+#48 ')'
+#49 ELSE
+#49 OBJECTID isNil
+#49 '('
+#49 ')'
+#49 ':'
+#49 TYPEID Bool
+#49 '{'
+#49 '{'
+#49 OBJECTID abort
+#49 '('
+#49 ')'
+#49 ';'
+#49 BOOL_CONST true
+#49 ';'
+#49 '}'
+#49 '}'
+#49 ';'
+#50 ELSE
+#51 ELSE
+#51 OBJECTID cons
+#51 '('
+#51 OBJECTID hd
+#51 ':'
+#51 TYPEID Book
+#51 ')'
+#51 ':'
+#51 TYPEID Cons
+#51 '{'
+#52 INHERITS
+#52 '('
+#52 LET
+#52 IN
+#52 OBJECTID ew
+LEXER BUG - UNMATCHED: _
+#52 OBJECTID cell
+#52 ':'
+#52 TYPEID Cons
+#52 ASSIGN
+#52 IN
+#52 OBJECTID ew
+#52 TYPEID Cons
+#52 FI
+#52 OBJECTID n
+#53 INHERITS
+#53 ELSE
+#53 NEW
+LEXER BUG - UNMATCHED: _
+#53 OBJECTID cell
+#53 '.'
+#53 OBJECTID init
+#53 '('
+#53 OBJECTID hd
+#53 ','
+#53 OBJECTID self
+#53 ')'
+#54 INHERITS
+#54 ')'
+#55 ELSE
+#55 '}'
+#55 ';'
+#57 ELSE
+#57 '('
+#57 '*'
+#57 TYPEID Since
+#57 OBJECTID abort
+#57 STR_CONST "returns"
+#57 OBJECTID type
+#57 TYPEID Object
+#57 ','
+#57 OBJECTID we
+#57 OBJECTID have
+#57 OBJECTID to
+#57 OBJECTID add
+#58 CLASS
+#58 FI
+#58 OBJECTID an
+#58 OBJECTID expression
+#58 OF
+#58 OBJECTID type
+#58 TYPEID Book
+#58 OBJECTID here
+#58 OBJECTID to
+#58 OBJECTID satisfy
+#58 THEN
+#58 OBJECTID typechecker
+#58 '.'
+#59 CLASS
+#59 LET
+#59 OBJECTID his
+#59 OBJECTID code
+#59 FI
+#59 OBJECTID s
+#59 OBJECTID unreachable
+#59 ','
+#59 OBJECTID since
+#59 OBJECTID abort
+#59 '('
+#59 ')'
+#59 OBJECTID halts
+#59 THEN
+#59 OBJECTID program
+#59 '.'
+#60 ELSE
+#60 '*'
+#60 ')'
+#61 ELSE
+#61 OBJECTID car
+#61 '('
+#61 ')'
+#61 ':'
+#61 TYPEID Book
+#61 '{'
+#61 '{'
+#61 OBJECTID abort
+#61 '('
+#61 ')'
+#61 ';'
+#61 IN
+#61 OBJECTID ew
+#61 TYPEID Book
+#61 ';'
+#61 '}'
+#61 '}'
+#61 ';'
+#62 ELSE
+#63 ELSE
+#63 '('
+#63 '*'
+#63 TYPEID Since
+#63 OBJECTID abort
+#63 STR_CONST "returns"
+#63 OBJECTID type
+#63 TYPEID Object
+#63 ','
+#63 OBJECTID we
+#63 OBJECTID have
+#63 OBJECTID to
+#63 OBJECTID add
+#64 CLASS
+#64 FI
+#64 OBJECTID an
+#64 OBJECTID expression
+#64 OF
+#64 OBJECTID type
+#64 TYPEID BookList
+#64 OBJECTID here
+#64 OBJECTID to
+#64 OBJECTID satisfy
+#64 THEN
+#64 OBJECTID typechecker
+#64 '.'
+#65 CLASS
+#65 LET
+#65 OBJECTID his
+#65 OBJECTID code
+#65 FI
+#65 OBJECTID s
+#65 OBJECTID unreachable
+#65 ','
+#65 OBJECTID since
+#65 OBJECTID abort
+#65 '('
+#65 ')'
+#65 OBJECTID halts
+#65 THEN
+#65 OBJECTID program
+#65 '.'
+#66 ELSE
+#66 '*'
+#66 ')'
+#67 ELSE
+#67 OBJECTID cdr
+#67 '('
+#67 ')'
+#67 ':'
+#67 TYPEID BookList
+#67 '{'
+#67 '{'
+#67 OBJECTID abort
+#67 '('
+#67 ')'
+#67 ';'
+#67 IN
+#67 OBJECTID ew
+#67 TYPEID BookList
+#67 ';'
+#67 '}'
+#67 '}'
+#67 ';'
+#68 ELSE
+#69 ELSE
+#69 OBJECTID print
+LEXER BUG - UNMATCHED: _
+#69 OBJECTID list
+#69 '('
+#69 ')'
+#69 ':'
+#69 TYPEID Object
+#69 '{'
+#69 OBJECTID abort
+#69 '('
+#69 ')'
+#69 '}'
+#69 ';'
+#70 '}'
+#70 ';'
+#72 CLASS
+#72 TYPEID Cons
+#72 FI
+#72 OBJECTID nherits
+#72 TYPEID BookList
+#72 '{'
+#73 ELSE
+#73 OBJECTID xcar
+#73 ':'
+#73 TYPEID Book
+#73 ';'
+#73 FI
+#73 '-'
+#73 '-'
+#73 TYPEID We
+#73 OBJECTID keep
+#73 THEN
+#73 OBJECTID car
+#73 OBJECTID and
+#73 OBJECTID cdr
+#73 FI
+#73 OBJECTID n
+#73 OBJECTID attributes
+#73 '.'
+#74 ELSE
+#74 OBJECTID xcdr
+#74 ':'
+#74 TYPEID BookList
+#74 ';'
+#74 '-'
+#74 '-'
+#74 TYPEID Because
+#74 OBJECTID methods
+#74 OBJECTID and
+#74 IF
+#74 OBJECTID eatures
+#74 OBJECTID must
+#74 OBJECTID have
+#74 OBJECTID different
+#74 IN
+#74 OBJECTID ames
+#74 ','
+#75 ELSE
+#75 '-'
+#75 '-'
+#75 OBJECTID we
+#75 OBJECTID use
+#75 OBJECTID xcar
+#75 OBJECTID and
+#75 OBJECTID xcdr
+#75 IF
+#75 OBJECTID or
+#75 THEN
+#75 OBJECTID attributes
+#75 OBJECTID and
+#75 OBJECTID reserve
+#76 ELSE
+#76 '-'
+#76 '-'
+#76 OBJECTID car
+#76 OBJECTID and
+#76 OBJECTID cdr
+#76 IF
+#76 OBJECTID or
+#76 THEN
+#76 OBJECTID features
+#76 '.'
+#77 ELSE
+#78 ELSE
+#78 OBJECTID isNil
+#78 '('
+#78 ')'
+#78 ':'
+#78 TYPEID Bool
+#78 '{'
+#78 IF
+#78 OBJECTID alse
+#78 '}'
+#78 ';'
+#79 ELSE
+#80 ELSE
+#80 OBJECTID init
+#80 '('
+#80 OBJECTID hd
+#80 ':'
+#80 TYPEID Book
+#80 ','
+#80 OBJECTID tl
+#80 ':'
+#80 TYPEID BookList
+#80 ')'
+#80 ':'
+#80 TYPEID Cons
+#80 '{'
+#81 INHERITS
+#81 '{'
+#82 INHERITS
+#82 ELSE
+#82 OBJECTID xcar
+#82 ASSIGN
+#82 OBJECTID hd
+#82 ';'
+#83 INHERITS
+#83 ELSE
+#83 OBJECTID xcdr
+#83 ASSIGN
+#83 OBJECTID tl
+#83 ';'
+#84 INHERITS
+#84 CLASS
+#84 OBJECTID elf
+#84 ';'
+#85 INHERITS
+#85 '}'
+#86 ELSE
+#86 '}'
+#86 ';'
+#88 ELSE
+#88 OBJECTID car
+#88 '('
+#88 ')'
+#88 ':'
+#88 TYPEID Book
+#88 '{'
+#88 OBJECTID xcar
+#88 '}'
+#88 ';'
+#90 ELSE
+#90 OBJECTID cdr
+#90 '('
+#90 ')'
+#90 ':'
+#90 TYPEID BookList
+#90 '{'
+#90 OBJECTID xcdr
+#90 '}'
+#90 ';'
+#91 ELSE
+#92 ELSE
+#92 OBJECTID print
+LEXER BUG - UNMATCHED: _
+#92 OBJECTID list
+#92 '('
+#92 ')'
+#92 ':'
+#92 TYPEID Object
+#92 '{'
+#93 INHERITS
+#93 '{'
+#94 INHERITS
+#94 ELSE
+#94 CASE
+#94 OBJECTID xcar
+#94 '.'
+#94 OBJECTID print
+#94 '('
+#94 ')'
+#94 OF
+#95 INHERITS
+#95 INHERITS
+#95 OBJECTID dummy
+#95 ':'
+#95 TYPEID Book
+#95 DARROW
+#95 OBJECTID out
+LEXER BUG - UNMATCHED: _
+#95 OBJECTID string
+#95 '('
+#95 STR_CONST "- dynamic type was Book -\\n\");\n                dummy : Article => out_string(\"- dynamic type was Article -\\n"
+#95 ')'
+#95 ';'
+#96 INHERITS
+#96 WHILE
+#96 OBJECTID sac
+#96 ';'
+#97 INHERITS
+#97 ELSE
+#97 OBJECTID xcdr
+#97 '.'
+#97 OBJECTID print
+LEXER BUG - UNMATCHED: _
+#97 OBJECTID list
+#97 '('
+#97 ')'
+#97 ';'
+#98 INHERITS
+#98 '}'
+#99 ELSE
+#99 '}'
+#99 ';'
+#100 '}'
+#100 ';'
+#102 CLASS
+#102 IN
+#102 OBJECTID il
+#102 FI
+#102 OBJECTID nherits
+#102 TYPEID BookList
+#102 '{'
+#103 ELSE
+#103 OBJECTID isNil
+#103 '('
+#103 ')'
+#103 ':'
+#103 TYPEID Bool
+#103 '{'
+#103 BOOL_CONST true
+#103 '}'
+#103 ';'
+#105 ELSE
+#105 OBJECTID print
+LEXER BUG - UNMATCHED: _
+#105 OBJECTID list
+#105 '('
+#105 ')'
+#105 ':'
+#105 TYPEID Object
+#105 '{'
+#105 BOOL_CONST true
+#105 '}'
+#105 ';'
+#106 '}'
+#106 ';'
+#109 CLASS
+#109 TYPEID Main
+#109 '{'
+#111 ELSE
+#111 OBJECTID books
+#111 ':'
+#111 TYPEID BookList
+#111 ';'
+#113 ELSE
+#113 OBJECTID main
+#113 '('
+#113 ')'
+#113 ':'
+#113 TYPEID Object
+#113 '{'
+#114 INHERITS
+#114 '('
+#114 LET
+#114 OBJECTID a
+LEXER BUG - UNMATCHED: _
+#114 OBJECTID book
+#114 ':'
+#114 TYPEID Book
+#114 ASSIGN
+#115 INHERITS
+#115 ELSE
+#115 '('
+#115 NEW
+#115 TYPEID Book
+#115 ')'
+#115 '.'
+#115 OBJECTID initBook
+#115 '('
+#115 STR_CONST "Compilers, Principles, Techniques, and Tools\",\n                                \"Aho, Sethi, and Ullman"
+#115 ')'
+#116 INHERITS
+#116 IN
+#117 INHERITS
+#117 ELSE
+#117 '('
+#117 LET
+#117 OBJECTID an
+LEXER BUG - UNMATCHED: _
+#117 OBJECTID article
+#117 ':'
+#117 TYPEID Article
+#117 ASSIGN
+#118 INHERITS
+#118 INHERITS
+#118 '('
+#118 NEW
+#118 TYPEID Article
+#118 ')'
+#118 '.'
+#118 OBJECTID initArticle
+#118 '('
+#118 STR_CONST "The Top 100 CD_ROMs\",\n                                          \"Ulanoff\",\n                                          \"PC Magazine"
+#118 ')'
+#119 INHERITS
+#119 ELSE
+#119 IN
+#120 INHERITS
+#120 INHERITS
+#120 '{'
+#121 INHERITS
+#121 INHERITS
+#121 ELSE
+#121 OBJECTID books
+#121 ASSIGN
+#121 '('
+#121 NEW
+#121 IN
+#121 OBJECTID il
+#121 ')'
+#121 '.'
+#121 OBJECTID cons
+#121 '('
+#121 OBJECTID a
+LEXER BUG - UNMATCHED: _
+#121 OBJECTID book
+#121 ')'
+#121 '.'
+#121 OBJECTID cons
+#121 '('
+#121 OBJECTID an
+LEXER BUG - UNMATCHED: _
+#121 OBJECTID article
+#121 ')'
+#121 ';'
+#122 INHERITS
+#122 INHERITS
+#122 ELSE
+#122 OBJECTID books
+#122 '.'
+#122 OBJECTID print
+LEXER BUG - UNMATCHED: _
+#122 OBJECTID list
+#122 '('
+#122 ')'
+#122 ';'
+#123 INHERITS
+#123 INHERITS
+#123 '}'
+#124 INHERITS
+#124 ELSE
+#124 ')'
+#124 FI
+#124 '-'
+#124 '-'
+#124 OBJECTID end
+#124 LET
+#124 OBJECTID an
+LEXER BUG - UNMATCHED: _
+#124 OBJECTID article
+#125 INHERITS
+#125 ')'
+#125 FI
+#125 '-'
+#125 '-'
+#125 OBJECTID end
+#125 LET
+#125 OBJECTID a
+LEXER BUG - UNMATCHED: _
+#125 OBJECTID book
+#126 ELSE
+#126 '}'
+#126 ';'
+#127 '}'
+#127 ';'
