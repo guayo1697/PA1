@@ -1,422 +1,7 @@
-'('
-'*'
-'*'
-LET
-OBJECTID he
-FI
-OF
-CLASS
-FI
-OBJECTID s
-OBJECTID predefined
-OBJECTID and
-OBJECTID has
-INT_CONST 4
-OBJECTID methods
-':'
-'*'
-'*'
-ELSE
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
-'('
-OBJECTID s
-':'
-TYPEID String
-')'
-':'
-TYPEID SELF_TYPE
-'*'
-ELSE
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID int
-'('
-IF
-':'
-FI
-OBJECTID nt
-')'
-':'
-TYPEID SELF_TYPE
-'*'
-ELSE
-IN
-LEXER BUG - UNMATCHED: _
-OBJECTID string
-'('
-')'
-':'
-TYPEID String
-'*'
-ELSE
-IN
-LEXER BUG - UNMATCHED: _
-OBJECTID int
-'('
-')'
-':'
-FI
-OBJECTID nt
-'*'
-'*'
-ELSE
-THEN
-OBJECTID out
-OBJECTID operations
-OBJECTID print
-OBJECTID their
-OBJECTID argument
-OBJECTID to
-THEN
-OBJECTID terminal
-'.'
-TYPEID The
-'*'
-ELSE
-IN
-LEXER BUG - UNMATCHED: _
-OBJECTID string
-OBJECTID method
-OBJECTID reads
-OBJECTID an
-OBJECTID entire
-OBJECTID line
-IF
-OBJECTID rom
-THEN
-OBJECTID terminal
-OBJECTID and
-OBJECTID returns
-OBJECTID a
-'*'
-CLASS
-OBJECTID tring
-IN
-OBJECTID ot
-OBJECTID containing
-THEN
-NEW
-OBJECTID line
-'.'
-THEN
-IN
-LEXER BUG - UNMATCHED: _
-OBJECTID int
-OBJECTID method
-OBJECTID also
-OBJECTID reads
-'*'
-ELSE
-OBJECTID an
-OBJECTID entire
-OBJECTID line
-IF
-OBJECTID rom
-THEN
-OBJECTID terminal
-OBJECTID and
-OBJECTID returns
-THEN
-OBJECTID integer
-'*'
-ELSE
-OBJECTID corresponding
-OBJECTID to
-THEN
-OBJECTID first
-IN
-OBJECTID on
-OBJECTID blank
-OBJECTID word
-OBJECTID on
-THEN
-OBJECTID line
-'.'
-FI
-FI
-OBJECTID that
-'*'
-ELSE
-OBJECTID word
-FI
-OBJECTID s
-IN
-OBJECTID ot
-OBJECTID an
-FI
-OBJECTID nteger
-','
-FI
-OBJECTID t
-OBJECTID returns
-INT_CONST 0
-'.'
-'*'
-'*'
-'*'
-FI
-TYPEID Because
-OBJECTID our
-OBJECTID language
-FI
-OBJECTID s
-OBJECTID object
-OBJECTID oriented
-','
-OBJECTID we
-IN
-OBJECTID eed
-OBJECTID an
-OBJECTID object
-OF
-OBJECTID type
-'*'
-FI
-TYPEID IO
-FI
-OBJECTID n
-OBJECTID order
-OBJECTID to
-OBJECTID call
-OBJECTID any
-OF
-OBJECTID these
-OBJECTID methods
-'.'
-'*'
-'*'
-LET
-OBJECTID here
-OBJECTID are
-OBJECTID basically
-OBJECTID two
-OBJECTID ways
-OF
-OBJECTID getting
-OBJECTID access
-OBJECTID to
-FI
-OF
-IN
-OBJECTID a
-CLASS
-TYPEID C
-'.'
-'*'
-'*'
-LET
-INT_CONST 1
-')'
-TYPEID Define
-TYPEID C
-OBJECTID to
-FI
-OBJECTID nherit
-IF
-OBJECTID rom
-FI
-TYPEID O
-'.'
-TYPEID This
-OBJECTID way
-THEN
-TYPEID IO
-OBJECTID methods
-OBJECTID become
-'*'
-CLASS
-OBJECTID methods
-OF
-TYPEID C
-','
-OBJECTID and
-OBJECTID they
-OBJECTID can
-OBJECTID be
-OBJECTID called
-OBJECTID using
-THEN
-OBJECTID abbreviated
-'*'
-CLASS
-OBJECTID dispatch
-','
-FI
-'.'
-OBJECTID e
-'.'
-'*'
-'*'
-CLASS
-CLASS
-TYPEID C
-FI
-OBJECTID nherits
-FI
-OF
-OBJECTID is
-'*'
-INHERITS
-FI
-'.'
-'.'
-'.'
-'*'
-INHERITS
-FI
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
-'('
-STR_CONST "Hello world\\n"
-')'
-'*'
-INHERITS
-FI
-'.'
-'.'
-'.'
-'*'
-CLASS
-OBJECTID end
-';'
-'*'
-'*'
-LET
-INT_CONST 2
-')'
-FI
-FI
-OBJECTID your
-CLASS
-TYPEID C
-OBJECTID does
-IN
-OBJECTID ot
-OBJECTID directly
-OBJECTID or
-FI
-OBJECTID ndirectly
-FI
-OBJECTID nherit
-IF
-OBJECTID rom
-'*'
-CLASS
-FI
-TYPEID O
-','
-THEN
-OBJECTID best
-OBJECTID way
-OBJECTID to
-OBJECTID access
-FI
-OF
-OBJECTID is
-OBJECTID through
-OBJECTID an
-FI
-OBJECTID nitialized
-'*'
-CLASS
-OBJECTID attribute
-OF
-OBJECTID type
-FI
-TYPEID O
-'.'
-'*'
-'*'
-CLASS
-CLASS
-TYPEID C
-FI
-OBJECTID nherits
-IF
-OBJECTID oo
-FI
-OBJECTID s
-'*'
-INHERITS
-FI
-OF
-':'
-FI
-OF
-ASSIGN
-IN
-OBJECTID ew
-FI
-TYPEID O
-';'
-'*'
-INHERITS
-'.'
-'.'
-'.'
-'*'
-INHERITS
-CLASS
-OBJECTID io
-'.'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
-'('
-STR_CONST "Hello world\\n"
-')'
-';'
-'*'
-INHERITS
-'.'
-'.'
-'.'
-'*'
-CLASS
-OBJECTID end
-';'
-'*'
-'*'
-FI
-TYPEID Approach
-INT_CONST 1
-')'
-FI
-OBJECTID s
-OBJECTID most
-OBJECTID often
-OBJECTID used
-','
-FI
-OBJECTID n
-OBJECTID particular
-OBJECTID when
-OBJECTID you
-IN
-OBJECTID eed
-FI
-TYPEID O
-'*'
-FI
-OBJECTID functions
-FI
-OBJECTID n
-THEN
-TYPEID Main
-CLASS
-'.'
-'*'
-'*'
-')'
 CLASS
 TYPEID A
 '{'
 LET
-'-'
-'-'
 LET
 LEXER BUG - UNMATCHED: '
 OBJECTID s
@@ -450,9 +35,7 @@ FI
 TYPEID O
 ';'
 LET
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID a
+OBJECTID out_a
 '('
 ')'
 ':'
@@ -461,11 +44,16 @@ TYPEID Object
 FI
 OBJECTID o
 '.'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "A: Hello world\\n"
+LEXER BUG - UNMATCHED: "
+TYPEID A
+':'
+TYPEID Hello
+OBJECTID world
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
 ')'
 '}'
 ';'
@@ -478,8 +66,6 @@ OBJECTID nherits
 TYPEID A
 '{'
 LET
-'-'
-'-'
 TYPEID B
 OBJECTID does
 IN
@@ -501,9 +87,7 @@ OBJECTID from
 TYPEID A
 '.'
 LET
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID b
+OBJECTID out_b
 '('
 ')'
 ':'
@@ -512,11 +96,16 @@ TYPEID Object
 FI
 OBJECTID o
 '.'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "B: Hello world\\n"
+LEXER BUG - UNMATCHED: "
+TYPEID B
+':'
+TYPEID Hello
+OBJECTID world
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
 ')'
 '}'
 ';'
@@ -530,10 +119,7 @@ FI
 OF
 '{'
 LET
-'-'
-'-'
-IN
-OBJECTID ow
+TYPEID Now
 THEN
 TYPEID IO
 OBJECTID methods
@@ -543,31 +129,29 @@ OF
 TYPEID C
 '.'
 LET
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID c
+OBJECTID out_c
 '('
 ')'
 ':'
 TYPEID Object
 '{'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "C: Hello world\\n"
+LEXER BUG - UNMATCHED: "
+TYPEID C
+':'
+TYPEID Hello
+OBJECTID world
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
 ')'
 '}'
 ';'
 LET
-'-'
-'-'
-IN
-OBJECTID ote
+TYPEID Note
 OBJECTID that
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
 '.'
 '.'
@@ -582,9 +166,7 @@ IF
 OBJECTID or
 OBJECTID self
 '.'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
 '.'
 '.'
@@ -599,10 +181,7 @@ OBJECTID nherits
 TYPEID C
 '{'
 LET
-'-'
-'-'
-FI
-OBJECTID nherits
+INHERITS
 FI
 OF
 OBJECTID methods
@@ -611,19 +190,22 @@ OBJECTID rom
 TYPEID C
 '.'
 LET
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID d
+OBJECTID out_d
 '('
 ')'
 ':'
 TYPEID Object
 '{'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "D: Hello world\\n"
+LEXER BUG - UNMATCHED: "
+TYPEID D
+':'
+TYPEID Hello
+OBJECTID world
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
 ')'
 '}'
 ';'
@@ -637,8 +219,6 @@ FI
 OF
 '{'
 LET
-'-'
-'-'
 TYPEID Same
 CASE
 CASE
@@ -659,9 +239,7 @@ NEW
 TYPEID A
 ')'
 '.'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID a
+OBJECTID out_a
 '('
 ')'
 ';'
@@ -670,9 +248,7 @@ NEW
 TYPEID B
 ')'
 '.'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID b
+OBJECTID out_b
 '('
 ')'
 ';'
@@ -681,9 +257,7 @@ NEW
 TYPEID C
 ')'
 '.'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID c
+OBJECTID out_c
 '('
 ')'
 ';'
@@ -692,15 +266,11 @@ NEW
 TYPEID D
 ')'
 '.'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID d
+OBJECTID out_d
 '('
 ')'
 ';'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
 LEXER BUG - UNMATCHED: "
 TYPEID Done

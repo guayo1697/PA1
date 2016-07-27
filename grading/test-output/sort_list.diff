@@ -1,346 +1,41 @@
-0a1,18
-> '('
-> '*'
-> LET
-> TYPEID This
-> IF
-> OBJECTID ile
-> OBJECTID presents
-> OBJECTID a
-> IF
-> OBJECTID airly
-> OBJECTID large
-> OBJECTID example
-> OF
-> TYPEID Cool
-> OBJECTID programming
-> '.'
-> LET
-> OBJECTID he
-2a21,88
-> OBJECTID defines
-> THEN
-> OBJECTID names
-> OF
-> OBJECTID standard
-> OBJECTID list
-> OBJECTID operations
-> OBJECTID ala
-> TYPEID Scheme
-> ':'
-> OBJECTID car
-> ','
-> OBJECTID cdr
-> ','
-> OBJECTID cons
-> ','
-> FI
-> OBJECTID sNil
-> ','
-> OBJECTID rev
-> ','
-> OBJECTID sort
-> ','
-> OBJECTID rcons
-> '('
-> OBJECTID add
-> OBJECTID an
-> OBJECTID element
-> OBJECTID to
-> THEN
-> OBJECTID end
-> OF
-> THEN
-> OBJECTID list
-> ')'
-> ','
-> OBJECTID and
-> OBJECTID print
-> LEXER BUG - UNMATCHED: _
-> OBJECTID list
-> '.'
-> FI
-> IN
-> THEN
-> TYPEID List
-> CLASS
-> OBJECTID most
-> OF
-> OBJECTID these
-> IF
-> OBJECTID unctions
-> OBJECTID are
-> OBJECTID just
-> OBJECTID stubs
-> OBJECTID that
-> OBJECTID abort
-> FI
-> FI
-> OBJECTID ever
-> OBJECTID called
-> '.'
-> LET
-> OBJECTID he
-> OBJECTID classes
-> IN
-> OBJECTID il
-> OBJECTID and
-> TYPEID Cons
-4c90,217
+3,4c3,6
+< INHERITS
 < TYPEID IO
 ---
-> OBJECTID from
-> TYPEID List
-> OBJECTID and
-> OBJECTID define
-> THEN
-> OBJECTID same
-> OBJECTID operations
-> ','
-> OBJECTID but
-> IN
-> OBJECTID ow
-> OBJECTID as
-> OBJECTID appropriate
-> OBJECTID to
-> THEN
-> OBJECTID empty
-> OBJECTID list
-> '('
-> OBJECTID for
-> THEN
-> TYPEID Nil
-> CLASS
-> ')'
-> OBJECTID and
-> IF
-> OBJECTID or
-> OBJECTID cons
-> OBJECTID cells
-> '('
-> OBJECTID for
-> THEN
-> TYPEID Cons
-> CLASS
-> ')'
-> '.'
-> THEN
-> TYPEID Main
-> CLASS
-> OBJECTID puts
-> OBJECTID all
-> OF
-> OBJECTID this
-> OBJECTID code
-> OBJECTID through
-> THEN
-> OBJECTID following
-> OBJECTID silly
-> OBJECTID test
-> OBJECTID exercise
-> ':'
-> LET
-> INT_CONST 1
-> '.'
-> OBJECTID prompt
-> IF
-> OBJECTID or
-> OBJECTID a
-> IN
-> OBJECTID umber
-> IN
-> LET
-> INT_CONST 2
-> '.'
-> OBJECTID generate
-> OBJECTID a
-> OBJECTID list
-> OF
-> IN
-> OBJECTID umbers
-> INT_CONST 0
-> '.'
-> '.'
-> TYPEID N
-> '-'
-> INT_CONST 1
-> LET
-> INT_CONST 3
-> '.'
-> OBJECTID reverse
-> THEN
-> OBJECTID list
-> LET
-> INT_CONST 4
-> '.'
-> OBJECTID sort
-> THEN
-> OBJECTID list
-> LET
-> INT_CONST 5
-> '.'
-> OBJECTID print
-> THEN
-> OBJECTID sorted
-> OBJECTID list
-> TYPEID Because
-> THEN
-> OBJECTID sort
-> OBJECTID used
-> FI
-> OBJECTID s
-> OBJECTID a
-> OBJECTID quadratic
-> OBJECTID space
-> FI
-> OBJECTID nsertion
-> OBJECTID sort
-> ','
-> OBJECTID sorting
-> OBJECTID moderately
-> OBJECTID large
-> OBJECTID lists
-> OBJECTID will
-> OBJECTID cause
-> OBJECTID spim
-> OBJECTID to
-> OBJECTID run
-> OBJECTID out
-> OF
-> OBJECTID memory
-> '.'
-> '*'
-> ')'
-> CLASS
-> TYPEID List
 > FI
 > OBJECTID nherits
 > FI
 > OF
-5a219,265
+5a8
 > INHERITS
-> '('
-> '*'
-> TYPEID Since
-> OBJECTID abort
-> '('
-> ')'
-> OBJECTID returns
-> TYPEID Object
-> ','
-> OBJECTID we
-> IN
-> OBJECTID eed
-> OBJECTID something
-> OF
-> LET
-> OBJECTID type
-> TYPEID Bool
-> OBJECTID at
-> THEN
-> OBJECTID end
-> OF
-> THEN
-> OBJECTID block
-> OBJECTID to
-> OBJECTID satisfy
-> THEN
-> OBJECTID typechecker
-> '.'
-> INHERITS
-> LET
-> TYPEID This
-> OBJECTID code
-> FI
-> OBJECTID s
-> OBJECTID unreachable
-> ','
-> OBJECTID since
-> OBJECTID abort
-> '('
-> ')'
-> OBJECTID halts
-> THEN
-> OBJECTID program
-> '.'
-> '*'
-> ')'
-26c286,287
+26c29,30
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-30a292
+30a35
 > FI
-33c295,298
+33c38,39
 < OBJECTID new_cell
 ---
 > IN
-> OBJECTID ew
-> LEXER BUG - UNMATCHED: _
-> OBJECTID cell
-37,38d301
+> OBJECTID ew_cell
+37,38d42
 < NEW
 < TYPEID Cons
-40c303,309
-< OBJECTID new_cell
----
+39a44,47
 > OBJECTID ew
 > TYPEID Cons
 > FI
 > OBJECTID n
-> NEW
-> LEXER BUG - UNMATCHED: _
-> OBJECTID cell
-47a317
+47a56
 > FI
-50a321,360
-> '('
-> '*'
-> LET
-> TYPEID Since
-> OBJECTID abort
-> STR_CONST "returns"
-> OBJECTID type
-> TYPEID Object
-> ','
-> OBJECTID we
-> OBJECTID have
-> OBJECTID to
-> OBJECTID add
-> LET
-> OBJECTID an
-> OBJECTID expression
-> OF
-> OBJECTID type
-> FI
-> OBJECTID nt
-> OBJECTID here
-> OBJECTID to
-> OBJECTID satisfy
-> THEN
-> OBJECTID typechecker
-> '.'
-> LET
-> TYPEID This
-> OBJECTID code
-> FI
-> OBJECTID s
-> ','
-> OF
-> OBJECTID course
-> ','
-> OBJECTID unreachable
-> '.'
-> INHERITS
-> '*'
-> ')'
-55c365,366
+55c64,65
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-62,63c373,376
+62,63c72,75
 < NEW
 < TYPEID Int
 ---
@@ -348,49 +43,41 @@
 > OBJECTID ew
 > FI
 > OBJECTID nt
-79c392,393
+79c91,92
 < NEW
 ---
 > IN
 > OBJECTID ew
-109c423
+109c122
 < OBJECTID i
 ---
 > IF
-111c425,426
+111c124,125
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-123c438
+123c137
 < OBJECTID i
 ---
 > IF
-125c440,441
+125c139,140
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-135c451,453
-< OBJECTID print_list
----
-> OBJECTID print
-> LEXER BUG - UNMATCHED: _
-> OBJECTID list
-150c468,469
+150c165,166
 < INHERITS
 ---
 > FI
 > OBJECTID nherits
-155c474,475
+155c171,172
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-156a477,490
+156a174,185
 > FI
-> '-'
-> '-'
 > TYPEID We
 > OBJECTID keep
 > THEN
@@ -402,9 +89,7 @@
 > OBJECTID n
 > OBJECTID attributes
 > '.'
-160a495,532
-> '-'
-> '-'
+160a190,221
 > TYPEID Because
 > OBJECTID methods
 > OBJECTID and
@@ -417,8 +102,6 @@
 > OBJECTID ames
 > ','
 > CLASS
-> '-'
-> '-'
 > OBJECTID we
 > OBJECTID use
 > OBJECTID xcar
@@ -431,8 +114,6 @@
 > OBJECTID and
 > OBJECTID reserve
 > CLASS
-> '-'
-> '-'
 > OBJECTID cons
 > OBJECTID and
 > OBJECTID car
@@ -441,91 +122,72 @@
 > THEN
 > OBJECTID features
 > '.'
-167c539,540
+167c228,229
 < BOOL_CONST false
 ---
 > IF
 > OBJECTID alse
-174c547,548
+174c236,237
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-182a557
+182a246
 > FI
-183a559
+183a248
 > ELSE
-187a564
+187a253
 > ELSE
-192c569,570
+192c258,259
 < OBJECTID self
 ---
 > CLASS
 > OBJECTID elf
-193a572
+193a261
 > FI
-196a576
+196a265
 > FI
-201c581,582
+201c270,271
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-257c638
+257c327
 < OBJECTID i
 ---
 > IF
-259c640,641
+259c329,330
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-265c647
+265c336
 < OBJECTID i
 ---
 > FI
-302c684
+302c373
 < OBJECTID i
 ---
 > IF
-304c686,687
+304c375,376
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-327c710,712
-< OBJECTID print_list
----
-> OBJECTID print
-> LEXER BUG - UNMATCHED: _
-> OBJECTID list
-334c719,722
-< OBJECTID out_int
----
+333a406
 > CLASS
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID int
-339c727,730
-< OBJECTID out_string
----
+338a412
 > CLASS
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID string
-341c732
+341c415,418
 < STR_CONST "\n"
 ---
-> STR_CONST "\\n"
-343a735
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+343a421
 > CLASS
-346c738,740
-< OBJECTID print_list
----
-> OBJECTID print
-> LEXER BUG - UNMATCHED: _
-> OBJECTID list
-356,357c750,753
+356,357c434,437
 < TYPEID Nil
 < INHERITS
 ---
@@ -533,33 +195,27 @@
 > OBJECTID il
 > FI
 > OBJECTID nherits
-368a765
+368a449
 > INHERITS
-389c786
+389c470
 < OBJECTID i
 ---
 > IF
-391c788,789
+391c472,473
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-404c802
+404c486
 < OBJECTID i
 ---
 > IF
-406c804,805
+406c488,489
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-424c823,825
-< OBJECTID print_list
----
-> OBJECTID print
-> LEXER BUG - UNMATCHED: _
-> OBJECTID list
-437,438c838,841
+437,438c520,523
 < INHERITS
 < TYPEID IO
 ---
@@ -567,42 +223,18 @@
 > OBJECTID nherits
 > FI
 > OF
-443a847,869
-> '('
-> '*'
-> FI
-> OBJECTID ota
-> OBJECTID maps
-> FI
-> OBJECTID ts
-> FI
-> OBJECTID nteger
-> OBJECTID argument
-> IN
-> FI
-> OBJECTID nto
-> THEN
-> OBJECTID list
-> INT_CONST 0
-> '.'
-> '.'
-> OBJECTID n
-> '-'
-> INT_CONST 1
-> '*'
-> ')'
-446c872
+446c531
 < OBJECTID i
 ---
 > IF
-448c874,875
+448c533,534
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-452a880
+452a539
 > ELSE
-456,457c884,887
+456,457c543,546
 < NEW
 < TYPEID Nil
 ---
@@ -610,18 +242,18 @@
 > OBJECTID ew
 > IN
 > OBJECTID il
-463c893,894
+463c552,553
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-466c897,899
+466c556,558
 < IN
 ---
 > FI
 > OBJECTID n
 > LET
-470,471c903,906
+470,471c562,565
 < OBJECTID i
 < LOOP
 ---
@@ -629,45 +261,28 @@
 > POOL
 > OBJECTID oop
 > CLASS
-472a908,909
+472a567,568
 > CLASS
 > FI
-486a924,925
+486a583,584
 > CLASS
 > FI
-492a932
+492a591
 > CLASS
-494c934,935
+494c593,594
 < POOL
 ---
 > LOOP
 > OBJECTID ool
-498a940
+498a599
 > ELSE
-507a950
+507a609
 > LET
-509c952,955
-< OBJECTID out_string
----
+508a611
 > CLASS
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID string
-513a960
+513a617
 > CLASS
-516c963,965
-< OBJECTID in_int
----
-> IN
-> LEXER BUG - UNMATCHED: _
-> OBJECTID int
-529c978,980
-< OBJECTID print_list
----
-> OBJECTID print
-> LEXER BUG - UNMATCHED: _
-> OBJECTID list
-532a984
+532a637
 > LET
-537a990
+537a643
 > ELSE

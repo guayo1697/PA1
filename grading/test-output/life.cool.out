@@ -1,463 +1,3 @@
-'('
-'*'
-THEN
-TYPEID Game
-OF
-TYPEID Life
-LET
-TYPEID Tendo
-TYPEID Kayiira
-','
-TYPEID Summer
-LEXER BUG - UNMATCHED: '
-INT_CONST 95
-LET
-TYPEID With
-OBJECTID code
-OBJECTID taken
-IF
-OBJECTID rom
-'/'
-OBJECTID private
-'/'
-OBJECTID cool
-'/'
-CLASS
-'/'
-OBJECTID examples
-'/'
-OBJECTID cells
-'.'
-OBJECTID cl
-TYPEID This
-FI
-OBJECTID ntroduction
-OBJECTID was
-OBJECTID taken
-OBJECTID off
-THEN
-OBJECTID internet
-'.'
-FI
-OBJECTID t
-OBJECTID gives
-OBJECTID a
-OBJECTID brief
-OBJECTID description
-OF
-THEN
-TYPEID Game
-OF
-TYPEID Life
-'.'
-FI
-OBJECTID t
-OBJECTID also
-OBJECTID gives
-THEN
-OBJECTID rules
-OBJECTID by
-OBJECTID which
-OBJECTID this
-OBJECTID particular
-OBJECTID game
-IF
-OBJECTID ollows
-'.'
-TYPEID Introduction
-LET
-TYPEID John
-TYPEID Conway
-LEXER BUG - UNMATCHED: '
-OBJECTID s
-TYPEID Game
-OF
-TYPEID Life
-FI
-OBJECTID s
-OBJECTID a
-OBJECTID mathematical
-OBJECTID amusement
-','
-OBJECTID but
-FI
-OBJECTID t
-LET
-OBJECTID is
-OBJECTID also
-OBJECTID much
-OBJECTID more
-':'
-OBJECTID an
-FI
-OBJECTID nsight
-FI
-OBJECTID nto
-OBJECTID how
-OBJECTID a
-OBJECTID system
-OF
-OBJECTID simple
-ESAC
-OBJECTID ellualar
-OBJECTID automata
-OBJECTID can
-OBJECTID create
-OBJECTID complex
-','
-OBJECTID odd
-','
-OBJECTID and
-OBJECTID often
-OBJECTID aesthetically
-LOOP
-OBJECTID leasing
-OBJECTID patterns
-'.'
-FI
-OBJECTID t
-FI
-OBJECTID s
-OBJECTID played
-OBJECTID on
-OBJECTID a
-OBJECTID cartesian
-OBJECTID grid
-OF
-OBJECTID cells
-LET
-OBJECTID which
-OBJECTID are
-OBJECTID either
-LEXER BUG - UNMATCHED: '
-OBJECTID on
-LEXER BUG - UNMATCHED: '
-OBJECTID or
-LEXER BUG - UNMATCHED: '
-OBJECTID off
-LEXER BUG - UNMATCHED: '
-THEN
-OBJECTID game
-OBJECTID gets
-FI
-OBJECTID t
-LEXER BUG - UNMATCHED: '
-OBJECTID s
-IN
-OBJECTID ame
-IF
-OBJECTID rom
-THEN
-LET
-OBJECTID similarity
-OBJECTID between
-THEN
-OBJECTID behaviour
-OF
-OBJECTID these
-OBJECTID cells
-OBJECTID and
-THEN
-OBJECTID behaviour
-LET
-OF
-OBJECTID living
-OBJECTID organisms
-'.'
-THEN
-TYPEID Rules
-LET
-OBJECTID he
-OBJECTID playfield
-FI
-OBJECTID s
-OBJECTID a
-OBJECTID cartesian
-OBJECTID grid
-OF
-OBJECTID arbitrary
-OBJECTID size
-'.'
-TYPEID Each
-OBJECTID cell
-FI
-OBJECTID n
-LET
-OBJECTID his
-OBJECTID grid
-OBJECTID can
-OBJECTID be
-FI
-OBJECTID n
-OBJECTID an
-LEXER BUG - UNMATCHED: '
-OBJECTID on
-LEXER BUG - UNMATCHED: '
-OBJECTID state
-OBJECTID or
-OBJECTID an
-LEXER BUG - UNMATCHED: '
-OBJECTID off
-LEXER BUG - UNMATCHED: '
-OBJECTID state
-'.'
-TYPEID On
-OBJECTID each
-LEXER BUG - UNMATCHED: '
-OBJECTID turn
-LEXER BUG - UNMATCHED: '
-FI
-'('
-OBJECTID called
-OBJECTID a
-OBJECTID generation
-','
-')'
-THEN
-OBJECTID state
-OF
-OBJECTID each
-OBJECTID cell
-OBJECTID changes
-OBJECTID simultaneously
-FI
-OBJECTID depending
-OBJECTID on
-FI
-OBJECTID t
-LEXER BUG - UNMATCHED: '
-OBJECTID s
-OBJECTID state
-OBJECTID and
-THEN
-OBJECTID state
-OF
-OBJECTID all
-OBJECTID cells
-OBJECTID adjacent
-OBJECTID to
-FI
-OBJECTID t
-'.'
-LET
-TYPEID For
-LEXER BUG - UNMATCHED: '
-OBJECTID on
-LEXER BUG - UNMATCHED: '
-OBJECTID cells
-','
-CLASS
-FI
-FI
-THEN
-OBJECTID cell
-OBJECTID has
-INT_CONST 0
-OBJECTID or
-INT_CONST 1
-IN
-OBJECTID eighbours
-OBJECTID which
-OBJECTID are
-LEXER BUG - UNMATCHED: '
-OBJECTID on
-LEXER BUG - UNMATCHED: '
-','
-THEN
-OBJECTID cell
-OBJECTID turns
-INHERITS
-LEXER BUG - UNMATCHED: '
-OBJECTID off
-LEXER BUG - UNMATCHED: '
-'.'
-'('
-LEXER BUG - UNMATCHED: '
-OBJECTID dies
-OF
-OBJECTID loneliness
-LEXER BUG - UNMATCHED: '
-')'
-CLASS
-FI
-FI
-THEN
-OBJECTID cell
-OBJECTID has
-INT_CONST 2
-OBJECTID or
-INT_CONST 3
-IN
-OBJECTID eighbours
-OBJECTID which
-OBJECTID are
-LEXER BUG - UNMATCHED: '
-OBJECTID on
-LEXER BUG - UNMATCHED: '
-','
-THEN
-OBJECTID cell
-OBJECTID stays
-INHERITS
-LEXER BUG - UNMATCHED: '
-OBJECTID on
-LEXER BUG - UNMATCHED: '
-'.'
-'('
-OBJECTID nothing
-OBJECTID happens
-OBJECTID to
-OBJECTID that
-OBJECTID cell
-')'
-CLASS
-FI
-FI
-THEN
-OBJECTID cell
-OBJECTID has
-INT_CONST 4
-','
-INT_CONST 5
-','
-INT_CONST 6
-','
-INT_CONST 7
-','
-INT_CONST 8
-','
-OBJECTID or
-INT_CONST 9
-IN
-OBJECTID eighbours
-OBJECTID which
-OBJECTID are
-LEXER BUG - UNMATCHED: '
-OBJECTID on
-LEXER BUG - UNMATCHED: '
-','
-INHERITS
-THEN
-OBJECTID cell
-OBJECTID turns
-LEXER BUG - UNMATCHED: '
-OBJECTID off
-LEXER BUG - UNMATCHED: '
-'.'
-'('
-LEXER BUG - UNMATCHED: '
-OBJECTID dies
-OF
-OBJECTID overcrowding
-LEXER BUG - UNMATCHED: '
-')'
-LET
-TYPEID For
-LEXER BUG - UNMATCHED: '
-OBJECTID off
-LEXER BUG - UNMATCHED: '
-OBJECTID cells
-','
-CLASS
-FI
-FI
-THEN
-OBJECTID cell
-OBJECTID has
-INT_CONST 0
-','
-INT_CONST 1
-','
-INT_CONST 2
-','
-INT_CONST 4
-','
-INT_CONST 5
-','
-INT_CONST 6
-','
-INT_CONST 7
-','
-INT_CONST 8
-','
-OBJECTID or
-INT_CONST 9
-IN
-OBJECTID eighbours
-OBJECTID which
-INHERITS
-OBJECTID are
-LEXER BUG - UNMATCHED: '
-OBJECTID on
-LEXER BUG - UNMATCHED: '
-','
-THEN
-OBJECTID cell
-OBJECTID stays
-LEXER BUG - UNMATCHED: '
-OBJECTID off
-LEXER BUG - UNMATCHED: '
-'.'
-'('
-OBJECTID nothing
-OBJECTID happens
-OBJECTID to
-OBJECTID that
-OBJECTID cell
-')'
-CLASS
-FI
-FI
-THEN
-OBJECTID cell
-OBJECTID has
-INT_CONST 3
-IN
-OBJECTID eighbours
-OBJECTID which
-OBJECTID are
-LEXER BUG - UNMATCHED: '
-OBJECTID on
-LEXER BUG - UNMATCHED: '
-','
-THEN
-OBJECTID cell
-OBJECTID turns
-INHERITS
-LEXER BUG - UNMATCHED: '
-OBJECTID on
-LEXER BUG - UNMATCHED: '
-'.'
-'('
-INT_CONST 3
-IN
-OBJECTID eighbouring
-LEXER BUG - UNMATCHED: '
-OBJECTID alive
-LEXER BUG - UNMATCHED: '
-OBJECTID cells
-LEXER BUG - UNMATCHED: '
-OBJECTID give
-OBJECTID birth
-LEXER BUG - UNMATCHED: '
-OBJECTID to
-OBJECTID a
-IF
-OBJECTID ourth
-'.'
-')'
-LET
-TYPEID Repeat
-IF
-OBJECTID or
-CASE
-OBJECTID many
-OBJECTID generations
-CASE
-OBJECTID desired
-'.'
-'*'
-')'
 CLASS
 TYPEID Board
 FI
@@ -475,18 +15,12 @@ OBJECTID columns
 FI
 OBJECTID nt
 ';'
-OBJECTID board
-LEXER BUG - UNMATCHED: _
-OBJECTID size
+OBJECTID board_size
 ':'
 FI
 OBJECTID nt
 ';'
-OBJECTID size
-LEXER BUG - UNMATCHED: _
-OF
-LEXER BUG - UNMATCHED: _
-OBJECTID board
+OBJECTID size_of_board
 '('
 OBJECTID initial
 ':'
@@ -504,9 +38,7 @@ OBJECTID length
 ')'
 '}'
 ';'
-OBJECTID board
-LEXER BUG - UNMATCHED: _
-OBJECTID init
+OBJECTID board_init
 '('
 OBJECTID start
 ':'
@@ -523,11 +55,7 @@ OBJECTID size
 TYPEID Int
 FI
 ASSIGN
-OBJECTID size
-LEXER BUG - UNMATCHED: _
-OF
-LEXER BUG - UNMATCHED: _
-OBJECTID board
+OBJECTID size_of_board
 '('
 OBJECTID start
 ')'
@@ -552,9 +80,7 @@ ASSIGN
 INT_CONST 5
 ';'
 FI
-OBJECTID board
-LEXER BUG - UNMATCHED: _
-OBJECTID size
+OBJECTID board_size
 ASSIGN
 OBJECTID size
 ';'
@@ -579,9 +105,7 @@ ASSIGN
 INT_CONST 4
 ';'
 FI
-OBJECTID board
-LEXER BUG - UNMATCHED: _
-OBJECTID size
+OBJECTID board_size
 ASSIGN
 OBJECTID size
 ';'
@@ -605,9 +129,7 @@ ASSIGN
 INT_CONST 5
 ';'
 FI
-OBJECTID board
-LEXER BUG - UNMATCHED: _
-OBJECTID size
+OBJECTID board_size
 ASSIGN
 OBJECTID size
 ';'
@@ -631,9 +153,7 @@ ASSIGN
 INT_CONST 7
 ';'
 FI
-OBJECTID board
-LEXER BUG - UNMATCHED: _
-OBJECTID size
+OBJECTID board_size
 ASSIGN
 OBJECTID size
 ';'
@@ -657,9 +177,7 @@ ASSIGN
 INT_CONST 5
 ';'
 FI
-OBJECTID board
-LEXER BUG - UNMATCHED: _
-OBJECTID size
+OBJECTID board_size
 ASSIGN
 OBJECTID size
 ';'
@@ -683,19 +201,15 @@ ASSIGN
 INT_CONST 4
 ';'
 FI
-OBJECTID board
-LEXER BUG - UNMATCHED: _
-OBJECTID size
+OBJECTID board_size
 ASSIGN
 OBJECTID size
 ';'
 '}'
 ELSE
-'-'
-'-'
-FI
-FI
-OBJECTID none
+IF
+IN
+OBJECTID one
 OF
 THEN
 OBJECTID above
@@ -707,8 +221,6 @@ OBJECTID just
 OBJECTID give
 '{'
 FI
-'-'
-'-'
 THEN
 OBJECTID configuration
 OF
@@ -727,9 +239,7 @@ ASSIGN
 INT_CONST 5
 ';'
 FI
-OBJECTID board
-LEXER BUG - UNMATCHED: _
-OBJECTID size
+OBJECTID board_size
 ASSIGN
 OBJECTID size
 ';'
@@ -761,9 +271,7 @@ OBJECTID nherits
 TYPEID Board
 '{'
 ELSE
-OBJECTID population
-LEXER BUG - UNMATCHED: _
-OBJECTID map
+OBJECTID population_map
 ':'
 TYPEID String
 ';'
@@ -782,16 +290,12 @@ INHERITS
 '{'
 INHERITS
 ELSE
-OBJECTID population
-LEXER BUG - UNMATCHED: _
-OBJECTID map
+OBJECTID population_map
 ASSIGN
 OBJECTID map
 ';'
 ELSE
-OBJECTID board
-LEXER BUG - UNMATCHED: _
-OBJECTID init
+OBJECTID board_init
 '('
 OBJECTID map
 ')'
@@ -832,17 +336,16 @@ OBJECTID um
 FI
 OBJECTID nt
 ASSIGN
-OBJECTID board
-LEXER BUG - UNMATCHED: _
-OBJECTID size
+OBJECTID board_size
 FI
 OBJECTID n
 '{'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "\\n"
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
 ')'
 ';'
 WHILE
@@ -855,13 +358,9 @@ INHERITS
 LET
 '{'
 ELSE
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-OBJECTID population
-LEXER BUG - UNMATCHED: _
-OBJECTID map
+OBJECTID population_map
 '.'
 OBJECTID substr
 '('
@@ -872,11 +371,31 @@ OBJECTID columns
 ')'
 ';'
 ELSE
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "\\n\"); \n\t    i <- i + columns;\n\t   }\n\t pool;\n \tout_string(\"\\n"
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+ELSE
+IF
+ASSIGN
+FI
+'+'
+OBJECTID columns
+';'
+LET
+'}'
+POOL
+';'
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
 ')'
 ';'
 OBJECTID self
@@ -889,9 +408,7 @@ ELSE
 ';'
 LET
 ELSE
-OBJECTID num
-LEXER BUG - UNMATCHED: _
-OBJECTID cells
+OBJECTID num_cells
 '('
 ')'
 ':'
@@ -899,9 +416,7 @@ FI
 OBJECTID nt
 '{'
 INHERITS
-OBJECTID population
-LEXER BUG - UNMATCHED: _
-OBJECTID map
+OBJECTID population_map
 '.'
 OBJECTID length
 '('
@@ -922,9 +437,7 @@ OBJECTID nt
 TYPEID String
 '{'
 IF
-OBJECTID board
-LEXER BUG - UNMATCHED: _
-OBJECTID size
+OBJECTID board_size
 '-'
 INT_CONST 1
 '<'
@@ -933,9 +446,7 @@ THEN
 STR_CONST " "
 ELSE
 INHERITS
-OBJECTID population
-LEXER BUG - UNMATCHED: _
-OBJECTID map
+OBJECTID population_map
 '.'
 OBJECTID substr
 '('
@@ -969,7 +480,43 @@ OBJECTID columns
 INT_CONST 0
 THEN
 CLASS
-STR_CONST " \"\t                       \n\telse\n\t   cell(position - columns)\n\tfi\n };\n\n south(position : Int): String {\n\tif board_size < (position + columns) then\n\t      \" "
+STR_CONST " "
+INHERITS
+INHERITS
+CLASS
+FI
+ELSE
+ESAC
+OBJECTID ell
+'('
+OBJECTID position
+'-'
+OBJECTID columns
+')'
+FI
+'}'
+';'
+OBJECTID south
+'('
+OBJECTID position
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID String
+'{'
+IF
+OBJECTID board_size
+'<'
+'('
+OBJECTID position
+'+'
+OBJECTID columns
+')'
+THEN
+CLASS
+STR_CONST " "
 INHERITS
 INHERITS
 CLASS
@@ -1016,7 +563,37 @@ INT_CONST 1
 ')'
 THEN
 CLASS
-STR_CONST " \"                \n\telse\n\t   cell(position + 1)\n\tfi \n };\n\n west(position : Int): String {\n\tif position = 0 then\n\t      \" "
+STR_CONST " "
+INHERITS
+INHERITS
+ELSE
+ESAC
+OBJECTID ell
+'('
+OBJECTID position
+'+'
+INT_CONST 1
+')'
+FI
+'}'
+';'
+OBJECTID west
+'('
+OBJECTID position
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID String
+'{'
+IF
+OBJECTID position
+'='
+INT_CONST 0
+THEN
+CLASS
+STR_CONST " "
 ELSE
 LET
 IF
@@ -1033,7 +610,43 @@ OBJECTID columns
 OBJECTID position
 THEN
 CLASS
-STR_CONST " \"\n\t   else\n\t      cell(position - 1)\n\tfi fi\n };\n\n northwest(position : Int): String {\n\tif (position - columns) < 0 then\n\t      \" "
+STR_CONST " "
+ELSE
+OBJECTID lse
+CLASS
+OBJECTID cell
+'('
+OBJECTID position
+'-'
+INT_CONST 1
+')'
+FI
+IF
+OBJECTID i
+'}'
+';'
+IN
+OBJECTID orthwest
+'('
+OBJECTID position
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID String
+'{'
+IF
+'('
+OBJECTID position
+'-'
+OBJECTID columns
+')'
+'<'
+INT_CONST 0
+THEN
+CLASS
+STR_CONST " "
 INHERITS
 INHERITS
 CLASS
@@ -1054,7 +667,42 @@ OBJECTID columns
 OBJECTID position
 THEN
 CLASS
-STR_CONST " \"\n\t      else\n\t\tnorth(position - 1)\n\tfi fi\n };\n\n northeast(position : Int): String {\n\tif (position - columns) < 0 then\n\t      \" "
+STR_CONST " "
+CLASS
+ELSE
+OBJECTID north
+'('
+OBJECTID position
+'-'
+INT_CONST 1
+')'
+FI
+IF
+OBJECTID i
+'}'
+';'
+IN
+OBJECTID ortheast
+'('
+OBJECTID position
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID String
+'{'
+IF
+'('
+OBJECTID position
+'-'
+OBJECTID columns
+')'
+'<'
+INT_CONST 0
+THEN
+CLASS
+STR_CONST " "
 ELSE
 FI
 FI
@@ -1079,7 +727,44 @@ INT_CONST 1
 ')'
 THEN
 CLASS
-STR_CONST " \"     \n\t     else\n\t       north(position + 1)\n\tfi fi\n };\n\n southeast(position : Int): String {\n\tif board_size < (position + columns) then\n\t      \" "
+STR_CONST " "
+CLASS
+CLASS
+ELSE
+CLASS
+FI
+OBJECTID north
+'('
+OBJECTID position
+'+'
+INT_CONST 1
+')'
+FI
+IF
+OBJECTID i
+'}'
+';'
+OBJECTID southeast
+'('
+OBJECTID position
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID String
+'{'
+IF
+OBJECTID board_size
+'<'
+'('
+OBJECTID position
+'+'
+OBJECTID columns
+')'
+THEN
+CLASS
+STR_CONST " "
 INHERITS
 INHERITS
 CLASS
@@ -1108,7 +793,44 @@ INT_CONST 1
 THEN
 CLASS
 FI
-STR_CONST " \"                \n\t     else\n\t       south(position + 1)\n\tfi fi\n };\n\n southwest(position : Int): String {\n\tif board_size < (position + columns) then\n\t      \" "
+STR_CONST " "
+INHERITS
+INHERITS
+CLASS
+ELSE
+INHERITS
+OBJECTID outh
+'('
+OBJECTID position
+'+'
+INT_CONST 1
+')'
+FI
+IF
+OBJECTID i
+'}'
+';'
+OBJECTID southwest
+'('
+OBJECTID position
+':'
+FI
+OBJECTID nt
+')'
+':'
+TYPEID String
+'{'
+IF
+OBJECTID board_size
+'<'
+'('
+OBJECTID position
+'+'
+OBJECTID columns
+')'
+THEN
+CLASS
+STR_CONST " "
 INHERITS
 INHERITS
 CLASS
@@ -1128,7 +850,155 @@ OBJECTID columns
 OBJECTID position
 THEN
 CLASS
-STR_CONST " \"\n\t      else\n\t       south(position - 1)\n\tfi fi\n };\n\n neighbors(position: Int): Int { \n \t{\n\t     if north(position) = \"X\" then 1 else 0 fi\n\t     + if south(position) = \"X\" then 1 else 0 fi\n \t     + if east(position) = \"X\" then 1 else 0 fi\n \t     + if west(position) = \"X\" then 1 else 0 fi\n\t     + if northeast(position) = \"X\" then 1 else 0 fi\n\t     + if northwest(position) = \"X\" then 1 else 0 fi\n \t     + if southeast(position) = \"X\" then 1 else 0 fi\n\t     + if southwest(position) = \"X"
+STR_CONST " "
+CLASS
+ELSE
+INHERITS
+OBJECTID outh
+'('
+OBJECTID position
+'-'
+INT_CONST 1
+')'
+FI
+IF
+OBJECTID i
+'}'
+';'
+IN
+OBJECTID eighbors
+'('
+OBJECTID position
+':'
+FI
+OBJECTID nt
+')'
+':'
+FI
+OBJECTID nt
+'{'
+'{'
+CLASS
+IF
+IN
+OBJECTID orth
+'('
+OBJECTID position
+')'
+'='
+STR_CONST "X"
+THEN
+INT_CONST 1
+ELSE
+INT_CONST 0
+IF
+OBJECTID i
+CLASS
+'+'
+FI
+FI
+OBJECTID south
+'('
+OBJECTID position
+')'
+'='
+STR_CONST "X"
+THEN
+INT_CONST 1
+ELSE
+INT_CONST 0
+IF
+OBJECTID i
+CLASS
+'+'
+FI
+FI
+OBJECTID east
+'('
+OBJECTID position
+')'
+'='
+STR_CONST "X"
+THEN
+INT_CONST 1
+ELSE
+INT_CONST 0
+IF
+OBJECTID i
+CLASS
+'+'
+FI
+FI
+OBJECTID west
+'('
+OBJECTID position
+')'
+'='
+STR_CONST "X"
+THEN
+INT_CONST 1
+ELSE
+INT_CONST 0
+IF
+OBJECTID i
+CLASS
+'+'
+FI
+FI
+OBJECTID northeast
+'('
+OBJECTID position
+')'
+'='
+STR_CONST "X"
+THEN
+INT_CONST 1
+ELSE
+INT_CONST 0
+IF
+OBJECTID i
+CLASS
+'+'
+FI
+FI
+OBJECTID northwest
+'('
+OBJECTID position
+')'
+'='
+STR_CONST "X"
+THEN
+INT_CONST 1
+ELSE
+INT_CONST 0
+IF
+OBJECTID i
+CLASS
+'+'
+FI
+FI
+OBJECTID southeast
+'('
+OBJECTID position
+')'
+'='
+STR_CONST "X"
+THEN
+INT_CONST 1
+ELSE
+INT_CONST 0
+IF
+OBJECTID i
+CLASS
+'+'
+FI
+FI
+OBJECTID southwest
+'('
+OBJECTID position
+')'
+'='
+STR_CONST "X"
 THEN
 INT_CONST 1
 ELSE
@@ -1139,63 +1009,9 @@ OBJECTID i
 '}'
 '}'
 ';'
-'('
-'*'
-TYPEID A
-OBJECTID cell
-OBJECTID will
-OBJECTID live
-FI
-FI
-INT_CONST 2
-OBJECTID or
-INT_CONST 3
-OF
-FI
-OBJECTID t
-LEXER BUG - UNMATCHED: '
-OBJECTID s
-IN
-OBJECTID eighbors
-OBJECTID are
-OBJECTID alive
-'.'
-FI
-OBJECTID t
-OBJECTID dies
-LET
-OBJECTID otherwise
-'.'
-TYPEID A
-OBJECTID cell
-FI
-OBJECTID s
-OBJECTID born
-FI
-FI
-OBJECTID only
-INT_CONST 3
-OF
-FI
-OBJECTID t
-LEXER BUG - UNMATCHED: '
-OBJECTID s
-IN
-OBJECTID eighbors
-OBJECTID are
-OBJECTID alive
-'.'
-'*'
-')'
 ELSE
 ELSE
-OBJECTID cell
-LEXER BUG - UNMATCHED: _
-OBJECTID at
-LEXER BUG - UNMATCHED: _
-OBJECTID next
-LEXER BUG - UNMATCHED: _
-OBJECTID evolution
+OBJECTID cell_at_next_evolution
 '('
 OBJECTID position
 ':'
@@ -1214,7 +1030,34 @@ OBJECTID position
 '='
 INT_CONST 3
 THEN
-STR_CONST "X\"\n\telse\n\t   if neighbors(position) = 2 then\n\t\tif cell(position) = \"X\" then\n\t\t\t\"X\"\n\t\telse\n\t\t\t\"-\"\n\t        fi\n\t   else\n\t\t\"-"
+STR_CONST "X"
+ELSE
+LET
+IF
+IN
+OBJECTID eighbors
+'('
+OBJECTID position
+')'
+'='
+INT_CONST 2
+THEN
+IF
+OBJECTID cell
+'('
+OBJECTID position
+')'
+'='
+STR_CONST "X"
+THEN
+STR_CONST "X"
+ELSE
+STR_CONST "-"
+INHERITS
+FI
+ELSE
+OBJECTID lse
+STR_CONST "-"
 FI
 IF
 OBJECTID i
@@ -1250,9 +1093,7 @@ FI
 OBJECTID nt
 ASSIGN
 IN
-OBJECTID um
-LEXER BUG - UNMATCHED: _
-OBJECTID cells
+OBJECTID um_cells
 '('
 ')'
 FI
@@ -1289,13 +1130,7 @@ OBJECTID temp
 '.'
 OBJECTID concat
 '('
-OBJECTID cell
-LEXER BUG - UNMATCHED: _
-OBJECTID at
-LEXER BUG - UNMATCHED: _
-OBJECTID next
-LEXER BUG - UNMATCHED: _
-OBJECTID evolution
+OBJECTID cell_at_next_evolution
 '('
 OBJECTID position
 ')'
@@ -1320,9 +1155,7 @@ POOL
 ';'
 INHERITS
 INHERITS
-OBJECTID population
-LEXER BUG - UNMATCHED: _
-OBJECTID map
+OBJECTID population_map
 ASSIGN
 OBJECTID temp
 ';'
@@ -1340,65 +1173,6 @@ INHERITS
 ELSE
 '}'
 ';'
-'('
-'*'
-TYPEID This
-FI
-OBJECTID s
-OBJECTID where
-THEN
-OBJECTID background
-OBJECTID pattern
-FI
-OBJECTID s
-OBJECTID detremined
-OBJECTID by
-THEN
-OBJECTID user
-'.'
-TYPEID More
-LOOP
-OBJECTID atterns
-OBJECTID can
-OBJECTID be
-OBJECTID added
-CASE
-OBJECTID long
-CASE
-OBJECTID whoever
-OBJECTID adds
-OBJECTID keeps
-THEN
-OBJECTID board
-OBJECTID either
-LET
-INT_CONST 3
-OBJECTID x5
-','
-INT_CONST 4
-OBJECTID x5
-','
-INT_CONST 5
-OBJECTID x5
-','
-INT_CONST 3
-OBJECTID x7
-','
-INT_CONST 7
-OBJECTID x4
-','
-INT_CONST 4
-OBJECTID x4
-OBJECTID with
-THEN
-OBJECTID row
-IF
-OBJECTID irst
-THEN
-OBJECTID column
-'.'
-'*'
-')'
 OBJECTID option
 '('
 ')'
@@ -1419,11 +1193,834 @@ OBJECTID n
 LET
 '{'
 LET
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "\\nPlease chose a number:\\n\");\n   out_string(\"\\t1: A cross\\n\"); \n   out_string(\"\\t2: A slash from the upper left to lower right\\n\");\n   out_string(\"\\t3: A slash from the upper right to lower left\\n\"); \n   out_string(\"\\t4: An X\\n\"); \n   out_string(\"\\t5: A greater than sign \\n\"); \n   out_string(\"\\t6: A less than sign\\n\"); \n   out_string(\"\\t7: Two greater than signs\\n\"); \n   out_string(\"\\t8: Two less than signs\\n\"); \n   out_string(\"\\t9: A 'V'\\n\"); \n   out_string(\"\\t10: An inverse 'V'\\n\"); \n   out_string(\"\\t11: Numbers 9 and 10 combined\\n\"); \n   out_string(\"\\t12: A full grid\\n\"); \n   out_string(\"\\t13: A 'T'\\n\");\n   out_string(\"\\t14: A plus '+'\\n\");\n   out_string(\"\\t15: A 'W'\\n\");\n   out_string(\"\\t16: An 'M'\\n\");\n   out_string(\"\\t17: An 'E'\\n\");\n   out_string(\"\\t18: A '3'\\n\");\n   out_string(\"\\t19: An 'O'\\n\");\n   out_string(\"\\t20: An '8'\\n\");\n   out_string(\"\\t21: An 'S'\\n\");\n   out_string(\"Your choice => \");\n   num <- in_int();\n   out_string(\"\\n\");\n   if num = 1 then\n    \t\" XX  XXXX XXXX  XX  \"\n   else if num = 2 then\n    \t\"    X   X   X   X   X    \"\n   else if num = 3 then\n    \t\"X     X     X     X     X\"\n   else if num = 4 then\n\t\"X   X X X   X   X X X   X\"\n   else if num = 5 then\n\t\"X     X     X   X   X    \"\n   else if num = 6 then\n\t\"    X   X   X     X     X\"\n   else if num = 7 then\n\t\"X  X  X  XX  X      \"\n   else if num = 8 then\n\t\" X  XX  X  X  X     \"\n   else if num = 9 then\n\t\"X   X X X   X  \"\n   else if num = 10 then\n\t\"  X   X X X   X\"\n   else if num = 11 then\n\t\"X X X X X X X X\"\n   else if num = 12 then\n\t\"XXXXXXXXXXXXXXXXXXXXXXXXX\"\n   else if num = 13 then\n    \t\"XXXXX  X    X    X    X  \"\n   else if num = 14 then\n    \t\"  X    X  XXXXX  X    X  \"\n   else if num = 15 then\n    \t\"X     X X X X   X X  \"\n   else if num = 16 then\n    \t\"  X X   X X X X     X\"\n   else if num = 17 then\n\t\"XXXXX   X   XXXXX   X   XXXX\"\n   else if num = 18 then\n\t\"XXX    X   X  X    X   XXXX \"\n   else if num = 19 then\n\t\" XX X  XX  X XX \"\n   else if num = 20 then\n\t\" XX X  XX  X XX X  XX  X XX \"\n   else if num = 21 then\n\t\" XXXX   X    XX    X   XXXX \"\n   else\n\t\"                         \"\n  fi fi fi fi fi fi fi fi fi fi fi fi fi fi fi fi fi fi fi fi fi;\n    }\n   );\n }\n };\n\n\n\n\n prompt() : Bool { \n {\n  (let ans : String in\n   {\n   out_string(\"Would you like to continue with the next generation? \\n\");\n   out_string(\"Please use lowercase y or n for your answer [y]: \");\n   ans <- in_string();\n   out_string(\"\\n\");\n   if ans = \"n\" then \n\tfalse\n   else\n\ttrue\n   fi;\n   }\n  );\n }\n };\n\n\n prompt2() : Bool { \n  (let ans : String in\n   {\n   out_string(\"\\n\\n\");\n   out_string(\"Would you like to choose a background pattern? \\n\");\n   out_string(\"Please use lowercase y or n for your answer [n]: \");\n   ans <- in_string();\n   if ans = \"y\" then \n\ttrue\n   else\n\tfalse\n   fi;\n   }\n  )\n };\n\n\n};\n\nclass Main inherits CellularAutomaton {\n    cells : CellularAutomaton;\n   \n    main() : SELF_TYPE {\n        {\n\t (let continue : Bool  in\n\t  (let choice : String  in\n\t   {\n\t   out_string("
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID nPlease
+OBJECTID chose
+OBJECTID a
+IN
+OBJECTID umber
+':'
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t1
+':'
+TYPEID A
+OBJECTID cross
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t2
+':'
+TYPEID A
+OBJECTID slash
+IF
+OBJECTID rom
+THEN
+OBJECTID upper
+OBJECTID left
+OBJECTID to
+OBJECTID lower
+OBJECTID right
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t3
+':'
+TYPEID A
+OBJECTID slash
+IF
+OBJECTID rom
+THEN
+OBJECTID upper
+OBJECTID right
+OBJECTID to
+OBJECTID lower
+OBJECTID left
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t4
+':'
+TYPEID An
+TYPEID X
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t5
+':'
+TYPEID A
+OBJECTID greater
+OBJECTID than
+OBJECTID sign
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t6
+':'
+TYPEID A
+OBJECTID less
+OBJECTID than
+OBJECTID sign
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t7
+':'
+TYPEID Two
+OBJECTID greater
+OBJECTID than
+OBJECTID signs
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t8
+':'
+TYPEID Two
+OBJECTID less
+OBJECTID than
+OBJECTID signs
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t9
+':'
+TYPEID A
+LEXER BUG - UNMATCHED: '
+TYPEID V
+LEXER BUG - UNMATCHED: '
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t10
+':'
+TYPEID An
+FI
+OBJECTID nverse
+LEXER BUG - UNMATCHED: '
+TYPEID V
+LEXER BUG - UNMATCHED: '
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t11
+':'
+IN
+OBJECTID umbers
+INT_CONST 9
+OBJECTID and
+INT_CONST 10
+OBJECTID combined
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t12
+':'
+TYPEID A
+IF
+OBJECTID ull
+OBJECTID grid
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t13
+':'
+TYPEID A
+LEXER BUG - UNMATCHED: '
+TYPEID T
+LEXER BUG - UNMATCHED: '
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t14
+':'
+TYPEID A
+OBJECTID plus
+LEXER BUG - UNMATCHED: '
+'+'
+LEXER BUG - UNMATCHED: '
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t15
+':'
+TYPEID A
+LEXER BUG - UNMATCHED: '
+TYPEID W
+LEXER BUG - UNMATCHED: '
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t16
+':'
+TYPEID An
+LEXER BUG - UNMATCHED: '
+TYPEID M
+LEXER BUG - UNMATCHED: '
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t17
+':'
+TYPEID An
+LEXER BUG - UNMATCHED: '
+TYPEID E
+LEXER BUG - UNMATCHED: '
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t18
+':'
+TYPEID A
+LEXER BUG - UNMATCHED: '
+INT_CONST 3
+LEXER BUG - UNMATCHED: '
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t19
+':'
+TYPEID An
+LEXER BUG - UNMATCHED: '
+TYPEID O
+LEXER BUG - UNMATCHED: '
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t20
+':'
+TYPEID An
+LEXER BUG - UNMATCHED: '
+INT_CONST 8
+LEXER BUG - UNMATCHED: '
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID t21
+':'
+TYPEID An
+LEXER BUG - UNMATCHED: '
+TYPEID S
+LEXER BUG - UNMATCHED: '
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+STR_CONST "Your choice => "
+')'
+';'
+THEN
+OBJECTID um
+ASSIGN
+FI
+OBJECTID n_int
+'('
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+IF
+IN
+OBJECTID um
+'='
+INT_CONST 1
+THEN
+ELSE
+STR_CONST " XX  XXXX XXXX  XX  "
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 2
+THEN
+ELSE
+STR_CONST "    X   X   X   X   X    "
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 3
+THEN
+ELSE
+STR_CONST "X     X     X     X     X"
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 4
+THEN
+STR_CONST "X   X X X   X   X X X   X"
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 5
+THEN
+STR_CONST "X     X     X   X   X    "
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 6
+THEN
+STR_CONST "    X   X   X     X     X"
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 7
+THEN
+STR_CONST "X  X  X  XX  X      "
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 8
+THEN
+STR_CONST " X  XX  X  X  X     "
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 9
+THEN
+STR_CONST "X   X X X   X  "
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 10
+THEN
+STR_CONST "  X   X X X   X"
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 11
+THEN
+STR_CONST "X X X X X X X X"
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 12
+THEN
+STR_CONST "XXXXXXXXXXXXXXXXXXXXXXXXX"
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 13
+THEN
+ELSE
+STR_CONST "XXXXX  X    X    X    X  "
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 14
+THEN
+ELSE
+STR_CONST "  X    X  XXXXX  X    X  "
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 15
+THEN
+ELSE
+STR_CONST "X     X X X X   X X  "
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 16
+THEN
+ELSE
+STR_CONST "  X X   X X X X     X"
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 17
+THEN
+STR_CONST "XXXXX   X   XXXXX   X   XXXX"
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 18
+THEN
+STR_CONST "XXX    X   X  X    X   XXXX "
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 19
+THEN
+STR_CONST " XX X  XX  X XX "
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 20
+THEN
+STR_CONST " XX X  XX  X XX X  XX  X XX "
+ELSE
+OBJECTID lse
+FI
+FI
+OBJECTID num
+'='
+INT_CONST 21
+THEN
+STR_CONST " XXXX   X    XX    X   XXXX "
+ELSE
+OBJECTID lse
+STR_CONST "                         "
+FI
+FI
+IF
+IF
+FI
+IF
+IF
+FI
+IF
+IF
+FI
+IF
+IF
+FI
+IF
+IF
+FI
+IF
+IF
+FI
+IF
+IF
+FI
+IF
+IF
+FI
+IF
+IF
+FI
+IF
+IF
+FI
+';'
+ELSE
+'}'
+LET
+')'
+';'
+'}'
+'}'
+';'
+OBJECTID prompt
+'('
+')'
+':'
+TYPEID Bool
+'{'
+'{'
+FI
+'('
+LET
+OBJECTID ans
+':'
+TYPEID String
+FI
+OBJECTID n
+LET
+'{'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+TYPEID Would
+OBJECTID you
+OBJECTID like
+OBJECTID to
+OBJECTID continue
+OBJECTID with
+THEN
+OBJECTID next
+OBJECTID generation
+LEXER BUG - UNMATCHED: ?
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+STR_CONST "Please use lowercase y or n for your answer [y]: "
+')'
+';'
+LET
+OBJECTID ans
+ASSIGN
+FI
+OBJECTID n_string
+'('
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+IF
+OBJECTID ans
+'='
+STR_CONST "n"
+THEN
+BOOL_CONST false
+ELSE
+OBJECTID lse
+BOOL_CONST true
+LET
+FI
+';'
+LET
+'}'
+FI
+')'
+';'
+'}'
+'}'
+';'
+OBJECTID prompt2
+'('
+')'
+':'
+TYPEID Bool
+'{'
+FI
+'('
+LET
+OBJECTID ans
+':'
+TYPEID String
+FI
+OBJECTID n
+LET
+'{'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+TYPEID Would
+OBJECTID you
+OBJECTID like
+OBJECTID to
+OBJECTID choose
+OBJECTID a
+OBJECTID background
+OBJECTID pattern
+LEXER BUG - UNMATCHED: ?
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+STR_CONST "Please use lowercase y or n for your answer [n]: "
+')'
+';'
+LET
+OBJECTID ans
+ASSIGN
+FI
+OBJECTID n_string
+'('
+')'
+';'
+LET
+IF
+OBJECTID ans
+'='
+STR_CONST "y"
+THEN
+BOOL_CONST true
+ELSE
+OBJECTID lse
+BOOL_CONST false
+LET
+FI
+';'
+LET
+'}'
+FI
+')'
+'}'
+';'
+'}'
+';'
+CLASS
+TYPEID Main
+FI
+OBJECTID nherits
+TYPEID CellularAutomaton
+'{'
+ELSE
+OBJECTID cells
+':'
+TYPEID CellularAutomaton
+';'
+LET
+ELSE
+OBJECTID main
+'('
+')'
+':'
+TYPEID SELF_TYPE
+'{'
+INHERITS
+'{'
+'('
+LET
+OBJECTID continue
+':'
+TYPEID Bool
+FI
+IN
+FI
+'('
+LET
+OBJECTID choice
+':'
+TYPEID String
+FI
+IN
+LET
+'{'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
 TYPEID Welcome
 OBJECTID to
 THEN
@@ -1433,7 +2030,13 @@ TYPEID Life
 '.'
 LEXER BUG - UNMATCHED: \
 OBJECTID n
-STR_CONST ");\n\t   out_string("
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
 TYPEID There
 OBJECTID are
 OBJECTID many

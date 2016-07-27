@@ -34,8 +34,6 @@ OBJECTID n
 ELSE
 '{'
 INHERITS
-'-'
-'-'
 OBJECTID trivially
 OBJECTID equal
 '('
@@ -46,46 +44,50 @@ INHERITS
 IF
 OBJECTID c
 '.'
-OBJECTID reflect
-LEXER BUG - UNMATCHED: _
-TYPEID X
+OBJECTID reflect_X
 '('
 ')'
 '='
 OBJECTID c
 '.'
-OBJECTID reflect
-LEXER BUG - UNMATCHED: _
-INT_CONST 0
+OBJECTID reflect_0
 '('
 ')'
 INHERITS
 THEN
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "=)\\n\")\n\t        else out_string(\"=(\\n"
+LEXER BUG - UNMATCHED: "
+'='
+')'
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+INHERITS
+ELSE
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+'='
+'('
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
 ')'
 INHERITS
 FI
 ';'
-'-'
-'-'
 OBJECTID equal
 INHERITS
 IF
 OBJECTID c
 '.'
-OBJECTID reflect
-LEXER BUG - UNMATCHED: _
-TYPEID X
+OBJECTID reflect_X
 '('
 ')'
 '.'
-OBJECTID reflect
-LEXER BUG - UNMATCHED: _
-TYPEID Y
+OBJECTID reflect_Y
 '('
 ')'
 '.'
@@ -93,19 +95,31 @@ OBJECTID equal
 '('
 OBJECTID c
 '.'
-OBJECTID reflect
-LEXER BUG - UNMATCHED: _
-INT_CONST 0
+OBJECTID reflect_0
 '('
 ')'
 ')'
 INHERITS
 THEN
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "=)\\n\")\n\t        else out_string(\"=(\\n"
+LEXER BUG - UNMATCHED: "
+'='
+')'
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+INHERITS
+ELSE
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+'='
+'('
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
 ')'
 INHERITS
 FI
@@ -183,37 +197,27 @@ OBJECTID y
 '='
 INT_CONST 0
 THEN
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID int
+OBJECTID out_int
 '('
 OBJECTID x
 ')'
 ELSE
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID int
+OBJECTID out_int
 '('
 OBJECTID x
 ')'
 '.'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
 STR_CONST "+"
 ')'
 '.'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID int
+OBJECTID out_int
 '('
 OBJECTID y
 ')'
 '.'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
 STR_CONST "I"
 ')'
@@ -222,9 +226,7 @@ ELSE
 '}'
 ';'
 ELSE
-OBJECTID reflect
-LEXER BUG - UNMATCHED: _
-INT_CONST 0
+OBJECTID reflect_0
 '('
 ')'
 ':'
@@ -251,9 +253,7 @@ ELSE
 '}'
 ';'
 ELSE
-OBJECTID reflect
-LEXER BUG - UNMATCHED: _
-TYPEID X
+OBJECTID reflect_X
 '('
 ')'
 ':'
@@ -274,9 +274,7 @@ ELSE
 '}'
 ';'
 ELSE
-OBJECTID reflect
-LEXER BUG - UNMATCHED: _
-TYPEID Y
+OBJECTID reflect_Y
 '('
 ')'
 ':'
@@ -311,9 +309,7 @@ OBJECTID x
 '='
 OBJECTID d
 '.'
-OBJECTID x
-LEXER BUG - UNMATCHED: _
-OBJECTID value
+OBJECTID x_value
 '('
 ')'
 THEN
@@ -323,9 +319,7 @@ OBJECTID y
 '='
 OBJECTID d
 '.'
-OBJECTID y
-LEXER BUG - UNMATCHED: _
-OBJECTID value
+OBJECTID y_value
 '('
 ')'
 ELSE
@@ -345,9 +339,7 @@ ELSE
 '}'
 ';'
 ELSE
-OBJECTID x
-LEXER BUG - UNMATCHED: _
-OBJECTID value
+OBJECTID x_value
 '('
 ')'
 ':'
@@ -359,9 +351,7 @@ ELSE
 '}'
 ';'
 ELSE
-OBJECTID y
-LEXER BUG - UNMATCHED: _
-OBJECTID value
+OBJECTID y_value
 '('
 ')'
 ':'

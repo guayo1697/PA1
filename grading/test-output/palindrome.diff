@@ -47,35 +47,52 @@
 > INHERITS
 > ELSE
 > IF
-102,118d114
-< OBJECTID out_string
-< '('
+101a115
+> ELSE
+104c118,124
 < STR_CONST "enter a string\n"
-< ')'
-< ';'
-< IF
-< OBJECTID pal
-< '('
-< OBJECTID in_string
-< '('
-< ')'
-< ')'
-< THEN
-< OBJECTID out_string
-< '('
-< STR_CONST "that was a palindrome\n"
-< ')'
-120c116,118
-< OBJECTID out_string
 ---
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
+> LEXER BUG - UNMATCHED: "
+> OBJECTID enter
+> OBJECTID a
 > OBJECTID string
-122c120
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+106a127
+> ELSE
+113a135
+> ELSE
+117c139,146
+< STR_CONST "that was a palindrome\n"
+---
+> LEXER BUG - UNMATCHED: "
+> OBJECTID that
+> OBJECTID was
+> OBJECTID a
+> OBJECTID palindrome
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+119c148,149
+< ELSE
+---
+> WHILE
+> OBJECTID lse
+122c152,161
 < STR_CONST "that was not a palindrome\n"
 ---
-> STR_CONST "enter a string\\n\");\n\t    if pal(in_string())\n\t    then out_string(\"that was a palindrome\\n\")\n\t    else out_string(\"that was not a palindrome\\n"
-123a122
+> LEXER BUG - UNMATCHED: "
+> OBJECTID that
+> OBJECTID was
+> IN
+> OBJECTID ot
+> OBJECTID a
+> OBJECTID palindrome
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+123a163
 > ELSE
-126a126
+126a167
 > ELSE

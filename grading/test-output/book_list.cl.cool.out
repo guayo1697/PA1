@@ -1,5 +1,3 @@
-'-'
-'-'
 OBJECTID example
 OF
 OBJECTID static
@@ -31,15 +29,11 @@ TYPEID String
 ELSE
 OBJECTID initBook
 '('
-OBJECTID title
-LEXER BUG - UNMATCHED: _
-OBJECTID p
+OBJECTID title_p
 ':'
 TYPEID String
 ','
-OBJECTID author
-LEXER BUG - UNMATCHED: _
-OBJECTID p
+OBJECTID author_p
 ':'
 TYPEID String
 ')'
@@ -52,17 +46,13 @@ INHERITS
 ELSE
 OBJECTID title
 ASSIGN
-OBJECTID title
-LEXER BUG - UNMATCHED: _
-OBJECTID p
+OBJECTID title_p
 ';'
 INHERITS
 ELSE
 OBJECTID author
 ASSIGN
-OBJECTID author
-LEXER BUG - UNMATCHED: _
-OBJECTID p
+OBJECTID author_p
 ';'
 INHERITS
 CLASS
@@ -84,39 +74,42 @@ INHERITS
 '{'
 INHERITS
 ELSE
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
 STR_CONST "title:      "
 ')'
 '.'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
 OBJECTID title
 ')'
 '.'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "\\n\");\n            out_string(\"author:     "
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+ELSE
+OBJECTID out_string
+'('
+STR_CONST "author:     "
 ')'
 '.'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
 OBJECTID author
 ')'
 '.'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "\\n"
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
 ')'
 ';'
 INHERITS
@@ -137,32 +130,22 @@ OBJECTID nherits
 TYPEID Book
 '{'
 ELSE
-OBJECTID per
-LEXER BUG - UNMATCHED: _
-OBJECTID title
+OBJECTID per_title
 ':'
 TYPEID String
 ';'
 ELSE
 OBJECTID initArticle
 '('
-OBJECTID title
-LEXER BUG - UNMATCHED: _
-OBJECTID p
+OBJECTID title_p
 ':'
 TYPEID String
 ','
-OBJECTID author
-LEXER BUG - UNMATCHED: _
-OBJECTID p
+OBJECTID author_p
 ':'
 TYPEID String
 ','
-OBJECTID per
-LEXER BUG - UNMATCHED: _
-OBJECTID title
-LEXER BUG - UNMATCHED: _
-OBJECTID p
+OBJECTID per_title_p
 ':'
 TYPEID String
 ')'
@@ -175,26 +158,16 @@ INHERITS
 ELSE
 OBJECTID initBook
 '('
-OBJECTID title
-LEXER BUG - UNMATCHED: _
-OBJECTID p
+OBJECTID title_p
 ','
-OBJECTID author
-LEXER BUG - UNMATCHED: _
-OBJECTID p
+OBJECTID author_p
 ')'
 ';'
 INHERITS
 ELSE
-OBJECTID per
-LEXER BUG - UNMATCHED: _
-OBJECTID title
+OBJECTID per_title
 ASSIGN
-OBJECTID per
-LEXER BUG - UNMATCHED: _
-OBJECTID title
-LEXER BUG - UNMATCHED: _
-OBJECTID p
+OBJECTID per_title_p
 ';'
 INHERITS
 CLASS
@@ -225,27 +198,22 @@ OBJECTID print
 ';'
 INHERITS
 ELSE
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
 STR_CONST "periodical:  "
 ')'
 '.'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-OBJECTID per
-LEXER BUG - UNMATCHED: _
-OBJECTID title
+OBJECTID per_title
 ')'
 '.'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "\\n"
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
 ')'
 ';'
 INHERITS
@@ -267,50 +235,6 @@ FI
 OF
 '{'
 ELSE
-'('
-'*'
-TYPEID Since
-OBJECTID abort
-STR_CONST "returns"
-OBJECTID type
-TYPEID Object
-','
-OBJECTID we
-OBJECTID have
-OBJECTID to
-OBJECTID add
-CLASS
-FI
-OBJECTID an
-OBJECTID expression
-OF
-OBJECTID type
-TYPEID Bool
-OBJECTID here
-OBJECTID to
-OBJECTID satisfy
-THEN
-OBJECTID typechecker
-'.'
-CLASS
-LET
-OBJECTID his
-OBJECTID code
-FI
-OBJECTID s
-OBJECTID unreachable
-','
-OBJECTID since
-OBJECTID abort
-'('
-')'
-OBJECTID halts
-THEN
-OBJECTID program
-'.'
-ELSE
-'*'
-')'
 ELSE
 OBJECTID isNil
 '('
@@ -343,9 +267,7 @@ INHERITS
 '('
 LET
 IN
-OBJECTID ew
-LEXER BUG - UNMATCHED: _
-OBJECTID cell
+OBJECTID ew_cell
 ':'
 TYPEID Cons
 ASSIGN
@@ -356,9 +278,7 @@ FI
 OBJECTID n
 INHERITS
 ELSE
-NEW
-LEXER BUG - UNMATCHED: _
-OBJECTID cell
+OBJECTID new_cell
 '.'
 OBJECTID init
 '('
@@ -372,50 +292,6 @@ ELSE
 '}'
 ';'
 ELSE
-'('
-'*'
-TYPEID Since
-OBJECTID abort
-STR_CONST "returns"
-OBJECTID type
-TYPEID Object
-','
-OBJECTID we
-OBJECTID have
-OBJECTID to
-OBJECTID add
-CLASS
-FI
-OBJECTID an
-OBJECTID expression
-OF
-OBJECTID type
-TYPEID Book
-OBJECTID here
-OBJECTID to
-OBJECTID satisfy
-THEN
-OBJECTID typechecker
-'.'
-CLASS
-LET
-OBJECTID his
-OBJECTID code
-FI
-OBJECTID s
-OBJECTID unreachable
-','
-OBJECTID since
-OBJECTID abort
-'('
-')'
-OBJECTID halts
-THEN
-OBJECTID program
-'.'
-ELSE
-'*'
-')'
 ELSE
 OBJECTID car
 '('
@@ -437,50 +313,6 @@ TYPEID Book
 ';'
 ELSE
 ELSE
-'('
-'*'
-TYPEID Since
-OBJECTID abort
-STR_CONST "returns"
-OBJECTID type
-TYPEID Object
-','
-OBJECTID we
-OBJECTID have
-OBJECTID to
-OBJECTID add
-CLASS
-FI
-OBJECTID an
-OBJECTID expression
-OF
-OBJECTID type
-TYPEID BookList
-OBJECTID here
-OBJECTID to
-OBJECTID satisfy
-THEN
-OBJECTID typechecker
-'.'
-CLASS
-LET
-OBJECTID his
-OBJECTID code
-FI
-OBJECTID s
-OBJECTID unreachable
-','
-OBJECTID since
-OBJECTID abort
-'('
-')'
-OBJECTID halts
-THEN
-OBJECTID program
-'.'
-ELSE
-'*'
-')'
 ELSE
 OBJECTID cdr
 '('
@@ -502,9 +334,7 @@ TYPEID BookList
 ';'
 ELSE
 ELSE
-OBJECTID print
-LEXER BUG - UNMATCHED: _
-OBJECTID list
+OBJECTID print_list
 '('
 ')'
 ':'
@@ -529,8 +359,6 @@ OBJECTID xcar
 TYPEID Book
 ';'
 FI
-'-'
-'-'
 TYPEID We
 OBJECTID keep
 THEN
@@ -546,8 +374,6 @@ OBJECTID xcdr
 ':'
 TYPEID BookList
 ';'
-'-'
-'-'
 TYPEID Because
 OBJECTID methods
 OBJECTID and
@@ -560,8 +386,6 @@ IN
 OBJECTID ames
 ','
 ELSE
-'-'
-'-'
 OBJECTID we
 OBJECTID use
 OBJECTID xcar
@@ -574,8 +398,6 @@ OBJECTID attributes
 OBJECTID and
 OBJECTID reserve
 ELSE
-'-'
-'-'
 OBJECTID car
 OBJECTID and
 OBJECTID cdr
@@ -656,9 +478,7 @@ OBJECTID xcdr
 ';'
 ELSE
 ELSE
-OBJECTID print
-LEXER BUG - UNMATCHED: _
-OBJECTID list
+OBJECTID print_list
 '('
 ')'
 ':'
@@ -681,11 +501,38 @@ OBJECTID dummy
 ':'
 TYPEID Book
 DARROW
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "- dynamic type was Book -\\n\");\n                dummy : Article => out_string(\"- dynamic type was Article -\\n"
+LEXER BUG - UNMATCHED: "
+'-'
+OBJECTID dynamic
+OBJECTID type
+OBJECTID was
+TYPEID Book
+'-'
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+INHERITS
+OBJECTID dummy
+':'
+TYPEID Article
+DARROW
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+'-'
+OBJECTID dynamic
+OBJECTID type
+OBJECTID was
+TYPEID Article
+'-'
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
 ')'
 ';'
 INHERITS
@@ -696,9 +543,7 @@ INHERITS
 ELSE
 OBJECTID xcdr
 '.'
-OBJECTID print
-LEXER BUG - UNMATCHED: _
-OBJECTID list
+OBJECTID print_list
 '('
 ')'
 ';'
@@ -727,9 +572,7 @@ BOOL_CONST true
 '}'
 ';'
 ELSE
-OBJECTID print
-LEXER BUG - UNMATCHED: _
-OBJECTID list
+OBJECTID print_list
 '('
 ')'
 ':'
@@ -758,9 +601,7 @@ TYPEID Object
 INHERITS
 '('
 LET
-OBJECTID a
-LEXER BUG - UNMATCHED: _
-OBJECTID book
+OBJECTID a_book
 ':'
 TYPEID Book
 ASSIGN
@@ -773,7 +614,13 @@ TYPEID Book
 '.'
 OBJECTID initBook
 '('
-STR_CONST "Compilers, Principles, Techniques, and Tools\",\n                                \"Aho, Sethi, and Ullman"
+STR_CONST "Compilers, Principles, Techniques, and Tools"
+','
+INHERITS
+INHERITS
+INHERITS
+INHERITS
+STR_CONST "Aho, Sethi, and Ullman"
 ')'
 INHERITS
 IN
@@ -781,9 +628,7 @@ INHERITS
 ELSE
 '('
 LET
-OBJECTID an
-LEXER BUG - UNMATCHED: _
-OBJECTID article
+OBJECTID an_article
 ':'
 TYPEID Article
 ASSIGN
@@ -796,7 +641,23 @@ TYPEID Article
 '.'
 OBJECTID initArticle
 '('
-STR_CONST "The Top 100 CD_ROMs\",\n                                          \"Ulanoff\",\n                                          \"PC Magazine"
+STR_CONST "The Top 100 CD_ROMs"
+','
+INHERITS
+INHERITS
+INHERITS
+INHERITS
+INHERITS
+FI
+STR_CONST "Ulanoff"
+','
+INHERITS
+INHERITS
+INHERITS
+INHERITS
+INHERITS
+FI
+STR_CONST "PC Magazine"
 ')'
 INHERITS
 ELSE
@@ -817,16 +678,12 @@ OBJECTID il
 '.'
 OBJECTID cons
 '('
-OBJECTID a
-LEXER BUG - UNMATCHED: _
-OBJECTID book
+OBJECTID a_book
 ')'
 '.'
 OBJECTID cons
 '('
-OBJECTID an
-LEXER BUG - UNMATCHED: _
-OBJECTID article
+OBJECTID an_article
 ')'
 ';'
 INHERITS
@@ -834,9 +691,7 @@ INHERITS
 ELSE
 OBJECTID books
 '.'
-OBJECTID print
-LEXER BUG - UNMATCHED: _
-OBJECTID list
+OBJECTID print_list
 '('
 ')'
 ';'
@@ -847,23 +702,15 @@ INHERITS
 ELSE
 ')'
 FI
-'-'
-'-'
 OBJECTID end
 LET
-OBJECTID an
-LEXER BUG - UNMATCHED: _
-OBJECTID article
+OBJECTID an_article
 INHERITS
 ')'
 FI
-'-'
-'-'
 OBJECTID end
 LET
-OBJECTID a
-LEXER BUG - UNMATCHED: _
-OBJECTID book
+OBJECTID a_book
 ELSE
 '}'
 ';'

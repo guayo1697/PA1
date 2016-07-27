@@ -1,37 +1,14 @@
-0a1,24
-> #1 '('
-> #1 '*'
-> #1 IF
-> #1 OBJECTID irst
-> #1 OBJECTID line
-> #2 '('
-> #2 '*'
-> #2 OBJECTID second
+1,4c1,8
+< #7 '+'
+< #8 OBJECTID abc
+< #12 TYPEID DEF
+< #13 STR_CONST "string"
+---
+> #2 OBJECTID sixth
 > #2 OBJECTID line
-> #3 '-'
-> #3 '-'
-> #3 OBJECTID third
-> #3 OBJECTID line
-> #4 '*'
-> #4 ')'
-> #4 IF
-> #4 OBJECTID ourth
-> #4 OBJECTID line
-> #5 '*'
-> #5 ')'
-> #6 '-'
-> #6 '-'
-> #6 OBJECTID sixth
-> #6 OBJECTID line
-2a27,37
-> #9 '-'
-> #9 '-'
-> #9 IN
-> #9 OBJECTID inth
-> #9 OBJECTID line
-> #10 '('
-> #10 '*'
-> #10 OBJECTID tenth
-> #10 OBJECTID line
-> #11 '*'
-> #11 ')'
+> #3 '+'
+> #4 OBJECTID abc
+> #5 OBJECTID ninth
+> #5 OBJECTID line
+> #7 TYPEID DEF
+> #8 STR_CONST "string"

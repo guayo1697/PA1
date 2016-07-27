@@ -1,18 +1,18 @@
-'-'
-'-'
-OBJECTID tricky
-':'
-OBJECTID this
-OBJECTID should
-OBJECTID be
-OBJECTID seen
-CASE
-OBJECTID an
-OBJECTID error
-','
-IN
-OBJECTID ot
-OBJECTID two
-OBJECTID tokens
-'*'
-')'
+#name "./s32.test.cool"
+#1 OBJECTID tricky
+#1 ':'
+#1 OBJECTID this
+#1 OBJECTID should
+#1 OBJECTID be
+#1 OBJECTID seen
+#1 CASE
+#1 OBJECTID an
+#1 OBJECTID error
+#1 ','
+#1 IN
+#1 OBJECTID ot
+#1 OBJECTID two
+#1 OBJECTID tokens
+#2 ERROR "Exception in thread "main" java.lang.NullPointerException
+	at Utilities.dumpToken(Utilities.java:219)
+	at Lexer.main(Lexer.java:44)

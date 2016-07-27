@@ -1,12 +1,5 @@
 #name "./s19.test.cool"
-#1 '('
-#1 '*'
-#1 FI
-#1 OBJECTID llegal
-#1 ':'
-#1 OBJECTID unescaped
-#1 IN
-#1 OBJECTID ewline
-#1 '*'
-#1 ')'
-#2 STR_CONST "c\nd"
+LEXER BUG - UNMATCHED: "
+#2 OBJECTID c
+#3 OBJECTID d
+LEXER BUG - UNMATCHED: "

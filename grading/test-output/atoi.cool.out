@@ -1,99 +1,3 @@
-'('
-'*'
-LET
-THEN
-CLASS
-TYPEID A2I
-OBJECTID provides
-FI
-OBJECTID nteger
-'-'
-OBJECTID to
-'-'
-OBJECTID string
-OBJECTID and
-OBJECTID string
-'-'
-OBJECTID to
-'-'
-OBJECTID integer
-OBJECTID conversion
-OBJECTID routines
-'.'
-LET
-OF
-OBJECTID use
-OBJECTID these
-OBJECTID routines
-','
-OBJECTID either
-FI
-OBJECTID nherit
-OBJECTID them
-IN
-THEN
-CLASS
-OBJECTID where
-IN
-OBJECTID eeded
-','
-OBJECTID have
-OBJECTID a
-OBJECTID dummy
-OBJECTID variable
-OBJECTID bound
-OBJECTID to
-OBJECTID something
-OF
-OBJECTID type
-TYPEID A2I
-','
-OBJECTID or
-OBJECTID simpl
-OBJECTID write
-'('
-NEW
-TYPEID A2I
-')'
-'.'
-OBJECTID method
-'('
-OBJECTID argument
-')'
-'.'
-'*'
-')'
-'('
-'*'
-ESAC
-INT_CONST 2
-IF
-FI
-TYPEID Converts
-OBJECTID a
-INT_CONST 1
-'-'
-OBJECTID character
-OBJECTID string
-OBJECTID to
-OBJECTID an
-FI
-OBJECTID nteger
-'.'
-FI
-TYPEID Aborts
-INHERITS
-FI
-FI
-THEN
-OBJECTID string
-FI
-OBJECTID s
-IN
-OBJECTID ot
-STR_CONST "0\" through \"9"
-'*'
-')'
 CLASS
 TYPEID A2I
 '{'
@@ -111,7 +15,77 @@ OBJECTID nt
 IF
 OBJECTID char
 '='
-STR_CONST "0\" then 0 else\n\tif char = \"1\" then 1 else\n\tif char = \"2\" then 2 else\n        if char = \"3\" then 3 else\n        if char = \"4\" then 4 else\n        if char = \"5\" then 5 else\n        if char = \"6\" then 6 else\n        if char = \"7\" then 7 else\n        if char = \"8\" then 8 else\n        if char = \"9"
+STR_CONST "0"
+THEN
+INT_CONST 0
+ELSE
+IF
+OBJECTID char
+'='
+STR_CONST "1"
+THEN
+INT_CONST 1
+ELSE
+IF
+OBJECTID char
+'='
+STR_CONST "2"
+THEN
+INT_CONST 2
+ELSE
+INHERITS
+IF
+OBJECTID char
+'='
+STR_CONST "3"
+THEN
+INT_CONST 3
+ELSE
+INHERITS
+IF
+OBJECTID char
+'='
+STR_CONST "4"
+THEN
+INT_CONST 4
+ELSE
+INHERITS
+IF
+OBJECTID char
+'='
+STR_CONST "5"
+THEN
+INT_CONST 5
+ELSE
+INHERITS
+IF
+OBJECTID char
+'='
+STR_CONST "6"
+THEN
+INT_CONST 6
+ELSE
+INHERITS
+IF
+OBJECTID char
+'='
+STR_CONST "7"
+THEN
+INT_CONST 7
+ELSE
+INHERITS
+IF
+OBJECTID char
+'='
+STR_CONST "8"
+THEN
+INT_CONST 8
+ELSE
+INHERITS
+IF
+OBJECTID char
+'='
+STR_CONST "9"
 THEN
 INT_CONST 9
 ELSE
@@ -125,8 +99,6 @@ INT_CONST 0
 ';'
 '}'
 FI
-'-'
-'-'
 THEN
 INT_CONST 0
 FI
@@ -156,19 +128,6 @@ OBJECTID i
 CLASS
 '}'
 ';'
-'('
-'*'
-LET
-OBJECTID i2c
-FI
-OBJECTID s
-THEN
-OBJECTID inverse
-OF
-OBJECTID c2i
-'.'
-'*'
-')'
 CLASS
 OBJECTID i2c
 '('
@@ -185,7 +144,79 @@ FI
 '='
 INT_CONST 0
 THEN
-STR_CONST "0\" else\n\tif i = 1 then \"1\" else\n\tif i = 2 then \"2\" else\n\tif i = 3 then \"3\" else\n\tif i = 4 then \"4\" else\n\tif i = 5 then \"5\" else\n\tif i = 6 then \"6\" else\n\tif i = 7 then \"7\" else\n\tif i = 8 then \"8\" else\n\tif i = 9 then \"9\" else\n\t{ abort(); \"\"; }  -- the \""
+STR_CONST "0"
+ELSE
+IF
+FI
+'='
+INT_CONST 1
+THEN
+STR_CONST "1"
+ELSE
+IF
+FI
+'='
+INT_CONST 2
+THEN
+STR_CONST "2"
+ELSE
+IF
+FI
+'='
+INT_CONST 3
+THEN
+STR_CONST "3"
+ELSE
+IF
+FI
+'='
+INT_CONST 4
+THEN
+STR_CONST "4"
+ELSE
+IF
+FI
+'='
+INT_CONST 5
+THEN
+STR_CONST "5"
+ELSE
+IF
+FI
+'='
+INT_CONST 6
+THEN
+STR_CONST "6"
+ELSE
+IF
+FI
+'='
+INT_CONST 7
+THEN
+STR_CONST "7"
+ELSE
+IF
+FI
+'='
+INT_CONST 8
+THEN
+STR_CONST "8"
+ELSE
+IF
+FI
+'='
+INT_CONST 9
+THEN
+STR_CONST "9"
+ELSE
+'{'
+OBJECTID abort
+'('
+')'
+';'
+LEXER BUG - UNMATCHED: "
+STR_CONST "; }  -- the "
+LEXER BUG - UNMATCHED: "
 FI
 OBJECTID s
 IN
@@ -213,69 +244,6 @@ OBJECTID i
 CLASS
 '}'
 ';'
-'('
-'*'
-LET
-OBJECTID a2i
-OBJECTID converts
-OBJECTID an
-TYPEID ASCII
-OBJECTID string
-FI
-OBJECTID nto
-OBJECTID an
-FI
-OBJECTID nteger
-'.'
-LET
-OBJECTID he
-OBJECTID empty
-OBJECTID string
-OBJECTID is
-OBJECTID converted
-OBJECTID to
-INT_CONST 0
-'.'
-FI
-TYPEID Signed
-OBJECTID and
-OBJECTID unsigned
-OBJECTID strings
-OBJECTID are
-OBJECTID handled
-'.'
-LET
-OBJECTID he
-OBJECTID method
-OBJECTID aborts
-FI
-FI
-THEN
-OBJECTID string
-OBJECTID does
-IN
-OBJECTID ot
-OBJECTID represent
-OBJECTID an
-FI
-OBJECTID nteger
-'.'
-FI
-TYPEID Very
-OBJECTID long
-OBJECTID strings
-OF
-OBJECTID digits
-OBJECTID produce
-OBJECTID strange
-OBJECTID answers
-OBJECTID because
-OF
-OBJECTID arithmetic
-OBJECTID overflow
-'.'
-'*'
-')'
 CLASS
 OBJECTID a2i
 '('
@@ -312,9 +280,7 @@ INT_CONST 1
 STR_CONST "-"
 THEN
 '~'
-OBJECTID a2i
-LEXER BUG - UNMATCHED: _
-OBJECTID aux
+OBJECTID a2i_aux
 '('
 OBJECTID s
 '.'
@@ -345,9 +311,7 @@ INT_CONST 1
 '='
 STR_CONST "+"
 THEN
-OBJECTID a2i
-LEXER BUG - UNMATCHED: _
-OBJECTID aux
+OBJECTID a2i_aux
 '('
 OBJECTID s
 '.'
@@ -367,9 +331,7 @@ INT_CONST 1
 ELSE
 INHERITS
 LET
-OBJECTID a2i
-LEXER BUG - UNMATCHED: _
-OBJECTID aux
+OBJECTID a2i_aux
 '('
 OBJECTID s
 ')'
@@ -381,39 +343,8 @@ FI
 CLASS
 '}'
 ';'
-'('
-'*'
-FI
-OBJECTID a2i
-LEXER BUG - UNMATCHED: _
-OBJECTID aux
-OBJECTID converts
-THEN
-OBJECTID usigned
-OBJECTID portion
-OF
-THEN
-OBJECTID string
-'.'
 CLASS
-OBJECTID a
-OBJECTID programming
-OBJECTID example
-','
-OBJECTID this
-OBJECTID method
-FI
-OBJECTID s
-OBJECTID written
-FI
-OBJECTID teratively
-'.'
-'*'
-')'
-CLASS
-OBJECTID a2i
-LEXER BUG - UNMATCHED: _
-OBJECTID aux
+OBJECTID a2i_aux
 '('
 OBJECTID s
 ':'
@@ -521,31 +452,6 @@ INHERITS
 CLASS
 '}'
 ';'
-'('
-'*'
-ELSE
-OBJECTID i2a
-OBJECTID converts
-OBJECTID an
-FI
-OBJECTID nteger
-OBJECTID to
-OBJECTID a
-OBJECTID string
-'.'
-FI
-TYPEID Positive
-OBJECTID and
-IN
-OBJECTID egative
-OBJECTID numbers
-OBJECTID are
-OBJECTID handled
-OBJECTID correctly
-'.'
-FI
-'*'
-')'
 ELSE
 OBJECTID i2a
 '('
@@ -562,13 +468,28 @@ FI
 '='
 INT_CONST 0
 THEN
-STR_CONST "0\" else \n        if 0 < i then i2a_aux(i) else\n          \"-"
+STR_CONST "0"
+ELSE
+INHERITS
+IF
+INT_CONST 0
+'<'
+FI
+THEN
+FI
+INT_CONST 2
+OBJECTID a_aux
+'('
+OBJECTID i
+')'
+ELSE
+INHERITS
+FI
+STR_CONST "-"
 '.'
 OBJECTID concat
 '('
-OBJECTID i2a
-LEXER BUG - UNMATCHED: _
-OBJECTID aux
+OBJECTID i2a_aux
 '('
 IF
 '*'
@@ -583,25 +504,8 @@ OBJECTID i
 ELSE
 '}'
 ';'
-'('
-'*'
 ELSE
-OBJECTID i2a
-LEXER BUG - UNMATCHED: _
-OBJECTID aux
-FI
-OBJECTID s
-OBJECTID an
-OBJECTID example
-OBJECTID using
-OBJECTID recursion
-'.'
-'*'
-')'
-ELSE
-OBJECTID i2a
-LEXER BUG - UNMATCHED: _
-OBJECTID aux
+OBJECTID i2a_aux
 '('
 IF
 ':'
@@ -617,7 +521,8 @@ FI
 '='
 INT_CONST 0
 THEN
-STR_CONST ""
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: "
 ELSE
 ELSE
 '('
@@ -633,9 +538,7 @@ FI
 INT_CONST 10
 FI
 OBJECTID n
-OBJECTID i2a
-LEXER BUG - UNMATCHED: _
-OBJECTID aux
+OBJECTID i2a_aux
 '('
 OBJECTID next
 ')'

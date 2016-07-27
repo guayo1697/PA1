@@ -114,18 +114,59 @@
 #17 INT_CONST 1
 #17 ';'
 #18 ELSE
-#18 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#18 OBJECTID string
+#18 OBJECTID out_string
 #18 '('
-#18 STR_CONST "enter a string\\n\");\n\t    if pal(in_string())\n\t    then out_string(\"that was a palindrome\\n\")\n\t    else out_string(\"that was not a palindrome\\n"
+LEXER BUG - UNMATCHED: "
+#18 OBJECTID enter
+#18 OBJECTID a
+#18 OBJECTID string
+LEXER BUG - UNMATCHED: \
+#18 OBJECTID n
+LEXER BUG - UNMATCHED: "
 #18 ')'
+#18 ';'
 #19 ELSE
-#19 FI
-#19 ';'
-#20 '}'
-#21 ELSE
-#21 '}'
-#21 ';'
-#22 '}'
+#19 IF
+#19 OBJECTID pal
+#19 '('
+#19 OBJECTID in_string
+#19 '('
+#19 ')'
+#19 ')'
+#20 ELSE
+#20 THEN
+#20 OBJECTID out_string
+#20 '('
+LEXER BUG - UNMATCHED: "
+#20 OBJECTID that
+#20 OBJECTID was
+#20 OBJECTID a
+#20 OBJECTID palindrome
+LEXER BUG - UNMATCHED: \
+#20 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#20 ')'
+#21 WHILE
+#21 OBJECTID lse
+#21 OBJECTID out_string
+#21 '('
+LEXER BUG - UNMATCHED: "
+#21 OBJECTID that
+#21 OBJECTID was
+#21 IN
+#21 OBJECTID ot
+#21 OBJECTID a
+#21 OBJECTID palindrome
+LEXER BUG - UNMATCHED: \
+#21 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#21 ')'
+#22 ELSE
+#22 FI
 #22 ';'
+#23 '}'
+#24 ELSE
+#24 '}'
+#24 ';'
+#25 '}'
+#25 ';'

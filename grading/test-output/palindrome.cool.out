@@ -113,11 +113,52 @@ ASSIGN
 INT_CONST 1
 ';'
 ELSE
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "enter a string\\n\");\n\t    if pal(in_string())\n\t    then out_string(\"that was a palindrome\\n\")\n\t    else out_string(\"that was not a palindrome\\n"
+LEXER BUG - UNMATCHED: "
+OBJECTID enter
+OBJECTID a
+OBJECTID string
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+ELSE
+IF
+OBJECTID pal
+'('
+OBJECTID in_string
+'('
+')'
+')'
+ELSE
+THEN
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+OBJECTID that
+OBJECTID was
+OBJECTID a
+OBJECTID palindrome
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+WHILE
+OBJECTID lse
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+OBJECTID that
+OBJECTID was
+IN
+OBJECTID ot
+OBJECTID a
+OBJECTID palindrome
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
 ')'
 ELSE
 FI

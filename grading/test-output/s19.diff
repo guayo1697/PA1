@@ -1,16 +1,9 @@
-1,3c1,11
-< LONGERROR
-< OBJECTID d
+1c1,2
 < LONGERROR
 ---
-> '('
-> '*'
-> FI
-> OBJECTID llegal
-> ':'
-> OBJECTID unescaped
-> IN
-> OBJECTID ewline
-> '*'
-> ')'
-> STR_CONST "c\nd"
+> LEXER BUG - UNMATCHED: "
+> OBJECTID c
+3c4
+< LONGERROR
+---
+> LEXER BUG - UNMATCHED: "

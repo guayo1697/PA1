@@ -1,29 +1,11 @@
-#name "./s04.test.cool"
-#1 '('
-#1 '*'
-#1 OBJECTID various
-#1 IF
-#1 OBJECTID orms
-#1 OF
-#1 OBJECTID whitespace
-#1 '*'
-#1 ')'
-#2 INT_CONST 0
-#3 INHERITS
-#3 '('
-#3 '*'
-#3 OBJECTID blanks
-#3 '*'
-#3 ')'
-#4 INT_CONST 1
-#5 CLASS
-#5 '('
-#5 '*'
-#5 IF
-#5 OBJECTID ormfeed
-#5 '*'
-#5 ')'
-#6 INT_CONST 2
-Exception in thread "main" java.lang.Error: Lexical Error: Unmatched Input.
-	at CoolLexer.next_token(CoolLexer.java:646)
-	at Lexer.main(Lexer.java:43)
+INT_CONST 0
+INHERITS
+INT_CONST 1
+CLASS
+INT_CONST 2
+CLASS
+INT_CONST 3
+INT_CONST 4
+LEXER BUG - UNMATCHED: 
+CLASS
+INT_CONST 5

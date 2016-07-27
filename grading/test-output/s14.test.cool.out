@@ -1,12 +1,4 @@
 OBJECTID token
-'('
-'*'
-'*'
-OBJECTID cmt
-'*'
-')'
 OBJECTID token2
 FI
-'-'
-'-'
 OBJECTID cmt2

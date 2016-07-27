@@ -1,13 +1,4 @@
 #name "./hairyscary.cool"
-#1 '('
-#1 '*'
-#1 OBJECTID hairy
-#1 FI
-#1 '.'
-#1 '.'
-#1 '.'
-#1 '*'
-#1 ')'
 #3 CLASS
 #3 IF
 #3 OBJECTID oo
@@ -295,9 +286,7 @@
 #48 OBJECTID nt
 #48 '{'
 #48 '{'
-#48 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#48 OBJECTID int
+#48 OBJECTID out_int
 #48 '('
 #48 OBJECTID h
 #48 ')'
@@ -340,14 +329,6 @@ LEXER BUG - UNMATCHED: _
 #50 ';'
 #51 '}'
 #51 ';'
-#53 '('
-#53 '*'
-#53 OBJECTID scary
-#53 '.'
-#53 '.'
-#53 '.'
-#53 '*'
-#53 ')'
 #54 CLASS
 #54 TYPEID Main
 #54 '{'

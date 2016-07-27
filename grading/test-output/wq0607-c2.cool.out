@@ -1,39 +1,5 @@
-'('
-'*'
-TYPEID COMMENT
-','
-TYPEID STRING
-','
-TYPEID ERROR
-LEXER BUG - UNMATCHED: [
-OBJECTID unmatched
-OBJECTID close
-OBJECTID comment
-LEXER BUG - UNMATCHED: ]
-','
-TYPEID STRING
-'*'
-')'
-'('
-'*'
-LEXER BUG - UNMATCHED: "
-'('
-'*'
-LEXER BUG - UNMATCHED: "
-'*'
-')'
-LEXER BUG - UNMATCHED: "
-'*'
-')'
-LEXER BUG - UNMATCHED: "
-'('
-'*'
-LEXER BUG - UNMATCHED: "
-'*'
-')'
-LEXER BUG - UNMATCHED: "
-'*'
-')'
-'('
-'*'
-LEXER BUG - UNMATCHED: "
+#name "./wq0607-c2.cool"
+#3 STR_CONST "(*"
+#3 ERROR "Exception in thread "main" java.lang.NullPointerException
+	at Utilities.dumpToken(Utilities.java:219)
+	at Lexer.main(Lexer.java:44)

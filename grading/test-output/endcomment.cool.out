@@ -1,8 +1,10 @@
-TYPEID This
-OBJECTID comment
-OBJECTID was
-IN
-OBJECTID ever
-OBJECTID begun
-'*'
-')'
+#name "./endcomment.cool"
+#1 TYPEID This
+#1 OBJECTID comment
+#1 OBJECTID was
+#1 IN
+#1 OBJECTID ever
+#1 OBJECTID begun
+#1 ERROR "Exception in thread "main" java.lang.NullPointerException
+	at Utilities.dumpToken(Utilities.java:219)
+	at Lexer.main(Lexer.java:44)

@@ -1,182 +1,30 @@
-0a1,96
-> '('
-> '*'
-> LET
-> THEN
+3a4
 > CLASS
-> TYPEID A2I
-> OBJECTID provides
-> FI
-> OBJECTID nteger
-> '-'
-> OBJECTID to
-> '-'
-> OBJECTID string
-> OBJECTID and
-> OBJECTID string
-> '-'
-> OBJECTID to
-> '-'
-> OBJECTID integer
-> OBJECTID conversion
-> OBJECTID routines
-> '.'
-> LET
-> OF
-> OBJECTID use
-> OBJECTID these
-> OBJECTID routines
-> ','
-> OBJECTID either
-> FI
-> OBJECTID nherit
-> OBJECTID them
-> IN
-> THEN
-> CLASS
-> OBJECTID where
-> IN
-> OBJECTID eeded
-> ','
-> OBJECTID have
-> OBJECTID a
-> OBJECTID dummy
-> OBJECTID variable
-> OBJECTID bound
-> OBJECTID to
-> OBJECTID something
-> OF
-> OBJECTID type
-> TYPEID A2I
-> ','
-> OBJECTID or
-> OBJECTID simpl
-> OBJECTID write
-> '('
-> NEW
-> TYPEID A2I
-> ')'
-> '.'
-> OBJECTID method
-> '('
-> OBJECTID argument
-> ')'
-> '.'
-> '*'
-> ')'
-> '('
-> '*'
-> ESAC
-> INT_CONST 2
-> IF
-> FI
-> TYPEID Converts
-> OBJECTID a
-> INT_CONST 1
-> '-'
-> OBJECTID character
-> OBJECTID string
-> OBJECTID to
-> OBJECTID an
-> FI
-> OBJECTID nteger
-> '.'
-> FI
-> TYPEID Aborts
-> INHERITS
-> FI
-> FI
-> THEN
-> OBJECTID string
-> FI
-> OBJECTID s
-> IN
-> OBJECTID ot
-> STR_CONST "0\" through \"9"
-> '*'
-> ')'
-3a100
-> CLASS
-11c108,109
+11c12,13
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-16,79c114
-< STR_CONST "0"
-< THEN
-< INT_CONST 0
-< ELSE
-< IF
-< OBJECTID char
-< '='
-< STR_CONST "1"
-< THEN
-< INT_CONST 1
-< ELSE
-< IF
-< OBJECTID char
-< '='
-< STR_CONST "2"
-< THEN
-< INT_CONST 2
-< ELSE
-< IF
-< OBJECTID char
-< '='
-< STR_CONST "3"
-< THEN
-< INT_CONST 3
-< ELSE
-< IF
-< OBJECTID char
-< '='
-< STR_CONST "4"
-< THEN
-< INT_CONST 4
-< ELSE
-< IF
-< OBJECTID char
-< '='
-< STR_CONST "5"
-< THEN
-< INT_CONST 5
-< ELSE
-< IF
-< OBJECTID char
-< '='
-< STR_CONST "6"
-< THEN
-< INT_CONST 6
-< ELSE
-< IF
-< OBJECTID char
-< '='
-< STR_CONST "7"
-< THEN
-< INT_CONST 7
-< ELSE
-< IF
-< OBJECTID char
-< '='
-< STR_CONST "8"
-< THEN
-< INT_CONST 8
-< ELSE
-< IF
-< OBJECTID char
-< '='
-< STR_CONST "9"
----
-> STR_CONST "0\" then 0 else\n\tif char = \"1\" then 1 else\n\tif char = \"2\" then 2 else\n        if char = \"3\" then 3 else\n        if char = \"4\" then 4 else\n        if char = \"5\" then 5 else\n        if char = \"6\" then 6 else\n        if char = \"7\" then 7 else\n        if char = \"8\" then 8 else\n        if char = \"9"
-82a118
+33a36
 > INHERITS
-91a128,131
-> '-'
-> '-'
+40a44
+> INHERITS
+47a52
+> INHERITS
+54a60
+> INHERITS
+61a68
+> INHERITS
+68a76
+> INHERITS
+75a84
+> INHERITS
+82a92
+> INHERITS
+91a102,103
 > THEN
 > INT_CONST 0
-92a133,140
+92a105,112
 > OBJECTID s
 > IN
 > OBJECTID eeded
@@ -185,19 +33,19 @@
 > THEN
 > OBJECTID typchecker
 > INHERITS
-93a142,143
+93a114,115
 > IF
 > IF
-94a145,146
+94a117,118
 > IF
 > IF
-95a148,149
+95a120,121
 > IF
 > IF
-96a151,152
+96a123,124
 > IF
 > IF
-98,100c154,156
+98,100c126,128
 < FI
 < FI
 < FI
@@ -205,516 +53,308 @@
 > IF
 > OBJECTID i
 > CLASS
-102a159,172
-> '('
-> '*'
-> LET
-> OBJECTID i2c
-> FI
-> OBJECTID s
-> THEN
-> OBJECTID inverse
-> OF
-> OBJECTID c2i
-> '.'
-> '*'
-> ')'
+102a131
 > CLASS
-105c175
+105c134
 < OBJECTID i
 ---
 > IF
-107c177,178
+107c136,137
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-113c184
+113c143
 < OBJECTID i
 ---
 > FI
-117,122c188,194
-< STR_CONST "0"
-< ELSE
-< IF
+120c150
 < OBJECTID i
-< '='
-< INT_CONST 1
----
-> STR_CONST "0\" else\n\tif i = 1 then \"1\" else\n\tif i = 2 then \"2\" else\n\tif i = 3 then \"3\" else\n\tif i = 4 then \"4\" else\n\tif i = 5 then \"5\" else\n\tif i = 6 then \"6\" else\n\tif i = 7 then \"7\" else\n\tif i = 8 then \"8\" else\n\tif i = 9 then \"9\" else\n\t{ abort(); \"\"; }  -- the \""
-> FI
-> OBJECTID s
-> IN
-> OBJECTID eeded
-> OBJECTID to
-> OBJECTID satisfy
-124,125c196,198
-< STR_CONST "1"
-< ELSE
----
-> OBJECTID typchecker
-> INHERITS
-> FI
-127,132d199
-< OBJECTID i
-< '='
-< INT_CONST 2
-< THEN
-< STR_CONST "2"
-< ELSE
-134,139c201
-< OBJECTID i
-< '='
-< INT_CONST 3
-< THEN
-< STR_CONST "3"
-< ELSE
 ---
 > FI
-141,146d202
+127c157
 < OBJECTID i
-< '='
-< INT_CONST 4
-< THEN
-< STR_CONST "4"
-< ELSE
-148,153c204
-< OBJECTID i
-< '='
-< INT_CONST 5
-< THEN
-< STR_CONST "5"
-< ELSE
 ---
 > FI
-155,160d205
+134c164
 < OBJECTID i
-< '='
-< INT_CONST 6
-< THEN
-< STR_CONST "6"
-< ELSE
-162,167c207
-< OBJECTID i
-< '='
-< INT_CONST 7
-< THEN
-< STR_CONST "7"
-< ELSE
 ---
 > FI
-169,174c209,210
+141c171
 < OBJECTID i
-< '='
-< INT_CONST 8
-< THEN
-< STR_CONST "8"
-< ELSE
 ---
-> IF
 > FI
-177,188c213
-< '='
-< INT_CONST 9
-< THEN
-< STR_CONST "9"
-< ELSE
-< '{'
-< OBJECTID abort
-< '('
-< ')'
-< ';'
+148c178
+< OBJECTID i
+---
+> FI
+155c185
+< OBJECTID i
+---
+> FI
+162c192
+< OBJECTID i
+---
+> FI
+169c199
+< OBJECTID i
+---
+> FI
+176c206
+< OBJECTID i
+---
+> FI
+187,193c217,219
 < STR_CONST ""
 < ';'
----
-> CLASS
-189a215,223
-> ';'
-> '('
-> '*'
-> LET
-> OBJECTID a2i
-> OBJECTID converts
-> OBJECTID an
-> TYPEID ASCII
-> OBJECTID string
-190a225,226
-> OBJECTID nto
-> OBJECTID an
-191a228,238
-> OBJECTID nteger
-> '.'
-> LET
-> OBJECTID he
-> OBJECTID empty
-> OBJECTID string
-> OBJECTID is
-> OBJECTID converted
-> OBJECTID to
-> INT_CONST 0
-> '.'
-192a240,250
-> TYPEID Signed
-> OBJECTID and
-> OBJECTID unsigned
-> OBJECTID strings
-> OBJECTID are
-> OBJECTID handled
-> '.'
-> LET
-> OBJECTID he
-> OBJECTID method
-> OBJECTID aborts
-195,201c253,279
-< FI
-< FI
-< FI
-< FI
-< FI
 < '}'
-< ';'
+< FI
+< FI
+< FI
+< FI
 ---
-> THEN
-> OBJECTID string
-> OBJECTID does
+> LEXER BUG - UNMATCHED: "
+> STR_CONST "; }  -- the "
+> LEXER BUG - UNMATCHED: "
+194a221,228
+> OBJECTID s
 > IN
-> OBJECTID ot
-> OBJECTID represent
-> OBJECTID an
-> FI
-> OBJECTID nteger
-> '.'
-> FI
-> TYPEID Very
-> OBJECTID long
-> OBJECTID strings
-> OF
-> OBJECTID digits
-> OBJECTID produce
-> OBJECTID strange
-> OBJECTID answers
-> OBJECTID because
-> OF
-> OBJECTID arithmetic
-> OBJECTID overflow
-> '.'
-> '*'
-> ')'
+> OBJECTID eeded
+> OBJECTID to
+> OBJECTID satisfy
+> THEN
+> OBJECTID typchecker
+> INHERITS
+195a230,231
+> IF
+> IF
+196a233,234
+> IF
+> IF
+197a236,237
+> IF
+> IF
+198a239,240
+> IF
+> IF
+199a242,244
+> IF
+> OBJECTID i
 > CLASS
-209c287,288
+201a247
+> CLASS
+209c255,256
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-210a290
+210a258
 > INHERITS
-235c315,317
-< OBJECTID a2i_aux
----
-> OBJECTID a2i
-> LEXER BUG - UNMATCHED: _
-> OBJECTID aux
-252a335
+252a301
 > INHERITS
-265c348,350
-< OBJECTID a2i_aux
----
-> OBJECTID a2i
-> LEXER BUG - UNMATCHED: _
-> OBJECTID aux
-283c368,372
-< OBJECTID a2i_aux
----
+282a332,333
 > INHERITS
 > LET
-> OBJECTID a2i
-> LEXER BUG - UNMATCHED: _
-> OBJECTID aux
-286a376
+286a338
 > INHERITS
-287a378,379
+287a340,341
 > IF
 > IF
-289c381
+289c343
 < FI
 ---
 > CLASS
-292c384,416
-< OBJECTID a2i_aux
----
-> '('
-> '*'
-> FI
-> OBJECTID a2i
-> LEXER BUG - UNMATCHED: _
-> OBJECTID aux
-> OBJECTID converts
-> THEN
-> OBJECTID usigned
-> OBJECTID portion
-> OF
-> THEN
-> OBJECTID string
-> '.'
+291a346
 > CLASS
-> OBJECTID a
-> OBJECTID programming
-> OBJECTID example
-> ','
-> OBJECTID this
-> OBJECTID method
-> FI
-> OBJECTID s
-> OBJECTID written
-> FI
-> OBJECTID teratively
-> '.'
-> '*'
-> ')'
-> CLASS
-> OBJECTID a2i
-> LEXER BUG - UNMATCHED: _
-> OBJECTID aux
-299c423,424
+299c354,355
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-303c428,429
+303c359,360
 < OBJECTID int
 ---
 > FI
 > OBJECTID nt
-305c431,432
+305c362,363
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-308c435,438
+308c366,369
 < IN
 ---
 > FI
 > OBJECTID n
 > INHERITS
 > LET
-309a440,442
+309a371,373
 > INHERITS
 > CLASS
 > FI
-314c447,448
+314c378,379
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-321c455,458
+321c386,389
 < IN
 ---
 > FI
 > OBJECTID n
 > INHERITS
 > FI
-324c461
+324c392
 < OBJECTID i
 ---
 > FI
-326c463,464
+326c394,395
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-329c467,469
+329c398,400
 < IN
 ---
 > FI
 > OBJECTID n
 > ELSE
-331c471
+331c402
 < OBJECTID i
 ---
 > FI
-335a476
+335a407
 > ELSE
-338c479,480
+338c410,411
 < OBJECTID int
 ---
 > FI
 > OBJECTID nt
-354c496,497
+354c427,428
 < OBJECTID i
 ---
 > ELSE
 > IF
-356c499
+356c430
 < OBJECTID i
 ---
 > FI
-360a504
+360a435
 > ELSE
-361a506
+361a437
 > FI
-362a508,509
+362a439,440
 > CLASS
 > FI
-365c512,515
+365c443,446
 < OBJECTID int
 ---
 > INHERITS
 > CLASS
 > FI
 > OBJECTID nt
-366a517
+366a448
 > ELSE
-367a519
+367a450
 > INHERITS
-368a521
+368a452
 > CLASS
-370a524,549
-> '('
-> '*'
+370a455
 > ELSE
-> OBJECTID i2a
-> OBJECTID converts
-> OBJECTID an
-> FI
-> OBJECTID nteger
-> OBJECTID to
-> OBJECTID a
-> OBJECTID string
-> '.'
-> FI
-> TYPEID Positive
-> OBJECTID and
-> IN
-> OBJECTID egative
-> OBJECTID numbers
-> OBJECTID are
-> OBJECTID handled
-> OBJECTID correctly
-> '.'
-> FI
-> '*'
-> ')'
-> ELSE
-373c552
+373c458
 < OBJECTID i
 ---
 > IF
-375c554,555
+375c460,461
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-381c561
+381c467
 < OBJECTID i
 ---
 > FI
-385,397c565
-< STR_CONST "0"
-< ELSE
-< IF
-< INT_CONST 0
-< '<'
+386a473
+> INHERITS
+390c477
 < OBJECTID i
-< THEN
-< OBJECTID i2a_aux
-< '('
-< OBJECTID i
-< ')'
-< ELSE
-< STR_CONST "-"
 ---
-> STR_CONST "0\" else \n        if 0 < i then i2a_aux(i) else\n          \"-"
-401c569,571
+> FI
+392c479,481
 < OBJECTID i2a_aux
 ---
-> OBJECTID i2a
-> LEXER BUG - UNMATCHED: _
-> OBJECTID aux
-403c573
+> FI
+> INT_CONST 2
+> OBJECTID a_aux
+396a486,487
+> INHERITS
+> FI
+403c494
 < OBJECTID i
 ---
 > IF
-408a579
+408a500
 > INHERITS
-410c581,583
+410c502,504
 < FI
 ---
 > IF
 > OBJECTID i
 > ELSE
-413d585
-< OBJECTID i2a_aux
-415c587,606
+412a507
+> ELSE
+415c510
 < OBJECTID i
 ---
-> '*'
-> ELSE
-> OBJECTID i2a
-> LEXER BUG - UNMATCHED: _
-> OBJECTID aux
-> FI
-> OBJECTID s
-> OBJECTID an
-> OBJECTID example
-> OBJECTID using
-> OBJECTID recursion
-> '.'
-> '*'
-> ')'
-> ELSE
-> OBJECTID i2a
-> LEXER BUG - UNMATCHED: _
-> OBJECTID aux
-> '('
 > IF
-417c608,609
+417c512,513
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-421a614
+421a518
 > INHERITS
-423c616
+423c520
 < OBJECTID i
 ---
 > FI
-428a622
+427c524,526
+< STR_CONST ""
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: "
 > ELSE
-431c625,626
+431c530,531
 < OBJECTID next
 ---
 > IN
 > OBJECTID ext
-433c628,629
+433c533,534
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-435c631
+435c536
 < OBJECTID i
 ---
 > FI
-438,439c634,638
+438c539,540
 < IN
-< OBJECTID i2a_aux
 ---
 > FI
 > OBJECTID n
-> OBJECTID i2a
-> LEXER BUG - UNMATCHED: _
-> OBJECTID aux
-448c647
+448c550
 < OBJECTID i
 ---
 > IF
-450c649,650
+450c552,553
 < OBJECTID next
 ---
 > IN
 > OBJECTID ext
-454a655
+454a558
 > ELSE
-455a657
+455a560
 > INHERITS
-456a659
+456a562
 > ELSE

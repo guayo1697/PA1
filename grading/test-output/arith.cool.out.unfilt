@@ -1,2528 +1,2788 @@
 #name "./arith.cool"
-#1 '('
-#1 '*'
-#2 '*'
-#2 ESAC
-#2 OBJECTID contribution
-#2 IF
-#2 OBJECTID rom
-#2 TYPEID Anne
-#2 TYPEID Sheets
-#2 '('
-#2 OBJECTID sheets
-#2 '@'
-#2 OBJECTID cory
-#2 ')'
-#3 '*'
-#4 '*'
-#4 LET
-#4 OBJECTID ests
-#4 THEN
-#4 OBJECTID arithmetic
-#4 OBJECTID operations
-#4 OBJECTID and
-#4 OBJECTID various
-#4 OBJECTID other
-#4 OBJECTID things
-#5 '*'
-#5 ')'
-#7 CLASS
-#7 TYPEID A
+#3 CLASS
+#3 TYPEID A
+#3 '{'
+#5 LET
+#5 OBJECTID var
+#5 ':'
+#5 FI
+#5 OBJECTID nt
+#5 ASSIGN
+#5 INT_CONST 0
+#5 ';'
+#7 LET
+#7 OBJECTID value
+#7 '('
+#7 ')'
+#7 ':'
+#7 FI
+#7 OBJECTID nt
 #7 '{'
+#7 OBJECTID var
+#7 '}'
+#7 ';'
 #9 LET
-#9 OBJECTID var
+#9 OBJECTID set_var
+#9 '('
+#9 OBJECTID num
 #9 ':'
 #9 FI
 #9 OBJECTID nt
-#9 ASSIGN
-#9 INT_CONST 0
-#9 ';'
-#11 LET
-#11 OBJECTID value
-#11 '('
-#11 ')'
-#11 ':'
-#11 FI
-#11 OBJECTID nt
-#11 '{'
+#9 ')'
+#9 ':'
+#9 TYPEID SELF_TYPE
+#9 '{'
+#10 CLASS
+#10 '{'
+#11 INHERITS
 #11 OBJECTID var
-#11 '}'
+#11 ASSIGN
+#11 IN
+#11 OBJECTID um
 #11 ';'
-#13 LET
-#13 OBJECTID set
-LEXER BUG - UNMATCHED: _
-#13 OBJECTID var
-#13 '('
-#13 OBJECTID num
-#13 ':'
-#13 FI
-#13 OBJECTID nt
-#13 ')'
-#13 ':'
-#13 TYPEID SELF_TYPE
-#13 '{'
-#14 CLASS
-#14 '{'
-#15 INHERITS
-#15 OBJECTID var
-#15 ASSIGN
-#15 IN
-#15 OBJECTID um
-#15 ';'
-#16 INHERITS
-#16 OBJECTID self
-#16 ';'
+#12 INHERITS
+#12 OBJECTID self
+#12 ';'
+#13 CLASS
+#13 '}'
+#14 LET
+#14 '}'
+#14 ';'
+#16 LET
+#16 OBJECTID method1
+#16 '('
+#16 OBJECTID num
+#16 ':'
+#16 FI
+#16 OBJECTID nt
+#16 ')'
+#16 ':'
+#16 TYPEID SELF_TYPE
+#16 '{'
+#16 FI
+#16 OBJECTID same
 #17 CLASS
-#17 '}'
+#17 OBJECTID self
 #18 LET
 #18 '}'
 #18 ';'
 #20 LET
-#20 OBJECTID method1
+#20 OBJECTID method2
 #20 '('
-#20 OBJECTID num
+#20 OBJECTID num1
+#20 ':'
+#20 FI
+#20 OBJECTID nt
+#20 ','
+#20 IN
+#20 OBJECTID um2
 #20 ':'
 #20 FI
 #20 OBJECTID nt
 #20 ')'
 #20 ':'
-#20 TYPEID SELF_TYPE
+#20 TYPEID B
 #20 '{'
 #20 FI
-#20 '-'
-#20 '-'
-#20 OBJECTID same
+#20 OBJECTID plus
 #21 CLASS
-#21 OBJECTID self
-#22 LET
-#22 '}'
-#22 ';'
-#24 LET
-#24 OBJECTID method2
+#21 '('
+#21 LET
+#21 OBJECTID x
+#21 ':'
+#21 FI
+#21 OBJECTID nt
+#21 FI
+#21 OBJECTID n
+#22 '{'
+#23 INHERITS
+#23 ELSE
+#23 OBJECTID x
+#23 ASSIGN
+#23 IN
+#23 OBJECTID um1
+#23 '+'
+#23 IN
+#23 OBJECTID um2
+#23 ';'
+#24 ELSE
 #24 '('
-#24 OBJECTID num1
-#24 ':'
-#24 FI
-#24 OBJECTID nt
-#24 ','
-#24 IN
-#24 OBJECTID um2
-#24 ':'
-#24 FI
-#24 OBJECTID nt
-#24 ')'
-#24 ':'
+#24 NEW
 #24 TYPEID B
-#24 '{'
-#24 FI
-#24 '-'
-#24 '-'
-#24 OBJECTID plus
-#25 CLASS
-#25 '('
-#25 LET
-#25 OBJECTID x
-#25 ':'
-#25 FI
-#25 OBJECTID nt
-#25 FI
-#25 OBJECTID n
-#26 '{'
-#27 INHERITS
-#27 ELSE
-#27 OBJECTID x
-#27 ASSIGN
-#27 IN
-#27 OBJECTID um1
-#27 '+'
-#27 IN
-#27 OBJECTID um2
+#24 ')'
+#24 '.'
+#24 OBJECTID set_var
+#24 '('
+#24 OBJECTID x
+#24 ')'
+#24 ';'
+#25 '}'
+#26 CLASS
+#26 ')'
+#27 LET
+#27 '}'
 #27 ';'
-#28 ELSE
-#28 '('
-#28 NEW
-#28 TYPEID B
-#28 ')'
-#28 '.'
-#28 OBJECTID set
-LEXER BUG - UNMATCHED: _
-#28 OBJECTID var
-#28 '('
-#28 OBJECTID x
-#28 ')'
-#28 ';'
-#29 '}'
+#29 LET
+#29 OBJECTID method3
+#29 '('
+#29 OBJECTID num
+#29 ':'
+#29 FI
+#29 OBJECTID nt
+#29 ')'
+#29 ':'
+#29 TYPEID C
+#29 '{'
+#29 FI
+#29 OBJECTID negate
 #30 CLASS
-#30 ')'
-#31 LET
-#31 '}'
-#31 ';'
-#33 LET
-#33 OBJECTID method3
+#30 '('
+#30 LET
+#30 OBJECTID x
+#30 ':'
+#30 FI
+#30 OBJECTID nt
+#30 FI
+#30 OBJECTID n
+#31 '{'
+#32 INHERITS
+#32 ELSE
+#32 OBJECTID x
+#32 ASSIGN
+#32 '~'
+#32 OBJECTID num
+#32 ';'
+#33 ELSE
 #33 '('
-#33 OBJECTID num
-#33 ':'
-#33 FI
-#33 OBJECTID nt
-#33 ')'
-#33 ':'
+#33 NEW
 #33 TYPEID C
-#33 '{'
-#33 FI
-#33 '-'
-#33 '-'
-#33 IN
-#33 OBJECTID egate
-#34 CLASS
-#34 '('
-#34 LET
-#34 OBJECTID x
-#34 ':'
-#34 FI
-#34 OBJECTID nt
-#34 FI
-#34 OBJECTID n
-#35 '{'
-#36 INHERITS
-#36 ELSE
-#36 OBJECTID x
-#36 ASSIGN
-#36 '~'
-#36 OBJECTID num
+#33 ')'
+#33 '.'
+#33 OBJECTID set_var
+#33 '('
+#33 OBJECTID x
+#33 ')'
+#33 ';'
+#34 '}'
+#35 CLASS
+#35 ')'
+#36 LET
+#36 '}'
 #36 ';'
-#37 ELSE
-#37 '('
-#37 NEW
-#37 TYPEID C
-#37 ')'
-#37 '.'
-#37 OBJECTID set
-LEXER BUG - UNMATCHED: _
-#37 OBJECTID var
-#37 '('
-#37 OBJECTID x
-#37 ')'
-#37 ';'
-#38 '}'
-#39 CLASS
-#39 ')'
+#38 LET
+#38 OBJECTID method4
+#38 '('
+#38 OBJECTID num1
+#38 ':'
+#38 FI
+#38 OBJECTID nt
+#38 ','
+#38 IN
+#38 OBJECTID um2
+#38 ':'
+#38 FI
+#38 OBJECTID nt
+#38 ')'
+#38 ':'
+#38 TYPEID D
+#38 '{'
+#38 FI
+#38 OBJECTID diff
+#39 INHERITS
+#39 ELSE
+#39 IF
+#39 IN
+#39 OBJECTID um2
+#39 '<'
+#39 IN
+#39 OBJECTID um1
+#39 THEN
+#40 INHERITS
+#40 CLASS
+#40 FI
+#40 '('
 #40 LET
-#40 '}'
-#40 ';'
-#42 LET
-#42 OBJECTID method4
-#42 '('
-#42 OBJECTID num1
-#42 ':'
-#42 FI
-#42 OBJECTID nt
-#42 ','
+#40 OBJECTID x
+#40 ':'
+#40 FI
+#40 OBJECTID nt
+#40 FI
+#40 OBJECTID n
+#41 FI
+#41 '{'
+#42 INHERITS
+#42 INHERITS
+#42 CLASS
+#42 OBJECTID x
+#42 ASSIGN
+#42 IN
+#42 OBJECTID um1
+#42 '-'
 #42 IN
 #42 OBJECTID um2
-#42 ':'
-#42 FI
-#42 OBJECTID nt
-#42 ')'
-#42 ':'
-#42 TYPEID D
-#42 '{'
-#42 FI
-#42 '-'
-#42 '-'
-#42 OBJECTID diff
+#42 ';'
 #43 INHERITS
-#43 ELSE
-#43 IF
-#43 IN
-#43 OBJECTID um2
-#43 '<'
-#43 IN
-#43 OBJECTID um1
-#43 THEN
+#43 CLASS
+#43 '('
+#43 NEW
+#43 TYPEID D
+#43 ')'
+#43 '.'
+#43 OBJECTID set_var
+#43 '('
+#43 OBJECTID x
+#43 ')'
+#43 ';'
 #44 INHERITS
-#44 CLASS
 #44 FI
-#44 '('
-#44 LET
-#44 OBJECTID x
-#44 ':'
-#44 FI
-#44 OBJECTID nt
-#44 FI
-#44 OBJECTID n
+#44 '}'
+#45 INHERITS
+#45 CLASS
 #45 FI
-#45 '{'
+#45 ')'
 #46 INHERITS
-#46 INHERITS
-#46 CLASS
-#46 OBJECTID x
-#46 ASSIGN
-#46 IN
-#46 OBJECTID um1
-#46 '-'
-#46 IN
-#46 OBJECTID um2
-#46 ';'
+#46 WHILE
+#46 OBJECTID lse
 #47 INHERITS
 #47 CLASS
+#47 FI
 #47 '('
-#47 NEW
-#47 TYPEID D
-#47 ')'
-#47 '.'
-#47 OBJECTID set
-LEXER BUG - UNMATCHED: _
-#47 OBJECTID var
-#47 '('
+#47 LET
 #47 OBJECTID x
-#47 ')'
-#47 ';'
-#48 INHERITS
+#47 ':'
+#47 FI
+#47 OBJECTID nt
+#47 FI
+#47 OBJECTID n
 #48 FI
-#48 '}'
+#48 '{'
 #49 INHERITS
 #49 CLASS
-#49 FI
-#49 ')'
+#49 OBJECTID x
+#49 ASSIGN
+#49 IN
+#49 OBJECTID um2
+#49 '-'
+#49 IN
+#49 OBJECTID um1
+#49 ';'
 #50 INHERITS
-#50 WHILE
-#50 OBJECTID lse
-#51 INHERITS
-#51 CLASS
+#50 CLASS
+#50 '('
+#50 NEW
+#50 TYPEID D
+#50 ')'
+#50 '.'
+#50 OBJECTID set_var
+#50 '('
+#50 OBJECTID x
+#50 ')'
+#50 ';'
 #51 FI
-#51 '('
-#51 LET
-#51 OBJECTID x
-#51 ':'
-#51 FI
-#51 OBJECTID nt
-#51 FI
-#51 OBJECTID n
+#51 '}'
+#52 INHERITS
+#52 CLASS
 #52 FI
-#52 '{'
+#52 ')'
 #53 INHERITS
-#53 CLASS
-#53 OBJECTID x
-#53 ASSIGN
-#53 IN
-#53 OBJECTID um2
-#53 '-'
-#53 IN
-#53 OBJECTID um1
-#53 ';'
-#54 INHERITS
-#54 CLASS
-#54 '('
-#54 NEW
-#54 TYPEID D
-#54 ')'
-#54 '.'
-#54 OBJECTID set
-LEXER BUG - UNMATCHED: _
-#54 OBJECTID var
-#54 '('
-#54 OBJECTID x
-#54 ')'
+#53 ELSE
+#53 FI
+#54 LET
+#54 '}'
 #54 ';'
-#55 FI
-#55 '}'
-#56 INHERITS
-#56 CLASS
+#56 LET
+#56 OBJECTID method5
+#56 '('
+#56 OBJECTID num
+#56 ':'
 #56 FI
+#56 OBJECTID nt
 #56 ')'
-#57 INHERITS
-#57 ELSE
+#56 ':'
+#56 LET
+#56 '{'
+#56 FI
+#56 OBJECTID factorial
+#57 CLASS
+#57 '('
+#57 LET
+#57 OBJECTID x
+#57 ':'
 #57 FI
-#58 LET
-#58 '}'
-#58 ';'
-#60 LET
-#60 OBJECTID method5
-#60 '('
-#60 OBJECTID num
-#60 ':'
-#60 FI
-#60 OBJECTID nt
-#60 ')'
-#60 ':'
-#60 LET
-#60 '{'
-#60 FI
-#60 '-'
-#60 '-'
-#60 IF
-#60 OBJECTID actorial
-#61 CLASS
-#61 '('
-#61 LET
-#61 OBJECTID x
-#61 ':'
+#57 OBJECTID nt
+#57 ASSIGN
+#57 INT_CONST 1
+#57 FI
+#57 OBJECTID n
+#58 '{'
+#59 ELSE
+#59 '('
+#59 LET
+#59 OBJECTID y
+#59 ':'
+#59 FI
+#59 OBJECTID nt
+#59 ASSIGN
+#59 INT_CONST 1
+#59 FI
+#59 OBJECTID n
+#60 CLASS
+#60 NEW
+#60 OBJECTID hile
+#60 OBJECTID y
+#60 LE
+#60 IN
+#60 OBJECTID um
+#60 LOOP
+#61 INHERITS
 #61 FI
-#61 OBJECTID nt
-#61 ASSIGN
-#61 INT_CONST 1
-#61 FI
-#61 OBJECTID n
-#62 '{'
-#63 ELSE
-#63 '('
-#63 LET
+#61 '{'
+#62 INHERITS
+#62 INHERITS
+#62 CLASS
+#62 OBJECTID x
+#62 ASSIGN
+#62 OBJECTID x
+#62 '*'
+#62 OBJECTID y
+#62 ';'
+#63 INHERITS
+#63 CLASS
 #63 OBJECTID y
-#63 ':'
-#63 FI
-#63 OBJECTID nt
 #63 ASSIGN
+#63 OBJECTID y
+#63 '+'
 #63 INT_CONST 1
-#63 FI
-#63 OBJECTID n
-#64 CLASS
-#64 NEW
-#64 OBJECTID hile
-#64 OBJECTID y
-#64 LE
-#64 IN
-#64 OBJECTID um
-#64 LOOP
-#65 INHERITS
+#63 ';'
+#64 INHERITS
+#64 FI
+#64 '}'
+#65 CLASS
 #65 FI
-#65 '{'
-#66 INHERITS
-#66 INHERITS
-#66 CLASS
-#66 OBJECTID x
-#66 ASSIGN
-#66 OBJECTID x
-#66 '*'
-#66 OBJECTID y
+#65 POOL
+#66 ELSE
+#66 ')'
 #66 ';'
-#67 INHERITS
-#67 CLASS
-#67 OBJECTID y
-#67 ASSIGN
-#67 OBJECTID y
-#67 '+'
-#67 INT_CONST 1
+#67 ELSE
+#67 '('
+#67 NEW
+#67 TYPEID E
+#67 ')'
+#67 '.'
+#67 OBJECTID set_var
+#67 '('
+#67 OBJECTID x
+#67 ')'
 #67 ';'
-#68 INHERITS
-#68 FI
 #68 '}'
 #69 CLASS
-#69 FI
-#69 POOL
-#70 ELSE
-#70 ')'
+#69 ')'
+#70 LET
+#70 '}'
 #70 ';'
-#71 ELSE
-#71 '('
-#71 NEW
-#71 TYPEID E
-#71 ')'
-#71 '.'
-#71 OBJECTID set
-LEXER BUG - UNMATCHED: _
-#71 OBJECTID var
-#71 '('
-#71 OBJECTID x
-#71 ')'
-#71 ';'
 #72 '}'
-#73 CLASS
-#73 ')'
-#74 LET
-#74 '}'
-#74 ';'
-#76 '}'
-#76 ';'
-#78 CLASS
-#78 TYPEID B
-#78 FI
-#78 OBJECTID nherits
-#78 TYPEID A
+#72 ';'
+#74 CLASS
+#74 TYPEID B
+#74 FI
+#74 OBJECTID nherits
+#74 TYPEID A
+#74 '{'
+#74 FI
+#74 TYPEID B
+#74 FI
+#74 OBJECTID s
+#74 OBJECTID a
+#74 IN
+#74 OBJECTID umber
+#74 OBJECTID squared
+#76 LET
+#76 OBJECTID method5
+#76 '('
+#76 OBJECTID num
+#76 ':'
+#76 FI
+#76 OBJECTID nt
+#76 ')'
+#76 ':'
+#76 LET
+#76 '{'
+#76 OBJECTID square
+#77 CLASS
+#77 '('
+#77 LET
+#77 OBJECTID x
+#77 ':'
+#77 FI
+#77 OBJECTID nt
+#77 FI
+#77 OBJECTID n
 #78 '{'
-#78 FI
-#78 '-'
-#78 '-'
-#78 TYPEID B
-#78 FI
-#78 OBJECTID s
-#78 OBJECTID a
-#78 IN
-#78 OBJECTID umber
-#78 OBJECTID squared
-#80 LET
-#80 OBJECTID method5
+#79 INHERITS
+#79 ELSE
+#79 OBJECTID x
+#79 ASSIGN
+#79 IN
+#79 OBJECTID um
+#79 '*'
+#79 IN
+#79 OBJECTID um
+#79 ';'
+#80 ELSE
 #80 '('
-#80 OBJECTID num
-#80 ':'
-#80 FI
-#80 OBJECTID nt
+#80 NEW
+#80 TYPEID E
 #80 ')'
-#80 ':'
-#80 LET
-#80 '{'
-#80 '-'
-#80 '-'
-#80 OBJECTID square
-#81 CLASS
-#81 '('
-#81 LET
-#81 OBJECTID x
-#81 ':'
-#81 FI
-#81 OBJECTID nt
-#81 FI
-#81 OBJECTID n
-#82 '{'
-#83 INHERITS
-#83 ELSE
-#83 OBJECTID x
-#83 ASSIGN
-#83 IN
-#83 OBJECTID um
-#83 '*'
-#83 IN
-#83 OBJECTID um
+#80 '.'
+#80 OBJECTID set_var
+#80 '('
+#80 OBJECTID x
+#80 ')'
+#80 ';'
+#81 '}'
+#82 CLASS
+#82 ')'
+#83 LET
+#83 '}'
 #83 ';'
-#84 ELSE
-#84 '('
-#84 NEW
-#84 TYPEID E
-#84 ')'
-#84 '.'
-#84 OBJECTID set
-LEXER BUG - UNMATCHED: _
-#84 OBJECTID var
-#84 '('
-#84 OBJECTID x
-#84 ')'
-#84 ';'
 #85 '}'
-#86 CLASS
-#86 ')'
-#87 LET
-#87 '}'
-#87 ';'
-#89 '}'
-#89 ';'
-#91 CLASS
-#91 TYPEID C
-#91 FI
-#91 OBJECTID nherits
-#91 TYPEID B
+#85 ';'
+#87 CLASS
+#87 TYPEID C
+#87 FI
+#87 OBJECTID nherits
+#87 TYPEID B
+#87 '{'
+#89 LET
+#89 OBJECTID method6
+#89 '('
+#89 OBJECTID num
+#89 ':'
+#89 FI
+#89 OBJECTID nt
+#89 ')'
+#89 ':'
+#89 TYPEID A
+#89 '{'
+#89 OBJECTID negate
+#90 CLASS
+#90 '('
+#90 LET
+#90 OBJECTID x
+#90 ':'
+#90 FI
+#90 OBJECTID nt
+#90 FI
+#90 OBJECTID n
+#91 INHERITS
 #91 '{'
-#93 LET
-#93 OBJECTID method6
+#92 INHERITS
+#92 ELSE
+#92 OBJECTID x
+#92 ASSIGN
+#92 '~'
+#92 OBJECTID num
+#92 ';'
+#93 ELSE
 #93 '('
-#93 OBJECTID num
-#93 ':'
-#93 FI
-#93 OBJECTID nt
-#93 ')'
-#93 ':'
+#93 NEW
 #93 TYPEID A
-#93 '{'
-#93 '-'
-#93 '-'
-#93 IN
-#93 OBJECTID egate
-#94 CLASS
-#94 '('
-#94 LET
-#94 OBJECTID x
-#94 ':'
-#94 FI
-#94 OBJECTID nt
-#94 FI
-#94 OBJECTID n
-#95 INHERITS
-#95 '{'
-#96 INHERITS
-#96 ELSE
-#96 OBJECTID x
-#96 ASSIGN
-#96 '~'
-#96 OBJECTID num
+#93 ')'
+#93 '.'
+#93 OBJECTID set_var
+#93 '('
+#93 OBJECTID x
+#93 ')'
+#93 ';'
+#94 INHERITS
+#94 '}'
+#95 CLASS
+#95 ')'
+#96 LET
+#96 '}'
 #96 ';'
-#97 ELSE
-#97 '('
-#97 NEW
-#97 TYPEID A
-#97 ')'
-#97 '.'
-#97 OBJECTID set
-LEXER BUG - UNMATCHED: _
-#97 OBJECTID var
-#97 '('
-#97 OBJECTID x
-#97 ')'
-#97 ';'
-#98 INHERITS
-#98 '}'
+#98 LET
+#98 OBJECTID method5
+#98 '('
+#98 OBJECTID num
+#98 ':'
+#98 FI
+#98 OBJECTID nt
+#98 ')'
+#98 ':'
+#98 LET
+#98 '{'
+#98 FI
+#98 OBJECTID cube
 #99 CLASS
-#99 ')'
-#100 LET
-#100 '}'
-#100 ';'
-#102 LET
-#102 OBJECTID method5
+#99 '('
+#99 LET
+#99 OBJECTID x
+#99 ':'
+#99 FI
+#99 OBJECTID nt
+#99 FI
+#99 OBJECTID n
+#100 '{'
+#101 INHERITS
+#101 ELSE
+#101 OBJECTID x
+#101 ASSIGN
+#101 IN
+#101 OBJECTID um
+#101 '*'
+#101 IN
+#101 OBJECTID um
+#101 '*'
+#101 IN
+#101 OBJECTID um
+#101 ';'
+#102 ELSE
 #102 '('
-#102 OBJECTID num
-#102 ':'
-#102 FI
-#102 OBJECTID nt
+#102 NEW
+#102 TYPEID E
 #102 ')'
-#102 ':'
-#102 LET
-#102 '{'
-#102 FI
-#102 '-'
-#102 '-'
-#102 OBJECTID cube
-#103 CLASS
-#103 '('
-#103 LET
-#103 OBJECTID x
-#103 ':'
-#103 FI
-#103 OBJECTID nt
-#103 FI
-#103 OBJECTID n
-#104 '{'
-#105 INHERITS
-#105 ELSE
-#105 OBJECTID x
-#105 ASSIGN
-#105 IN
-#105 OBJECTID um
-#105 '*'
-#105 IN
-#105 OBJECTID um
-#105 '*'
-#105 IN
-#105 OBJECTID um
+#102 '.'
+#102 OBJECTID set_var
+#102 '('
+#102 OBJECTID x
+#102 ')'
+#102 ';'
+#103 '}'
+#104 CLASS
+#104 ')'
+#105 LET
+#105 '}'
 #105 ';'
-#106 ELSE
-#106 '('
-#106 NEW
-#106 TYPEID E
-#106 ')'
-#106 '.'
-#106 OBJECTID set
-LEXER BUG - UNMATCHED: _
-#106 OBJECTID var
-#106 '('
-#106 OBJECTID x
-#106 ')'
-#106 ';'
 #107 '}'
-#108 CLASS
-#108 ')'
-#109 LET
-#109 '}'
-#109 ';'
-#111 '}'
-#111 ';'
-#113 CLASS
-#113 TYPEID D
-#113 FI
-#113 OBJECTID nherits
-#113 TYPEID B
-#113 '{'
-#113 FI
-#115 LET
-#115 OBJECTID method7
-#115 '('
-#115 OBJECTID num
-#115 ':'
-#115 FI
-#115 OBJECTID nt
-#115 ')'
-#115 ':'
-#115 TYPEID Bool
-#115 '{'
-#115 FI
-#115 '-'
-#115 '-'
-#115 OBJECTID divisible
-#115 OBJECTID by
-#115 INT_CONST 3
-#116 CLASS
-#116 '('
-#116 LET
+#107 ';'
+#109 CLASS
+#109 TYPEID D
+#109 FI
+#109 OBJECTID nherits
+#109 TYPEID B
+#109 '{'
+#109 FI
+#111 LET
+#111 OBJECTID method7
+#111 '('
+#111 OBJECTID num
+#111 ':'
+#111 FI
+#111 OBJECTID nt
+#111 ')'
+#111 ':'
+#111 TYPEID Bool
+#111 '{'
+#111 FI
+#111 OBJECTID divisible
+#111 OBJECTID by
+#111 INT_CONST 3
+#112 CLASS
+#112 '('
+#112 LET
+#112 OBJECTID x
+#112 ':'
+#112 FI
+#112 OBJECTID nt
+#112 ASSIGN
+#112 IN
+#112 OBJECTID um
+#112 FI
+#112 OBJECTID n
+#113 INHERITS
+#113 ELSE
+#113 IF
+#113 OBJECTID x
+#113 '<'
+#113 INT_CONST 0
+#113 THEN
+#113 OBJECTID method7
+#113 '('
+#113 '~'
+#113 OBJECTID x
+#113 ')'
+#113 ELSE
+#114 INHERITS
+#114 ELSE
+#114 IF
+#114 INT_CONST 0
+#114 '='
+#114 OBJECTID x
+#114 THEN
+#114 BOOL_CONST true
+#114 ELSE
+#115 INHERITS
+#115 ELSE
+#115 IF
+#115 INT_CONST 1
+#115 '='
+#115 OBJECTID x
+#115 THEN
+#115 IF
+#115 OBJECTID alse
+#115 ELSE
+#116 ELSE
+#116 IF
+#116 INT_CONST 2
+#116 '='
 #116 OBJECTID x
-#116 ':'
-#116 FI
-#116 OBJECTID nt
-#116 ASSIGN
-#116 IN
-#116 OBJECTID um
-#116 FI
-#116 OBJECTID n
-#117 INHERITS
-#117 ELSE
-#117 IF
-#117 OBJECTID x
-#117 '<'
-#117 INT_CONST 0
-#117 THEN
+#116 THEN
+#116 IF
+#116 OBJECTID alse
+#116 ELSE
+#117 CLASS
+#117 FI
 #117 OBJECTID method7
 #117 '('
-#117 '~'
 #117 OBJECTID x
+#117 '-'
+#117 INT_CONST 3
 #117 ')'
-#117 ELSE
-#118 INHERITS
 #118 ELSE
+#118 FI
 #118 IF
-#118 INT_CONST 0
-#118 '='
-#118 OBJECTID x
-#118 THEN
-#118 BOOL_CONST true
-#118 ELSE
-#119 INHERITS
-#119 ELSE
-#119 IF
-#119 INT_CONST 1
-#119 '='
-#119 OBJECTID x
-#119 THEN
-#119 IF
-#119 OBJECTID alse
-#119 ELSE
-#120 ELSE
-#120 IF
-#120 INT_CONST 2
-#120 '='
-#120 OBJECTID x
-#120 THEN
-#120 IF
-#120 OBJECTID alse
-#120 ELSE
-#121 CLASS
-#121 FI
-#121 OBJECTID method7
-#121 '('
-#121 OBJECTID x
-#121 '-'
-#121 INT_CONST 3
-#121 ')'
-#122 ELSE
-#122 FI
-#122 IF
-#122 IF
-#122 FI
-#122 IF
-#122 OBJECTID i
-#123 CLASS
-#123 ')'
+#118 IF
+#118 FI
+#118 IF
+#118 OBJECTID i
+#119 CLASS
+#119 ')'
+#120 LET
+#120 '}'
+#120 ';'
+#122 '}'
+#122 ';'
+#124 CLASS
 #124 LET
-#124 '}'
-#124 ';'
-#126 '}'
-#126 ';'
-#128 CLASS
-#128 LET
+#124 INHERITS
+#124 TYPEID D
+#124 '{'
+#126 LET
+#126 OBJECTID method6
+#126 '('
+#126 OBJECTID num
+#126 ':'
+#126 FI
+#126 OBJECTID nt
+#126 ')'
+#126 ':'
+#126 TYPEID A
+#126 '{'
+#126 FI
+#126 OBJECTID division
+#127 CLASS
+#127 '('
+#127 LET
+#127 OBJECTID x
+#127 ':'
+#127 FI
+#127 OBJECTID nt
+#127 FI
+#127 OBJECTID n
 #128 INHERITS
-#128 TYPEID D
 #128 '{'
-#130 LET
-#130 OBJECTID method6
+#129 INHERITS
+#129 ELSE
+#129 OBJECTID x
+#129 ASSIGN
+#129 IN
+#129 OBJECTID um
+#129 '/'
+#129 INT_CONST 8
+#129 ';'
+#130 ELSE
 #130 '('
-#130 OBJECTID num
-#130 ':'
-#130 FI
-#130 OBJECTID nt
-#130 ')'
-#130 ':'
+#130 NEW
 #130 TYPEID A
-#130 '{'
-#130 FI
-#130 '-'
-#130 '-'
-#130 OBJECTID division
-#131 CLASS
-#131 '('
-#131 LET
-#131 OBJECTID x
-#131 ':'
-#131 FI
-#131 OBJECTID nt
-#131 FI
-#131 OBJECTID n
-#132 INHERITS
-#132 '{'
-#133 INHERITS
-#133 ELSE
-#133 OBJECTID x
-#133 ASSIGN
-#133 IN
-#133 OBJECTID um
-#133 '/'
-#133 INT_CONST 8
+#130 ')'
+#130 '.'
+#130 OBJECTID set_var
+#130 '('
+#130 OBJECTID x
+#130 ')'
+#130 ';'
+#131 INHERITS
+#131 '}'
+#132 CLASS
+#132 ')'
+#133 LET
+#133 '}'
 #133 ';'
-#134 ELSE
-#134 '('
-#134 NEW
-#134 TYPEID A
-#134 ')'
-#134 '.'
-#134 OBJECTID set
-LEXER BUG - UNMATCHED: _
-#134 OBJECTID var
-#134 '('
-#134 OBJECTID x
-#134 ')'
-#134 ';'
-#135 INHERITS
 #135 '}'
-#136 CLASS
-#136 ')'
-#137 LET
-#137 '}'
-#137 ';'
-#139 '}'
-#139 ';'
-#141 '('
-#141 '*'
-#141 THEN
-#141 OBJECTID following
-#141 OBJECTID code
-#141 FI
-#141 OBJECTID s
-#141 IF
-#141 OBJECTID rom
-#141 OBJECTID atoi
-#141 '.'
-#141 OBJECTID cl
-#141 FI
-#141 OBJECTID n
-#141 '~'
-#141 OBJECTID cs164
-#141 '/'
-#141 OBJECTID examples
-#141 '*'
-#141 ')'
-#143 '('
-#143 '*'
-#144 LET
-#144 THEN
-#144 CLASS
-#144 TYPEID A2I
-#144 OBJECTID provides
-#144 FI
-#144 OBJECTID nteger
-#144 '-'
-#144 OBJECTID to
-#144 '-'
-#144 OBJECTID string
-#144 OBJECTID and
-#144 OBJECTID string
-#144 '-'
-#144 OBJECTID to
-#144 '-'
-#144 OBJECTID integer
-#145 OBJECTID conversion
-#145 OBJECTID routines
-#145 '.'
-#145 LET
-#145 OF
-#145 OBJECTID use
-#145 OBJECTID these
-#145 OBJECTID routines
-#145 ','
-#145 OBJECTID either
+#135 ';'
+#143 CLASS
+#143 TYPEID A2I
+#143 '{'
+#145 CLASS
+#145 OBJECTID c2i
+#145 '('
+#145 OBJECTID char
+#145 ':'
+#145 TYPEID String
+#145 ')'
+#145 ':'
 #145 FI
-#145 OBJECTID nherit
-#145 OBJECTID them
-#146 IN
+#145 OBJECTID nt
+#145 '{'
+#146 IF
+#146 OBJECTID char
+#146 '='
+#146 STR_CONST "0"
 #146 THEN
-#146 CLASS
-#146 OBJECTID where
-#146 IN
-#146 OBJECTID eeded
-#146 ','
-#146 OBJECTID have
-#146 OBJECTID a
-#146 OBJECTID dummy
-#146 OBJECTID variable
-#146 OBJECTID bound
-#146 OBJECTID to
-#147 OBJECTID something
-#147 OF
-#147 OBJECTID type
-#147 TYPEID A2I
-#147 ','
-#147 OBJECTID or
-#147 OBJECTID simpl
-#147 OBJECTID write
-#147 '('
-#147 NEW
-#147 TYPEID A2I
-#147 ')'
-#147 '.'
-#147 OBJECTID method
-#147 '('
-#147 OBJECTID argument
-#147 ')'
-#147 '.'
-#148 '*'
-#148 ')'
-#151 '('
-#151 '*'
-#152 ESAC
-#152 INT_CONST 2
+#146 INT_CONST 0
+#146 ELSE
+#147 IF
+#147 OBJECTID char
+#147 '='
+#147 STR_CONST "1"
+#147 THEN
+#147 INT_CONST 1
+#147 ELSE
+#148 IF
+#148 OBJECTID char
+#148 '='
+#148 STR_CONST "2"
+#148 THEN
+#148 INT_CONST 2
+#148 ELSE
+#149 INHERITS
+#149 IF
+#149 OBJECTID char
+#149 '='
+#149 STR_CONST "3"
+#149 THEN
+#149 INT_CONST 3
+#149 ELSE
+#150 INHERITS
+#150 IF
+#150 OBJECTID char
+#150 '='
+#150 STR_CONST "4"
+#150 THEN
+#150 INT_CONST 4
+#150 ELSE
+#151 INHERITS
+#151 IF
+#151 OBJECTID char
+#151 '='
+#151 STR_CONST "5"
+#151 THEN
+#151 INT_CONST 5
+#151 ELSE
+#152 INHERITS
 #152 IF
-#152 FI
-#152 TYPEID Converts
-#152 OBJECTID a
-#152 INT_CONST 1
-#152 '-'
-#152 OBJECTID character
-#152 OBJECTID string
-#152 OBJECTID to
-#152 OBJECTID an
-#152 FI
-#152 OBJECTID nteger
-#152 '.'
-#152 FI
-#152 TYPEID Aborts
+#152 OBJECTID char
+#152 '='
+#152 STR_CONST "6"
+#152 THEN
+#152 INT_CONST 6
+#152 ELSE
 #153 INHERITS
-#153 FI
-#153 FI
+#153 IF
+#153 OBJECTID char
+#153 '='
+#153 STR_CONST "7"
 #153 THEN
-#153 OBJECTID string
-#153 FI
-#153 OBJECTID s
-#153 IN
-#153 OBJECTID ot
-#153 STR_CONST "0\" through \"9"
-#154 '*'
-#154 ')'
-#155 CLASS
-#155 TYPEID A2I
-#155 '{'
-#157 CLASS
-#157 OBJECTID c2i
-#157 '('
-#157 OBJECTID char
-#157 ':'
-#157 TYPEID String
-#157 ')'
-#157 ':'
+#153 INT_CONST 7
+#153 ELSE
+#154 INHERITS
+#154 IF
+#154 OBJECTID char
+#154 '='
+#154 STR_CONST "8"
+#154 THEN
+#154 INT_CONST 8
+#154 ELSE
+#155 INHERITS
+#155 IF
+#155 OBJECTID char
+#155 '='
+#155 STR_CONST "9"
+#155 THEN
+#155 INT_CONST 9
+#155 ELSE
+#156 INHERITS
+#156 '{'
+#156 OBJECTID abort
+#156 '('
+#156 ')'
+#156 ';'
+#156 INT_CONST 0
+#156 ';'
+#156 '}'
+#156 FI
+#157 INHERITS
 #157 FI
-#157 OBJECTID nt
-#157 '{'
-#158 IF
-#158 OBJECTID char
-#158 '='
-#158 STR_CONST "0\" then 0 else\n\tif char = \"1\" then 1 else\n\tif char = \"2\" then 2 else\n        if char = \"3\" then 3 else\n        if char = \"4\" then 4 else\n        if char = \"5\" then 5 else\n        if char = \"6\" then 6 else\n        if char = \"7\" then 7 else\n        if char = \"8\" then 8 else\n        if char = \"9"
-#158 THEN
-#158 INT_CONST 9
-#158 ELSE
-#159 INHERITS
-#159 '{'
-#159 OBJECTID abort
-#159 '('
-#159 ')'
-#159 ';'
-#159 INT_CONST 0
-#159 ';'
-#159 '}'
-#159 FI
-#159 '('
-#159 '*'
-#159 THEN
-#159 INT_CONST 0
-#159 FI
-#159 OBJECTID s
-#159 IN
-#159 OBJECTID eeded
-#159 OBJECTID to
-#159 OBJECTID satisfy
-#159 OBJECTID the
-#160 LET
-#160 OBJECTID ypchecker
-#160 '*'
-#160 ')'
-#161 INHERITS
+#157 IF
+#157 IF
+#157 FI
+#157 IF
+#157 IF
+#157 FI
+#157 IF
+#157 IF
+#157 FI
+#157 IF
+#157 IF
+#157 FI
+#157 IF
+#157 OBJECTID i
+#158 CLASS
+#158 '}'
+#158 ';'
+#161 CLASS
+#161 OBJECTID i2c
+#161 '('
+#161 IF
+#161 ':'
 #161 FI
-#161 IF
-#161 IF
-#161 FI
-#161 IF
-#161 IF
-#161 FI
-#161 IF
-#161 IF
-#161 FI
-#161 IF
-#161 IF
-#161 FI
-#161 IF
-#161 OBJECTID i
-#162 CLASS
-#162 '}'
-#162 ';'
-#164 '('
-#164 '*'
-#165 LET
-#165 OBJECTID i2c
+#161 OBJECTID nt
+#161 ')'
+#161 ':'
+#161 TYPEID String
+#161 '{'
+#162 IF
+#162 FI
+#162 '='
+#162 INT_CONST 0
+#162 THEN
+#162 STR_CONST "0"
+#162 ELSE
+#163 IF
+#163 FI
+#163 '='
+#163 INT_CONST 1
+#163 THEN
+#163 STR_CONST "1"
+#163 ELSE
+#164 IF
+#164 FI
+#164 '='
+#164 INT_CONST 2
+#164 THEN
+#164 STR_CONST "2"
+#164 ELSE
+#165 IF
 #165 FI
-#165 OBJECTID s
+#165 '='
+#165 INT_CONST 3
 #165 THEN
-#165 OBJECTID inverse
-#165 OF
-#165 OBJECTID c2i
-#165 '.'
-#166 '*'
-#166 ')'
-#167 CLASS
-#167 OBJECTID i2c
-#167 '('
+#165 STR_CONST "3"
+#165 ELSE
+#166 IF
+#166 FI
+#166 '='
+#166 INT_CONST 4
+#166 THEN
+#166 STR_CONST "4"
+#166 ELSE
 #167 IF
-#167 ':'
 #167 FI
-#167 OBJECTID nt
-#167 ')'
-#167 ':'
-#167 TYPEID String
-#167 '{'
+#167 '='
+#167 INT_CONST 5
+#167 THEN
+#167 STR_CONST "5"
+#167 ELSE
 #168 IF
 #168 FI
 #168 '='
-#168 INT_CONST 0
+#168 INT_CONST 6
 #168 THEN
-#168 STR_CONST "0\" else\n\tif i = 1 then \"1\" else\n\tif i = 2 then \"2\" else\n\tif i = 3 then \"3\" else\n\tif i = 4 then \"4\" else\n\tif i = 5 then \"5\" else\n\tif i = 6 then \"6\" else\n\tif i = 7 then \"7\" else\n\tif i = 8 then \"8\" else\n\tif i = 9 then \"9\" else\n\t{ abort(); \"\"; }  -- the \""
-#168 FI
-#168 OBJECTID s
-#168 IN
-#168 OBJECTID eeded
-#168 OBJECTID to
-#168 OBJECTID satisfy
-#168 THEN
-#168 OBJECTID typchecker
-#169 INHERITS
-#169 FI
-#169 IF
+#168 STR_CONST "6"
+#168 ELSE
 #169 IF
 #169 FI
-#169 IF
-#169 IF
-#169 FI
-#169 IF
-#169 IF
-#169 FI
-#169 IF
-#169 IF
-#169 FI
-#169 IF
-#169 OBJECTID i
-#170 CLASS
-#170 '}'
-#170 ';'
+#169 '='
+#169 INT_CONST 7
+#169 THEN
+#169 STR_CONST "7"
+#169 ELSE
+#170 IF
+#170 FI
+#170 '='
+#170 INT_CONST 8
+#170 THEN
+#170 STR_CONST "8"
+#170 ELSE
+#171 IF
+#171 FI
+#171 '='
+#171 INT_CONST 9
+#171 THEN
+#171 STR_CONST "9"
+#171 ELSE
+#172 '{'
+#172 OBJECTID abort
 #172 '('
-#172 '*'
-#173 LET
-#173 OBJECTID a2i
-#173 OBJECTID converts
-#173 OBJECTID an
-#173 TYPEID ASCII
-#173 OBJECTID string
+#172 ')'
+#172 ';'
+LEXER BUG - UNMATCHED: "
+#172 STR_CONST "; }  -- the "
+LEXER BUG - UNMATCHED: "
+#172 FI
+#172 OBJECTID s
+#172 IN
+#172 OBJECTID eeded
+#172 OBJECTID to
+#172 OBJECTID satisfy
+#172 THEN
+#172 OBJECTID typchecker
+#173 INHERITS
 #173 FI
-#173 OBJECTID nto
-#173 OBJECTID an
+#173 IF
+#173 IF
 #173 FI
-#173 OBJECTID nteger
-#173 '.'
-#173 LET
-#173 OBJECTID he
-#173 OBJECTID empty
-#173 OBJECTID string
-#174 OBJECTID is
-#174 OBJECTID converted
-#174 OBJECTID to
-#174 INT_CONST 0
-#174 '.'
-#174 FI
-#174 TYPEID Signed
-#174 OBJECTID and
-#174 OBJECTID unsigned
-#174 OBJECTID strings
-#174 OBJECTID are
-#174 OBJECTID handled
-#174 '.'
-#174 LET
-#174 OBJECTID he
-#175 OBJECTID method
-#175 OBJECTID aborts
-#175 FI
-#175 FI
-#175 THEN
-#175 OBJECTID string
-#175 OBJECTID does
-#175 IN
-#175 OBJECTID ot
-#175 OBJECTID represent
-#175 OBJECTID an
-#175 FI
-#175 OBJECTID nteger
-#175 '.'
-#175 FI
-#175 TYPEID Very
-#176 OBJECTID long
-#176 OBJECTID strings
-#176 OF
-#176 OBJECTID digits
-#176 OBJECTID produce
-#176 OBJECTID strange
-#176 OBJECTID answers
-#176 OBJECTID because
-#176 OF
-#176 OBJECTID arithmetic
-#177 OBJECTID overflow
-#177 '.'
-#179 '*'
+#173 IF
+#173 IF
+#173 FI
+#173 IF
+#173 IF
+#173 FI
+#173 IF
+#173 IF
+#173 FI
+#173 IF
+#173 OBJECTID i
+#174 CLASS
+#174 '}'
+#174 ';'
+#177 CLASS
+#177 OBJECTID a2i
+#177 '('
+#177 OBJECTID s
+#177 ':'
+#177 TYPEID String
+#177 ')'
+#177 ':'
+#177 FI
+#177 OBJECTID nt
+#177 '{'
+#178 INHERITS
+#178 IF
+#178 OBJECTID s
+#178 '.'
+#178 OBJECTID length
+#178 '('
+#178 ')'
+#178 '='
+#178 INT_CONST 0
+#178 THEN
+#178 INT_CONST 0
+#178 ELSE
+#179 IF
+#179 OBJECTID s
+#179 '.'
+#179 OBJECTID substr
+#179 '('
+#179 INT_CONST 0
+#179 ','
+#179 INT_CONST 1
 #179 ')'
-#180 CLASS
-#180 OBJECTID a2i
+#179 '='
+#179 STR_CONST "-"
+#179 THEN
+#179 '~'
+#179 OBJECTID a2i_aux
+#179 '('
+#179 OBJECTID s
+#179 '.'
+#179 OBJECTID substr
+#179 '('
+#179 INT_CONST 1
+#179 ','
+#179 OBJECTID s
+#179 '.'
+#179 OBJECTID length
+#179 '('
+#179 ')'
+#179 '-'
+#179 INT_CONST 1
+#179 ')'
+#179 ')'
+#179 ELSE
+#180 INHERITS
+#180 IF
+#180 OBJECTID s
+#180 '.'
+#180 OBJECTID substr
+#180 '('
+#180 INT_CONST 0
+#180 ','
+#180 INT_CONST 1
+#180 ')'
+#180 '='
+#180 STR_CONST "+"
+#180 THEN
+#180 OBJECTID a2i_aux
 #180 '('
 #180 OBJECTID s
-#180 ':'
-#180 TYPEID String
+#180 '.'
+#180 OBJECTID substr
+#180 '('
+#180 INT_CONST 1
+#180 ','
+#180 OBJECTID s
+#180 '.'
+#180 OBJECTID length
+#180 '('
 #180 ')'
-#180 ':'
-#180 FI
-#180 OBJECTID nt
-#180 '{'
+#180 '-'
+#180 INT_CONST 1
+#180 ')'
+#180 ')'
+#180 ELSE
 #181 INHERITS
-#181 IF
-#181 OBJECTID s
-#181 '.'
-#181 OBJECTID length
+#181 LET
+#181 OBJECTID a2i_aux
 #181 '('
+#181 OBJECTID s
 #181 ')'
-#181 '='
-#181 INT_CONST 0
-#181 THEN
-#181 INT_CONST 0
-#181 ELSE
+#182 INHERITS
+#182 FI
 #182 IF
-#182 OBJECTID s
-#182 '.'
-#182 OBJECTID substr
-#182 '('
-#182 INT_CONST 0
-#182 ','
-#182 INT_CONST 1
-#182 ')'
-#182 '='
-#182 STR_CONST "-"
-#182 THEN
-#182 '~'
-#182 OBJECTID a2i
-LEXER BUG - UNMATCHED: _
-#182 OBJECTID aux
-#182 '('
-#182 OBJECTID s
-#182 '.'
-#182 OBJECTID substr
-#182 '('
-#182 INT_CONST 1
-#182 ','
-#182 OBJECTID s
-#182 '.'
-#182 OBJECTID length
-#182 '('
-#182 ')'
-#182 '-'
-#182 INT_CONST 1
-#182 ')'
-#182 ')'
-#182 ELSE
-#183 INHERITS
-#183 IF
-#183 OBJECTID s
-#183 '.'
-#183 OBJECTID substr
-#183 '('
-#183 INT_CONST 0
-#183 ','
-#183 INT_CONST 1
-#183 ')'
-#183 '='
-#183 STR_CONST "+"
-#183 THEN
-#183 OBJECTID a2i
-LEXER BUG - UNMATCHED: _
-#183 OBJECTID aux
-#183 '('
-#183 OBJECTID s
-#183 '.'
-#183 OBJECTID substr
-#183 '('
-#183 INT_CONST 1
-#183 ','
-#183 OBJECTID s
-#183 '.'
-#183 OBJECTID length
-#183 '('
-#183 ')'
-#183 '-'
-#183 INT_CONST 1
-#183 ')'
-#183 ')'
-#183 ELSE
-#184 INHERITS
-#184 LET
-#184 OBJECTID a2i
-LEXER BUG - UNMATCHED: _
-#184 OBJECTID aux
-#184 '('
-#184 OBJECTID s
-#184 ')'
-#185 INHERITS
-#185 FI
-#185 IF
-#185 IF
-#185 FI
-#186 CLASS
-#186 '}'
-#186 ';'
-#188 '('
-#188 '*'
-#188 OBJECTID a2i
-LEXER BUG - UNMATCHED: _
-#188 OBJECTID aux
-#188 OBJECTID converts
-#188 THEN
-#188 OBJECTID usigned
-#188 OBJECTID portion
-#188 OF
-#188 THEN
-#188 OBJECTID string
-#188 '.'
+#182 IF
+#182 FI
+#183 CLASS
+#183 '}'
+#183 ';'
 #188 CLASS
-#188 OBJECTID a
-#189 LOOP
-#189 OBJECTID rogramming
-#189 OBJECTID example
-#189 ','
-#189 OBJECTID this
-#189 OBJECTID method
+#188 OBJECTID a2i_aux
+#188 '('
+#188 OBJECTID s
+#188 ':'
+#188 TYPEID String
+#188 ')'
+#188 ':'
+#188 FI
+#188 OBJECTID nt
+#188 '{'
+#189 '('
+#189 LET
 #189 FI
-#189 OBJECTID s
-#189 OBJECTID written
+#189 OBJECTID nt
+#189 ':'
 #189 FI
-#189 OBJECTID teratively
-#189 '.'
+#189 OBJECTID nt
+#189 ASSIGN
+#189 INT_CONST 0
 #189 FI
-#189 '*'
-#189 ')'
-#192 CLASS
-#192 OBJECTID a2i
-LEXER BUG - UNMATCHED: _
-#192 OBJECTID aux
+#189 OBJECTID n
+#190 INHERITS
+#190 LET
+#190 '{'
+#191 INHERITS
+#191 CLASS
+#191 FI
+#191 '('
+#191 LET
+#191 OBJECTID j
+#191 ':'
+#191 FI
+#191 OBJECTID nt
+#191 ASSIGN
+#191 OBJECTID s
+#191 '.'
+#191 OBJECTID length
+#191 '('
+#191 ')'
+#191 FI
+#191 OBJECTID n
+#192 INHERITS
+#192 FI
 #192 '('
-#192 OBJECTID s
-#192 ':'
-#192 TYPEID String
-#192 ')'
+#192 LET
+#192 FI
 #192 ':'
 #192 FI
 #192 OBJECTID nt
-#192 '{'
-#193 '('
-#193 LET
+#192 ASSIGN
+#192 INT_CONST 0
+#192 FI
+#192 OBJECTID n
+#193 ELSE
+#193 WHILE
 #193 FI
-#193 OBJECTID nt
-#193 ':'
-#193 FI
-#193 OBJECTID nt
-#193 ASSIGN
-#193 INT_CONST 0
-#193 FI
-#193 OBJECTID n
-#194 INHERITS
-#194 LET
+#193 '<'
+#193 OBJECTID j
+#193 LOOP
 #194 '{'
-#195 INHERITS
-#195 CLASS
-#195 FI
-#195 '('
-#195 LET
-#195 OBJECTID j
-#195 ':'
+#195 ELSE
+#195 OBJECTID int
+#195 ASSIGN
 #195 FI
 #195 OBJECTID nt
-#195 ASSIGN
+#195 '*'
+#195 INT_CONST 10
+#195 '+'
+#195 OBJECTID c2i
+#195 '('
 #195 OBJECTID s
 #195 '.'
-#195 OBJECTID length
+#195 OBJECTID substr
 #195 '('
+#195 OBJECTID i
+#195 ','
+#195 INT_CONST 1
 #195 ')'
-#195 FI
-#195 OBJECTID n
-#196 INHERITS
-#196 FI
-#196 '('
-#196 LET
-#196 FI
-#196 ':'
-#196 FI
-#196 OBJECTID nt
+#195 ')'
+#195 ';'
+#196 ELSE
+#196 IF
 #196 ASSIGN
-#196 INT_CONST 0
 #196 FI
-#196 OBJECTID n
-#197 ELSE
-#197 WHILE
-#197 FI
-#197 '<'
-#197 OBJECTID j
-#197 LOOP
-#198 '{'
-#199 ELSE
-#199 OBJECTID int
-#199 ASSIGN
+#196 '+'
+#196 INT_CONST 1
+#196 ';'
+#197 '}'
+#198 ELSE
+#198 POOL
 #199 FI
-#199 OBJECTID nt
-#199 '*'
-#199 INT_CONST 10
-#199 '+'
-#199 OBJECTID c2i
-#199 '('
-#199 OBJECTID s
-#199 '.'
-#199 OBJECTID substr
-#199 '('
-#199 OBJECTID i
-#199 ','
-#199 INT_CONST 1
 #199 ')'
-#199 ')'
-#199 ';'
-#200 ELSE
-#200 IF
-#200 ASSIGN
+#200 CLASS
 #200 FI
-#200 '+'
-#200 INT_CONST 1
+#200 ')'
 #200 ';'
-#201 '}'
+#201 INHERITS
+#201 CLASS
+#201 FI
+#201 OBJECTID nt
+#201 ';'
 #202 ELSE
-#202 POOL
-#203 FI
+#202 '}'
+#203 INHERITS
 #203 ')'
 #204 CLASS
-#204 FI
-#204 ')'
+#204 '}'
 #204 ';'
-#205 INHERITS
-#205 CLASS
-#205 FI
-#205 OBJECTID nt
-#205 ';'
-#206 ELSE
-#206 '}'
-#207 INHERITS
-#207 ')'
-#208 CLASS
-#208 '}'
-#208 ';'
-#210 '('
-#210 '*'
+#208 ELSE
+#208 OBJECTID i2a
+#208 '('
+#208 IF
+#208 ':'
+#208 FI
+#208 OBJECTID nt
+#208 ')'
+#208 ':'
+#208 TYPEID String
+#208 '{'
+#209 IF
+#209 FI
+#209 '='
+#209 INT_CONST 0
+#209 THEN
+#209 STR_CONST "0"
+#209 ELSE
+#210 INHERITS
+#210 IF
+#210 INT_CONST 0
+#210 '<'
+#210 FI
+#210 THEN
 #210 FI
 #210 INT_CONST 2
-#210 OBJECTID a
-#210 OBJECTID converts
-#210 OBJECTID an
-#210 FI
-#210 OBJECTID nteger
-#210 OBJECTID to
-#210 OBJECTID a
-#210 OBJECTID string
-#210 '.'
-#210 FI
-#210 TYPEID Positive
-#210 OBJECTID and
-#210 IN
-#210 OBJECTID egative
-#211 THEN
-#211 OBJECTID umbers
-#211 OBJECTID are
-#211 OBJECTID handled
-#211 OBJECTID correctly
-#211 '.'
+#210 OBJECTID a_aux
+#210 '('
+#210 OBJECTID i
+#210 ')'
+#210 ELSE
+#211 INHERITS
 #211 FI
+#211 STR_CONST "-"
+#211 '.'
+#211 OBJECTID concat
+#211 '('
+#211 OBJECTID i2a_aux
+#211 '('
+#211 IF
 #211 '*'
+#211 '~'
+#211 INT_CONST 1
 #211 ')'
+#211 ')'
+#212 INHERITS
+#212 FI
+#212 IF
+#212 OBJECTID i
 #213 ELSE
-#213 OBJECTID i2a
-#213 '('
-#213 IF
-#213 ':'
-#213 FI
-#213 OBJECTID nt
-#213 ')'
-#213 ':'
-#213 TYPEID String
-#213 '{'
-#214 IF
-#214 FI
-#214 '='
-#214 INT_CONST 0
-#214 THEN
-#214 STR_CONST "0\" else \n        if 0 < i then i2a_aux(i) else\n          \"-"
-#214 '.'
-#214 OBJECTID concat
-#214 '('
-#214 OBJECTID i2a
-LEXER BUG - UNMATCHED: _
-#214 OBJECTID aux
-#214 '('
-#214 IF
-#214 '*'
-#214 '~'
-#214 INT_CONST 1
-#214 ')'
-#214 ')'
-#215 INHERITS
-#215 FI
-#215 IF
-#215 OBJECTID i
-#216 ELSE
-#216 '}'
-#216 ';'
-#218 '('
-#218 '*'
+#213 '}'
+#213 ';'
+#217 ELSE
+#217 OBJECTID i2a_aux
+#217 '('
+#217 IF
+#217 ':'
+#217 FI
+#217 OBJECTID nt
+#217 ')'
+#217 ':'
+#217 TYPEID String
+#217 '{'
+#218 INHERITS
+#218 IF
 #218 FI
-#218 INT_CONST 2
-#218 OBJECTID a
-LEXER BUG - UNMATCHED: _
-#218 OBJECTID aux
-#218 FI
-#218 OBJECTID s
-#218 OBJECTID an
-#218 OBJECTID example
-#218 OBJECTID using
-#218 OBJECTID recursion
-#218 '.'
-#218 FI
-#218 '*'
-#218 ')'
-#220 ELSE
-#220 OBJECTID i2a
-LEXER BUG - UNMATCHED: _
-#220 OBJECTID aux
+#218 '='
+#218 INT_CONST 0
+#218 THEN
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: "
+#218 ELSE
+#219 ELSE
+#219 '('
+#219 LET
+#219 IN
+#219 OBJECTID ext
+#219 ':'
+#219 FI
+#219 OBJECTID nt
+#219 ASSIGN
+#219 FI
+#219 '/'
+#219 INT_CONST 10
+#219 FI
+#219 OBJECTID n
+#220 OBJECTID i2a_aux
+#220 '('
+#220 OBJECTID next
+#220 ')'
+#220 '.'
+#220 OBJECTID concat
+#220 '('
+#220 OBJECTID i2c
 #220 '('
 #220 IF
-#220 ':'
-#220 FI
-#220 OBJECTID nt
+#220 '-'
+#220 IN
+#220 OBJECTID ext
+#220 '*'
+#220 INT_CONST 10
 #220 ')'
-#220 ':'
-#220 TYPEID String
-#220 '{'
-#221 INHERITS
-#221 IF
-#221 FI
-#221 '='
-#221 INT_CONST 0
-#221 THEN
-#221 STR_CONST ""
+#220 ')'
 #221 ELSE
-#222 ELSE
-#222 '('
-#222 LET
-#222 IN
-#222 OBJECTID ext
-#222 ':'
+#221 ')'
+#222 INHERITS
 #222 FI
-#222 OBJECTID nt
-#222 ASSIGN
-#222 FI
-#222 '/'
-#222 INT_CONST 10
-#222 FI
-#222 OBJECTID n
-#223 OBJECTID i2a
-LEXER BUG - UNMATCHED: _
-#223 OBJECTID aux
-#223 '('
-#223 OBJECTID next
-#223 ')'
-#223 '.'
-#223 OBJECTID concat
-#223 '('
-#223 OBJECTID i2c
-#223 '('
-#223 IF
-#223 '-'
-#223 IN
-#223 OBJECTID ext
-#223 '*'
-#223 INT_CONST 10
-#223 ')'
-#223 ')'
-#224 ELSE
-#224 ')'
-#225 INHERITS
-#225 FI
-#226 ELSE
-#226 '}'
-#226 ';'
-#228 '}'
-#228 ';'
-#230 CLASS
-#230 TYPEID Main
-#230 FI
-#230 OBJECTID nherits
-#230 FI
-#230 OF
-#230 '{'
+#223 ELSE
+#223 '}'
+#223 ';'
+#225 '}'
+#225 ';'
+#227 CLASS
+#227 TYPEID Main
+#227 FI
+#227 OBJECTID nherits
+#227 FI
+#227 OF
+#227 '{'
+#228 LET
+#229 ESAC
+#229 OBJECTID har
+#229 ':'
+#229 TYPEID String
+#229 ';'
+#230 LET
+#230 OBJECTID avar
+#230 ':'
+#230 TYPEID A
+#230 ';'
 #231 LET
-#232 ESAC
-#232 OBJECTID har
+#231 OBJECTID a_var
+#231 ':'
+#231 TYPEID A
+#231 ';'
+#232 LET
+#232 OBJECTID flag
 #232 ':'
-#232 TYPEID String
+#232 TYPEID Bool
+#232 ASSIGN
+#232 BOOL_CONST true
 #232 ';'
-#233 LET
-#233 OBJECTID avar
-#233 ':'
-#233 TYPEID A
-#233 ';'
-#234 LET
-#234 OBJECTID a
-LEXER BUG - UNMATCHED: _
-#234 OBJECTID var
-#234 ':'
-#234 TYPEID A
-#234 ';'
 #235 LET
-#235 OBJECTID flag
+#235 OBJECTID menu
+#235 '('
+#235 ')'
 #235 ':'
-#235 TYPEID Bool
-#235 ASSIGN
-#235 BOOL_CONST true
-#235 ';'
-#238 LET
-#238 OBJECTID menu
+#235 TYPEID String
+#235 '{'
+#236 CLASS
+#236 '{'
+#237 INHERITS
+#237 OBJECTID out_string
+#237 '('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+#237 OBJECTID n
+LEXER BUG - UNMATCHED: \
+#237 OBJECTID tTo
+#237 OBJECTID add
+#237 OBJECTID a
+#237 IN
+#237 OBJECTID umber
+#237 OBJECTID to
+LEXER BUG - UNMATCHED: "
+#237 ')'
+#237 ';'
+#238 INHERITS
+#238 OBJECTID print
 #238 '('
+#238 OBJECTID avar
 #238 ')'
-#238 ':'
-#238 TYPEID String
-#238 '{'
-#239 CLASS
-#239 '{'
+#238 ';'
+#239 INHERITS
+#239 OBJECTID out_string
+#239 '('
+LEXER BUG - UNMATCHED: "
+#239 '.'
+#239 '.'
+#239 '.'
+#239 OBJECTID enter
+#239 OBJECTID a
+#239 ':'
+LEXER BUG - UNMATCHED: \
+#239 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#239 ')'
+#239 ';'
 #240 INHERITS
-#240 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#240 OBJECTID string
+#240 OBJECTID out_string
 #240 '('
-#240 STR_CONST "\\n\\tTo add a number to \");\n         print(avar);\n         out_string("
-#240 '.'
-#240 '.'
-#240 '.'
-#240 OBJECTID enter
-#240 OBJECTID a
-#240 ':'
-LEXER BUG - UNMATCHED: \
-#240 OBJECTID n
-#240 STR_CONST ");\n         out_string(\"\\tTo negate \");\n         print(avar);\n         out_string("
-#240 '.'
-#240 '.'
-#240 '.'
-#240 OBJECTID enter
-#240 OBJECTID b
-#240 ':'
-LEXER BUG - UNMATCHED: \
-#240 OBJECTID n
-#240 STR_CONST ");\n         out_string(\"\\tTo find the difference between \");\n         print(avar);\n         out_string("
-#240 OBJECTID and
-#240 OBJECTID another
-#240 IN
-#240 OBJECTID umber
-#240 '.'
-#240 '.'
-#240 '.'
-#240 OBJECTID enter
-#240 OBJECTID c
-#240 ':'
-LEXER BUG - UNMATCHED: \
-#240 OBJECTID n
-#240 STR_CONST ");\n         out_string(\"\\tTo find the factorial of \");\n         print(avar);\n         out_string("
-#240 '.'
-#240 '.'
-#240 '.'
-#240 OBJECTID enter
-#240 OBJECTID d
-#240 ':'
-LEXER BUG - UNMATCHED: \
-#240 OBJECTID n
-#240 STR_CONST ");\n         out_string(\"\\tTo square \");\n         print(avar);\n         out_string("
-#240 '.'
-#240 '.'
-#240 '.'
-#240 OBJECTID enter
-#240 OBJECTID e
-#240 ':'
-LEXER BUG - UNMATCHED: \
-#240 OBJECTID n
-#240 STR_CONST ");\n         out_string(\"\\tTo cube \");\n         print(avar);\n         out_string("
-#240 '.'
-#240 '.'
-#240 '.'
-#240 OBJECTID enter
-#240 IF
-#240 ':'
-LEXER BUG - UNMATCHED: \
-#240 OBJECTID n
-#240 STR_CONST ");\n         out_string(\"\\tTo find out if \");\n         print(avar);\n         out_string("
-#240 OBJECTID is
-#240 OBJECTID a
-#240 OBJECTID multiple
-#240 OF
-#240 INT_CONST 3
-#240 '.'
-#240 '.'
-#240 '.'
-#240 OBJECTID enter
-#240 OBJECTID g
-#240 ':'
-LEXER BUG - UNMATCHED: \
-#240 OBJECTID n
-#240 STR_CONST ");\n         out_string(\"\\tTo divide \");\n         print(avar);\n         out_string("
-#240 OBJECTID by
-#240 INT_CONST 8
-#240 '.'
-#240 '.'
-#240 '.'
-#240 OBJECTID enter
-#240 OBJECTID h
-#240 ':'
-LEXER BUG - UNMATCHED: \
-#240 OBJECTID n
-#240 STR_CONST ");\n\t out_string("
+LEXER BUG - UNMATCHED: "
 LEXER BUG - UNMATCHED: \
 #240 OBJECTID tTo
-#240 OBJECTID get
-#240 OBJECTID a
 #240 IN
-#240 OBJECTID ew
-#240 IN
-#240 OBJECTID umber
-#240 '.'
-#240 '.'
-#240 '.'
-#240 OBJECTID enter
-#240 OBJECTID j
-#240 ':'
-LEXER BUG - UNMATCHED: \
-#240 OBJECTID n
-#240 STR_CONST ");\n\t out_string("
-LEXER BUG - UNMATCHED: \
-#240 OBJECTID tTo
-#240 OBJECTID quit
-#240 '.'
-#240 '.'
-#240 '.'
-#240 OBJECTID enter
-#240 OBJECTID q
-#240 ':'
-LEXER BUG - UNMATCHED: \
-#240 OBJECTID n
-LEXER BUG - UNMATCHED: \
-#240 OBJECTID n
-#240 STR_CONST ");\n         in_string();\n      }\n   };\n\n   prompt() : String {\n      {\n         out_string(\"\\n\");\n         out_string("
-#240 TYPEID Please
-#240 OBJECTID enter
-#240 OBJECTID a
-#240 IN
-#240 OBJECTID umber
-#240 '.'
-#240 '.'
-#240 '.'
-#240 FI
+#240 OBJECTID egate
 LEXER BUG - UNMATCHED: "
 #240 ')'
 #240 ';'
 #241 INHERITS
-#241 FI
-#241 OBJECTID n
-LEXER BUG - UNMATCHED: _
-#241 OBJECTID string
+#241 OBJECTID print
 #241 '('
+#241 OBJECTID avar
 #241 ')'
 #241 ';'
-#242 CLASS
-#242 '}'
-#243 LET
-#243 '}'
+#242 INHERITS
+#242 OBJECTID out_string
+#242 '('
+LEXER BUG - UNMATCHED: "
+#242 '.'
+#242 '.'
+#242 '.'
+#242 OBJECTID enter
+#242 OBJECTID b
+#242 ':'
+LEXER BUG - UNMATCHED: \
+#242 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#242 ')'
+#242 ';'
+#243 INHERITS
+#243 OBJECTID out_string
+#243 '('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+#243 OBJECTID tTo
+#243 IF
+#243 OBJECTID ind
+#243 THEN
+#243 OBJECTID difference
+#243 OBJECTID between
+LEXER BUG - UNMATCHED: "
+#243 ')'
 #243 ';'
-#245 LET
-#245 OBJECTID get
-LEXER BUG - UNMATCHED: _
-#245 OBJECTID int
+#244 INHERITS
+#244 OBJECTID print
+#244 '('
+#244 OBJECTID avar
+#244 ')'
+#244 ';'
+#245 INHERITS
+#245 OBJECTID out_string
 #245 '('
-#245 ')'
+LEXER BUG - UNMATCHED: "
+#245 OBJECTID and
+#245 OBJECTID another
+#245 IN
+#245 OBJECTID umber
+#245 '.'
+#245 '.'
+#245 '.'
+#245 OBJECTID enter
+#245 OBJECTID c
 #245 ':'
-#245 FI
-#245 OBJECTID nt
-#245 '{'
-#246 CLASS
-#246 '{'
+LEXER BUG - UNMATCHED: \
+#245 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#245 ')'
+#245 ';'
+#246 INHERITS
+#246 OBJECTID out_string
+#246 '('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+#246 OBJECTID tTo
+#246 IF
+#246 OBJECTID ind
+#246 THEN
+#246 OBJECTID factorial
+#246 OF
+LEXER BUG - UNMATCHED: "
+#246 ')'
+#246 ';'
+#247 INHERITS
+#247 OBJECTID print
 #247 '('
-#247 LET
-#247 OBJECTID z
-#247 ':'
-#247 TYPEID A2I
-#247 ASSIGN
-#247 IN
-#247 OBJECTID ew
-#247 TYPEID A2I
-#247 FI
-#247 OBJECTID n
-#248 ELSE
+#247 OBJECTID avar
+#247 ')'
+#247 ';'
+#248 INHERITS
+#248 OBJECTID out_string
 #248 '('
-#248 LET
-#248 OBJECTID s
+LEXER BUG - UNMATCHED: "
+#248 '.'
+#248 '.'
+#248 '.'
+#248 OBJECTID enter
+#248 OBJECTID d
 #248 ':'
-#248 TYPEID String
-#248 ASSIGN
-#248 OBJECTID prompt
-#248 '('
-#248 ')'
-#248 FI
+LEXER BUG - UNMATCHED: \
 #248 OBJECTID n
-#249 CLASS
-#249 FI
-#249 OBJECTID z
-#249 '.'
-#249 OBJECTID a2i
+LEXER BUG - UNMATCHED: "
+#248 ')'
+#248 ';'
+#249 INHERITS
+#249 OBJECTID out_string
 #249 '('
-#249 OBJECTID s
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+#249 OBJECTID tTo
+#249 OBJECTID square
+LEXER BUG - UNMATCHED: "
 #249 ')'
-#250 ELSE
+#249 ';'
+#250 INHERITS
+#250 OBJECTID print
+#250 '('
+#250 OBJECTID avar
 #250 ')'
+#250 ';'
 #251 INHERITS
+#251 OBJECTID out_string
+#251 '('
+LEXER BUG - UNMATCHED: "
+#251 '.'
+#251 '.'
+#251 '.'
+#251 OBJECTID enter
+#251 OBJECTID e
+#251 ':'
+LEXER BUG - UNMATCHED: \
+#251 OBJECTID n
+LEXER BUG - UNMATCHED: "
 #251 ')'
 #251 ';'
-#252 CLASS
-#252 '}'
-#253 LET
-#253 '}'
+#252 INHERITS
+#252 OBJECTID out_string
+#252 '('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+#252 OBJECTID tTo
+#252 OBJECTID cube
+LEXER BUG - UNMATCHED: "
+#252 ')'
+#252 ';'
+#253 INHERITS
+#253 OBJECTID print
+#253 '('
+#253 OBJECTID avar
+#253 ')'
 #253 ';'
-#255 LET
-#255 OBJECTID is
-LEXER BUG - UNMATCHED: _
-#255 OBJECTID even
+#254 INHERITS
+#254 OBJECTID out_string
+#254 '('
+LEXER BUG - UNMATCHED: "
+#254 '.'
+#254 '.'
+#254 '.'
+#254 OBJECTID enter
+#254 IF
+#254 ':'
+LEXER BUG - UNMATCHED: \
+#254 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#254 ')'
+#254 ';'
+#255 INHERITS
+#255 OBJECTID out_string
 #255 '('
-#255 OBJECTID num
-#255 ':'
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+#255 OBJECTID tTo
+#255 IF
+#255 OBJECTID ind
+#255 OBJECTID out
 #255 FI
-#255 OBJECTID nt
+#255 FI
+LEXER BUG - UNMATCHED: "
 #255 ')'
-#255 ':'
-#255 TYPEID Bool
-#255 '{'
-#256 CLASS
+#255 ';'
+#256 INHERITS
+#256 OBJECTID print
 #256 '('
-#256 LET
-#256 OBJECTID x
-#256 ':'
-#256 FI
-#256 OBJECTID nt
-#256 ASSIGN
-#256 IN
-#256 OBJECTID um
-#256 FI
-#256 OBJECTID n
+#256 OBJECTID avar
+#256 ')'
+#256 ';'
 #257 INHERITS
-#257 ELSE
-#257 IF
-#257 OBJECTID x
-#257 '<'
-#257 INT_CONST 0
-#257 THEN
-#257 FI
-#257 OBJECTID s
-LEXER BUG - UNMATCHED: _
-#257 OBJECTID even
+#257 OBJECTID out_string
 #257 '('
-#257 '~'
-#257 OBJECTID x
+LEXER BUG - UNMATCHED: "
+#257 OBJECTID is
+#257 OBJECTID a
+#257 OBJECTID multiple
+#257 OF
+#257 INT_CONST 3
+#257 '.'
+#257 '.'
+#257 '.'
+#257 OBJECTID enter
+#257 OBJECTID g
+#257 ':'
+LEXER BUG - UNMATCHED: \
+#257 OBJECTID n
+LEXER BUG - UNMATCHED: "
 #257 ')'
-#257 ELSE
+#257 ';'
 #258 INHERITS
-#258 ELSE
-#258 IF
-#258 INT_CONST 0
-#258 '='
-#258 OBJECTID x
-#258 THEN
-#258 BOOL_CONST true
-#258 ELSE
-#259 ELSE
-#259 IF
-#259 INT_CONST 1
-#259 '='
-#259 OBJECTID x
-#259 THEN
-#259 IF
-#259 OBJECTID alse
-#259 ELSE
+#258 OBJECTID out_string
+#258 '('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+#258 OBJECTID tTo
+#258 OBJECTID divide
+LEXER BUG - UNMATCHED: "
+#258 ')'
+#258 ';'
+#259 INHERITS
+#259 OBJECTID print
+#259 '('
+#259 OBJECTID avar
+#259 ')'
+#259 ';'
 #260 INHERITS
-#260 FI
-#260 OBJECTID is
-LEXER BUG - UNMATCHED: _
-#260 OBJECTID even
+#260 OBJECTID out_string
 #260 '('
-#260 OBJECTID x
-#260 '-'
-#260 INT_CONST 2
+LEXER BUG - UNMATCHED: "
+#260 OBJECTID by
+#260 INT_CONST 8
+#260 '.'
+#260 '.'
+#260 '.'
+#260 OBJECTID enter
+#260 OBJECTID h
+#260 ':'
+LEXER BUG - UNMATCHED: \
+#260 OBJECTID n
+LEXER BUG - UNMATCHED: "
 #260 ')'
-#261 ELSE
-#261 FI
-#261 IF
-#261 IF
-#261 FI
-#262 CLASS
+#260 ';'
+#261 OBJECTID out_string
+#261 '('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+#261 OBJECTID tTo
+#261 OBJECTID get
+#261 OBJECTID a
+#261 IN
+#261 OBJECTID ew
+#261 IN
+#261 OBJECTID umber
+#261 '.'
+#261 '.'
+#261 '.'
+#261 OBJECTID enter
+#261 OBJECTID j
+#261 ':'
+LEXER BUG - UNMATCHED: \
+#261 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#261 ')'
+#261 ';'
+#262 OBJECTID out_string
+#262 '('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+#262 OBJECTID tTo
+#262 OBJECTID quit
+#262 '.'
+#262 '.'
+#262 '.'
+#262 OBJECTID enter
+#262 OBJECTID q
+#262 ':'
+LEXER BUG - UNMATCHED: \
+#262 OBJECTID n
+LEXER BUG - UNMATCHED: \
+#262 OBJECTID n
+LEXER BUG - UNMATCHED: "
 #262 ')'
-#263 LET
-#263 '}'
+#262 ';'
+#263 INHERITS
+#263 FI
+#263 OBJECTID n_string
+#263 '('
+#263 ')'
 #263 ';'
-#265 ESAC
-#265 OBJECTID lass
-LEXER BUG - UNMATCHED: _
-#265 OBJECTID type
-#265 '('
-#265 OBJECTID var
-#265 ':'
-#265 TYPEID A
-#265 ')'
-#265 ':'
-#265 TYPEID SELF_TYPE
-#265 '{'
-#266 CLASS
-#266 CASE
-#266 OBJECTID var
-#266 OF
-#267 OBJECTID a
-#267 ':'
-#267 TYPEID A
-#267 DARROW
-#267 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#267 OBJECTID string
+#264 CLASS
+#264 '}'
+#265 LET
+#265 '}'
+#265 ';'
+#267 LOOP
+#267 OBJECTID rompt
 #267 '('
-#267 STR_CONST "Class type is now A\\n\");\n\t b : B => out_string(\"Class type is now B\\n\");\n\t c : C => out_string(\"Class type is now C\\n\");\n\t d : D => out_string(\"Class type is now D\\n\");\n\t e : E => out_string(\"Class type is now E\\n\");\n\t o : Object => out_string(\"Oooops\\n"
 #267 ')'
-#267 ';'
+#267 ':'
+#267 TYPEID String
+#267 '{'
 #268 CLASS
-#268 ESAC
-#269 LET
-#269 '}'
+#268 '{'
+#269 INHERITS
+#269 OBJECTID out_string
+#269 '('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+#269 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#269 ')'
 #269 ';'
-#271 LOOP
-#271 OBJECTID rint
+#270 INHERITS
+#270 OBJECTID out_string
+#270 '('
+#270 STR_CONST "Please enter a number...  "
+#270 ')'
+#270 ';'
+#271 INHERITS
+#271 FI
+#271 OBJECTID n_string
 #271 '('
-#271 OBJECTID var
-#271 ':'
-#271 TYPEID A
 #271 ')'
-#271 ':'
-#271 TYPEID SELF_TYPE
-#271 '{'
+#271 ';'
 #272 CLASS
-#272 '('
-#272 LET
-#272 OBJECTID z
-#272 ':'
-#272 TYPEID A2I
-#272 ASSIGN
-#272 IN
-#272 OBJECTID ew
-#272 TYPEID A2I
-#272 FI
-#272 OBJECTID n
-#273 '{'
-#274 LET
-#274 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#274 OBJECTID string
-#274 '('
-#274 OBJECTID z
-#274 '.'
-#274 OBJECTID i2a
-#274 '('
-#274 OBJECTID var
-#274 '.'
-#274 OBJECTID value
-#274 '('
-#274 ')'
-#274 ')'
-#274 ')'
-#274 ';'
+#272 '}'
+#273 LET
+#273 '}'
+#273 ';'
 #275 LET
-#275 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#275 OBJECTID string
+#275 OBJECTID get_int
 #275 '('
-#275 STR_CONST " "
 #275 ')'
-#275 ';'
-#276 '}'
-#277 CLASS
-#277 ')'
+#275 ':'
+#275 FI
+#275 OBJECTID nt
+#275 '{'
+#276 CLASS
+#276 '{'
+#277 '('
+#277 LET
+#277 OBJECTID z
+#277 ':'
+#277 TYPEID A2I
+#277 ASSIGN
+#277 IN
+#277 OBJECTID ew
+#277 TYPEID A2I
+#277 FI
+#277 OBJECTID n
+#278 ELSE
+#278 '('
 #278 LET
-#278 '}'
-#278 ';'
-#280 LET
-#280 OBJECTID main
-#280 '('
+#278 OBJECTID s
+#278 ':'
+#278 TYPEID String
+#278 ASSIGN
+#278 OBJECTID prompt
+#278 '('
+#278 ')'
+#278 FI
+#278 OBJECTID n
+#279 CLASS
+#279 FI
+#279 OBJECTID z
+#279 '.'
+#279 OBJECTID a2i
+#279 '('
+#279 OBJECTID s
+#279 ')'
+#280 ELSE
 #280 ')'
-#280 ':'
-#280 TYPEID Object
-#280 '{'
-#281 CLASS
-#281 '{'
-#282 INHERITS
-#282 OBJECTID avar
-#282 ASSIGN
-#282 '('
-#282 NEW
-#282 TYPEID A
-#282 ')'
-#282 ';'
-#283 INHERITS
-#283 WHILE
-#283 IF
-#283 OBJECTID lag
-#283 LOOP
-#284 INHERITS
-#284 ELSE
-#284 '{'
-#285 CLASS
+#281 INHERITS
+#281 ')'
+#281 ';'
+#282 CLASS
+#282 '}'
+#283 LET
+#283 '}'
+#283 ';'
+#285 LET
+#285 OBJECTID is_even
+#285 '('
+#285 OBJECTID num
+#285 ':'
 #285 FI
-#285 '-'
-#285 '-'
-#285 OBJECTID avar
-#285 ASSIGN
-#285 '('
-#285 NEW
-#285 TYPEID A
+#285 OBJECTID nt
 #285 ')'
-#285 '.'
-#285 OBJECTID set
-LEXER BUG - UNMATCHED: _
-#285 OBJECTID var
-#285 '('
-#285 OBJECTID get
-LEXER BUG - UNMATCHED: _
-#285 OBJECTID int
-#285 '('
-#285 ')'
-#285 ')'
-#285 ';'
+#285 ':'
+#285 TYPEID Bool
+#285 '{'
 #286 CLASS
-#286 FI
-#286 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#286 OBJECTID string
 #286 '('
-#286 STR_CONST "number "
-#286 ')'
-#286 ';'
-#287 CLASS
+#286 LET
+#286 OBJECTID x
+#286 ':'
+#286 FI
+#286 OBJECTID nt
+#286 ASSIGN
+#286 IN
+#286 OBJECTID um
+#286 FI
+#286 OBJECTID n
+#287 INHERITS
+#287 ELSE
+#287 IF
+#287 OBJECTID x
+#287 '<'
+#287 INT_CONST 0
+#287 THEN
 #287 FI
-#287 OBJECTID print
+#287 OBJECTID s_even
 #287 '('
-#287 OBJECTID avar
+#287 '~'
+#287 OBJECTID x
 #287 ')'
-#287 ';'
-#288 CLASS
-#288 FI
+#287 ELSE
+#288 INHERITS
+#288 ELSE
 #288 IF
-#288 FI
-#288 OBJECTID s
-LEXER BUG - UNMATCHED: _
-#288 OBJECTID even
-#288 '('
-#288 OBJECTID avar
-#288 '.'
-#288 OBJECTID value
-#288 '('
-#288 ')'
-#288 ')'
+#288 INT_CONST 0
+#288 '='
+#288 OBJECTID x
 #288 THEN
-#289 INHERITS
-#289 FI
-#289 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#289 OBJECTID string
-#289 '('
-#289 STR_CONST "is even!\\n\")\n\t       else\n\t          out_string(\"is odd!\\n\")\n\t       fi;\n\t       -- print(avar); -- prints out answer\n\t       class_type(avar);\n\t       char <- menu();\n                  if char = \"a"
+#288 BOOL_CONST true
+#288 ELSE
+#289 ELSE
+#289 IF
+#289 INT_CONST 1
+#289 '='
+#289 OBJECTID x
 #289 THEN
-#289 '-'
-#289 '-'
-#289 OBJECTID add
+#289 IF
+#289 OBJECTID alse
+#289 ELSE
 #290 INHERITS
-#290 INHERITS
-#290 CLASS
-#290 '{'
-#291 INHERITS
-#291 INHERITS
-#291 INHERITS
-#291 OBJECTID a
-LEXER BUG - UNMATCHED: _
-#291 OBJECTID var
-#291 ASSIGN
-#291 '('
-#291 NEW
-#291 TYPEID A
-#291 ')'
-#291 '.'
-#291 OBJECTID set
-LEXER BUG - UNMATCHED: _
-#291 OBJECTID var
-#291 '('
-#291 OBJECTID get
-LEXER BUG - UNMATCHED: _
-#291 OBJECTID int
-#291 '('
-#291 ')'
-#291 ')'
-#291 ';'
-#292 INHERITS
-#292 INHERITS
-#292 OBJECTID avar
-#292 ASSIGN
-#292 '('
-#292 NEW
-#292 TYPEID B
+#290 FI
+#290 OBJECTID is_even
+#290 '('
+#290 OBJECTID x
+#290 '-'
+#290 INT_CONST 2
+#290 ')'
+#291 ELSE
+#291 FI
+#291 IF
+#291 IF
+#291 FI
+#292 CLASS
 #292 ')'
-#292 '.'
-#292 OBJECTID method2
-#292 '('
-#292 OBJECTID avar
-#292 '.'
-#292 OBJECTID value
-#292 '('
-#292 ')'
-#292 ','
-#292 OBJECTID a
-LEXER BUG - UNMATCHED: _
-#292 OBJECTID var
-#292 '.'
-#292 OBJECTID value
-#292 '('
-#292 ')'
-#292 ')'
-#292 ';'
-#293 INHERITS
-#293 CLASS
+#293 LET
 #293 '}'
-#293 ELSE
-#294 INHERITS
-#294 INHERITS
-#294 FI
-#294 IF
-#294 OBJECTID char
-#294 '='
-#294 STR_CONST "b"
-#294 THEN
-#294 '-'
-#294 '-'
-#294 IN
-#294 OBJECTID egate
-#295 INHERITS
-#295 INHERITS
-#295 CLASS
-#295 CASE
-#295 OBJECTID avar
-#295 OF
-#296 INHERITS
-#296 INHERITS
-#296 ESAC
-#296 ':'
-#296 TYPEID C
-#296 DARROW
-#296 OBJECTID avar
-#296 ASSIGN
-#296 OBJECTID c
-#296 '.'
-#296 OBJECTID method6
-#296 '('
-#296 OBJECTID c
-#296 '.'
-#296 OBJECTID value
-#296 '('
-#296 ')'
-#296 ')'
-#296 ';'
-#297 INHERITS
-#297 INHERITS
-#297 LET
+#293 ';'
+#295 ESAC
+#295 OBJECTID lass_type
+#295 '('
+#295 OBJECTID var
+#295 ':'
+#295 TYPEID A
+#295 ')'
+#295 ':'
+#295 TYPEID SELF_TYPE
+#295 '{'
+#296 CLASS
+#296 CASE
+#296 OBJECTID var
+#296 OF
 #297 OBJECTID a
 #297 ':'
 #297 TYPEID A
 #297 DARROW
-#297 OBJECTID avar
-#297 ASSIGN
-#297 OBJECTID a
-#297 '.'
-#297 OBJECTID method3
+#297 OBJECTID out_string
 #297 '('
-#297 OBJECTID a
-#297 '.'
-#297 OBJECTID value
-#297 '('
-#297 ')'
+LEXER BUG - UNMATCHED: "
+#297 CLASS
+#297 OBJECTID type
+#297 FI
+#297 OBJECTID s
+#297 IN
+#297 OBJECTID ow
+#297 TYPEID A
+LEXER BUG - UNMATCHED: \
+#297 OBJECTID n
+LEXER BUG - UNMATCHED: "
 #297 ')'
 #297 ';'
-#298 INHERITS
-#298 INHERITS
-#298 LET
-#298 OF
+#298 OBJECTID b
 #298 ':'
-#298 TYPEID Object
+#298 TYPEID B
 #298 DARROW
-#298 '{'
-#299 INHERITS
-#299 INHERITS
-#299 FI
-#299 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#299 OBJECTID string
+#298 OBJECTID out_string
+#298 '('
+LEXER BUG - UNMATCHED: "
+#298 CLASS
+#298 OBJECTID type
+#298 FI
+#298 OBJECTID s
+#298 IN
+#298 OBJECTID ow
+#298 TYPEID B
+LEXER BUG - UNMATCHED: \
+#298 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#298 ')'
+#298 ';'
+#299 OBJECTID c
+#299 ':'
+#299 TYPEID C
+#299 DARROW
+#299 OBJECTID out_string
 #299 '('
-#299 STR_CONST "Oooops\\n\");\n\t\t                  abort(); 0;\n\t\t               };\n                     esac else\n                  if char = \"c"
-#299 THEN
-#299 '-'
-#299 '-'
-#299 OBJECTID diff
-#300 INHERITS
-#300 INHERITS
+LEXER BUG - UNMATCHED: "
+#299 CLASS
+#299 OBJECTID type
+#299 FI
+#299 OBJECTID s
+#299 IN
+#299 OBJECTID ow
+#299 TYPEID C
+LEXER BUG - UNMATCHED: \
+#299 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#299 ')'
+#299 ';'
+#300 OBJECTID d
+#300 ':'
+#300 TYPEID D
+#300 DARROW
+#300 OBJECTID out_string
+#300 '('
+LEXER BUG - UNMATCHED: "
 #300 CLASS
-#300 '{'
-#301 INHERITS
-#301 INHERITS
-#301 INHERITS
-#301 OBJECTID a
-LEXER BUG - UNMATCHED: _
-#301 OBJECTID var
-#301 ASSIGN
+#300 OBJECTID type
+#300 FI
+#300 OBJECTID s
+#300 IN
+#300 OBJECTID ow
+#300 TYPEID D
+LEXER BUG - UNMATCHED: \
+#300 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#300 ')'
+#300 ';'
+#301 LET
+#301 ':'
+#301 LET
+#301 DARROW
+#301 OBJECTID out_string
 #301 '('
-#301 NEW
-#301 TYPEID A
-#301 ')'
-#301 '.'
-#301 OBJECTID set
-LEXER BUG - UNMATCHED: _
-#301 OBJECTID var
-#301 '('
-#301 OBJECTID get
-LEXER BUG - UNMATCHED: _
-#301 OBJECTID int
-#301 '('
-#301 ')'
+LEXER BUG - UNMATCHED: "
+#301 CLASS
+#301 OBJECTID type
+#301 FI
+#301 OBJECTID s
+#301 IN
+#301 OBJECTID ow
+#301 TYPEID E
+LEXER BUG - UNMATCHED: \
+#301 OBJECTID n
+LEXER BUG - UNMATCHED: "
 #301 ')'
 #301 ';'
-#302 INHERITS
-#302 INHERITS
-#302 OBJECTID avar
-#302 ASSIGN
+#302 OF
+#302 ':'
+#302 TYPEID Object
+#302 DARROW
+#302 OBJECTID out_string
 #302 '('
-#302 NEW
-#302 TYPEID D
-#302 ')'
-#302 '.'
-#302 OBJECTID method4
-#302 '('
-#302 OBJECTID avar
-#302 '.'
-#302 OBJECTID value
-#302 '('
-#302 ')'
-#302 ','
-#302 OBJECTID a
-LEXER BUG - UNMATCHED: _
-#302 OBJECTID var
-#302 '.'
-#302 OBJECTID value
-#302 '('
-#302 ')'
+LEXER BUG - UNMATCHED: "
+#302 TYPEID Oooops
+LEXER BUG - UNMATCHED: \
+#302 OBJECTID n
+LEXER BUG - UNMATCHED: "
 #302 ')'
 #302 ';'
-#303 INHERITS
 #303 CLASS
-#303 '}'
-#303 ELSE
-#304 INHERITS
-#304 INHERITS
-#304 FI
-#304 IF
-#304 OBJECTID char
-#304 '='
-#304 STR_CONST "d"
-#304 THEN
-#304 OBJECTID avar
-#304 ASSIGN
-#304 '('
-#304 NEW
-#304 TYPEID C
-#304 ')'
-#304 '@'
-#304 TYPEID A
-#304 '.'
-#304 OBJECTID method5
-#304 '('
-#304 OBJECTID avar
-#304 '.'
-#304 OBJECTID value
-#304 '('
-#304 ')'
-#304 ')'
-#304 ELSE
-#305 INHERITS
-#305 FI
-#305 '-'
-#305 '-'
-#305 IF
-#305 OBJECTID actorial
-#306 INHERITS
-#306 INHERITS
-#306 FI
-#306 IF
-#306 OBJECTID char
-#306 '='
-#306 STR_CONST "e"
-#306 THEN
-#306 OBJECTID avar
-#306 ASSIGN
+#303 ESAC
+#304 LET
+#304 '}'
+#304 ';'
+#306 LOOP
+#306 OBJECTID rint
 #306 '('
-#306 NEW
-#306 TYPEID C
+#306 OBJECTID var
+#306 ':'
+#306 TYPEID A
 #306 ')'
-#306 '@'
-#306 TYPEID B
-#306 '.'
-#306 OBJECTID method5
-#306 '('
-#306 OBJECTID avar
-#306 '.'
-#306 OBJECTID value
-#306 '('
-#306 ')'
-#306 ')'
-#306 ELSE
+#306 ':'
+#306 TYPEID SELF_TYPE
+#306 '{'
+#307 CLASS
+#307 '('
+#307 LET
+#307 OBJECTID z
+#307 ':'
+#307 TYPEID A2I
+#307 ASSIGN
+#307 IN
+#307 OBJECTID ew
+#307 TYPEID A2I
 #307 FI
-#307 '-'
-#307 '-'
-#307 OBJECTID square
-#308 INHERITS
-#308 INHERITS
-#308 FI
-#308 IF
-#308 OBJECTID char
-#308 '='
-#308 STR_CONST "f"
-#308 THEN
-#308 OBJECTID avar
-#308 ASSIGN
-#308 '('
-#308 NEW
-#308 TYPEID C
-#308 ')'
-#308 '@'
-#308 TYPEID C
-#308 '.'
-#308 OBJECTID method5
-#308 '('
-#308 OBJECTID avar
-#308 '.'
-#308 OBJECTID value
-#308 '('
-#308 ')'
-#308 ')'
-#308 ELSE
-#309 FI
-#309 '-'
-#309 '-'
-#309 OBJECTID cube
-#310 INHERITS
-#310 INHERITS
-#310 FI
-#310 IF
-#310 OBJECTID char
-#310 '='
-#310 STR_CONST "g"
-#310 THEN
-#310 '-'
-#310 '-'
-#310 OBJECTID multiple
-#310 OF
-#310 INT_CONST 3
-LEXER BUG - UNMATCHED: ?
-#311 CLASS
-#311 FI
-#311 FI
-#311 '('
-#311 '('
-#311 NEW
-#311 TYPEID D
-#311 ')'
-#311 '.'
-#311 OBJECTID method7
-#311 '('
-#311 OBJECTID avar
-#311 '.'
-#311 OBJECTID value
-#311 '('
-#311 ')'
-#311 ')'
-#311 ')'
-#312 INHERITS
-#312 INHERITS
+#307 OBJECTID n
+#308 '{'
+#309 LET
+#309 OBJECTID out_string
+#309 '('
+#309 OBJECTID z
+#309 '.'
+#309 OBJECTID i2a
+#309 '('
+#309 OBJECTID var
+#309 '.'
+#309 OBJECTID value
+#309 '('
+#309 ')'
+#309 ')'
+#309 ')'
+#309 ';'
+#310 LET
+#310 OBJECTID out_string
+#310 '('
+#310 STR_CONST " "
+#310 ')'
+#310 ';'
+#311 '}'
 #312 CLASS
-#312 LET
-#312 OBJECTID hen
-#312 '-'
-#312 '-'
-#312 OBJECTID avar
-#312 ASSIGN
-#312 '('
-#312 NEW
-#312 TYPEID A
 #312 ')'
-#312 '.'
-#312 OBJECTID method1
-#312 '('
-#312 OBJECTID avar
-#312 '.'
-#312 OBJECTID value
-#312 '('
-#312 ')'
-#312 ')'
-#313 '{'
-#314 INHERITS
-#314 INHERITS
-#314 ELSE
-#314 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#314 OBJECTID string
-#314 '('
-#314 STR_CONST "number \");\n\t                    print(avar);\n\t                    out_string("
-#314 OBJECTID is
-#314 OBJECTID divisible
-#314 OBJECTID by
-#314 INT_CONST 3
-#314 '.'
-LEXER BUG - UNMATCHED: \
-#314 OBJECTID n
-LEXER BUG - UNMATCHED: "
-#314 ')'
-#314 ';'
-#315 '}'
-#316 ELSE
-#316 FI
-#316 '-'
-#316 '-'
-#316 OBJECTID avar
-#316 ASSIGN
-#316 '('
-#316 NEW
-#316 TYPEID A
-#316 ')'
-#316 '.'
-#316 OBJECTID set
-LEXER BUG - UNMATCHED: _
-#316 OBJECTID var
-#316 '('
-#316 INT_CONST 0
-#316 ')'
-#317 '{'
+#313 LET
+#313 '}'
+#313 ';'
+#315 LET
+#315 OBJECTID main
+#315 '('
+#315 ')'
+#315 ':'
+#315 TYPEID Object
+#315 '{'
+#316 CLASS
+#316 '{'
+#317 INHERITS
+#317 OBJECTID avar
+#317 ASSIGN
+#317 '('
+#317 NEW
+#317 TYPEID A
+#317 ')'
+#317 ';'
 #318 INHERITS
-#318 INHERITS
-#318 ELSE
-#318 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#318 OBJECTID string
-#318 '('
-#318 STR_CONST "number \");\n\t                    print(avar);\n\t                    out_string("
-#318 OBJECTID is
-#318 IN
-#318 OBJECTID ot
-#318 OBJECTID divisible
-#318 OBJECTID by
-#318 INT_CONST 3
-#318 '.'
-LEXER BUG - UNMATCHED: \
-#318 OBJECTID n
-#318 STR_CONST ");\n\t\t\t }\n\t\t      fi else\n                  if char = \"h"
-#318 THEN
-#319 CLASS
-#319 '('
-#319 LET
-#319 OBJECTID x
-#319 ':'
-#319 TYPEID A
-#319 FI
-#319 OBJECTID n
-#320 '{'
-#321 INHERITS
-#321 ELSE
-#321 OBJECTID x
-#321 ASSIGN
+#318 WHILE
+#318 IF
+#318 OBJECTID lag
+#318 LOOP
+#319 INHERITS
+#319 ELSE
+#319 '{'
+#320 CLASS
+#320 FI
+#320 OBJECTID avar
+#320 ASSIGN
+#320 '('
+#320 NEW
+#320 TYPEID A
+#320 ')'
+#320 '.'
+#320 OBJECTID set_var
+#320 '('
+#320 OBJECTID get_int
+#320 '('
+#320 ')'
+#320 ')'
+#320 ';'
+#321 CLASS
+#321 FI
+#321 OBJECTID out_string
 #321 '('
-#321 NEW
-#321 TYPEID E
-#321 ')'
-#321 '.'
-#321 OBJECTID method6
-#321 '('
-#321 OBJECTID avar
-#321 '.'
-#321 OBJECTID value
-#321 '('
-#321 ')'
+#321 STR_CONST "number "
 #321 ')'
 #321 ';'
-#322 ELSE
-#322 '('
-#322 LET
-#322 OBJECTID r
-#322 ':'
+#322 CLASS
 #322 FI
-#322 OBJECTID nt
-#322 ASSIGN
+#322 OBJECTID print
 #322 '('
 #322 OBJECTID avar
-#322 '.'
-#322 OBJECTID value
-#322 '('
 #322 ')'
-#322 '-'
-#322 '('
-#322 OBJECTID x
-#322 '.'
-#322 OBJECTID value
-#322 '('
-#322 ')'
-#322 '*'
-#322 INT_CONST 8
-#322 ')'
-#322 ')'
-#322 FI
-#322 OBJECTID n
+#322 ';'
 #323 CLASS
 #323 FI
-#323 '{'
+#323 IF
+#323 FI
+#323 OBJECTID s_even
+#323 '('
+#323 OBJECTID avar
+#323 '.'
+#323 OBJECTID value
+#323 '('
+#323 ')'
+#323 ')'
+#323 THEN
 #324 INHERITS
 #324 FI
-#324 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#324 OBJECTID string
+#324 OBJECTID out_string
 #324 '('
-#324 STR_CONST "number \");\n\t\t\t          print(avar);\n\t\t\t          out_string(\"is equal to \");\n\t\t\t          print(x);\n\t\t\t          out_string(\"times 8 with a remainder of "
+LEXER BUG - UNMATCHED: "
+#324 OBJECTID is
+#324 OBJECTID even
+LEXER BUG - UNMATCHED: !
+LEXER BUG - UNMATCHED: \
+#324 OBJECTID n
+LEXER BUG - UNMATCHED: "
 #324 ')'
-#324 ';'
+#325 CLASS
 #325 FI
-#325 '('
-#325 LET
-#325 OBJECTID a
-#325 ':'
-#325 TYPEID A2I
-#325 ASSIGN
-#325 IN
-#325 OBJECTID ew
-#325 TYPEID A2I
-#325 FI
-#325 OBJECTID n
-#326 CLASS
-#326 '{'
-#327 INHERITS
-#327 INHERITS
-#327 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#327 OBJECTID string
-#327 '('
-#327 OBJECTID a
-#327 '.'
-#327 OBJECTID i2a
-#327 '('
-#327 OBJECTID r
-#327 ')'
-#327 ')'
+#325 ELSE
+#326 INHERITS
+#326 FI
+#326 OBJECTID out_string
+#326 '('
+LEXER BUG - UNMATCHED: "
+#326 OBJECTID is
+#326 OBJECTID odd
+LEXER BUG - UNMATCHED: !
+LEXER BUG - UNMATCHED: \
+#326 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#326 ')'
+#327 CLASS
+#327 FI
+#327 FI
 #327 ';'
-#328 INHERITS
-#328 INHERITS
-#328 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#328 OBJECTID string
+#328 CLASS
+#328 FI
+#328 OBJECTID print
 #328 '('
-#328 STR_CONST "\\n\");\n\t\t\t\t     }\n\t\t\t\t  ); -- end let a:\n\t\t\t       }\n                            ); -- end let r:\n\t\t\t    avar <- x;\n\t\t         } \n\t\t      )  -- end let x:\n\t\t      else\n                  if char = \"j\" then avar <- (new A)\n\t\t      else\n                  if char = \"q"
-#328 THEN
-#328 IF
-#328 OBJECTID lag
-#328 ASSIGN
-#328 IF
-#328 OBJECTID alse
+#328 OBJECTID avar
+#328 ')'
+#328 ';'
+#328 OBJECTID prints
+#328 OBJECTID out
+#328 OBJECTID answer
 #329 CLASS
-#329 ELSE
-#330 INHERITS
-#330 INHERITS
+#329 FI
+#329 OBJECTID class_type
+#329 '('
+#329 OBJECTID avar
+#329 ')'
+#329 ';'
 #330 CLASS
-#330 OBJECTID avar
+#330 FI
+#330 OBJECTID char
 #330 ASSIGN
-#330 '('
-#330 NEW
-#330 TYPEID A
-#330 ')'
-#330 '.'
-#330 OBJECTID method1
-#330 '('
-#330 OBJECTID avar
-#330 '.'
-#330 OBJECTID value
+#330 OBJECTID menu
 #330 '('
 #330 ')'
-#330 ')'
-#330 '-'
-#330 '-'
-#330 OBJECTID divide
-#330 '/'
-#330 INT_CONST 8
+#330 ';'
 #331 INHERITS
 #331 INHERITS
 #331 FI
-#331 FI
 #331 IF
-#331 IF
-#331 FI
-#331 IF
-#331 IF
-#331 FI
-#331 IF
-#331 IF
-#331 FI
-#331 IF
-#331 IF
-#331 FI
-#331 IF
-#331 OBJECTID i
-#331 ';'
+#331 OBJECTID char
+#331 '='
+#331 STR_CONST "a"
+#331 THEN
+#331 OBJECTID add
 #332 INHERITS
-#332 ELSE
-#332 '}'
+#332 INHERITS
+#332 CLASS
+#332 '{'
 #333 INHERITS
-#333 POOL
+#333 INHERITS
+#333 INHERITS
+#333 OBJECTID a_var
+#333 ASSIGN
+#333 '('
+#333 NEW
+#333 TYPEID A
+#333 ')'
+#333 '.'
+#333 OBJECTID set_var
+#333 '('
+#333 OBJECTID get_int
+#333 '('
+#333 ')'
+#333 ')'
 #333 ';'
-#334 CLASS
-#334 FI
-#334 '}'
-#335 LET
+#334 INHERITS
+#334 INHERITS
+#334 OBJECTID avar
+#334 ASSIGN
+#334 '('
+#334 NEW
+#334 TYPEID B
+#334 ')'
+#334 '.'
+#334 OBJECTID method2
+#334 '('
+#334 OBJECTID avar
+#334 '.'
+#334 OBJECTID value
+#334 '('
+#334 ')'
+#334 ','
+#334 OBJECTID a_var
+#334 '.'
+#334 OBJECTID value
+#334 '('
+#334 ')'
+#334 ')'
+#334 ';'
+#335 INHERITS
+#335 CLASS
 #335 '}'
-#335 ';'
-#337 '}'
-#337 ';'
+#335 ELSE
+#336 INHERITS
+#336 INHERITS
+#336 FI
+#336 IF
+#336 OBJECTID char
+#336 '='
+#336 STR_CONST "b"
+#336 THEN
+#336 OBJECTID negate
+#337 INHERITS
+#337 INHERITS
+#337 CLASS
+#337 CASE
+#337 OBJECTID avar
+#337 OF
+#338 INHERITS
+#338 INHERITS
+#338 ESAC
+#338 ':'
+#338 TYPEID C
+#338 DARROW
+#338 OBJECTID avar
+#338 ASSIGN
+#338 OBJECTID c
+#338 '.'
+#338 OBJECTID method6
+#338 '('
+#338 OBJECTID c
+#338 '.'
+#338 OBJECTID value
+#338 '('
+#338 ')'
+#338 ')'
+#338 ';'
+#339 INHERITS
+#339 INHERITS
+#339 LET
+#339 OBJECTID a
+#339 ':'
+#339 TYPEID A
+#339 DARROW
+#339 OBJECTID avar
+#339 ASSIGN
+#339 OBJECTID a
+#339 '.'
+#339 OBJECTID method3
+#339 '('
+#339 OBJECTID a
+#339 '.'
+#339 OBJECTID value
+#339 '('
+#339 ')'
+#339 ')'
+#339 ';'
+#340 INHERITS
+#340 INHERITS
+#340 LET
+#340 OF
+#340 ':'
+#340 TYPEID Object
+#340 DARROW
+#340 '{'
+#341 INHERITS
+#341 INHERITS
+#341 FI
+#341 OBJECTID out_string
+#341 '('
+LEXER BUG - UNMATCHED: "
+#341 TYPEID Oooops
+LEXER BUG - UNMATCHED: \
+#341 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#341 ')'
+#341 ';'
+#342 INHERITS
+#342 INHERITS
+#342 FI
+#342 OBJECTID abort
+#342 '('
+#342 ')'
+#342 ';'
+#342 INT_CONST 0
+#342 ';'
+#343 INHERITS
+#343 CLASS
+#343 FI
+#343 '}'
+#343 ';'
+#344 INHERITS
+#344 INHERITS
+#344 CLASS
+#344 ESAC
+#344 ELSE
+#345 INHERITS
+#345 INHERITS
+#345 FI
+#345 IF
+#345 OBJECTID char
+#345 '='
+#345 STR_CONST "c"
+#345 THEN
+#345 OBJECTID diff
+#346 INHERITS
+#346 INHERITS
+#346 CLASS
+#346 '{'
+#347 INHERITS
+#347 INHERITS
+#347 INHERITS
+#347 OBJECTID a_var
+#347 ASSIGN
+#347 '('
+#347 NEW
+#347 TYPEID A
+#347 ')'
+#347 '.'
+#347 OBJECTID set_var
+#347 '('
+#347 OBJECTID get_int
+#347 '('
+#347 ')'
+#347 ')'
+#347 ';'
+#348 INHERITS
+#348 INHERITS
+#348 OBJECTID avar
+#348 ASSIGN
+#348 '('
+#348 NEW
+#348 TYPEID D
+#348 ')'
+#348 '.'
+#348 OBJECTID method4
+#348 '('
+#348 OBJECTID avar
+#348 '.'
+#348 OBJECTID value
+#348 '('
+#348 ')'
+#348 ','
+#348 OBJECTID a_var
+#348 '.'
+#348 OBJECTID value
+#348 '('
+#348 ')'
+#348 ')'
+#348 ';'
+#349 INHERITS
+#349 CLASS
+#349 '}'
+#349 ELSE
+#350 INHERITS
+#350 INHERITS
+#350 FI
+#350 IF
+#350 OBJECTID char
+#350 '='
+#350 STR_CONST "d"
+#350 THEN
+#350 OBJECTID avar
+#350 ASSIGN
+#350 '('
+#350 NEW
+#350 TYPEID C
+#350 ')'
+#350 '@'
+#350 TYPEID A
+#350 '.'
+#350 OBJECTID method5
+#350 '('
+#350 OBJECTID avar
+#350 '.'
+#350 OBJECTID value
+#350 '('
+#350 ')'
+#350 ')'
+#350 ELSE
+#351 INHERITS
+#351 FI
+#351 OBJECTID factorial
+#352 INHERITS
+#352 INHERITS
+#352 FI
+#352 IF
+#352 OBJECTID char
+#352 '='
+#352 STR_CONST "e"
+#352 THEN
+#352 OBJECTID avar
+#352 ASSIGN
+#352 '('
+#352 NEW
+#352 TYPEID C
+#352 ')'
+#352 '@'
+#352 TYPEID B
+#352 '.'
+#352 OBJECTID method5
+#352 '('
+#352 OBJECTID avar
+#352 '.'
+#352 OBJECTID value
+#352 '('
+#352 ')'
+#352 ')'
+#352 ELSE
+#353 FI
+#353 OBJECTID square
+#354 INHERITS
+#354 INHERITS
+#354 FI
+#354 IF
+#354 OBJECTID char
+#354 '='
+#354 STR_CONST "f"
+#354 THEN
+#354 OBJECTID avar
+#354 ASSIGN
+#354 '('
+#354 NEW
+#354 TYPEID C
+#354 ')'
+#354 '@'
+#354 TYPEID C
+#354 '.'
+#354 OBJECTID method5
+#354 '('
+#354 OBJECTID avar
+#354 '.'
+#354 OBJECTID value
+#354 '('
+#354 ')'
+#354 ')'
+#354 ELSE
+#355 FI
+#355 OBJECTID cube
+#356 INHERITS
+#356 INHERITS
+#356 FI
+#356 IF
+#356 OBJECTID char
+#356 '='
+#356 STR_CONST "g"
+#356 THEN
+#356 OBJECTID multiple
+#356 OF
+#356 INT_CONST 3
+LEXER BUG - UNMATCHED: ?
+#357 CLASS
+#357 FI
+#357 FI
+#357 '('
+#357 '('
+#357 NEW
+#357 TYPEID D
+#357 ')'
+#357 '.'
+#357 OBJECTID method7
+#357 '('
+#357 OBJECTID avar
+#357 '.'
+#357 OBJECTID value
+#357 '('
+#357 ')'
+#357 ')'
+#357 ')'
+#358 INHERITS
+#358 INHERITS
+#358 CLASS
+#358 LET
+#358 OBJECTID hen
+#358 OBJECTID avar
+#358 ASSIGN
+#358 '('
+#358 NEW
+#358 TYPEID A
+#358 ')'
+#358 '.'
+#358 OBJECTID method1
+#358 '('
+#358 OBJECTID avar
+#358 '.'
+#358 OBJECTID value
+#358 '('
+#358 ')'
+#358 ')'
+#359 '{'
+#360 INHERITS
+#360 INHERITS
+#360 ELSE
+#360 OBJECTID out_string
+#360 '('
+#360 STR_CONST "number "
+#360 ')'
+#360 ';'
+#361 INHERITS
+#361 INHERITS
+#361 ELSE
+#361 OBJECTID print
+#361 '('
+#361 OBJECTID avar
+#361 ')'
+#361 ';'
+#362 INHERITS
+#362 INHERITS
+#362 ELSE
+#362 OBJECTID out_string
+#362 '('
+LEXER BUG - UNMATCHED: "
+#362 OBJECTID is
+#362 OBJECTID divisible
+#362 OBJECTID by
+#362 INT_CONST 3
+#362 '.'
+LEXER BUG - UNMATCHED: \
+#362 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#362 ')'
+#362 ';'
+#363 '}'
+#364 ELSE
+#364 FI
+#364 OBJECTID avar
+#364 ASSIGN
+#364 '('
+#364 NEW
+#364 TYPEID A
+#364 ')'
+#364 '.'
+#364 OBJECTID set_var
+#364 '('
+#364 INT_CONST 0
+#364 ')'
+#365 '{'
+#366 INHERITS
+#366 INHERITS
+#366 ELSE
+#366 OBJECTID out_string
+#366 '('
+#366 STR_CONST "number "
+#366 ')'
+#366 ';'
+#367 INHERITS
+#367 INHERITS
+#367 ELSE
+#367 OBJECTID print
+#367 '('
+#367 OBJECTID avar
+#367 ')'
+#367 ';'
+#368 INHERITS
+#368 INHERITS
+#368 ELSE
+#368 OBJECTID out_string
+#368 '('
+LEXER BUG - UNMATCHED: "
+#368 OBJECTID is
+#368 IN
+#368 OBJECTID ot
+#368 OBJECTID divisible
+#368 OBJECTID by
+#368 INT_CONST 3
+#368 '.'
+LEXER BUG - UNMATCHED: \
+#368 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#368 ')'
+#368 ';'
+#369 '}'
+#370 CLASS
+#370 IF
+#370 IF
+#370 ELSE
+#371 INHERITS
+#371 INHERITS
+#371 FI
+#371 IF
+#371 OBJECTID char
+#371 '='
+#371 STR_CONST "h"
+#371 THEN
+#372 CLASS
+#372 '('
+#372 LET
+#372 OBJECTID x
+#372 ':'
+#372 TYPEID A
+#372 FI
+#372 OBJECTID n
+#373 '{'
+#374 INHERITS
+#374 ELSE
+#374 OBJECTID x
+#374 ASSIGN
+#374 '('
+#374 NEW
+#374 TYPEID E
+#374 ')'
+#374 '.'
+#374 OBJECTID method6
+#374 '('
+#374 OBJECTID avar
+#374 '.'
+#374 OBJECTID value
+#374 '('
+#374 ')'
+#374 ')'
+#374 ';'
+#375 ELSE
+#375 '('
+#375 LET
+#375 OBJECTID r
+#375 ':'
+#375 FI
+#375 OBJECTID nt
+#375 ASSIGN
+#375 '('
+#375 OBJECTID avar
+#375 '.'
+#375 OBJECTID value
+#375 '('
+#375 ')'
+#375 '-'
+#375 '('
+#375 OBJECTID x
+#375 '.'
+#375 OBJECTID value
+#375 '('
+#375 ')'
+#375 '*'
+#375 INT_CONST 8
+#375 ')'
+#375 ')'
+#375 FI
+#375 OBJECTID n
+#376 CLASS
+#376 FI
+#376 '{'
+#377 INHERITS
+#377 FI
+#377 OBJECTID out_string
+#377 '('
+#377 STR_CONST "number "
+#377 ')'
+#377 ';'
+#378 INHERITS
+#378 FI
+#378 OBJECTID print
+#378 '('
+#378 OBJECTID avar
+#378 ')'
+#378 ';'
+#379 INHERITS
+#379 FI
+#379 OBJECTID out_string
+#379 '('
+#379 STR_CONST "is equal to "
+#379 ')'
+#379 ';'
+#380 INHERITS
+#380 FI
+#380 OBJECTID print
+#380 '('
+#380 OBJECTID x
+#380 ')'
+#380 ';'
+#381 INHERITS
+#381 FI
+#381 OBJECTID out_string
+#381 '('
+#381 STR_CONST "times 8 with a remainder of "
+#381 ')'
+#381 ';'
+#382 FI
+#382 '('
+#382 LET
+#382 OBJECTID a
+#382 ':'
+#382 TYPEID A2I
+#382 ASSIGN
+#382 IN
+#382 OBJECTID ew
+#382 TYPEID A2I
+#382 FI
+#382 OBJECTID n
+#383 CLASS
+#383 '{'
+#384 INHERITS
+#384 INHERITS
+#384 OBJECTID out_string
+#384 '('
+#384 OBJECTID a
+#384 '.'
+#384 OBJECTID i2a
+#384 '('
+#384 OBJECTID r
+#384 ')'
+#384 ')'
+#384 ';'
+#385 INHERITS
+#385 INHERITS
+#385 OBJECTID out_string
+#385 '('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+#385 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#385 ')'
+#385 ';'
+#386 CLASS
+#386 '}'
+#387 FI
+#387 ')'
+#387 ';'
+#387 OBJECTID end
+#387 LET
+#387 OBJECTID a
+#387 ':'
+#388 CLASS
+#388 FI
+#388 '}'
+#389 INHERITS
+#389 INHERITS
+#389 INHERITS
+#389 ELSE
+#389 ')'
+#389 ';'
+#389 OBJECTID end
+#389 LET
+#389 OBJECTID r
+#389 ':'
+#390 ELSE
+#390 OBJECTID avar
+#390 ASSIGN
+#390 OBJECTID x
+#390 ';'
+#391 INHERITS
+#391 '}'
+#392 CLASS
+#392 ')'
+#392 FI
+#392 OBJECTID end
+#392 LET
+#392 OBJECTID x
+#392 ':'
+#393 CLASS
+#393 ELSE
+#394 INHERITS
+#394 INHERITS
+#394 FI
+#394 IF
+#394 OBJECTID char
+#394 '='
+#394 STR_CONST "j"
+#394 THEN
+#394 OBJECTID avar
+#394 ASSIGN
+#394 '('
+#394 NEW
+#394 TYPEID A
+#394 ')'
+#395 CLASS
+#395 ELSE
+#396 INHERITS
+#396 INHERITS
+#396 FI
+#396 IF
+#396 OBJECTID char
+#396 '='
+#396 STR_CONST "q"
+#396 THEN
+#396 IF
+#396 OBJECTID lag
+#396 ASSIGN
+#396 IF
+#396 OBJECTID alse
+#397 CLASS
+#397 ELSE
+#398 INHERITS
+#398 INHERITS
+#398 CLASS
+#398 OBJECTID avar
+#398 ASSIGN
+#398 '('
+#398 NEW
+#398 TYPEID A
+#398 ')'
+#398 '.'
+#398 OBJECTID method1
+#398 '('
+#398 OBJECTID avar
+#398 '.'
+#398 OBJECTID value
+#398 '('
+#398 ')'
+#398 ')'
+#398 OBJECTID divide
+#398 '/'
+#398 INT_CONST 8
+#399 INHERITS
+#399 INHERITS
+#399 FI
+#399 FI
+#399 IF
+#399 IF
+#399 FI
+#399 IF
+#399 IF
+#399 FI
+#399 IF
+#399 IF
+#399 FI
+#399 IF
+#399 IF
+#399 FI
+#399 IF
+#399 OBJECTID i
+#399 ';'
+#400 INHERITS
+#400 ELSE
+#400 '}'
+#401 INHERITS
+#401 POOL
+#401 ';'
+#402 CLASS
+#402 FI
+#402 '}'
+#403 LET
+#403 '}'
+#403 ';'
+#405 '}'
+#405 ';'

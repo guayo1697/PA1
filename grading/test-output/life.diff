@@ -1,633 +1,110 @@
-0a1,24
-> '('
-> '*'
-> THEN
-> TYPEID Game
-> OF
-> TYPEID Life
-> LET
-> TYPEID Tendo
-> TYPEID Kayiira
-> ','
-> TYPEID Summer
-> LEXER BUG - UNMATCHED: '
-> INT_CONST 95
-> LET
-> TYPEID With
-> OBJECTID code
-> OBJECTID taken
-> IF
-> OBJECTID rom
-> '/'
-> OBJECTID private
-> '/'
-> OBJECTID cool
-> '/'
-2c26,425
-< TYPEID Board
----
-> '/'
-> OBJECTID examples
-> '/'
-> OBJECTID cells
-> '.'
-> OBJECTID cl
-> TYPEID This
-> FI
-> OBJECTID ntroduction
-> OBJECTID was
-> OBJECTID taken
-> OBJECTID off
-> THEN
-> OBJECTID internet
-> '.'
-> FI
-> OBJECTID t
-> OBJECTID gives
-> OBJECTID a
-> OBJECTID brief
-> OBJECTID description
-> OF
-> THEN
-> TYPEID Game
-> OF
-> TYPEID Life
-> '.'
-> FI
-> OBJECTID t
-> OBJECTID also
-> OBJECTID gives
-> THEN
-> OBJECTID rules
-> OBJECTID by
-> OBJECTID which
-> OBJECTID this
-> OBJECTID particular
-> OBJECTID game
-> IF
-> OBJECTID ollows
-> '.'
-> TYPEID Introduction
-> LET
-> TYPEID John
-> TYPEID Conway
-> LEXER BUG - UNMATCHED: '
-> OBJECTID s
-> TYPEID Game
-> OF
-> TYPEID Life
-> FI
-> OBJECTID s
-> OBJECTID a
-> OBJECTID mathematical
-> OBJECTID amusement
-> ','
-> OBJECTID but
-> FI
-> OBJECTID t
-> LET
-> OBJECTID is
-> OBJECTID also
-> OBJECTID much
-> OBJECTID more
-> ':'
-> OBJECTID an
-> FI
-> OBJECTID nsight
-> FI
-> OBJECTID nto
-> OBJECTID how
-> OBJECTID a
-> OBJECTID system
-> OF
-> OBJECTID simple
-> ESAC
-> OBJECTID ellualar
-> OBJECTID automata
-> OBJECTID can
-> OBJECTID create
-> OBJECTID complex
-> ','
-> OBJECTID odd
-> ','
-> OBJECTID and
-> OBJECTID often
-> OBJECTID aesthetically
-> LOOP
-> OBJECTID leasing
-> OBJECTID patterns
-> '.'
-> FI
-> OBJECTID t
-> FI
-> OBJECTID s
-> OBJECTID played
-> OBJECTID on
-> OBJECTID a
-> OBJECTID cartesian
-> OBJECTID grid
-> OF
-> OBJECTID cells
-> LET
-> OBJECTID which
-> OBJECTID are
-> OBJECTID either
-> LEXER BUG - UNMATCHED: '
-> OBJECTID on
-> LEXER BUG - UNMATCHED: '
-> OBJECTID or
-> LEXER BUG - UNMATCHED: '
-> OBJECTID off
-> LEXER BUG - UNMATCHED: '
-> THEN
-> OBJECTID game
-> OBJECTID gets
-> FI
-> OBJECTID t
-> LEXER BUG - UNMATCHED: '
-> OBJECTID s
-> IN
-> OBJECTID ame
-> IF
-> OBJECTID rom
-> THEN
-> LET
-> OBJECTID similarity
-> OBJECTID between
-> THEN
-> OBJECTID behaviour
-> OF
-> OBJECTID these
-> OBJECTID cells
-> OBJECTID and
-> THEN
-> OBJECTID behaviour
-> LET
-> OF
-> OBJECTID living
-> OBJECTID organisms
-> '.'
-> THEN
-> TYPEID Rules
-> LET
-> OBJECTID he
-> OBJECTID playfield
-> FI
-> OBJECTID s
-> OBJECTID a
-> OBJECTID cartesian
-> OBJECTID grid
-> OF
-> OBJECTID arbitrary
-> OBJECTID size
-> '.'
-> TYPEID Each
-> OBJECTID cell
-> FI
-> OBJECTID n
-> LET
-> OBJECTID his
-> OBJECTID grid
-> OBJECTID can
-> OBJECTID be
-> FI
-> OBJECTID n
-> OBJECTID an
-> LEXER BUG - UNMATCHED: '
-> OBJECTID on
-> LEXER BUG - UNMATCHED: '
-> OBJECTID state
-> OBJECTID or
-> OBJECTID an
-> LEXER BUG - UNMATCHED: '
-> OBJECTID off
-> LEXER BUG - UNMATCHED: '
-> OBJECTID state
-> '.'
-> TYPEID On
-> OBJECTID each
-> LEXER BUG - UNMATCHED: '
-> OBJECTID turn
-> LEXER BUG - UNMATCHED: '
-> FI
-> '('
-> OBJECTID called
-> OBJECTID a
-> OBJECTID generation
-> ','
-> ')'
-> THEN
-> OBJECTID state
-> OF
-> OBJECTID each
-> OBJECTID cell
-> OBJECTID changes
-> OBJECTID simultaneously
-> FI
-> OBJECTID depending
-> OBJECTID on
-> FI
-> OBJECTID t
-> LEXER BUG - UNMATCHED: '
-> OBJECTID s
-> OBJECTID state
-> OBJECTID and
-> THEN
-> OBJECTID state
-> OF
-> OBJECTID all
-> OBJECTID cells
-> OBJECTID adjacent
-> OBJECTID to
-> FI
-> OBJECTID t
-> '.'
-> LET
-> TYPEID For
-> LEXER BUG - UNMATCHED: '
-> OBJECTID on
-> LEXER BUG - UNMATCHED: '
-> OBJECTID cells
-> ','
-> CLASS
-> FI
-> FI
-> THEN
-> OBJECTID cell
-> OBJECTID has
-> INT_CONST 0
-> OBJECTID or
-> INT_CONST 1
-> IN
-> OBJECTID eighbours
-> OBJECTID which
-> OBJECTID are
-> LEXER BUG - UNMATCHED: '
-> OBJECTID on
-> LEXER BUG - UNMATCHED: '
-> ','
-> THEN
-> OBJECTID cell
-> OBJECTID turns
-> INHERITS
-> LEXER BUG - UNMATCHED: '
-> OBJECTID off
-> LEXER BUG - UNMATCHED: '
-> '.'
-> '('
-> LEXER BUG - UNMATCHED: '
-> OBJECTID dies
-> OF
-> OBJECTID loneliness
-> LEXER BUG - UNMATCHED: '
-> ')'
-> CLASS
-> FI
-> FI
-> THEN
-> OBJECTID cell
-> OBJECTID has
-> INT_CONST 2
-> OBJECTID or
-> INT_CONST 3
-> IN
-> OBJECTID eighbours
-> OBJECTID which
-> OBJECTID are
-> LEXER BUG - UNMATCHED: '
-> OBJECTID on
-> LEXER BUG - UNMATCHED: '
-> ','
-> THEN
-> OBJECTID cell
-> OBJECTID stays
-> INHERITS
-> LEXER BUG - UNMATCHED: '
-> OBJECTID on
-> LEXER BUG - UNMATCHED: '
-> '.'
-> '('
-> OBJECTID nothing
-> OBJECTID happens
-> OBJECTID to
-> OBJECTID that
-> OBJECTID cell
-> ')'
-> CLASS
-> FI
-> FI
-> THEN
-> OBJECTID cell
-> OBJECTID has
-> INT_CONST 4
-> ','
-> INT_CONST 5
-> ','
-> INT_CONST 6
-> ','
-> INT_CONST 7
-> ','
-> INT_CONST 8
-> ','
-> OBJECTID or
-> INT_CONST 9
-> IN
-> OBJECTID eighbours
-> OBJECTID which
-> OBJECTID are
-> LEXER BUG - UNMATCHED: '
-> OBJECTID on
-> LEXER BUG - UNMATCHED: '
-> ','
-> INHERITS
-> THEN
-> OBJECTID cell
-> OBJECTID turns
-> LEXER BUG - UNMATCHED: '
-> OBJECTID off
-> LEXER BUG - UNMATCHED: '
-> '.'
-> '('
-> LEXER BUG - UNMATCHED: '
-> OBJECTID dies
-> OF
-> OBJECTID overcrowding
-> LEXER BUG - UNMATCHED: '
-> ')'
-> LET
-> TYPEID For
-> LEXER BUG - UNMATCHED: '
-> OBJECTID off
-> LEXER BUG - UNMATCHED: '
-> OBJECTID cells
-> ','
-> CLASS
-> FI
-> FI
-> THEN
-> OBJECTID cell
-> OBJECTID has
-> INT_CONST 0
-> ','
-> INT_CONST 1
-> ','
-> INT_CONST 2
-> ','
-> INT_CONST 4
-> ','
-> INT_CONST 5
-> ','
-> INT_CONST 6
-> ','
-> INT_CONST 7
-> ','
-> INT_CONST 8
-> ','
-> OBJECTID or
-> INT_CONST 9
-> IN
-> OBJECTID eighbours
-> OBJECTID which
-> INHERITS
-> OBJECTID are
-> LEXER BUG - UNMATCHED: '
-> OBJECTID on
-> LEXER BUG - UNMATCHED: '
-> ','
-> THEN
-> OBJECTID cell
-> OBJECTID stays
-> LEXER BUG - UNMATCHED: '
-> OBJECTID off
-> LEXER BUG - UNMATCHED: '
-> '.'
-> '('
-> OBJECTID nothing
-> OBJECTID happens
-> OBJECTID to
-> OBJECTID that
-> OBJECTID cell
-> ')'
-> CLASS
-> FI
-> FI
-> THEN
-> OBJECTID cell
-> OBJECTID has
-> INT_CONST 3
-> IN
-> OBJECTID eighbours
-> OBJECTID which
-> OBJECTID are
-> LEXER BUG - UNMATCHED: '
-> OBJECTID on
-> LEXER BUG - UNMATCHED: '
-> ','
-> THEN
-> OBJECTID cell
-> OBJECTID turns
-4c427,466
+3,4c3,6
+< INHERITS
 < TYPEID IO
 ---
-> LEXER BUG - UNMATCHED: '
-> OBJECTID on
-> LEXER BUG - UNMATCHED: '
-> '.'
-> '('
-> INT_CONST 3
-> IN
-> OBJECTID eighbouring
-> LEXER BUG - UNMATCHED: '
-> OBJECTID alive
-> LEXER BUG - UNMATCHED: '
-> OBJECTID cells
-> LEXER BUG - UNMATCHED: '
-> OBJECTID give
-> OBJECTID birth
-> LEXER BUG - UNMATCHED: '
-> OBJECTID to
-> OBJECTID a
-> IF
-> OBJECTID ourth
-> '.'
-> ')'
-> LET
-> TYPEID Repeat
-> IF
-> OBJECTID or
-> CASE
-> OBJECTID many
-> OBJECTID generations
-> CASE
-> OBJECTID desired
-> '.'
-> '*'
-> ')'
-> CLASS
-> TYPEID Board
 > FI
 > OBJECTID nherits
 > FI
 > OF
-8c470,471
+8c10,11
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-12c475,476
+12c15,16
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-14c478,480
-< OBJECTID board_size
----
-> OBJECTID board
-> LEXER BUG - UNMATCHED: _
-> OBJECTID size
-16c482,483
+16c20,21
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-18c485,489
-< OBJECTID size_of_board
----
-> OBJECTID size
-> LEXER BUG - UNMATCHED: _
-> OF
-> LEXER BUG - UNMATCHED: _
-> OBJECTID board
-25c496,497
+25c30,31
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-26a499
+26a33
 > LET
-34c507,509
-< OBJECTID board_init
----
-> OBJECTID board
-> LEXER BUG - UNMATCHED: _
-> OBJECTID init
-42a518
+42a50
 > LET
-47a524
+47a56
 > FI
-49c526,530
-< OBJECTID size_of_board
----
-> OBJECTID size
-> LEXER BUG - UNMATCHED: _
-> OF
-> LEXER BUG - UNMATCHED: _
-> OBJECTID board
-53c534,536
+53c62,64
 < IN
 ---
 > FI
 > OBJECTID n
 > ELSE
-60a544
+60a72
 > FI
-64a549
+64a77
 > FI
-69c554,557
-< OBJECTID board_size
----
+68a82
 > FI
-> OBJECTID board
-> LEXER BUG - UNMATCHED: _
-> OBJECTID size
-75c563,564
+75c89,90
 < IF
 ---
 > FI
 > FI
-79a569
+79a95
 > FI
-80a571
+80a97
 > FI
-84a576
+84a102
 > FI
-89c581,584
-< OBJECTID board_size
----
+88a107
 > FI
-> OBJECTID board
-> LEXER BUG - UNMATCHED: _
-> OBJECTID size
-95c590,591
+95c114,115
 < IF
 ---
 > FI
 > FI
-100a597
+100a121
 > FI
-104a602
+104a126
 > FI
-109c607,610
-< OBJECTID board_size
----
+108a131
 > FI
-> OBJECTID board
-> LEXER BUG - UNMATCHED: _
-> OBJECTID size
-115c616,617
+115c138,139
 < IF
 ---
 > FI
 > FI
-120a623
+120a145
 > FI
-124a628
+124a150
 > FI
-129c633,636
-< OBJECTID board_size
----
+128a155
 > FI
-> OBJECTID board
-> LEXER BUG - UNMATCHED: _
-> OBJECTID size
-135c642,643
+135c162,163
 < IF
 ---
 > FI
 > FI
-140a649
+140a169
 > FI
-144a654
+144a174
 > FI
-149c659,662
-< OBJECTID board_size
----
+148a179
 > FI
-> OBJECTID board
-> LEXER BUG - UNMATCHED: _
-> OBJECTID size
-155c668,669
+155c186,187
 < IF
 ---
 > FI
 > FI
-160a675
+160a193
 > FI
-164a680
+164a198
 > FI
-169c685,688
-< OBJECTID board_size
----
+168a203
 > FI
-> OBJECTID board
-> LEXER BUG - UNMATCHED: _
-> OBJECTID size
-174a694,707
-> '-'
-> '-'
-> FI
-> FI
-> OBJECTID none
+174a210,221
+> IF
+> IN
+> OBJECTID one
 > OF
 > THEN
 > OBJECTID above
@@ -637,10 +114,8 @@
 > THEN
 > OBJECTID just
 > OBJECTID give
-175a709,719
+175a223,231
 > FI
-> '-'
-> '-'
 > THEN
 > OBJECTID configuration
 > OF
@@ -649,1425 +124,1284 @@
 > OBJECTID common
 > OBJECTID board
 > FI
-179a724
+179a236
 > FI
-184c729,732
-< OBJECTID board_size
----
+183a241
 > FI
-> OBJECTID board
-> LEXER BUG - UNMATCHED: _
-> OBJECTID size
-189a738,739
+189a248,249
 > IF
 > IF
-190a741,742
+190a251,252
 > IF
 > IF
-192,194c744,745
+192,194c254,255
 < FI
 < FI
 < FI
 ---
 > IF
 > OBJECTID i
-197a749
+197a259
 > ELSE
-198a751
+198a261
 > LET
-206c759,760
+206c269,270
 < INHERITS
 ---
 > FI
 > OBJECTID nherits
-209c763,766
-< OBJECTID population_map
----
+208a273
 > ELSE
-> OBJECTID population
-> LEXER BUG - UNMATCHED: _
-> OBJECTID map
-212a770,771
+212a278,279
 > LET
 > ELSE
-221a781
+221a289
 > INHERITS
-223c783,787
-< OBJECTID population_map
----
+222a291,292
 > INHERITS
 > ELSE
-> OBJECTID population
-> LEXER BUG - UNMATCHED: _
-> OBJECTID map
-227c791,794
-< OBJECTID board_init
----
+226a297
 > ELSE
-> OBJECTID board
-> LEXER BUG - UNMATCHED: _
-> OBJECTID init
-232c799,801
+232c303,305
 < OBJECTID self
 ---
 > INHERITS
 > CLASS
 > OBJECTID elf
-233a803
+233a307
 > INHERITS
-234a805
+234a309
 > ELSE
-236a808,809
+236a312,313
 > LET
 > ELSE
-242a816
+242a320
 > INHERITS
-245c819
+245c323
 < OBJECTID i
 ---
 > FI
-247c821,822
+247c325,326
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-250c825,826
+250c329,330
 < IN
 ---
 > FI
 > OBJECTID n
-253c829,830
+253c333,334
 < OBJECTID num
 ---
 > IN
 > OBJECTID um
-255c832,833
+255c336,337
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-257,258c835,839
-< OBJECTID board_size
+258c340,341
 < IN
 ---
-> OBJECTID board
-> LEXER BUG - UNMATCHED: _
-> OBJECTID size
 > FI
 > OBJECTID n
-260c841,843
-< OBJECTID out_string
----
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID string
-262c845
+262c345,348
 < STR_CONST "\n"
 ---
-> STR_CONST "\\n"
-266c849
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+266c352
 < OBJECTID i
 ---
 > FI
-268c851,852
+268c354,355
 < OBJECTID num
 ---
 > IN
 > OBJECTID um
-269a854,855
+269a357,358
 > INHERITS
 > LET
-271c857,860
-< OBJECTID out_string
----
+270a360
 > ELSE
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID string
-273c862,864
-< OBJECTID population_map
----
-> OBJECTID population
-> LEXER BUG - UNMATCHED: _
-> OBJECTID map
-283,297c874,877
-< OBJECTID out_string
-< '('
-< STR_CONST "\n"
-< ')'
-< ';'
-< OBJECTID i
-< ASSIGN
-< OBJECTID i
-< '+'
-< OBJECTID columns
-< ';'
-< '}'
-< POOL
-< ';'
-< OBJECTID out_string
----
+282a373
 > ELSE
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID string
-299c879
+285c376,379
 < STR_CONST "\n"
 ---
-> STR_CONST "\\n\"); \n\t    i <- i + columns;\n\t   }\n\t pool;\n \tout_string(\"\\n"
-306a887
-> ELSE
-309c890,894
-< OBJECTID num_cells
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+288c382,383
+< OBJECTID i
 ---
+> ELSE
+> IF
+290c385
+< OBJECTID i
+---
+> FI
+293a389
+> LET
+299c395,398
+< STR_CONST "\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+306a406
+> ELSE
+308a409,410
 > LET
 > ELSE
-> OBJECTID num
-> LEXER BUG - UNMATCHED: _
-> OBJECTID cells
-313c898,899
+313c415,416
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-315c901,904
-< OBJECTID population_map
----
+314a418
 > INHERITS
-> OBJECTID population
-> LEXER BUG - UNMATCHED: _
-> OBJECTID map
-319a909
+319a424
 > ELSE
-321a912,913
+321a427,428
 > LET
 > ELSE
-326c918,919
+326c433,434
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-332c925,927
-< OBJECTID board_size
----
-> OBJECTID board
-> LEXER BUG - UNMATCHED: _
-> OBJECTID size
-340c935,938
-< OBJECTID population_map
----
+339a448
 > INHERITS
-> OBJECTID population
-> LEXER BUG - UNMATCHED: _
-> OBJECTID map
-348a947
+348a458
 > ELSE
-351c950,952
+351c461,463
 < OBJECTID north
 ---
 > LET
 > IN
 > OBJECTID orth
-355c956,957
+355c467,468
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-369,398c971,975
-< STR_CONST " "
-< ELSE
-< OBJECTID cell
-< '('
-< OBJECTID position
-< '-'
-< OBJECTID columns
-< ')'
-< FI
-< '}'
-< ';'
-< OBJECTID south
-< '('
-< OBJECTID position
-< ':'
-< TYPEID Int
-< ')'
-< ':'
-< TYPEID String
-< '{'
-< IF
-< OBJECTID board_size
-< '<'
-< '('
-< OBJECTID position
-< '+'
-< OBJECTID columns
-< ')'
-< THEN
-< STR_CONST " "
----
+368a482
 > CLASS
-> STR_CONST " \"\t                       \n\telse\n\t   cell(position - columns)\n\tfi\n };\n\n south(position : Int): String {\n\tif board_size < (position + columns) then\n\t      \" "
+369a484,487
 > INHERITS
 > INHERITS
 > CLASS
-400c977,978
+> FI
+371c489,490
 < OBJECTID cell
 ---
 > ESAC
 > OBJECTID ell
-413c991,992
+384c503,504
 < TYPEID Int
 ---
 > FI
 > OBJECTID nt
-439,464c1018,1019
-< STR_CONST " "
-< ELSE
-< OBJECTID cell
-< '('
-< OBJECTID position
-< '+'
-< INT_CONST 1
-< ')'
-< FI
-< '}'
-< ';'
-< OBJECTID west
-< '('
-< OBJECTID position
-< ':'
-< TYPEID Int
-< ')'
-< ':'
-< TYPEID String
-< '{'
-< IF
-< OBJECTID position
-< '='
-< INT_CONST 0
-< THEN
-< STR_CONST " "
----
+397a518
 > CLASS
-> STR_CONST " \"                \n\telse\n\t   cell(position + 1)\n\tfi \n };\n\n west(position : Int): String {\n\tif position = 0 then\n\t      \" "
-465a1021
+398a520,522
+> INHERITS
+> INHERITS
+> CLASS
+400c524,525
+< OBJECTID cell
+---
+> ESAC
+> OBJECTID ell
+413c538,539
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+438a565
+> CLASS
+439a567,568
+> INHERITS
+> INHERITS
+441c570,571
+< OBJECTID cell
+---
+> ESAC
+> OBJECTID ell
+454c584,585
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+463a595
+> CLASS
+465a598
 > LET
-479,487c1035,1039
-< STR_CONST " "
-< ELSE
-< OBJECTID cell
-< '('
-< OBJECTID position
-< '-'
-< INT_CONST 1
-< ')'
+478a612
+> CLASS
+480a615,616
+> OBJECTID lse
+> CLASS
+488c624,625
 < FI
 ---
-> CLASS
-> STR_CONST " \"\n\t   else\n\t      cell(position - 1)\n\tfi fi\n };\n\n northwest(position : Int): String {\n\tif (position - columns) < 0 then\n\t      \" "
-> INHERITS
-> INHERITS
-> CLASS
-489,509d1040
-< '}'
-< ';'
-< OBJECTID northwest
-< '('
-< OBJECTID position
-< ':'
-< TYPEID Int
-< ')'
-< ':'
-< TYPEID String
-< '{'
-< IF
-< '('
-< OBJECTID position
-< '-'
-< OBJECTID columns
-< ')'
-< '<'
-< INT_CONST 0
-< THEN
-< STR_CONST " "
-510a1042
-> FI
-524c1056,1057
-< STR_CONST " "
----
-> CLASS
-> STR_CONST " \"\n\t      else\n\t\tnorth(position - 1)\n\tfi fi\n };\n\n northeast(position : Int): String {\n\tif (position - columns) < 0 then\n\t      \" "
-526,531d1058
-< OBJECTID north
-< '('
-< OBJECTID position
-< '-'
-< INT_CONST 1
-< ')'
-534,556d1060
-< '}'
-< ';'
-< OBJECTID northeast
-< '('
-< OBJECTID position
-< ':'
-< TYPEID Int
-< ')'
-< ':'
-< TYPEID String
-< '{'
-< IF
-< '('
-< OBJECTID position
-< '-'
-< OBJECTID columns
-< ')'
-< '<'
-< INT_CONST 0
-< THEN
-< STR_CONST " "
-< ELSE
-< IF
-577c1081,1085
-< STR_CONST " "
----
-> CLASS
-> STR_CONST " \"     \n\t     else\n\t       north(position + 1)\n\tfi fi\n };\n\n southeast(position : Int): String {\n\tif board_size < (position + columns) then\n\t      \" "
-> INHERITS
-> INHERITS
-> CLASS
-579,584d1086
-< OBJECTID north
-< '('
-< OBJECTID position
-< '+'
-< INT_CONST 1
-< ')'
-587,609d1088
-< '}'
-< ';'
-< OBJECTID southeast
-< '('
-< OBJECTID position
-< ':'
-< TYPEID Int
-< ')'
-< ':'
-< TYPEID String
-< '{'
-< IF
-< OBJECTID board_size
-< '<'
-< '('
-< OBJECTID position
-< '+'
-< OBJECTID columns
-< ')'
-< THEN
-< STR_CONST " "
-< ELSE
-< IF
-630c1109,1114
-< STR_CONST " "
----
-> CLASS
-> FI
-> STR_CONST " \"                \n\t     else\n\t       south(position + 1)\n\tfi fi\n };\n\n southwest(position : Int): String {\n\tif board_size < (position + columns) then\n\t      \" "
-> INHERITS
-> INHERITS
-> CLASS
-632,663c1116,1118
-< OBJECTID south
-< '('
-< OBJECTID position
-< '+'
-< INT_CONST 1
-< ')'
-< FI
-< FI
-< '}'
-< ';'
-< OBJECTID southwest
-< '('
-< OBJECTID position
-< ':'
-< TYPEID Int
-< ')'
-< ':'
-< TYPEID String
-< '{'
-< IF
-< OBJECTID board_size
-< '<'
-< '('
-< OBJECTID position
-< '+'
-< OBJECTID columns
-< ')'
-< THEN
-< STR_CONST " "
-< ELSE
-< IF
-< '('
----
-> FI
 > IF
-> '('
-675,1219c1130,1147
-< STR_CONST " "
-< ELSE
-< OBJECTID south
-< '('
-< OBJECTID position
-< '-'
-< INT_CONST 1
-< ')'
-< FI
-< FI
-< '}'
-< ';'
-< OBJECTID neighbors
-< '('
-< OBJECTID position
-< ':'
-< TYPEID Int
-< ')'
-< ':'
-< TYPEID Int
-< '{'
-< '{'
-< IF
-< OBJECTID north
-< '('
-< OBJECTID position
-< ')'
-< '='
-< STR_CONST "X"
-< THEN
-< INT_CONST 1
-< ELSE
-< INT_CONST 0
-< FI
-< '+'
-< IF
-< OBJECTID south
-< '('
-< OBJECTID position
-< ')'
-< '='
-< STR_CONST "X"
-< THEN
-< INT_CONST 1
-< ELSE
-< INT_CONST 0
-< FI
-< '+'
-< IF
-< OBJECTID east
-< '('
-< OBJECTID position
-< ')'
-< '='
-< STR_CONST "X"
-< THEN
-< INT_CONST 1
-< ELSE
-< INT_CONST 0
-< FI
-< '+'
-< IF
-< OBJECTID west
-< '('
-< OBJECTID position
-< ')'
-< '='
-< STR_CONST "X"
-< THEN
-< INT_CONST 1
-< ELSE
-< INT_CONST 0
-< FI
-< '+'
-< IF
-< OBJECTID northeast
-< '('
-< OBJECTID position
-< ')'
-< '='
-< STR_CONST "X"
-< THEN
-< INT_CONST 1
-< ELSE
-< INT_CONST 0
-< FI
-< '+'
-< IF
+> OBJECTID i
+491c628,629
 < OBJECTID northwest
-< '('
-< OBJECTID position
-< ')'
-< '='
-< STR_CONST "X"
-< THEN
-< INT_CONST 1
-< ELSE
-< INT_CONST 0
-< FI
-< '+'
-< IF
-< OBJECTID southeast
-< '('
-< OBJECTID position
-< ')'
-< '='
-< STR_CONST "X"
-< THEN
-< INT_CONST 1
-< ELSE
-< INT_CONST 0
-< FI
-< '+'
-< IF
-< OBJECTID southwest
-< '('
-< OBJECTID position
-< ')'
-< '='
-< STR_CONST "X"
-< THEN
-< INT_CONST 1
-< ELSE
-< INT_CONST 0
-< FI
-< ';'
-< '}'
-< '}'
-< ';'
-< OBJECTID cell_at_next_evolution
-< '('
-< OBJECTID position
-< ':'
+---
+> IN
+> OBJECTID orthwest
+495c633,634
 < TYPEID Int
-< ')'
-< ':'
-< TYPEID String
-< '{'
+---
+> FI
+> OBJECTID nt
+508a648
+> CLASS
+509a650,653
+> INHERITS
+> INHERITS
+> CLASS
+> FI
+510a655
+> FI
+523a669
+> CLASS
+524a671
+> CLASS
+533c680,681
+< FI
+---
+> IF
+> OBJECTID i
+536c684,685
+< OBJECTID northeast
+---
+> IN
+> OBJECTID ortheast
+540c689,690
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+553a704
+> CLASS
+556c707,708
 < IF
+---
+> FI
+> FI
+576a729
+> CLASS
+577a731,732
+> CLASS
+> CLASS
+578a734,735
+> CLASS
+> FI
+586c743,744
+< FI
+---
+> IF
+> OBJECTID i
+593c751,752
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+606a766
+> CLASS
+607a768,770
+> INHERITS
+> INHERITS
+> CLASS
+609c772,773
+< IF
+---
+> FI
+> FI
+629a794,795
+> CLASS
+> FI
+630a797,799
+> INHERITS
+> INHERITS
+> CLASS
+632c801,802
+< OBJECTID south
+---
+> INHERITS
+> OBJECTID outh
+639c809,810
+< FI
+---
+> IF
+> OBJECTID i
+646c817,818
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+659a832
+> CLASS
+660a834,836
+> INHERITS
+> INHERITS
+> CLASS
+661a838
+> FI
+674a852
+> CLASS
+675a854
+> CLASS
+677c856,857
+< OBJECTID south
+---
+> INHERITS
+> OBJECTID outh
+684c864,865
+< FI
+---
+> IF
+> OBJECTID i
+687c868,869
 < OBJECTID neighbors
-< '('
-< OBJECTID position
-< ')'
-< '='
-< INT_CONST 3
-< THEN
-< STR_CONST "X"
-< ELSE
-< IF
+---
+> IN
+> OBJECTID eighbors
+691c873,874
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+694c877,878
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+696a881
+> CLASS
+698c883,884
+< OBJECTID north
+---
+> IN
+> OBJECTID orth
+708,709d893
+< FI
+< '+'
+710a895,899
+> OBJECTID i
+> CLASS
+> '+'
+> FI
+> FI
+721,722d909
+< FI
+< '+'
+723a911,915
+> OBJECTID i
+> CLASS
+> '+'
+> FI
+> FI
+734,735d925
+< FI
+< '+'
+736a927,931
+> OBJECTID i
+> CLASS
+> '+'
+> FI
+> FI
+747,748d941
+< FI
+< '+'
+749a943,947
+> OBJECTID i
+> CLASS
+> '+'
+> FI
+> FI
+760,761d957
+< FI
+< '+'
+762a959,963
+> OBJECTID i
+> CLASS
+> '+'
+> FI
+> FI
+773,774d973
+< FI
+< '+'
+775a975,979
+> OBJECTID i
+> CLASS
+> '+'
+> FI
+> FI
+786,787d989
+< FI
+< '+'
+788a991,995
+> OBJECTID i
+> CLASS
+> '+'
+> FI
+> FI
+799c1006,1007
+< FI
+---
+> IF
+> OBJECTID i
+803a1012,1013
+> ELSE
+> ELSE
+808c1018,1019
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+814c1025,1026
 < OBJECTID neighbors
-< '('
-< OBJECTID position
-< ')'
-< '='
-< INT_CONST 2
-< THEN
-< IF
-< OBJECTID cell
-< '('
-< OBJECTID position
-< ')'
-< '='
-< STR_CONST "X"
-< THEN
-< STR_CONST "X"
-< ELSE
-< STR_CONST "-"
+---
+> IN
+> OBJECTID eighbors
+822a1035
+> LET
+824c1037,1038
+< OBJECTID neighbors
+---
+> IN
+> OBJECTID eighbors
+841a1056
+> INHERITS
+843a1059
+> OBJECTID lse
+846c1062,1064
 < FI
-< ELSE
-< STR_CONST "-"
-< FI
-< FI
-< '}'
-< ';'
+---
+> IF
+> OBJECTID i
+> ELSE
+849c1067,1069
 < OBJECTID evolve
-< '('
-< ')'
-< ':'
-< TYPEID SELF_TYPE
-< '{'
-< '('
-< LET
-< OBJECTID position
-< ':'
-< TYPEID Int
-< ASSIGN
-< INT_CONST 0
-< IN
-< '('
-< LET
-< OBJECTID num
-< ':'
-< TYPEID Int
-< ASSIGN
-< OBJECTID num_cells
-< '('
-< ')'
-< IN
-< '('
-< LET
-< OBJECTID temp
-< ':'
-< TYPEID String
-< IN
-< '{'
-< WHILE
-< OBJECTID position
-< '<'
-< OBJECTID num
-< LOOP
-< '{'
-< OBJECTID temp
-< ASSIGN
-< OBJECTID temp
-< '.'
-< OBJECTID concat
-< '('
-< OBJECTID cell_at_next_evolution
-< '('
-< OBJECTID position
-< ')'
-< ')'
-< ';'
-< OBJECTID position
-< ASSIGN
-< OBJECTID position
-< '+'
-< INT_CONST 1
-< ';'
-< '}'
-< POOL
-< ';'
-< OBJECTID population_map
-< ASSIGN
-< OBJECTID temp
-< ';'
-< OBJECTID self
-< ';'
-< '}'
-< ')'
-< ')'
-< ')'
-< '}'
-< ';'
-< OBJECTID option
-< '('
-< ')'
-< ':'
-< TYPEID String
-< '{'
-< '{'
-< '('
-< LET
-< OBJECTID num
-< ':'
-< TYPEID Int
-< IN
-< '{'
-< OBJECTID out_string
-< '('
-< STR_CONST "\nPlease chose a number:\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t1: A cross\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t2: A slash from the upper left to lower right\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t3: A slash from the upper right to lower left\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t4: An X\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t5: A greater than sign \n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t6: A less than sign\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t7: Two greater than signs\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t8: Two less than signs\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t9: A 'V'\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t10: An inverse 'V'\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t11: Numbers 9 and 10 combined\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t12: A full grid\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t13: A 'T'\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t14: A plus '+'\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t15: A 'W'\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t16: An 'M'\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t17: An 'E'\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t18: A '3'\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t19: An 'O'\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t20: An '8'\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\t21: An 'S'\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "Your choice => "
-< ')'
-< ';'
-< OBJECTID num
-< ASSIGN
-< OBJECTID in_int
-< '('
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "\n"
-< ')'
-< ';'
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 1
-< THEN
-< STR_CONST " XX  XXXX XXXX  XX  "
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 2
-< THEN
-< STR_CONST "    X   X   X   X   X    "
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 3
-< THEN
-< STR_CONST "X     X     X     X     X"
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 4
-< THEN
-< STR_CONST "X   X X X   X   X X X   X"
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 5
-< THEN
-< STR_CONST "X     X     X   X   X    "
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 6
-< THEN
-< STR_CONST "    X   X   X     X     X"
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 7
-< THEN
-< STR_CONST "X  X  X  XX  X      "
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 8
-< THEN
-< STR_CONST " X  XX  X  X  X     "
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 9
-< THEN
-< STR_CONST "X   X X X   X  "
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 10
-< THEN
-< STR_CONST "  X   X X X   X"
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 11
-< THEN
-< STR_CONST "X X X X X X X X"
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 12
-< THEN
-< STR_CONST "XXXXXXXXXXXXXXXXXXXXXXXXX"
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 13
-< THEN
-< STR_CONST "XXXXX  X    X    X    X  "
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 14
-< THEN
-< STR_CONST "  X    X  XXXXX  X    X  "
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 15
-< THEN
-< STR_CONST "X     X X X X   X X  "
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 16
-< THEN
-< STR_CONST "  X X   X X X X     X"
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 17
-< THEN
-< STR_CONST "XXXXX   X   XXXXX   X   XXXX"
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 18
-< THEN
-< STR_CONST "XXX    X   X  X    X   XXXX "
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 19
-< THEN
-< STR_CONST " XX X  XX  X XX "
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 20
-< THEN
-< STR_CONST " XX X  XX  X XX X  XX  X XX "
-< ELSE
-< IF
-< OBJECTID num
-< '='
-< INT_CONST 21
-< THEN
-< STR_CONST " XXXX   X    XX    X   XXXX "
-< ELSE
-< STR_CONST "                         "
-< FI
-< FI
-< FI
-< FI
-< FI
-< FI
-< FI
-< FI
-< FI
-< FI
-< FI
-< FI
-< FI
----
-> CLASS
-> STR_CONST " \"\n\t      else\n\t       south(position - 1)\n\tfi fi\n };\n\n neighbors(position: Int): Int { \n \t{\n\t     if north(position) = \"X\" then 1 else 0 fi\n\t     + if south(position) = \"X\" then 1 else 0 fi\n \t     + if east(position) = \"X\" then 1 else 0 fi\n \t     + if west(position) = \"X\" then 1 else 0 fi\n\t     + if northeast(position) = \"X\" then 1 else 0 fi\n\t     + if northwest(position) = \"X\" then 1 else 0 fi\n \t     + if southeast(position) = \"X\" then 1 else 0 fi\n\t     + if southwest(position) = \"X"
-> THEN
-> INT_CONST 1
-> ELSE
-> INT_CONST 0
-> IF
-> OBJECTID i
-> ';'
-> '}'
-> '}'
-> ';'
-> '('
-> '*'
-> TYPEID A
-> OBJECTID cell
-> OBJECTID will
-> OBJECTID live
-1221a1150,1153
-> INT_CONST 2
-> OBJECTID or
-> INT_CONST 3
-> OF
-1222a1155,1162
-> OBJECTID t
-> LEXER BUG - UNMATCHED: '
-> OBJECTID s
-> IN
-> OBJECTID eighbors
-> OBJECTID are
-> OBJECTID alive
-> '.'
-1223a1164,1170
-> OBJECTID t
-> OBJECTID dies
-> LET
-> OBJECTID otherwise
-> '.'
-> TYPEID A
-> OBJECTID cell
-1224a1172,1173
-> OBJECTID s
-> OBJECTID born
-1226a1176,1178
-> OBJECTID only
-> INT_CONST 3
-> OF
-1228,1229c1180,1188
-< ';'
-< '}'
----
-> OBJECTID t
-> LEXER BUG - UNMATCHED: '
-> OBJECTID s
-> IN
-> OBJECTID eighbors
-> OBJECTID are
-> OBJECTID alive
-> '.'
-> '*'
-1231,1235c1190,1198
-< ';'
-< '}'
-< '}'
-< ';'
-< OBJECTID prompt
----
-> ELSE
-> ELSE
-> OBJECTID cell
-> LEXER BUG - UNMATCHED: _
-> OBJECTID at
-> LEXER BUG - UNMATCHED: _
-> OBJECTID next
-> LEXER BUG - UNMATCHED: _
-> OBJECTID evolution
-1237c1200
-< ')'
----
-> OBJECTID position
-1239,1244c1202,1204
-< TYPEID Bool
-< '{'
-< '{'
-< '('
-< LET
-< OBJECTID ans
----
-> FI
-> OBJECTID nt
-> ')'
-1247d1206
-< IN
-1249,1265c1208,1210
-< OBJECTID out_string
-< '('
-< STR_CONST "Would you like to continue with the next generation? \n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "Please use lowercase y or n for your answer [y]: "
-< ')'
-< ';'
-< OBJECTID ans
-< ASSIGN
-< OBJECTID in_string
-< '('
-< ')'
-< ';'
-< OBJECTID out_string
----
-> IF
-> IN
-> OBJECTID eighbors
-1267c1212
-< STR_CONST "\n"
----
-> OBJECTID position
-1269,1271d1213
-< ';'
-< IF
-< OBJECTID ans
-1273c1215
-< STR_CONST "n"
----
-> INT_CONST 3
-1275,1277c1217
-< BOOL_CONST false
-< ELSE
-< BOOL_CONST true
----
-> STR_CONST "X\"\n\telse\n\t   if neighbors(position) = 2 then\n\t\tif cell(position) = \"X\" then\n\t\t\t\"X\"\n\t\telse\n\t\t\t\"-\"\n\t        fi\n\t   else\n\t\t\"-"
-1279,1283c1219,1221
-< ';'
-< '}'
-< ')'
-< ';'
-< '}'
----
-> IF
-> OBJECTID i
-> ELSE
-1286c1224,1226
-< OBJECTID prompt2
 ---
 > FI
 > WHILE
 > OBJECTID volve
-1290c1230
-< TYPEID Bool
----
-> TYPEID SELF_TYPE
-1291a1232,1260
+854a1075
 > INHERITS
-> '('
-> LET
-> OBJECTID position
-> ':'
+859c1080,1081
+< TYPEID Int
+---
 > FI
 > OBJECTID nt
-> ASSIGN
-> INT_CONST 0
-> FI
-> OBJECTID n
-> INHERITS
-> '('
-> LET
-> IN
-> OBJECTID um
-> ':'
-> FI
-> OBJECTID nt
-> ASSIGN
-> IN
-> OBJECTID um
-> LEXER BUG - UNMATCHED: _
-> OBJECTID cells
-> '('
-> ')'
-> FI
-> OBJECTID n
-> INHERITS
-1294c1263
-< OBJECTID ans
----
-> OBJECTID temp
-1296a1266,1275
-> FI
-> OBJECTID n
-> INHERITS
-> ELSE
-> '{'
-> INHERITS
-> INHERITS
-> WHILE
-> OBJECTID position
-> '<'
-1297a1277,1281
-> OBJECTID um
-> LOOP
-> INHERITS
-> INHERITS
-> ELSE
-1299c1283,1290
-< OBJECTID out_string
----
-> INHERITS
-> INHERITS
-> INHERITS
-> OBJECTID temp
-> ASSIGN
-> OBJECTID temp
-> '.'
-> OBJECTID concat
-1301,1304c1292,1298
-< STR_CONST "\n\n"
-< ')'
-< ';'
-< OBJECTID out_string
----
-> OBJECTID cell
-> LEXER BUG - UNMATCHED: _
-> OBJECTID at
-> LEXER BUG - UNMATCHED: _
-> OBJECTID next
-> LEXER BUG - UNMATCHED: _
-> OBJECTID evolution
-1306c1300
-< STR_CONST "Would you like to choose a background pattern? \n"
----
-> OBJECTID position
-1308,1311d1301
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "Please use lowercase y or n for your answer [n]: "
-1314c1304,1307
-< OBJECTID ans
----
-> INHERITS
-> INHERITS
-> INHERITS
-> OBJECTID position
-1316,1318c1309,1311
-< OBJECTID in_string
-< '('
-< ')'
----
-> OBJECTID position
-> '+'
-> INT_CONST 1
-1320,1325c1313,1314
-< IF
-< OBJECTID ans
-< '='
-< STR_CONST "y"
-< THEN
-< BOOL_CONST true
----
-> INHERITS
-> INHERITS
-1327,1331d1315
-< BOOL_CONST false
-< FI
-< ';'
-< '}'
-< ')'
-1332a1317,1319
-> INHERITS
-> INHERITS
-> POOL
-1334c1321,1327
-< '}'
----
-> INHERITS
-> INHERITS
-> OBJECTID population
-> LEXER BUG - UNMATCHED: _
-> OBJECTID map
-> ASSIGN
-> OBJECTID temp
-1336,1337d1328
-< CLASS
-< TYPEID Main
-1339,1343c1330,1331
-< TYPEID CellularAutomaton
-< '{'
-< OBJECTID cells
-< ':'
-< TYPEID CellularAutomaton
----
-> INHERITS
-> OBJECTID self
-1345c1333,1402
-< OBJECTID main
----
-> INHERITS
-> ELSE
-> '}'
-> INHERITS
-> ')'
-> ')'
-> ')'
-> ELSE
-> '}'
-> ';'
-> '('
-> '*'
-> TYPEID This
-> FI
-> OBJECTID s
-> OBJECTID where
-> THEN
-> OBJECTID background
-> OBJECTID pattern
-> FI
-> OBJECTID s
-> OBJECTID detremined
-> OBJECTID by
-> THEN
-> OBJECTID user
-> '.'
-> TYPEID More
-> LOOP
-> OBJECTID atterns
-> OBJECTID can
-> OBJECTID be
-> OBJECTID added
-> CASE
-> OBJECTID long
-> CASE
-> OBJECTID whoever
-> OBJECTID adds
-> OBJECTID keeps
-> THEN
-> OBJECTID board
-> OBJECTID either
-> LET
-> INT_CONST 3
-> OBJECTID x5
-> ','
-> INT_CONST 4
-> OBJECTID x5
-> ','
-> INT_CONST 5
-> OBJECTID x5
-> ','
-> INT_CONST 3
-> OBJECTID x7
-> ','
-> INT_CONST 7
-> OBJECTID x4
-> ','
-> INT_CONST 4
-> OBJECTID x4
-> OBJECTID with
-> THEN
-> OBJECTID row
-> IF
-> OBJECTID irst
-> THEN
-> OBJECTID column
-> '.'
-> '*'
-> ')'
-> OBJECTID option
-1349c1406
-< TYPEID SELF_TYPE
----
-> TYPEID String
-1351a1409
-> FI
-1354,1356d1411
-< OBJECTID continue
-< ':'
-< TYPEID Bool
-1358,1360c1413
-< '('
-< LET
-< OBJECTID choice
----
-> OBJECTID um
-1362,1363c1415,1419
-< TYPEID String
+862c1084,1086
 < IN
 ---
 > FI
+> OBJECTID n
+> INHERITS
+865c1089,1090
+< OBJECTID num
+---
+> IN
+> OBJECTID um
+867c1092,1093
+< TYPEID Int
+---
+> FI
+> OBJECTID nt
+869c1095,1096
+< OBJECTID num_cells
+---
+> IN
+> OBJECTID um_cells
+872c1099,1101
+< IN
+---
+> FI
+> OBJECTID n
+> INHERITS
+878c1107,1110
+< IN
+---
+> FI
+> OBJECTID n
+> INHERITS
+> ELSE
+879a1112,1113
+> INHERITS
+> INHERITS
+883c1117,1118
+< OBJECTID num
+---
+> IN
+> OBJECTID um
+884a1120,1122
+> INHERITS
+> INHERITS
+> ELSE
+885a1124,1126
+> INHERITS
+> INHERITS
+> INHERITS
+897a1139,1141
+> INHERITS
+> INHERITS
+> INHERITS
+903a1148,1150
+> INHERITS
+> INHERITS
+> ELSE
+904a1152,1153
+> INHERITS
+> INHERITS
+906a1156,1157
+> INHERITS
+> INHERITS
+910a1162,1163
+> INHERITS
+> INHERITS
+912a1166,1167
+> INHERITS
+> ELSE
+913a1169
+> INHERITS
+916a1173
+> ELSE
+925a1183
+> FI
+928,930d1185
+< OBJECTID num
+< ':'
+< TYPEID Int
+931a1187,1193
+> OBJECTID um
+> ':'
+> FI
 > OBJECTID nt
 > FI
 > OBJECTID n
 > LET
-1365,1372c1421,1450
-< OBJECTID out_string
-< '('
-< STR_CONST "Welcome to the Game of Life.\n"
-< ')'
-< ';'
-< OBJECTID out_string
-< '('
-< STR_CONST "There are many initial states to choose from. \n"
----
+932a1195
 > LET
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID string
-> '('
-> STR_CONST "\\nPlease chose a number:\\n\");\n   out_string(\"\\t1: A cross\\n\"); \n   out_string(\"\\t2: A slash from the upper left to lower right\\n\");\n   out_string(\"\\t3: A slash from the upper right to lower left\\n\"); \n   out_string(\"\\t4: An X\\n\"); \n   out_string(\"\\t5: A greater than sign \\n\"); \n   out_string(\"\\t6: A less than sign\\n\"); \n   out_string(\"\\t7: Two greater than signs\\n\"); \n   out_string(\"\\t8: Two less than signs\\n\"); \n   out_string(\"\\t9: A 'V'\\n\"); \n   out_string(\"\\t10: An inverse 'V'\\n\"); \n   out_string(\"\\t11: Numbers 9 and 10 combined\\n\"); \n   out_string(\"\\t12: A full grid\\n\"); \n   out_string(\"\\t13: A 'T'\\n\");\n   out_string(\"\\t14: A plus '+'\\n\");\n   out_string(\"\\t15: A 'W'\\n\");\n   out_string(\"\\t16: An 'M'\\n\");\n   out_string(\"\\t17: An 'E'\\n\");\n   out_string(\"\\t18: A '3'\\n\");\n   out_string(\"\\t19: An 'O'\\n\");\n   out_string(\"\\t20: An '8'\\n\");\n   out_string(\"\\t21: An 'S'\\n\");\n   out_string(\"Your choice => \");\n   num <- in_int();\n   out_string(\"\\n\");\n   if num = 1 then\n    \t\" XX  XXXX XXXX  XX  \"\n   else if num = 2 then\n    \t\"    X   X   X   X   X    \"\n   else if num = 3 then\n    \t\"X     X     X     X     X\"\n   else if num = 4 then\n\t\"X   X X X   X   X X X   X\"\n   else if num = 5 then\n\t\"X     X     X   X   X    \"\n   else if num = 6 then\n\t\"    X   X   X     X     X\"\n   else if num = 7 then\n\t\"X  X  X  XX  X      \"\n   else if num = 8 then\n\t\" X  XX  X  X  X     \"\n   else if num = 9 then\n\t\"X   X X X   X  \"\n   else if num = 10 then\n\t\"  X   X X X   X\"\n   else if num = 11 then\n\t\"X X X X X X X X\"\n   else if num = 12 then\n\t\"XXXXXXXXXXXXXXXXXXXXXXXXX\"\n   else if num = 13 then\n    \t\"XXXXX  X    X    X    X  \"\n   else if num = 14 then\n    \t\"  X    X  XXXXX  X    X  \"\n   else if num = 15 then\n    \t\"X     X X X X   X X  \"\n   else if num = 16 then\n    \t\"  X X   X X X X     X\"\n   else if num = 17 then\n\t\"XXXXX   X   XXXXX   X   XXXX\"\n   else if num = 18 then\n\t\"XXX    X   X  X    X   XXXX \"\n   else if num = 19 then\n\t\" XX X  XX  X XX \"\n   else if num = 20 then\n\t\" XX X  XX  X XX X  XX  X XX \"\n   else if num = 21 then\n\t\" XXXX   X    XX    X   XXXX \"\n   else\n\t\"                         \"\n  fi fi fi fi fi fi fi fi fi fi fi fi fi fi fi fi fi fi fi fi fi;\n    }\n   );\n }\n };\n\n\n\n\n prompt() : Bool { \n {\n  (let ans : String in\n   {\n   out_string(\"Would you like to continue with the next generation? \\n\");\n   out_string(\"Please use lowercase y or n for your answer [y]: \");\n   ans <- in_string();\n   out_string(\"\\n\");\n   if ans = \"n\" then \n\tfalse\n   else\n\ttrue\n   fi;\n   }\n  );\n }\n };\n\n\n prompt2() : Bool { \n  (let ans : String in\n   {\n   out_string(\"\\n\\n\");\n   out_string(\"Would you like to choose a background pattern? \\n\");\n   out_string(\"Please use lowercase y or n for your answer [n]: \");\n   ans <- in_string();\n   if ans = \"y\" then \n\ttrue\n   else\n\tfalse\n   fi;\n   }\n  )\n };\n\n\n};\n\nclass Main inherits CellularAutomaton {\n    cells : CellularAutomaton;\n   \n    main() : SELF_TYPE {\n        {\n\t (let continue : Bool  in\n\t  (let choice : String  in\n\t   {\n\t   out_string("
+935c1198,1208
+< STR_CONST "\nPlease chose a number:\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID nPlease
+> OBJECTID chose
+> OBJECTID a
+> IN
+> OBJECTID umber
+> ':'
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+937a1211
+> LET
+940c1214,1222
+< STR_CONST "\t1: A cross\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t1
+> ':'
+> TYPEID A
+> OBJECTID cross
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+942a1225
+> LET
+945c1228,1244
+< STR_CONST "\t2: A slash from the upper left to lower right\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t2
+> ':'
+> TYPEID A
+> OBJECTID slash
+> IF
+> OBJECTID rom
+> THEN
+> OBJECTID upper
+> OBJECTID left
+> OBJECTID to
+> OBJECTID lower
+> OBJECTID right
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+947a1247
+> LET
+950c1250,1266
+< STR_CONST "\t3: A slash from the upper right to lower left\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t3
+> ':'
+> TYPEID A
+> OBJECTID slash
+> IF
+> OBJECTID rom
+> THEN
+> OBJECTID upper
+> OBJECTID right
+> OBJECTID to
+> OBJECTID lower
+> OBJECTID left
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+952a1269
+> LET
+955c1272,1280
+< STR_CONST "\t4: An X\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t4
+> ':'
+> TYPEID An
+> TYPEID X
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+957a1283
+> LET
+960c1286,1296
+< STR_CONST "\t5: A greater than sign \n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t5
+> ':'
+> TYPEID A
+> OBJECTID greater
+> OBJECTID than
+> OBJECTID sign
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+962a1299
+> LET
+965c1302,1312
+< STR_CONST "\t6: A less than sign\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t6
+> ':'
+> TYPEID A
+> OBJECTID less
+> OBJECTID than
+> OBJECTID sign
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+967a1315
+> LET
+970c1318,1328
+< STR_CONST "\t7: Two greater than signs\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t7
+> ':'
+> TYPEID Two
+> OBJECTID greater
+> OBJECTID than
+> OBJECTID signs
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+972a1331
+> LET
+975c1334,1344
+< STR_CONST "\t8: Two less than signs\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t8
+> ':'
+> TYPEID Two
+> OBJECTID less
+> OBJECTID than
+> OBJECTID signs
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+977a1347
+> LET
+980c1350,1360
+< STR_CONST "\t9: A 'V'\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t9
+> ':'
+> TYPEID A
+> LEXER BUG - UNMATCHED: '
+> TYPEID V
+> LEXER BUG - UNMATCHED: '
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+982a1363
+> LET
+985c1366,1378
+< STR_CONST "\t10: An inverse 'V'\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t10
+> ':'
+> TYPEID An
+> FI
+> OBJECTID nverse
+> LEXER BUG - UNMATCHED: '
+> TYPEID V
+> LEXER BUG - UNMATCHED: '
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+987a1381
+> LET
+990c1384,1396
+< STR_CONST "\t11: Numbers 9 and 10 combined\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t11
+> ':'
+> IN
+> OBJECTID umbers
+> INT_CONST 9
+> OBJECTID and
+> INT_CONST 10
+> OBJECTID combined
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+992a1399
+> LET
+995c1402,1412
+< STR_CONST "\t12: A full grid\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t12
+> ':'
+> TYPEID A
+> IF
+> OBJECTID ull
+> OBJECTID grid
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+997a1415
+> LET
+1000c1418,1428
+< STR_CONST "\t13: A 'T'\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t13
+> ':'
+> TYPEID A
+> LEXER BUG - UNMATCHED: '
+> TYPEID T
+> LEXER BUG - UNMATCHED: '
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+1002a1431
+> LET
+1005c1434,1445
+< STR_CONST "\t14: A plus '+'\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t14
+> ':'
+> TYPEID A
+> OBJECTID plus
+> LEXER BUG - UNMATCHED: '
+> '+'
+> LEXER BUG - UNMATCHED: '
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+1007a1448
+> LET
+1010c1451,1461
+< STR_CONST "\t15: A 'W'\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t15
+> ':'
+> TYPEID A
+> LEXER BUG - UNMATCHED: '
+> TYPEID W
+> LEXER BUG - UNMATCHED: '
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+1012a1464
+> LET
+1015c1467,1477
+< STR_CONST "\t16: An 'M'\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t16
+> ':'
+> TYPEID An
+> LEXER BUG - UNMATCHED: '
+> TYPEID M
+> LEXER BUG - UNMATCHED: '
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+1017a1480
+> LET
+1020c1483,1493
+< STR_CONST "\t17: An 'E'\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t17
+> ':'
+> TYPEID An
+> LEXER BUG - UNMATCHED: '
+> TYPEID E
+> LEXER BUG - UNMATCHED: '
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+1022a1496
+> LET
+1025c1499,1509
+< STR_CONST "\t18: A '3'\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t18
+> ':'
+> TYPEID A
+> LEXER BUG - UNMATCHED: '
+> INT_CONST 3
+> LEXER BUG - UNMATCHED: '
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+1027a1512
+> LET
+1030c1515,1525
+< STR_CONST "\t19: An 'O'\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t19
+> ':'
+> TYPEID An
+> LEXER BUG - UNMATCHED: '
+> TYPEID O
+> LEXER BUG - UNMATCHED: '
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+1032a1528
+> LET
+1035c1531,1541
+< STR_CONST "\t20: An '8'\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t20
+> ':'
+> TYPEID An
+> LEXER BUG - UNMATCHED: '
+> INT_CONST 8
+> LEXER BUG - UNMATCHED: '
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+1037a1544
+> LET
+1040c1547,1557
+< STR_CONST "\t21: An 'S'\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID t21
+> ':'
+> TYPEID An
+> LEXER BUG - UNMATCHED: '
+> TYPEID S
+> LEXER BUG - UNMATCHED: '
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+1042a1560
+> LET
+1048c1566,1567
+< OBJECTID num
+---
+> THEN
+> OBJECTID um
+1050c1569,1570
+< OBJECTID in_int
+---
+> FI
+> OBJECTID n_int
+1053a1574
+> LET
+1056c1577,1580
+< STR_CONST "\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+1058a1583
+> LET
+1060c1585,1586
+< OBJECTID num
+---
+> IN
+> OBJECTID um
+1063a1590
+> ELSE
+1066c1593,1595
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1070a1600
+> ELSE
+1073c1603,1605
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1077a1610
+> ELSE
+1080c1613,1615
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1087c1622,1624
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1094c1631,1633
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1101c1640,1642
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1108c1649,1651
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1115c1658,1660
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1122c1667,1669
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1129c1676,1678
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1136c1685,1687
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1143c1694,1696
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1147a1701
+> ELSE
+1150c1704,1706
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1154a1711
+> ELSE
+1157c1714,1716
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1161a1721
+> ELSE
+1164c1724,1726
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1168a1731
+> ELSE
+1171c1734,1736
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1178c1743,1745
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1185c1752,1754
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1192c1761,1763
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1199c1770,1772
+< IF
+---
+> OBJECTID lse
+> FI
+> FI
+1205a1779
+> OBJECTID lse
+1208a1783,1784
+> IF
+> IF
+1209a1786,1787
+> IF
+> IF
+1210a1789,1790
+> IF
+> IF
+1211a1792,1793
+> IF
+> IF
+1212a1795,1796
+> IF
+> IF
+1213a1798,1799
+> IF
+> IF
+1214a1801,1802
+> IF
+> IF
+1215a1804,1805
+> IF
+> IF
+1216a1807,1808
+> IF
+> IF
+1218,1226c1810,1811
+< FI
+< FI
+< FI
+< FI
+< FI
+< FI
+< FI
+< FI
+< FI
+---
+> IF
+> IF
+1228a1814
+> ELSE
+1229a1816
+> LET
+1241a1829
+> FI
+1247c1835,1837
+< IN
+---
+> FI
+> OBJECTID n
+> LET
+1248a1839
+> LET
+1251c1842,1855
+< STR_CONST "Would you like to continue with the next generation? \n"
+---
+> LEXER BUG - UNMATCHED: "
+> TYPEID Would
+> OBJECTID you
+> OBJECTID like
+> OBJECTID to
+> OBJECTID continue
+> OBJECTID with
+> THEN
+> OBJECTID next
+> OBJECTID generation
+> LEXER BUG - UNMATCHED: ?
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+1253a1858
+> LET
+1258a1864
+> LET
+1261c1867,1868
+< OBJECTID in_string
+---
+> FI
+> OBJECTID n_string
+1264a1872
+> LET
+1267c1875,1878
+< STR_CONST "\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+1269a1881
+> LET
+1276a1889
+> OBJECTID lse
+1277a1891
+> LET
+1279a1894
+> LET
+1280a1896
+> FI
+1291a1908
+> FI
+1297c1914,1916
+< IN
+---
+> FI
+> OBJECTID n
+> LET
+1298a1918
+> LET
+1301c1921,1926
+< STR_CONST "\n\n"
+---
+> LEXER BUG - UNMATCHED: "
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+1303a1929
+> LET
+1306c1932,1944
+< STR_CONST "Would you like to choose a background pattern? \n"
+---
+> LEXER BUG - UNMATCHED: "
+> TYPEID Would
+> OBJECTID you
+> OBJECTID like
+> OBJECTID to
+> OBJECTID choose
+> OBJECTID a
+> OBJECTID background
+> OBJECTID pattern
+> LEXER BUG - UNMATCHED: ?
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+1308a1947
+> LET
+1313a1953
+> LET
+1316c1956,1957
+< OBJECTID in_string
+---
+> FI
+> OBJECTID n_string
+1319a1961
+> LET
+1326a1969
+> OBJECTID lse
+1327a1971
+> LET
+1329a1974
+> LET
+1330a1976
+> FI
+1338c1984,1985
+< INHERITS
+---
+> FI
+> OBJECTID nherits
+1340a1988
+> ELSE
+1344a1993,1994
+> LET
+> ELSE
+1350a2001
+> INHERITS
+1356a2008
+> FI
+1357a2010
+> FI
+1362a2016
+> FI
+1363a2018
+> LET
+1364a2020
+> LET
+1367c2023,2033
+< STR_CONST "Welcome to the Game of Life.\n"
+---
+> LEXER BUG - UNMATCHED: "
 > TYPEID Welcome
 > OBJECTID to
 > THEN
@@ -2077,7 +1411,13 @@
 > '.'
 > LEXER BUG - UNMATCHED: \
 > OBJECTID n
-> STR_CONST ");\n\t   out_string("
+> LEXER BUG - UNMATCHED: "
+1369a2036
+> LET
+1372c2039,2053
+< STR_CONST "There are many initial states to choose from. \n"
+---
+> LEXER BUG - UNMATCHED: "
 > TYPEID There
 > OBJECTID are
 > OBJECTID many
@@ -2092,40 +1432,40 @@
 > LEXER BUG - UNMATCHED: \
 > OBJECTID n
 > LEXER BUG - UNMATCHED: "
-1374a1453
+1374a2056
 > LET
-1379a1459
+1379a2062
 > ELSE
-1380a1461
+1380a2064
 > CLASS
-1384a1466
+1384a2069
 > CLASS
-1390a1473
+1390a2076
 > CLASS
-1402a1486
+1402a2089
 > CLASS
-1408a1493,1494
+1408a2096,2097
 > INHERITS
 > CLASS
-1416a1503,1505
-> INHERITS
-> INHERITS
-> ELSE
-1417a1507,1509
-> INHERITS
-> INHERITS
-> INHERITS
-1423a1516,1518
-> INHERITS
-> INHERITS
-> INHERITS
-1429a1525,1527
+1416a2106,2108
 > INHERITS
 > INHERITS
 > ELSE
-1431a1530
+1417a2110,2112
+> INHERITS
+> INHERITS
+> INHERITS
+1423a2119,2121
+> INHERITS
+> INHERITS
+> INHERITS
+1429a2128,2130
+> INHERITS
+> INHERITS
 > ELSE
-1434,1435c1533,1539
+1431a2133
+> ELSE
+1434,1435c2136,2142
 < BOOL_CONST false
 < FI
 ---
@@ -2136,20 +1476,20 @@
 > IF
 > INHERITS
 > INHERITS
-1437a1542,1543
+1437a2145,2146
 > INHERITS
 > ELSE
-1438a1545,1546
+1438a2148,2149
 > INHERITS
 > ELSE
-1441c1549,1550
+1441c2152,2153
 < OBJECTID self
 ---
 > CLASS
 > OBJECTID elf
-1442a1552
+1442a2155
 > CLASS
-1443a1554
+1443a2157
 > FI
-1447a1559
+1447a2162
 > ELSE

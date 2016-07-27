@@ -1,12 +1,3 @@
-'('
-'*'
-OBJECTID hairy
-FI
-'.'
-'.'
-'.'
-'*'
-')'
 CLASS
 IF
 OBJECTID oo
@@ -294,9 +285,7 @@ FI
 OBJECTID nt
 '{'
 '{'
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID int
+OBJECTID out_int
 '('
 OBJECTID h
 ')'
@@ -339,14 +328,6 @@ FI
 ';'
 '}'
 ';'
-'('
-'*'
-OBJECTID scary
-'.'
-'.'
-'.'
-'*'
-')'
 CLASS
 TYPEID Main
 '{'

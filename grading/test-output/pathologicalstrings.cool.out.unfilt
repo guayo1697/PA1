@@ -1,25 +1,4 @@
 #name "./pathologicalstrings.cool"
-#1 '('
-#1 '*'
-#1 OBJECTID some
-#1 OBJECTID pathological
-#1 OBJECTID str
-#1 '-'
-#1 OBJECTID length
-#1 OBJECTID cases
-#1 '*'
-#1 ')'
-#4 '('
-#4 '*'
-#4 FI
-#4 OBJECTID llegal
-#4 ':'
-#4 OBJECTID contains
-#4 OBJECTID exactly
-#4 INT_CONST 1025
-#4 OBJECTID characters
-#4 '*'
-#4 ')'
 LEXER BUG - UNMATCHED: "
 #5 '.'
 #5 '.'
@@ -934,22 +913,6 @@ LEXER BUG - UNMATCHED: \
 #15 '.'
 #15 '.'
 LEXER BUG - UNMATCHED: "
-#17 '('
-#17 '*'
-#17 OBJECTID legal
-#17 ':'
-#17 OBJECTID contains
-#17 OBJECTID exactly
-#17 INT_CONST 1024
-#17 OBJECTID characters
-#17 ','
-#17 OBJECTID last
-#17 FI
-#17 OBJECTID s
-#17 OBJECTID escape
-#17 OBJECTID seq
-#17 '*'
-#17 ')'
 LEXER BUG - UNMATCHED: "
 #18 '.'
 #18 '.'
@@ -1864,23 +1827,6 @@ LEXER BUG - UNMATCHED: \
 LEXER BUG - UNMATCHED: \
 #28 OBJECTID n
 LEXER BUG - UNMATCHED: "
-#30 '('
-#30 '*'
-#30 FI
-#30 OBJECTID llegal
-#30 ':'
-#30 OBJECTID contains
-#30 OBJECTID exactly
-#30 INT_CONST 1025
-#30 OBJECTID characters
-#30 ','
-#30 OBJECTID last
-#30 FI
-#30 OBJECTID s
-#30 OBJECTID escape
-#30 OBJECTID seq
-#30 '*'
-#30 ')'
 LEXER BUG - UNMATCHED: "
 #31 '.'
 #31 '.'
@@ -2796,23 +2742,6 @@ LEXER BUG - UNMATCHED: \
 LEXER BUG - UNMATCHED: \
 #41 OBJECTID n
 LEXER BUG - UNMATCHED: "
-#43 '('
-#43 '*'
-#43 OBJECTID legal
-#43 ':'
-#43 OBJECTID contains
-#43 OBJECTID exactly
-#43 INT_CONST 1024
-#43 OBJECTID characters
-#43 ','
-#43 OBJECTID last
-#43 FI
-#43 OBJECTID s
-#43 OBJECTID escaped
-#43 IN
-#43 OBJECTID ewline
-#43 '*'
-#43 ')'
 LEXER BUG - UNMATCHED: "
 #44 '.'
 #44 '.'
@@ -3726,24 +3655,6 @@ LEXER BUG - UNMATCHED: \
 #54 '.'
 LEXER BUG - UNMATCHED: \
 LEXER BUG - UNMATCHED: "
-#57 '('
-#57 '*'
-#57 FI
-#57 OBJECTID llegal
-#57 ':'
-#57 OBJECTID contains
-#57 OBJECTID exactly
-#57 INT_CONST 1025
-#57 OBJECTID characters
-#57 ','
-#57 OBJECTID last
-#57 FI
-#57 OBJECTID s
-#57 OBJECTID escaped
-#57 IN
-#57 OBJECTID ewline
-#57 '*'
-#57 ')'
 LEXER BUG - UNMATCHED: "
 #58 '.'
 #58 '.'

@@ -1,11 +1,4 @@
-'('
-'*'
-FI
-OBJECTID llegal
-':'
-OBJECTID unescaped
-IN
-OBJECTID ewline
-'*'
-')'
-STR_CONST "c\nd"
+LEXER BUG - UNMATCHED: "
+OBJECTID c
+OBJECTID d
+LEXER BUG - UNMATCHED: "

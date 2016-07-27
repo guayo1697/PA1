@@ -1,31 +1,8 @@
-'('
-'*'
-OBJECTID comment
-'*'
-')'
-'('
-'*'
-OBJECTID also
-OBJECTID a
-OBJECTID comment
-'*'
-')'
 NOT
 FI
 OBJECTID n
 OBJECTID a
 OBJECTID comment
-'('
-'*'
-FI
-OBJECTID n
-OBJECTID a
-OBJECTID comment
-OBJECTID with
-OBJECTID many
-OBJECTID lines
-'*'
-')'
 '('
 '*'
 IN

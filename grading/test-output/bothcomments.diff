@@ -1,40 +1,13 @@
-0a1,9
-> '-'
-> '-'
-> '('
-> '*'
-> TYPEID This
-> FI
-> OBJECTID sn
-> LEXER BUG - UNMATCHED: '
-> OBJECTID t
-2c11
+1,7d0
+< OBJECTID what
 < OBJECTID the
----
-> THEN
-5c14,15
+< OBJECTID programmer
+< OBJECTID thought
 < OBJECTID it
----
-> FI
-> OBJECTID t
-7c17,18
+< OBJECTID was
 < LONGERROR
----
-> '*'
-> ')'
-9c20,32
+9c2,3
 < IF
 ---
-> '('
-> '*'
-> '-'
-> '-'
-> IN
-> OBJECTID either
-> FI
-> OBJECTID s
-> OBJECTID this
-> '*'
-> ')'
 > FI
 > FI

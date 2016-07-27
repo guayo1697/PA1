@@ -1,30 +1,3 @@
-'('
-'*'
-'*'
-ESAC
-OBJECTID contribution
-IF
-OBJECTID rom
-TYPEID Anne
-TYPEID Sheets
-'('
-OBJECTID sheets
-'@'
-OBJECTID cory
-')'
-'*'
-'*'
-LET
-OBJECTID ests
-THEN
-OBJECTID arithmetic
-OBJECTID operations
-OBJECTID and
-OBJECTID various
-OBJECTID other
-OBJECTID things
-'*'
-')'
 CLASS
 TYPEID A
 '{'
@@ -48,9 +21,7 @@ OBJECTID var
 '}'
 ';'
 LET
-OBJECTID set
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID set_var
 '('
 OBJECTID num
 ':'
@@ -88,8 +59,6 @@ OBJECTID nt
 TYPEID SELF_TYPE
 '{'
 FI
-'-'
-'-'
 OBJECTID same
 CLASS
 OBJECTID self
@@ -114,8 +83,6 @@ OBJECTID nt
 TYPEID B
 '{'
 FI
-'-'
-'-'
 OBJECTID plus
 CLASS
 '('
@@ -143,9 +110,7 @@ NEW
 TYPEID B
 ')'
 '.'
-OBJECTID set
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID set_var
 '('
 OBJECTID x
 ')'
@@ -168,10 +133,7 @@ OBJECTID nt
 TYPEID C
 '{'
 FI
-'-'
-'-'
-IN
-OBJECTID egate
+OBJECTID negate
 CLASS
 '('
 LET
@@ -195,9 +157,7 @@ NEW
 TYPEID C
 ')'
 '.'
-OBJECTID set
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID set_var
 '('
 OBJECTID x
 ')'
@@ -226,8 +186,6 @@ OBJECTID nt
 TYPEID D
 '{'
 FI
-'-'
-'-'
 OBJECTID diff
 INHERITS
 ELSE
@@ -269,9 +227,7 @@ NEW
 TYPEID D
 ')'
 '.'
-OBJECTID set
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID set_var
 '('
 OBJECTID x
 ')'
@@ -316,9 +272,7 @@ NEW
 TYPEID D
 ')'
 '.'
-OBJECTID set
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID set_var
 '('
 OBJECTID x
 ')'
@@ -347,10 +301,7 @@ OBJECTID nt
 LET
 '{'
 FI
-'-'
-'-'
-IF
-OBJECTID actorial
+OBJECTID factorial
 CLASS
 '('
 LET
@@ -417,9 +368,7 @@ NEW
 TYPEID E
 ')'
 '.'
-OBJECTID set
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID set_var
 '('
 OBJECTID x
 ')'
@@ -439,8 +388,6 @@ OBJECTID nherits
 TYPEID A
 '{'
 FI
-'-'
-'-'
 TYPEID B
 FI
 OBJECTID s
@@ -459,8 +406,6 @@ OBJECTID nt
 ':'
 LET
 '{'
-'-'
-'-'
 OBJECTID square
 CLASS
 '('
@@ -488,9 +433,7 @@ NEW
 TYPEID E
 ')'
 '.'
-OBJECTID set
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID set_var
 '('
 OBJECTID x
 ')'
@@ -520,10 +463,7 @@ OBJECTID nt
 ':'
 TYPEID A
 '{'
-'-'
-'-'
-IN
-OBJECTID egate
+OBJECTID negate
 CLASS
 '('
 LET
@@ -548,9 +488,7 @@ NEW
 TYPEID A
 ')'
 '.'
-OBJECTID set
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID set_var
 '('
 OBJECTID x
 ')'
@@ -574,8 +512,6 @@ OBJECTID nt
 LET
 '{'
 FI
-'-'
-'-'
 OBJECTID cube
 CLASS
 '('
@@ -606,9 +542,7 @@ NEW
 TYPEID E
 ')'
 '.'
-OBJECTID set
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID set_var
 '('
 OBJECTID x
 ')'
@@ -640,8 +574,6 @@ OBJECTID nt
 TYPEID Bool
 '{'
 FI
-'-'
-'-'
 OBJECTID divisible
 OBJECTID by
 INT_CONST 3
@@ -737,8 +669,6 @@ OBJECTID nt
 TYPEID A
 '{'
 FI
-'-'
-'-'
 OBJECTID division
 CLASS
 '('
@@ -766,9 +696,7 @@ NEW
 TYPEID A
 ')'
 '.'
-OBJECTID set
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID set_var
 '('
 OBJECTID x
 ')'
@@ -782,122 +710,6 @@ LET
 ';'
 '}'
 ';'
-'('
-'*'
-THEN
-OBJECTID following
-OBJECTID code
-FI
-OBJECTID s
-IF
-OBJECTID rom
-OBJECTID atoi
-'.'
-OBJECTID cl
-FI
-OBJECTID n
-'~'
-OBJECTID cs164
-'/'
-OBJECTID examples
-'*'
-')'
-'('
-'*'
-LET
-THEN
-CLASS
-TYPEID A2I
-OBJECTID provides
-FI
-OBJECTID nteger
-'-'
-OBJECTID to
-'-'
-OBJECTID string
-OBJECTID and
-OBJECTID string
-'-'
-OBJECTID to
-'-'
-OBJECTID integer
-OBJECTID conversion
-OBJECTID routines
-'.'
-LET
-OF
-OBJECTID use
-OBJECTID these
-OBJECTID routines
-','
-OBJECTID either
-FI
-OBJECTID nherit
-OBJECTID them
-IN
-THEN
-CLASS
-OBJECTID where
-IN
-OBJECTID eeded
-','
-OBJECTID have
-OBJECTID a
-OBJECTID dummy
-OBJECTID variable
-OBJECTID bound
-OBJECTID to
-OBJECTID something
-OF
-OBJECTID type
-TYPEID A2I
-','
-OBJECTID or
-OBJECTID simpl
-OBJECTID write
-'('
-NEW
-TYPEID A2I
-')'
-'.'
-OBJECTID method
-'('
-OBJECTID argument
-')'
-'.'
-'*'
-')'
-'('
-'*'
-ESAC
-INT_CONST 2
-IF
-FI
-TYPEID Converts
-OBJECTID a
-INT_CONST 1
-'-'
-OBJECTID character
-OBJECTID string
-OBJECTID to
-OBJECTID an
-FI
-OBJECTID nteger
-'.'
-FI
-TYPEID Aborts
-INHERITS
-FI
-FI
-THEN
-OBJECTID string
-FI
-OBJECTID s
-IN
-OBJECTID ot
-STR_CONST "0\" through \"9"
-'*'
-')'
 CLASS
 TYPEID A2I
 '{'
@@ -915,7 +727,77 @@ OBJECTID nt
 IF
 OBJECTID char
 '='
-STR_CONST "0\" then 0 else\n\tif char = \"1\" then 1 else\n\tif char = \"2\" then 2 else\n        if char = \"3\" then 3 else\n        if char = \"4\" then 4 else\n        if char = \"5\" then 5 else\n        if char = \"6\" then 6 else\n        if char = \"7\" then 7 else\n        if char = \"8\" then 8 else\n        if char = \"9"
+STR_CONST "0"
+THEN
+INT_CONST 0
+ELSE
+IF
+OBJECTID char
+'='
+STR_CONST "1"
+THEN
+INT_CONST 1
+ELSE
+IF
+OBJECTID char
+'='
+STR_CONST "2"
+THEN
+INT_CONST 2
+ELSE
+INHERITS
+IF
+OBJECTID char
+'='
+STR_CONST "3"
+THEN
+INT_CONST 3
+ELSE
+INHERITS
+IF
+OBJECTID char
+'='
+STR_CONST "4"
+THEN
+INT_CONST 4
+ELSE
+INHERITS
+IF
+OBJECTID char
+'='
+STR_CONST "5"
+THEN
+INT_CONST 5
+ELSE
+INHERITS
+IF
+OBJECTID char
+'='
+STR_CONST "6"
+THEN
+INT_CONST 6
+ELSE
+INHERITS
+IF
+OBJECTID char
+'='
+STR_CONST "7"
+THEN
+INT_CONST 7
+ELSE
+INHERITS
+IF
+OBJECTID char
+'='
+STR_CONST "8"
+THEN
+INT_CONST 8
+ELSE
+INHERITS
+IF
+OBJECTID char
+'='
+STR_CONST "9"
 THEN
 INT_CONST 9
 ELSE
@@ -929,21 +811,6 @@ INT_CONST 0
 ';'
 '}'
 FI
-'('
-'*'
-THEN
-INT_CONST 0
-FI
-OBJECTID s
-IN
-OBJECTID eeded
-OBJECTID to
-OBJECTID satisfy
-OBJECTID the
-LET
-OBJECTID ypchecker
-'*'
-')'
 INHERITS
 FI
 IF
@@ -963,19 +830,6 @@ OBJECTID i
 CLASS
 '}'
 ';'
-'('
-'*'
-LET
-OBJECTID i2c
-FI
-OBJECTID s
-THEN
-OBJECTID inverse
-OF
-OBJECTID c2i
-'.'
-'*'
-')'
 CLASS
 OBJECTID i2c
 '('
@@ -992,7 +846,79 @@ FI
 '='
 INT_CONST 0
 THEN
-STR_CONST "0\" else\n\tif i = 1 then \"1\" else\n\tif i = 2 then \"2\" else\n\tif i = 3 then \"3\" else\n\tif i = 4 then \"4\" else\n\tif i = 5 then \"5\" else\n\tif i = 6 then \"6\" else\n\tif i = 7 then \"7\" else\n\tif i = 8 then \"8\" else\n\tif i = 9 then \"9\" else\n\t{ abort(); \"\"; }  -- the \""
+STR_CONST "0"
+ELSE
+IF
+FI
+'='
+INT_CONST 1
+THEN
+STR_CONST "1"
+ELSE
+IF
+FI
+'='
+INT_CONST 2
+THEN
+STR_CONST "2"
+ELSE
+IF
+FI
+'='
+INT_CONST 3
+THEN
+STR_CONST "3"
+ELSE
+IF
+FI
+'='
+INT_CONST 4
+THEN
+STR_CONST "4"
+ELSE
+IF
+FI
+'='
+INT_CONST 5
+THEN
+STR_CONST "5"
+ELSE
+IF
+FI
+'='
+INT_CONST 6
+THEN
+STR_CONST "6"
+ELSE
+IF
+FI
+'='
+INT_CONST 7
+THEN
+STR_CONST "7"
+ELSE
+IF
+FI
+'='
+INT_CONST 8
+THEN
+STR_CONST "8"
+ELSE
+IF
+FI
+'='
+INT_CONST 9
+THEN
+STR_CONST "9"
+ELSE
+'{'
+OBJECTID abort
+'('
+')'
+';'
+LEXER BUG - UNMATCHED: "
+STR_CONST "; }  -- the "
+LEXER BUG - UNMATCHED: "
 FI
 OBJECTID s
 IN
@@ -1020,69 +946,6 @@ OBJECTID i
 CLASS
 '}'
 ';'
-'('
-'*'
-LET
-OBJECTID a2i
-OBJECTID converts
-OBJECTID an
-TYPEID ASCII
-OBJECTID string
-FI
-OBJECTID nto
-OBJECTID an
-FI
-OBJECTID nteger
-'.'
-LET
-OBJECTID he
-OBJECTID empty
-OBJECTID string
-OBJECTID is
-OBJECTID converted
-OBJECTID to
-INT_CONST 0
-'.'
-FI
-TYPEID Signed
-OBJECTID and
-OBJECTID unsigned
-OBJECTID strings
-OBJECTID are
-OBJECTID handled
-'.'
-LET
-OBJECTID he
-OBJECTID method
-OBJECTID aborts
-FI
-FI
-THEN
-OBJECTID string
-OBJECTID does
-IN
-OBJECTID ot
-OBJECTID represent
-OBJECTID an
-FI
-OBJECTID nteger
-'.'
-FI
-TYPEID Very
-OBJECTID long
-OBJECTID strings
-OF
-OBJECTID digits
-OBJECTID produce
-OBJECTID strange
-OBJECTID answers
-OBJECTID because
-OF
-OBJECTID arithmetic
-OBJECTID overflow
-'.'
-'*'
-')'
 CLASS
 OBJECTID a2i
 '('
@@ -1119,9 +982,7 @@ INT_CONST 1
 STR_CONST "-"
 THEN
 '~'
-OBJECTID a2i
-LEXER BUG - UNMATCHED: _
-OBJECTID aux
+OBJECTID a2i_aux
 '('
 OBJECTID s
 '.'
@@ -1152,9 +1013,7 @@ INT_CONST 1
 '='
 STR_CONST "+"
 THEN
-OBJECTID a2i
-LEXER BUG - UNMATCHED: _
-OBJECTID aux
+OBJECTID a2i_aux
 '('
 OBJECTID s
 '.'
@@ -1174,9 +1033,7 @@ INT_CONST 1
 ELSE
 INHERITS
 LET
-OBJECTID a2i
-LEXER BUG - UNMATCHED: _
-OBJECTID aux
+OBJECTID a2i_aux
 '('
 OBJECTID s
 ')'
@@ -1188,40 +1045,8 @@ FI
 CLASS
 '}'
 ';'
-'('
-'*'
-OBJECTID a2i
-LEXER BUG - UNMATCHED: _
-OBJECTID aux
-OBJECTID converts
-THEN
-OBJECTID usigned
-OBJECTID portion
-OF
-THEN
-OBJECTID string
-'.'
 CLASS
-OBJECTID a
-LOOP
-OBJECTID rogramming
-OBJECTID example
-','
-OBJECTID this
-OBJECTID method
-FI
-OBJECTID s
-OBJECTID written
-FI
-OBJECTID teratively
-'.'
-FI
-'*'
-')'
-CLASS
-OBJECTID a2i
-LEXER BUG - UNMATCHED: _
-OBJECTID aux
+OBJECTID a2i_aux
 '('
 OBJECTID s
 ':'
@@ -1329,33 +1154,6 @@ INHERITS
 CLASS
 '}'
 ';'
-'('
-'*'
-FI
-INT_CONST 2
-OBJECTID a
-OBJECTID converts
-OBJECTID an
-FI
-OBJECTID nteger
-OBJECTID to
-OBJECTID a
-OBJECTID string
-'.'
-FI
-TYPEID Positive
-OBJECTID and
-IN
-OBJECTID egative
-THEN
-OBJECTID umbers
-OBJECTID are
-OBJECTID handled
-OBJECTID correctly
-'.'
-FI
-'*'
-')'
 ELSE
 OBJECTID i2a
 '('
@@ -1372,13 +1170,28 @@ FI
 '='
 INT_CONST 0
 THEN
-STR_CONST "0\" else \n        if 0 < i then i2a_aux(i) else\n          \"-"
+STR_CONST "0"
+ELSE
+INHERITS
+IF
+INT_CONST 0
+'<'
+FI
+THEN
+FI
+INT_CONST 2
+OBJECTID a_aux
+'('
+OBJECTID i
+')'
+ELSE
+INHERITS
+FI
+STR_CONST "-"
 '.'
 OBJECTID concat
 '('
-OBJECTID i2a
-LEXER BUG - UNMATCHED: _
-OBJECTID aux
+OBJECTID i2a_aux
 '('
 IF
 '*'
@@ -1393,27 +1206,8 @@ OBJECTID i
 ELSE
 '}'
 ';'
-'('
-'*'
-FI
-INT_CONST 2
-OBJECTID a
-LEXER BUG - UNMATCHED: _
-OBJECTID aux
-FI
-OBJECTID s
-OBJECTID an
-OBJECTID example
-OBJECTID using
-OBJECTID recursion
-'.'
-FI
-'*'
-')'
 ELSE
-OBJECTID i2a
-LEXER BUG - UNMATCHED: _
-OBJECTID aux
+OBJECTID i2a_aux
 '('
 IF
 ':'
@@ -1429,7 +1223,8 @@ FI
 '='
 INT_CONST 0
 THEN
-STR_CONST ""
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: "
 ELSE
 ELSE
 '('
@@ -1445,9 +1240,7 @@ FI
 INT_CONST 10
 FI
 OBJECTID n
-OBJECTID i2a
-LEXER BUG - UNMATCHED: _
-OBJECTID aux
+OBJECTID i2a_aux
 '('
 OBJECTID next
 ')'
@@ -1492,9 +1285,7 @@ OBJECTID avar
 TYPEID A
 ';'
 LET
-OBJECTID a
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID a_var
 ':'
 TYPEID A
 ';'
@@ -1515,11 +1306,31 @@ TYPEID String
 CLASS
 '{'
 INHERITS
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "\\n\\tTo add a number to \");\n         print(avar);\n         out_string("
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: \
+OBJECTID tTo
+OBJECTID add
+OBJECTID a
+IN
+OBJECTID umber
+OBJECTID to
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+INHERITS
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
 '.'
 '.'
 '.'
@@ -1528,7 +1339,30 @@ OBJECTID a
 ':'
 LEXER BUG - UNMATCHED: \
 OBJECTID n
-STR_CONST ");\n         out_string(\"\\tTo negate \");\n         print(avar);\n         out_string("
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID tTo
+IN
+OBJECTID egate
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+INHERITS
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
 '.'
 '.'
 '.'
@@ -1537,7 +1371,33 @@ OBJECTID b
 ':'
 LEXER BUG - UNMATCHED: \
 OBJECTID n
-STR_CONST ");\n         out_string(\"\\tTo find the difference between \");\n         print(avar);\n         out_string("
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID tTo
+IF
+OBJECTID ind
+THEN
+OBJECTID difference
+OBJECTID between
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+INHERITS
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
 OBJECTID and
 OBJECTID another
 IN
@@ -1550,7 +1410,33 @@ OBJECTID c
 ':'
 LEXER BUG - UNMATCHED: \
 OBJECTID n
-STR_CONST ");\n         out_string(\"\\tTo find the factorial of \");\n         print(avar);\n         out_string("
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID tTo
+IF
+OBJECTID ind
+THEN
+OBJECTID factorial
+OF
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+INHERITS
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
 '.'
 '.'
 '.'
@@ -1559,7 +1445,29 @@ OBJECTID d
 ':'
 LEXER BUG - UNMATCHED: \
 OBJECTID n
-STR_CONST ");\n         out_string(\"\\tTo square \");\n         print(avar);\n         out_string("
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID tTo
+OBJECTID square
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+INHERITS
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
 '.'
 '.'
 '.'
@@ -1568,7 +1476,29 @@ OBJECTID e
 ':'
 LEXER BUG - UNMATCHED: \
 OBJECTID n
-STR_CONST ");\n         out_string(\"\\tTo cube \");\n         print(avar);\n         out_string("
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID tTo
+OBJECTID cube
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+INHERITS
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
 '.'
 '.'
 '.'
@@ -1577,7 +1507,33 @@ IF
 ':'
 LEXER BUG - UNMATCHED: \
 OBJECTID n
-STR_CONST ");\n         out_string(\"\\tTo find out if \");\n         print(avar);\n         out_string("
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID tTo
+IF
+OBJECTID ind
+OBJECTID out
+FI
+FI
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+INHERITS
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
 OBJECTID is
 OBJECTID a
 OBJECTID multiple
@@ -1591,7 +1547,29 @@ OBJECTID g
 ':'
 LEXER BUG - UNMATCHED: \
 OBJECTID n
-STR_CONST ");\n         out_string(\"\\tTo divide \");\n         print(avar);\n         out_string("
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID tTo
+OBJECTID divide
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+INHERITS
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
 OBJECTID by
 INT_CONST 8
 '.'
@@ -1602,7 +1580,12 @@ OBJECTID h
 ':'
 LEXER BUG - UNMATCHED: \
 OBJECTID n
-STR_CONST ");\n\t out_string("
+LEXER BUG - UNMATCHED: "
+')'
+';'
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
 LEXER BUG - UNMATCHED: \
 OBJECTID tTo
 OBJECTID get
@@ -1619,7 +1602,12 @@ OBJECTID j
 ':'
 LEXER BUG - UNMATCHED: \
 OBJECTID n
-STR_CONST ");\n\t out_string("
+LEXER BUG - UNMATCHED: "
+')'
+';'
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
 LEXER BUG - UNMATCHED: \
 OBJECTID tTo
 OBJECTID quit
@@ -1633,24 +1621,47 @@ LEXER BUG - UNMATCHED: \
 OBJECTID n
 LEXER BUG - UNMATCHED: \
 OBJECTID n
-STR_CONST ");\n         in_string();\n      }\n   };\n\n   prompt() : String {\n      {\n         out_string(\"\\n\");\n         out_string("
-TYPEID Please
-OBJECTID enter
-OBJECTID a
-IN
-OBJECTID umber
-'.'
-'.'
-'.'
-FI
 LEXER BUG - UNMATCHED: "
 ')'
 ';'
 INHERITS
 FI
+OBJECTID n_string
+'('
+')'
+';'
+CLASS
+'}'
+LET
+'}'
+';'
+LOOP
+OBJECTID rompt
+'('
+')'
+':'
+TYPEID String
+'{'
+CLASS
+'{'
+INHERITS
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
 OBJECTID n
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+OBJECTID out_string
+'('
+STR_CONST "Please enter a number...  "
+')'
+';'
+INHERITS
+FI
+OBJECTID n_string
 '('
 ')'
 ';'
@@ -1660,9 +1671,7 @@ LET
 '}'
 ';'
 LET
-OBJECTID get
-LEXER BUG - UNMATCHED: _
-OBJECTID int
+OBJECTID get_int
 '('
 ')'
 ':'
@@ -1713,9 +1722,7 @@ LET
 '}'
 ';'
 LET
-OBJECTID is
-LEXER BUG - UNMATCHED: _
-OBJECTID even
+OBJECTID is_even
 '('
 OBJECTID num
 ':'
@@ -1745,9 +1752,7 @@ OBJECTID x
 INT_CONST 0
 THEN
 FI
-OBJECTID s
-LEXER BUG - UNMATCHED: _
-OBJECTID even
+OBJECTID s_even
 '('
 '~'
 OBJECTID x
@@ -1773,9 +1778,7 @@ OBJECTID alse
 ELSE
 INHERITS
 FI
-OBJECTID is
-LEXER BUG - UNMATCHED: _
-OBJECTID even
+OBJECTID is_even
 '('
 OBJECTID x
 '-'
@@ -1792,9 +1795,7 @@ LET
 '}'
 ';'
 ESAC
-OBJECTID lass
-LEXER BUG - UNMATCHED: _
-OBJECTID type
+OBJECTID lass_type
 '('
 OBJECTID var
 ':'
@@ -1811,11 +1812,108 @@ OBJECTID a
 ':'
 TYPEID A
 DARROW
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "Class type is now A\\n\");\n\t b : B => out_string(\"Class type is now B\\n\");\n\t c : C => out_string(\"Class type is now C\\n\");\n\t d : D => out_string(\"Class type is now D\\n\");\n\t e : E => out_string(\"Class type is now E\\n\");\n\t o : Object => out_string(\"Oooops\\n"
+LEXER BUG - UNMATCHED: "
+CLASS
+OBJECTID type
+FI
+OBJECTID s
+IN
+OBJECTID ow
+TYPEID A
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+OBJECTID b
+':'
+TYPEID B
+DARROW
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+CLASS
+OBJECTID type
+FI
+OBJECTID s
+IN
+OBJECTID ow
+TYPEID B
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+OBJECTID c
+':'
+TYPEID C
+DARROW
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+CLASS
+OBJECTID type
+FI
+OBJECTID s
+IN
+OBJECTID ow
+TYPEID C
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+OBJECTID d
+':'
+TYPEID D
+DARROW
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+CLASS
+OBJECTID type
+FI
+OBJECTID s
+IN
+OBJECTID ow
+TYPEID D
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+LET
+':'
+LET
+DARROW
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+CLASS
+OBJECTID type
+FI
+OBJECTID s
+IN
+OBJECTID ow
+TYPEID E
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+OF
+':'
+TYPEID Object
+DARROW
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+TYPEID Oooops
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
 ')'
 ';'
 CLASS
@@ -1847,9 +1945,7 @@ FI
 OBJECTID n
 '{'
 LET
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
 OBJECTID z
 '.'
@@ -1864,9 +1960,7 @@ OBJECTID value
 ')'
 ';'
 LET
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
 STR_CONST " "
 ')'
@@ -1904,8 +1998,6 @@ ELSE
 '{'
 CLASS
 FI
-'-'
-'-'
 OBJECTID avar
 ASSIGN
 '('
@@ -1913,22 +2005,16 @@ NEW
 TYPEID A
 ')'
 '.'
-OBJECTID set
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID set_var
 '('
-OBJECTID get
-LEXER BUG - UNMATCHED: _
-OBJECTID int
+OBJECTID get_int
 '('
 ')'
 ')'
 ';'
 CLASS
 FI
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
 STR_CONST "number "
 ')'
@@ -1944,9 +2030,7 @@ CLASS
 FI
 IF
 FI
-OBJECTID s
-LEXER BUG - UNMATCHED: _
-OBJECTID even
+OBJECTID s_even
 '('
 OBJECTID avar
 '.'
@@ -1957,14 +2041,68 @@ OBJECTID value
 THEN
 INHERITS
 FI
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "is even!\\n\")\n\t       else\n\t          out_string(\"is odd!\\n\")\n\t       fi;\n\t       -- print(avar); -- prints out answer\n\t       class_type(avar);\n\t       char <- menu();\n                  if char = \"a"
+LEXER BUG - UNMATCHED: "
+OBJECTID is
+OBJECTID even
+LEXER BUG - UNMATCHED: !
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+CLASS
+FI
+ELSE
+INHERITS
+FI
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
+OBJECTID is
+OBJECTID odd
+LEXER BUG - UNMATCHED: !
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+CLASS
+FI
+FI
+';'
+CLASS
+FI
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+OBJECTID prints
+OBJECTID out
+OBJECTID answer
+CLASS
+FI
+OBJECTID class_type
+'('
+OBJECTID avar
+')'
+';'
+CLASS
+FI
+OBJECTID char
+ASSIGN
+OBJECTID menu
+'('
+')'
+';'
+INHERITS
+INHERITS
+FI
+IF
+OBJECTID char
+'='
+STR_CONST "a"
 THEN
-'-'
-'-'
 OBJECTID add
 INHERITS
 INHERITS
@@ -1973,22 +2111,16 @@ CLASS
 INHERITS
 INHERITS
 INHERITS
-OBJECTID a
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID a_var
 ASSIGN
 '('
 NEW
 TYPEID A
 ')'
 '.'
-OBJECTID set
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID set_var
 '('
-OBJECTID get
-LEXER BUG - UNMATCHED: _
-OBJECTID int
+OBJECTID get_int
 '('
 ')'
 ')'
@@ -2010,9 +2142,7 @@ OBJECTID value
 '('
 ')'
 ','
-OBJECTID a
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID a_var
 '.'
 OBJECTID value
 '('
@@ -2031,10 +2161,7 @@ OBJECTID char
 '='
 STR_CONST "b"
 THEN
-'-'
-'-'
-IN
-OBJECTID egate
+OBJECTID negate
 INHERITS
 INHERITS
 CLASS
@@ -2091,14 +2218,42 @@ DARROW
 INHERITS
 INHERITS
 FI
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "Oooops\\n\");\n\t\t                  abort(); 0;\n\t\t               };\n                     esac else\n                  if char = \"c"
+LEXER BUG - UNMATCHED: "
+TYPEID Oooops
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+INHERITS
+INHERITS
+FI
+OBJECTID abort
+'('
+')'
+';'
+INT_CONST 0
+';'
+INHERITS
+CLASS
+FI
+'}'
+';'
+INHERITS
+INHERITS
+CLASS
+ESAC
+ELSE
+INHERITS
+INHERITS
+FI
+IF
+OBJECTID char
+'='
+STR_CONST "c"
 THEN
-'-'
-'-'
 OBJECTID diff
 INHERITS
 INHERITS
@@ -2107,22 +2262,16 @@ CLASS
 INHERITS
 INHERITS
 INHERITS
-OBJECTID a
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID a_var
 ASSIGN
 '('
 NEW
 TYPEID A
 ')'
 '.'
-OBJECTID set
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID set_var
 '('
-OBJECTID get
-LEXER BUG - UNMATCHED: _
-OBJECTID int
+OBJECTID get_int
 '('
 ')'
 ')'
@@ -2144,9 +2293,7 @@ OBJECTID value
 '('
 ')'
 ','
-OBJECTID a
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID a_var
 '.'
 OBJECTID value
 '('
@@ -2185,10 +2332,7 @@ OBJECTID value
 ELSE
 INHERITS
 FI
-'-'
-'-'
-IF
-OBJECTID actorial
+OBJECTID factorial
 INHERITS
 INHERITS
 FI
@@ -2216,8 +2360,6 @@ OBJECTID value
 ')'
 ELSE
 FI
-'-'
-'-'
 OBJECTID square
 INHERITS
 INHERITS
@@ -2246,8 +2388,6 @@ OBJECTID value
 ')'
 ELSE
 FI
-'-'
-'-'
 OBJECTID cube
 INHERITS
 INHERITS
@@ -2257,8 +2397,6 @@ OBJECTID char
 '='
 STR_CONST "g"
 THEN
-'-'
-'-'
 OBJECTID multiple
 OF
 INT_CONST 3
@@ -2286,8 +2424,6 @@ INHERITS
 CLASS
 LET
 OBJECTID hen
-'-'
-'-'
 OBJECTID avar
 ASSIGN
 '('
@@ -2307,11 +2443,25 @@ OBJECTID value
 INHERITS
 INHERITS
 ELSE
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "number \");\n\t                    print(avar);\n\t                    out_string("
+STR_CONST "number "
+')'
+';'
+INHERITS
+INHERITS
+ELSE
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+INHERITS
+INHERITS
+ELSE
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
 OBJECTID is
 OBJECTID divisible
 OBJECTID by
@@ -2325,8 +2475,6 @@ LEXER BUG - UNMATCHED: "
 '}'
 ELSE
 FI
-'-'
-'-'
 OBJECTID avar
 ASSIGN
 '('
@@ -2334,9 +2482,7 @@ NEW
 TYPEID A
 ')'
 '.'
-OBJECTID set
-LEXER BUG - UNMATCHED: _
-OBJECTID var
+OBJECTID set_var
 '('
 INT_CONST 0
 ')'
@@ -2344,11 +2490,25 @@ INT_CONST 0
 INHERITS
 INHERITS
 ELSE
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "number \");\n\t                    print(avar);\n\t                    out_string("
+STR_CONST "number "
+')'
+';'
+INHERITS
+INHERITS
+ELSE
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+INHERITS
+INHERITS
+ELSE
+OBJECTID out_string
+'('
+LEXER BUG - UNMATCHED: "
 OBJECTID is
 IN
 OBJECTID ot
@@ -2358,7 +2518,21 @@ INT_CONST 3
 '.'
 LEXER BUG - UNMATCHED: \
 OBJECTID n
-STR_CONST ");\n\t\t\t }\n\t\t      fi else\n                  if char = \"h"
+LEXER BUG - UNMATCHED: "
+')'
+';'
+'}'
+CLASS
+IF
+IF
+ELSE
+INHERITS
+INHERITS
+FI
+IF
+OBJECTID char
+'='
+STR_CONST "h"
 THEN
 CLASS
 '('
@@ -2419,11 +2593,37 @@ FI
 '{'
 INHERITS
 FI
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "number \");\n\t\t\t          print(avar);\n\t\t\t          out_string(\"is equal to \");\n\t\t\t          print(x);\n\t\t\t          out_string(\"times 8 with a remainder of "
+STR_CONST "number "
+')'
+';'
+INHERITS
+FI
+OBJECTID print
+'('
+OBJECTID avar
+')'
+';'
+INHERITS
+FI
+OBJECTID out_string
+'('
+STR_CONST "is equal to "
+')'
+';'
+INHERITS
+FI
+OBJECTID print
+'('
+OBJECTID x
+')'
+';'
+INHERITS
+FI
+OBJECTID out_string
+'('
+STR_CONST "times 8 with a remainder of "
 ')'
 ';'
 FI
@@ -2442,9 +2642,7 @@ CLASS
 '{'
 INHERITS
 INHERITS
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
 OBJECTID a
 '.'
@@ -2456,11 +2654,75 @@ OBJECTID r
 ';'
 INHERITS
 INHERITS
-OBJECTID out
-LEXER BUG - UNMATCHED: _
-OBJECTID string
+OBJECTID out_string
 '('
-STR_CONST "\\n\");\n\t\t\t\t     }\n\t\t\t\t  ); -- end let a:\n\t\t\t       }\n                            ); -- end let r:\n\t\t\t    avar <- x;\n\t\t         } \n\t\t      )  -- end let x:\n\t\t      else\n                  if char = \"j\" then avar <- (new A)\n\t\t      else\n                  if char = \"q"
+LEXER BUG - UNMATCHED: "
+LEXER BUG - UNMATCHED: \
+OBJECTID n
+LEXER BUG - UNMATCHED: "
+')'
+';'
+CLASS
+'}'
+FI
+')'
+';'
+OBJECTID end
+LET
+OBJECTID a
+':'
+CLASS
+FI
+'}'
+INHERITS
+INHERITS
+INHERITS
+ELSE
+')'
+';'
+OBJECTID end
+LET
+OBJECTID r
+':'
+ELSE
+OBJECTID avar
+ASSIGN
+OBJECTID x
+';'
+INHERITS
+'}'
+CLASS
+')'
+FI
+OBJECTID end
+LET
+OBJECTID x
+':'
+CLASS
+ELSE
+INHERITS
+INHERITS
+FI
+IF
+OBJECTID char
+'='
+STR_CONST "j"
+THEN
+OBJECTID avar
+ASSIGN
+'('
+NEW
+TYPEID A
+')'
+CLASS
+ELSE
+INHERITS
+INHERITS
+FI
+IF
+OBJECTID char
+'='
+STR_CONST "q"
 THEN
 IF
 OBJECTID lag
@@ -2487,8 +2749,6 @@ OBJECTID value
 '('
 ')'
 ')'
-'-'
-'-'
 OBJECTID divide
 '/'
 INT_CONST 8

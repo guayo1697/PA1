@@ -20,9 +20,8 @@ import java_cup.runtime.Symbol;
     StringBuffer string_buf = new StringBuffer();
 
     private int curr_lineno = 1;
-    int white = 1;
-    int var_count = 1;
-    int const_count = 1;
+    int white = 0;
+    int comentario = 0;
     int get_curr_lineno() {
 	return curr_lineno;
     }
@@ -36,6 +35,7 @@ import java_cup.runtime.Symbol;
     AbstractSymbol curr_filename() {
 	return filename;
     }
+   
 %}
 
 %init{
@@ -60,11 +60,10 @@ import java_cup.runtime.Symbol;
     case YYINITIAL:
 	/* nothing special to do in the initial state */
 	break;
-		case STRING:
-		return new Symbol(TokenConstants.ERROR, "Se alcanzo EOF en string!");
-	    case COMENT:
-	   	return new Symbol(TokenConstants.ERROR, "Se alcanzo EOF en comentario!");
-	   case EOF:
+		case COMMENT:
+	    	yybegin(ESTOFERROR);	
+	   		return new Symbol(TokenConstants.ERROR, "Se alcanzo EOF en comentario!");
+	   case ESTOFERROR:
 	   break;
     }
     return new Symbol(TokenConstants.EOF);
@@ -72,63 +71,68 @@ import java_cup.runtime.Symbol;
 
 %class CoolLexer
 %cup
-%state COMENT, STRING, EOF
+%state COMMENT,ESTOFERROR,COMMENTLINEA
 
 %%
 
-<YYINITIAL>"=>"			{ /* Sample lexical rule for "=>" arrow.
-                                     Further lexical rules should be defined
-                                     here, after the last %% separator */
-                                  return new Symbol(TokenConstants.DARROW); }
-<YYINITIAL>\b 			{}  
-<YYINITIAL>[" "]|[\t]           {white++;}                                
-<YYINITIAL>\n           {curr_lineno++;}
-<YYINITIAL>\f 			{}
-<YYINITIAL>["c" | "C"]["l" | "L"]["a" | "A"]["s | S"]["s | S"]	{return new Symbol(TokenConstants.CLASS,new IdSymbol(yytext(), yytext().length(), white++));}
-<YYINITIAL>["e" | "E"]["l" | "L"]["s" | "S"]["e" | "E"]			{return new Symbol(TokenConstants.ELSE,new IdSymbol(yytext(), yytext().length(), white++));}
-<YYINITIAL>["t"]["\r" | "\R"]["\u" | "\U"]["\e" | "\E"]       {return new Symbol(TokenConstants.BOOL_CONST,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>["f"]["\a" | "\A"]["\l" | "\L"]["\s" | "\S"]["\e" | "\E"]      {return new Symbol(TokenConstants.BOOL_CONST,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>["f" | "F"]["i" | "I"]	{return new Symbol(TokenConstants.FI,new IdSymbol(yytext(), yytext().length(), white++));}
-<YYINITIAL>["i" | "I"]["f" | "F"]	{return new Symbol(TokenConstants.IF,new IdSymbol(yytext(), yytext().length(), white++));}
-<YYINITIAL>["i" | "I"]["n" | "N"]	{return new Symbol(TokenConstants.IN,new IdSymbol(yytext(), yytext().length(), white++));}
-<YYINITIAL>["i" | "I"]["n" | "N"]["h" | "H"]["e" | "E"]["r" | "R"]["i" | "I"]["t" | "T"]["s" | "S"]	{return new Symbol(TokenConstants.INHERITS,new IdSymbol(yytext(), yytext().length(), white++));}
-<YYINITIAL>["l" | "L"]["e" | "E"]["t" | "T"]			{return new Symbol(TokenConstants.LET,new IdSymbol(yytext(), yytext().length(), white++));}
-<YYINITIAL>["l" | "L"]["o" | "O"]["o" | "O"]["p" | "P"]			{return new Symbol(TokenConstants.LOOP,new IdSymbol(yytext(), yytext().length(), white++));}
-<YYINITIAL>["p" | "P"]["o" | "O"]["o" | "O"]["l" | "L"]			{return new Symbol(TokenConstants.POOL,new IdSymbol(yytext(), yytext().length(), white++));}
-<YYINITIAL>["t" | "T"]["h" | "H"]["e" | "E"]["n" | "N"]			{return new Symbol(TokenConstants.THEN,new IdSymbol(yytext(), yytext().length(), white++));}
-<YYINITIAL>["w" | "W"]["h" | "H"]["i" | "I"]["l" | "L"]["e" | "E"]			{return new Symbol(TokenConstants.WHILE,new IdSymbol(yytext(), yytext().length(), white++));}
-<YYINITIAL>["c" | "C"]["a" | "A"]["s" | "S"]["e" | "E"]			{return new Symbol(TokenConstants.CASE,new IdSymbol(yytext(), yytext().length(), white++));}
-<YYINITIAL>["e" | "E"]["s" | "S"]["a" | "A"]["c" | "C"]			{return new Symbol(TokenConstants.ESAC,new IdSymbol(yytext(), yytext().length(), white++));}
-<YYINITIAL>["n" | "N"]["e" | "E"]["w" | "W"]			{return new Symbol(TokenConstants.NEW,new IdSymbol(yytext(), yytext().length(), white++));}
-<YYINITIAL>["o" | "O"]["f" | "F"]	{return new Symbol(TokenConstants.OF,new IdSymbol(yytext(), yytext().length(), white++));}
-<YYINITIAL>"."          {return new Symbol(TokenConstants.DOT,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>"@"          {return new Symbol(TokenConstants.AT,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>"~"          {return new Symbol(TokenConstants.NEG,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>["i"]["s"]["v"]["o"]["i"]["d"]	{return new Symbol(TokenConstants.ISVOID,new IdSymbol(yytext(), yytext().length(), white++));}
-<YYINITIAL>"/"          {return new Symbol(TokenConstants.DIV,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>"*"          {return new Symbol(TokenConstants.MULT,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>"+"          {return new Symbol(TokenConstants.PLUS,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>"-"          {return new Symbol(TokenConstants.MINUS,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>"<="         {return new Symbol(TokenConstants.LE,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>"<"          {return new Symbol(TokenConstants.LT,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>"="          {return new Symbol(TokenConstants.EQ,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>"not"        {return new Symbol(TokenConstants.NOT,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>"<-"         {return new Symbol(TokenConstants.ASSIGN,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>","          {return new Symbol(TokenConstants.COMMA,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>":"          {return new Symbol(TokenConstants.COLON,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>";"          {return new Symbol(TokenConstants.SEMI,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>[\{] 		{return new Symbol(TokenConstants.LBRACE,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>[\}] 		{return new Symbol(TokenConstants.RBRACE,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>[\(]  		{return new Symbol(TokenConstants.LPAREN,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>[\)]  		{return new Symbol(TokenConstants.RPAREN,new IdSymbol(yytext(), yytext().length(), white++)); }
-<YYINITIAL>[0-9]+       {return new Symbol(TokenConstants.INT_CONST,new IdSymbol(yytext(), yytext().length(), const_count++)); }
-<YYINITIAL>[a-z][a-zA-Z0-9]*         {return new Symbol(TokenConstants.OBJECTID,new IdSymbol(yytext(), yytext().length(), var_count++)); }
-<YYINITIAL>[\"][^\0.*]*[\"]  {
-									String token = yytext().substring(1, yytext().length() - 1);
-									int l = token.length();
-									return new Symbol(TokenConstants.STR_CONST, new StringSymbol(token,l,0));
-								 }
-<YYINITIAL>[A-Z][a-zA-Z0-9\_]*       {return new Symbol(TokenConstants.TYPEID,new IdSymbol(yytext(), yytext().length(), var_count++)); }
+<COMMENT,YYINITIAL>\(\* 		{yybegin(COMMENT);comentario++;}
+<COMMENT>\*\)				{comentario--; if (comentario == 0) {yybegin(YYINITIAL);}}
+<YYINITIAL>\*\)				{return new Symbol(TokenConstants.ERROR);}
+<COMMENT>.|\r|\n				{}
+<YYINITIAL>[" "]|[\t]|[\r]|[\f]       {white++;} 
+<YYINITIAL>"--"[^\n]				{}   
+<YYINITIAL>"=>"				{return new Symbol(TokenConstants.DARROW); }
+<YYINITIAL>\b 				{}                              
+<YYINITIAL>\n          		{curr_lineno++;}
+<YYINITIAL>\f 				{}
+<YYINITIAL>["c" | "C"]["l" | "L"]["a" | "A"]["s | S"]["s | S"]	{return new Symbol(TokenConstants.CLASS);}
+<YYINITIAL>["e" | "E"]["l" | "L"]["s" | "S"]["e" | "E"]			{return new Symbol(TokenConstants.ELSE);}
+<YYINITIAL>["t"]["\r" | "\R"]["\u" | "\U"]["\e" | "\E"]       {return new Symbol(TokenConstants.BOOL_CONST, "true"); }
+<YYINITIAL>["f"]["\a" | "\A"]["\l" | "\L"]["\s" | "\S"]["\e" | "\E"]      {return new Symbol(TokenConstants.BOOL_CONST, "false"); }
+<YYINITIAL>["f" | "F"]["i" | "I"]	{return new Symbol(TokenConstants.FI);}
+<YYINITIAL>["i" | "I"]["f" | "F"]	{return new Symbol(TokenConstants.IF);}
+<YYINITIAL>["i" | "I"]["n" | "N"]	{return new Symbol(TokenConstants.IN);}
+<YYINITIAL>["i" | "I"]["n" | "N"]["h" | "H"]["e" | "E"]["r" | "R"]["i" | "I"]["t" | "T"]["s" | "S"]	{return new Symbol(TokenConstants.INHERITS);}
+<YYINITIAL>["l" | "L"]["e" | "E"]["t" | "T"]			{return new Symbol(TokenConstants.LET);}
+<YYINITIAL>["l" | "L"]["o" | "O"]["o" | "O"]["p" | "P"]			{return new Symbol(TokenConstants.LOOP);}
+<YYINITIAL>["p" | "P"]["o" | "O"]["o" | "O"]["l" | "L"]			{return new Symbol(TokenConstants.POOL);}
+<YYINITIAL>["t" | "T"]["h" | "H"]["e" | "E"]["n" | "N"]			{return new Symbol(TokenConstants.THEN);}
+<YYINITIAL>["w" | "W"]["h" | "H"]["i" | "I"]["l" | "L"]["e" | "E"]			{return new Symbol(TokenConstants.WHILE);}
+<YYINITIAL>["c" | "C"]["a" | "A"]["s" | "S"]["e" | "E"]			{return new Symbol(TokenConstants.CASE);}
+<YYINITIAL>["e" | "E"]["s" | "S"]["a" | "A"]["c" | "C"]			{return new Symbol(TokenConstants.ESAC);}
+<YYINITIAL>["n" | "N"]["e" | "E"]["w" | "W"]			{return new Symbol(TokenConstants.NEW);}
+<YYINITIAL>["o" | "O"]["f" | "F"]	{return new Symbol(TokenConstants.OF);}
+<YYINITIAL>"."          {return new Symbol(TokenConstants.DOT); }
+<YYINITIAL>"@"          {return new Symbol(TokenConstants.AT); }
+<YYINITIAL>"~"          {return new Symbol(TokenConstants.NEG); }
+<YYINITIAL>["i"]["s"]["v"]["o"]["i"]["d"]	{return new Symbol(TokenConstants.ISVOID);}
+<YYINITIAL>"/"          {return new Symbol(TokenConstants.DIV); }
+<YYINITIAL>"*"          {return new Symbol(TokenConstants.MULT); }
+<YYINITIAL>"+"          {return new Symbol(TokenConstants.PLUS); }
+<YYINITIAL>"-"          {return new Symbol(TokenConstants.MINUS); }
+<YYINITIAL>"<="         {return new Symbol(TokenConstants.LE); }
+<YYINITIAL>"<"          {return new Symbol(TokenConstants.LT); }
+<YYINITIAL>"="          {return new Symbol(TokenConstants.EQ); }
+<YYINITIAL>"not"        {return new Symbol(TokenConstants.NOT); }
+<YYINITIAL>"<-"         {return new Symbol(TokenConstants.ASSIGN); }
+<YYINITIAL>","          {return new Symbol(TokenConstants.COMMA); }
+<YYINITIAL>":"          {return new Symbol(TokenConstants.COLON); }
+<YYINITIAL>";"          {return new Symbol(TokenConstants.SEMI); }
+<YYINITIAL>[\{] 		{return new Symbol(TokenConstants.LBRACE); }
+<YYINITIAL>[\}] 		{return new Symbol(TokenConstants.RBRACE); }
+<YYINITIAL>[\(]  		{return new Symbol(TokenConstants.LPAREN); }
+<YYINITIAL>[\)]  		{return new Symbol(TokenConstants.RPAREN); }
+<YYINITIAL>[0-9]+       {	AbstractSymbol inte = AbstractTable.inttable.addString(yytext());
+							return new Symbol(TokenConstants.INT_CONST,inte); }
+<YYINITIAL>[a-z][a-zA-Z0-9\_]*         {	AbstractSymbol obj = AbstractTable.idtable.addString(yytext());
+							return new Symbol(TokenConstants.OBJECTID,obj); }
+<YYINITIAL>[\"][^\"\0\n\\]+[\"]  			{
+										String token = yytext().substring(1, yytext().length() - 1);
+										int l = token.length();
+										return new Symbol(TokenConstants.STR_CONST, new StringSymbol(token,l,0));
+									 }
+<YYINITIAL>[A-Z][a-zA-Z0-9\_]*       {	AbstractSymbol tip = AbstractTable.idtable.addString(yytext());
+							return new Symbol(TokenConstants.TYPEID,tip); }
 <YYINITIAL>error		{return new Symbol(TokenConstants.error);}
 
 

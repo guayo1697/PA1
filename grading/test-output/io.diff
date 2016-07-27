@@ -1,421 +1,5 @@
-0a1,413
-> '('
-> '*'
-> '*'
+3a4,26
 > LET
-> OBJECTID he
-> FI
-> OF
-> CLASS
-> FI
-> OBJECTID s
-> OBJECTID predefined
-> OBJECTID and
-> OBJECTID has
-> INT_CONST 4
-> OBJECTID methods
-> ':'
-> '*'
-> '*'
-> ELSE
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID string
-> '('
-> OBJECTID s
-> ':'
-> TYPEID String
-> ')'
-> ':'
-> TYPEID SELF_TYPE
-> '*'
-> ELSE
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID int
-> '('
-> IF
-> ':'
-> FI
-> OBJECTID nt
-> ')'
-> ':'
-> TYPEID SELF_TYPE
-> '*'
-> ELSE
-> IN
-> LEXER BUG - UNMATCHED: _
-> OBJECTID string
-> '('
-> ')'
-> ':'
-> TYPEID String
-> '*'
-> ELSE
-> IN
-> LEXER BUG - UNMATCHED: _
-> OBJECTID int
-> '('
-> ')'
-> ':'
-> FI
-> OBJECTID nt
-> '*'
-> '*'
-> ELSE
-> THEN
-> OBJECTID out
-> OBJECTID operations
-> OBJECTID print
-> OBJECTID their
-> OBJECTID argument
-> OBJECTID to
-> THEN
-> OBJECTID terminal
-> '.'
-> TYPEID The
-> '*'
-> ELSE
-> IN
-> LEXER BUG - UNMATCHED: _
-> OBJECTID string
-> OBJECTID method
-> OBJECTID reads
-> OBJECTID an
-> OBJECTID entire
-> OBJECTID line
-> IF
-> OBJECTID rom
-> THEN
-> OBJECTID terminal
-> OBJECTID and
-> OBJECTID returns
-> OBJECTID a
-> '*'
-> CLASS
-> OBJECTID tring
-> IN
-> OBJECTID ot
-> OBJECTID containing
-> THEN
-> NEW
-> OBJECTID line
-> '.'
-> THEN
-> IN
-> LEXER BUG - UNMATCHED: _
-> OBJECTID int
-> OBJECTID method
-> OBJECTID also
-> OBJECTID reads
-> '*'
-> ELSE
-> OBJECTID an
-> OBJECTID entire
-> OBJECTID line
-> IF
-> OBJECTID rom
-> THEN
-> OBJECTID terminal
-> OBJECTID and
-> OBJECTID returns
-> THEN
-> OBJECTID integer
-> '*'
-> ELSE
-> OBJECTID corresponding
-> OBJECTID to
-> THEN
-> OBJECTID first
-> IN
-> OBJECTID on
-> OBJECTID blank
-> OBJECTID word
-> OBJECTID on
-> THEN
-> OBJECTID line
-> '.'
-> FI
-> FI
-> OBJECTID that
-> '*'
-> ELSE
-> OBJECTID word
-> FI
-> OBJECTID s
-> IN
-> OBJECTID ot
-> OBJECTID an
-> FI
-> OBJECTID nteger
-> ','
-> FI
-> OBJECTID t
-> OBJECTID returns
-> INT_CONST 0
-> '.'
-> '*'
-> '*'
-> '*'
-> FI
-> TYPEID Because
-> OBJECTID our
-> OBJECTID language
-> FI
-> OBJECTID s
-> OBJECTID object
-> OBJECTID oriented
-> ','
-> OBJECTID we
-> IN
-> OBJECTID eed
-> OBJECTID an
-> OBJECTID object
-> OF
-> OBJECTID type
-> '*'
-> FI
-> TYPEID IO
-> FI
-> OBJECTID n
-> OBJECTID order
-> OBJECTID to
-> OBJECTID call
-> OBJECTID any
-> OF
-> OBJECTID these
-> OBJECTID methods
-> '.'
-> '*'
-> '*'
-> LET
-> OBJECTID here
-> OBJECTID are
-> OBJECTID basically
-> OBJECTID two
-> OBJECTID ways
-> OF
-> OBJECTID getting
-> OBJECTID access
-> OBJECTID to
-> FI
-> OF
-> IN
-> OBJECTID a
-> CLASS
-> TYPEID C
-> '.'
-> '*'
-> '*'
-> LET
-> INT_CONST 1
-> ')'
-> TYPEID Define
-> TYPEID C
-> OBJECTID to
-> FI
-> OBJECTID nherit
-> IF
-> OBJECTID rom
-> FI
-> TYPEID O
-> '.'
-> TYPEID This
-> OBJECTID way
-> THEN
-> TYPEID IO
-> OBJECTID methods
-> OBJECTID become
-> '*'
-> CLASS
-> OBJECTID methods
-> OF
-> TYPEID C
-> ','
-> OBJECTID and
-> OBJECTID they
-> OBJECTID can
-> OBJECTID be
-> OBJECTID called
-> OBJECTID using
-> THEN
-> OBJECTID abbreviated
-> '*'
-> CLASS
-> OBJECTID dispatch
-> ','
-> FI
-> '.'
-> OBJECTID e
-> '.'
-> '*'
-> '*'
-> CLASS
-> CLASS
-> TYPEID C
-> FI
-> OBJECTID nherits
-> FI
-> OF
-> OBJECTID is
-> '*'
-> INHERITS
-> FI
-> '.'
-> '.'
-> '.'
-> '*'
-> INHERITS
-> FI
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID string
-> '('
-> STR_CONST "Hello world\\n"
-> ')'
-> '*'
-> INHERITS
-> FI
-> '.'
-> '.'
-> '.'
-> '*'
-> CLASS
-> OBJECTID end
-> ';'
-> '*'
-> '*'
-> LET
-> INT_CONST 2
-> ')'
-> FI
-> FI
-> OBJECTID your
-> CLASS
-> TYPEID C
-> OBJECTID does
-> IN
-> OBJECTID ot
-> OBJECTID directly
-> OBJECTID or
-> FI
-> OBJECTID ndirectly
-> FI
-> OBJECTID nherit
-> IF
-> OBJECTID rom
-> '*'
-> CLASS
-> FI
-> TYPEID O
-> ','
-> THEN
-> OBJECTID best
-> OBJECTID way
-> OBJECTID to
-> OBJECTID access
-> FI
-> OF
-> OBJECTID is
-> OBJECTID through
-> OBJECTID an
-> FI
-> OBJECTID nitialized
-> '*'
-> CLASS
-> OBJECTID attribute
-> OF
-> OBJECTID type
-> FI
-> TYPEID O
-> '.'
-> '*'
-> '*'
-> CLASS
-> CLASS
-> TYPEID C
-> FI
-> OBJECTID nherits
-> IF
-> OBJECTID oo
-> FI
-> OBJECTID s
-> '*'
-> INHERITS
-> FI
-> OF
-> ':'
-> FI
-> OF
-> ASSIGN
-> IN
-> OBJECTID ew
-> FI
-> TYPEID O
-> ';'
-> '*'
-> INHERITS
-> '.'
-> '.'
-> '.'
-> '*'
-> INHERITS
-> CLASS
-> OBJECTID io
-> '.'
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID string
-> '('
-> STR_CONST "Hello world\\n"
-> ')'
-> ';'
-> '*'
-> INHERITS
-> '.'
-> '.'
-> '.'
-> '*'
-> CLASS
-> OBJECTID end
-> ';'
-> '*'
-> '*'
-> FI
-> TYPEID Approach
-> INT_CONST 1
-> ')'
-> FI
-> OBJECTID s
-> OBJECTID most
-> OBJECTID often
-> OBJECTID used
-> ','
-> FI
-> OBJECTID n
-> OBJECTID particular
-> OBJECTID when
-> OBJECTID you
-> IN
-> OBJECTID eed
-> FI
-> TYPEID O
-> '*'
-> FI
-> OBJECTID functions
-> FI
-> OBJECTID n
-> THEN
-> TYPEID Main
-> CLASS
-> '.'
-> '*'
-> '*'
-> ')'
-3a417,441
-> LET
-> '-'
-> '-'
 > LET
 > LEXER BUG - UNMATCHED: '
 > OBJECTID s
@@ -438,52 +22,44 @@
 > TYPEID O
 > '.'
 > LET
-6c444,445
+6c29,30
 < TYPEID IO
 ---
 > FI
 > OF
-8,11c447,455
+8,9c32,35
 < NEW
 < TYPEID IO
-< ';'
-< OBJECTID out_a
 ---
 > IN
 > OBJECTID ew
 > FI
 > TYPEID O
-> ';'
+10a37
 > LET
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID a
-17c461,462
+17c44,45
 < OBJECTID io
 ---
 > FI
 > OBJECTID o
-19c464,466
-< OBJECTID out_string
----
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID string
-21c468
+21c49,56
 < STR_CONST "A: Hello world\n"
 ---
-> STR_CONST "A: Hello world\\n"
-29c476,477
+> LEXER BUG - UNMATCHED: "
+> TYPEID A
+> ':'
+> TYPEID Hello
+> OBJECTID world
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+29c64,65
 < INHERITS
 ---
 > FI
 > OBJECTID nherits
-32c480,506
-< OBJECTID out_b
----
+31a68,89
 > LET
-> '-'
-> '-'
 > TYPEID B
 > OBJECTID does
 > IN
@@ -505,42 +81,35 @@
 > TYPEID A
 > '.'
 > LET
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID b
-38c512,513
+38c96,97
 < OBJECTID io
 ---
 > FI
 > OBJECTID o
-40c515,517
-< OBJECTID out_string
----
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID string
-42c519
+42c101,108
 < STR_CONST "B: Hello world\n"
 ---
-> STR_CONST "B: Hello world\\n"
-50c527,537
+> LEXER BUG - UNMATCHED: "
+> TYPEID B
+> ':'
+> TYPEID Hello
+> OBJECTID world
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+50,51c116,119
 < INHERITS
+< TYPEID IO
 ---
 > FI
 > OBJECTID nherits
 > FI
 > OF
-> '{'
+52a121,131
 > LET
-> '-'
-> '-'
-> IN
-> OBJECTID ow
+> TYPEID Now
 > THEN
-52,53c539,548
-< '{'
-< OBJECTID out_c
----
+> TYPEID IO
 > OBJECTID methods
 > OBJECTID are
 > OBJECTID part
@@ -548,29 +117,22 @@
 > TYPEID C
 > '.'
 > LET
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID c
-59c554,556
-< OBJECTID out_string
----
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID string
-61c558
+61c140,147
 < STR_CONST "C: Hello world\n"
 ---
-> STR_CONST "C: Hello world\\n"
-64a562,592
+> LEXER BUG - UNMATCHED: "
+> TYPEID C
+> ':'
+> TYPEID Hello
+> OBJECTID world
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+64a151,174
 > LET
-> '-'
-> '-'
-> IN
-> OBJECTID ote
+> TYPEID Note
 > OBJECTID that
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID string
+> OBJECTID out_string
 > '('
 > '.'
 > '.'
@@ -585,27 +147,20 @@
 > OBJECTID or
 > OBJECTID self
 > '.'
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID string
+> OBJECTID out_string
 > '('
 > '.'
 > '.'
 > '.'
 > ')'
-69c597,598
+69c179,180
 < INHERITS
 ---
 > FI
 > OBJECTID nherits
-72c601,616
-< OBJECTID out_d
----
+71a183,192
 > LET
-> '-'
-> '-'
-> FI
-> OBJECTID nherits
+> INHERITS
 > FI
 > OF
 > OBJECTID methods
@@ -614,32 +169,27 @@
 > TYPEID C
 > '.'
 > LET
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID d
-78c622,624
-< OBJECTID out_string
----
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID string
-80c626
+80c201,208
 < STR_CONST "D: Hello world\n"
 ---
-> STR_CONST "D: Hello world\\n"
-88,90c634,648
+> LEXER BUG - UNMATCHED: "
+> TYPEID D
+> ':'
+> TYPEID Hello
+> OBJECTID world
+> LEXER BUG - UNMATCHED: \
+> OBJECTID n
+> LEXER BUG - UNMATCHED: "
+88,89c216,219
 < INHERITS
 < TYPEID IO
-< '{'
 ---
 > FI
 > OBJECTID nherits
 > FI
 > OF
-> '{'
+90a221,228
 > LET
-> '-'
-> '-'
 > TYPEID Same
 > CASE
 > CASE
@@ -647,39 +197,9 @@
 > TYPEID C
 > '.'
 > LET
-96a655
+96a235
 > CLASS
-103c662,664
-< OBJECTID out_a
----
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID a
-112c673,675
-< OBJECTID out_b
----
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID b
-121c684,686
-< OBJECTID out_c
----
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID c
-130c695,697
-< OBJECTID out_d
----
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID d
-134c701,703
-< OBJECTID out_string
----
-> OBJECTID out
-> LEXER BUG - UNMATCHED: _
-> OBJECTID string
-136c705,710
+136c275,280
 < STR_CONST "Done.\n"
 ---
 > LEXER BUG - UNMATCHED: "
@@ -688,7 +208,7 @@
 > LEXER BUG - UNMATCHED: \
 > OBJECTID n
 > LEXER BUG - UNMATCHED: "
-138a713
+138a283
 > CLASS
-139a715
+139a285
 > LET

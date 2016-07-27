@@ -1,20 +1,8 @@
-1,2c1,16
-< STR_CONST "This is a string--and it's still a string"
-< STR_CONST "(* not a comment *)"
----
-> STR_CONST "This is a string--and it's still a string\"\n--This is a comment, \"not a string"
-> '('
-> '*'
-> STR_CONST "not a string"
-> '*'
-> ')'
-> LEXER BUG - UNMATCHED: "
-> '('
-> '*'
-> IN
-> OBJECTID ot
+1a2,8
+> OBJECTID his
+> FI
+> OBJECTID s
 > OBJECTID a
 > OBJECTID comment
-> '*'
-> ')'
-> LEXER BUG - UNMATCHED: "
+> ','
+> STR_CONST "not a string"

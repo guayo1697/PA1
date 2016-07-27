@@ -35,8 +35,6 @@
 #4 ELSE
 #4 '{'
 #5 INHERITS
-#5 '-'
-#5 '-'
 #5 OBJECTID trivially
 #5 OBJECTID equal
 #5 '('
@@ -47,331 +45,323 @@
 #6 IF
 #6 OBJECTID c
 #6 '.'
-#6 OBJECTID reflect
-LEXER BUG - UNMATCHED: _
-#6 TYPEID X
+#6 OBJECTID reflect_X
 #6 '('
 #6 ')'
 #6 '='
 #6 OBJECTID c
 #6 '.'
-#6 OBJECTID reflect
-LEXER BUG - UNMATCHED: _
-#6 INT_CONST 0
+#6 OBJECTID reflect_0
 #6 '('
 #6 ')'
 #7 INHERITS
 #7 THEN
-#7 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#7 OBJECTID string
+#7 OBJECTID out_string
 #7 '('
-#7 STR_CONST "=)\\n\")\n\t        else out_string(\"=(\\n"
+LEXER BUG - UNMATCHED: "
+#7 '='
+#7 ')'
+LEXER BUG - UNMATCHED: \
+#7 OBJECTID n
+LEXER BUG - UNMATCHED: "
 #7 ')'
 #8 INHERITS
-#8 FI
-#8 ';'
-#9 '-'
-#9 '-'
-#9 OBJECTID equal
-#10 INHERITS
-#10 IF
-#10 OBJECTID c
-#10 '.'
-#10 OBJECTID reflect
-LEXER BUG - UNMATCHED: _
-#10 TYPEID X
-#10 '('
-#10 ')'
-#10 '.'
-#10 OBJECTID reflect
-LEXER BUG - UNMATCHED: _
-#10 TYPEID Y
-#10 '('
-#10 ')'
-#10 '.'
+#8 ELSE
+#8 OBJECTID out_string
+#8 '('
+LEXER BUG - UNMATCHED: "
+#8 '='
+#8 '('
+LEXER BUG - UNMATCHED: \
+#8 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#8 ')'
+#9 INHERITS
+#9 FI
+#9 ';'
 #10 OBJECTID equal
-#10 '('
-#10 OBJECTID c
-#10 '.'
-#10 OBJECTID reflect
-LEXER BUG - UNMATCHED: _
-#10 INT_CONST 0
-#10 '('
-#10 ')'
-#10 ')'
 #11 INHERITS
-#11 THEN
-#11 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#11 OBJECTID string
+#11 IF
+#11 OBJECTID c
+#11 '.'
+#11 OBJECTID reflect_X
 #11 '('
-#11 STR_CONST "=)\\n\")\n\t        else out_string(\"=(\\n"
+#11 ')'
+#11 '.'
+#11 OBJECTID reflect_Y
+#11 '('
+#11 ')'
+#11 '.'
+#11 OBJECTID equal
+#11 '('
+#11 OBJECTID c
+#11 '.'
+#11 OBJECTID reflect_0
+#11 '('
+#11 ')'
 #11 ')'
 #12 INHERITS
-#12 FI
-#12 ';'
+#12 THEN
+#12 OBJECTID out_string
+#12 '('
+LEXER BUG - UNMATCHED: "
+#12 '='
+#12 ')'
+LEXER BUG - UNMATCHED: \
+#12 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#12 ')'
+#13 INHERITS
 #13 ELSE
-#13 '}'
-#14 ')'
+#13 OBJECTID out_string
+#13 '('
+LEXER BUG - UNMATCHED: "
+#13 '='
+#13 '('
+LEXER BUG - UNMATCHED: \
+#13 OBJECTID n
+LEXER BUG - UNMATCHED: "
+#13 ')'
+#14 INHERITS
+#14 FI
+#14 ';'
 #15 ELSE
 #15 '}'
-#15 ';'
-#16 '}'
-#16 ';'
-#18 CLASS
-#18 TYPEID Complex
-#18 FI
-#18 OBJECTID nherits
-#18 FI
-#18 OF
-#18 '{'
-#19 ELSE
-#19 OBJECTID x
-#19 ':'
-#19 FI
-#19 OBJECTID nt
-#19 ';'
-#20 ELSE
-#20 OBJECTID y
-#20 ':'
+#16 ')'
+#17 ELSE
+#17 '}'
+#17 ';'
+#18 '}'
+#18 ';'
+#20 CLASS
+#20 TYPEID Complex
 #20 FI
-#20 OBJECTID nt
-#20 ';'
+#20 OBJECTID nherits
+#20 FI
+#20 OF
+#20 '{'
+#21 ELSE
+#21 OBJECTID x
+#21 ':'
+#21 FI
+#21 OBJECTID nt
+#21 ';'
 #22 ELSE
-#22 OBJECTID init
-#22 '('
-#22 OBJECTID a
+#22 OBJECTID y
 #22 ':'
 #22 FI
 #22 OBJECTID nt
-#22 ','
-#22 OBJECTID b
-#22 ':'
-#22 FI
-#22 OBJECTID nt
-#22 ')'
-#22 ':'
-#22 TYPEID Complex
-#22 '{'
-#23 '{'
+#22 ';'
 #24 ELSE
-#24 OBJECTID x
-#24 '='
+#24 OBJECTID init
+#24 '('
 #24 OBJECTID a
-#24 ';'
-#25 ELSE
-#25 OBJECTID y
-#25 '='
-#25 OBJECTID b
-#25 ';'
-#26 CLASS
-#26 OBJECTID elf
+#24 ':'
+#24 FI
+#24 OBJECTID nt
+#24 ','
+#24 OBJECTID b
+#24 ':'
+#24 FI
+#24 OBJECTID nt
+#24 ')'
+#24 ':'
+#24 TYPEID Complex
+#24 '{'
+#25 '{'
+#26 ELSE
+#26 OBJECTID x
+#26 '='
+#26 OBJECTID a
 #26 ';'
-#27 '}'
-#28 ELSE
-#28 '}'
+#27 ELSE
+#27 OBJECTID y
+#27 '='
+#27 OBJECTID b
+#27 ';'
+#28 CLASS
+#28 OBJECTID elf
 #28 ';'
+#29 '}'
 #30 ELSE
-#30 OBJECTID print
-#30 '('
-#30 ')'
-#30 ':'
-#30 TYPEID Object
-#30 '{'
-#31 IF
-#31 OBJECTID y
-#31 '='
-#31 INT_CONST 0
-#32 THEN
-#32 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#32 OBJECTID int
+#30 '}'
+#30 ';'
+#32 ELSE
+#32 OBJECTID print
 #32 '('
-#32 OBJECTID x
 #32 ')'
-#33 ELSE
-#33 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#33 OBJECTID int
-#33 '('
-#33 OBJECTID x
-#33 ')'
-#33 '.'
-#33 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#33 OBJECTID string
-#33 '('
-#33 STR_CONST "+"
-#33 ')'
-#33 '.'
-#33 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#33 OBJECTID int
-#33 '('
+#32 ':'
+#32 TYPEID Object
+#32 '{'
+#33 IF
 #33 OBJECTID y
-#33 ')'
-#33 '.'
-#33 OBJECTID out
-LEXER BUG - UNMATCHED: _
-#33 OBJECTID string
-#33 '('
-#33 STR_CONST "I"
-#33 ')'
-#34 FI
+#33 '='
+#33 INT_CONST 0
+#34 THEN
+#34 OBJECTID out_int
+#34 '('
+#34 OBJECTID x
+#34 ')'
 #35 ELSE
-#35 '}'
-#35 ';'
+#35 OBJECTID out_int
+#35 '('
+#35 OBJECTID x
+#35 ')'
+#35 '.'
+#35 OBJECTID out_string
+#35 '('
+#35 STR_CONST "+"
+#35 ')'
+#35 '.'
+#35 OBJECTID out_int
+#35 '('
+#35 OBJECTID y
+#35 ')'
+#35 '.'
+#35 OBJECTID out_string
+#35 '('
+#35 STR_CONST "I"
+#35 ')'
+#36 FI
 #37 ELSE
-#37 OBJECTID reflect
-LEXER BUG - UNMATCHED: _
-#37 INT_CONST 0
-#37 '('
-#37 ')'
-#37 ':'
-#37 TYPEID Complex
-#37 '{'
-#38 '{'
+#37 '}'
+#37 ';'
 #39 ELSE
-#39 OBJECTID x
-#39 '='
-#39 '~'
-#39 OBJECTID x
-#39 ';'
-#40 ELSE
-#40 OBJECTID y
-#40 '='
-#40 '~'
-#40 OBJECTID y
-#40 ';'
-#41 CLASS
-#41 OBJECTID elf
+#39 OBJECTID reflect_0
+#39 '('
+#39 ')'
+#39 ':'
+#39 TYPEID Complex
+#39 '{'
+#40 '{'
+#41 ELSE
+#41 OBJECTID x
+#41 '='
+#41 '~'
+#41 OBJECTID x
 #41 ';'
-#42 '}'
-#43 ELSE
-#43 '}'
+#42 ELSE
+#42 OBJECTID y
+#42 '='
+#42 '~'
+#42 OBJECTID y
+#42 ';'
+#43 CLASS
+#43 OBJECTID elf
 #43 ';'
+#44 '}'
 #45 ELSE
-#45 OBJECTID reflect
-LEXER BUG - UNMATCHED: _
-#45 TYPEID X
-#45 '('
-#45 ')'
-#45 ':'
-#45 TYPEID Complex
-#45 '{'
-#46 '{'
+#45 '}'
+#45 ';'
 #47 ELSE
-#47 OBJECTID y
-#47 '='
-#47 '~'
-#47 OBJECTID y
-#47 ';'
-#48 CLASS
-#48 OBJECTID elf
-#48 ';'
-#49 '}'
-#50 ELSE
-#50 '}'
+#47 OBJECTID reflect_X
+#47 '('
+#47 ')'
+#47 ':'
+#47 TYPEID Complex
+#47 '{'
+#48 '{'
+#49 ELSE
+#49 OBJECTID y
+#49 '='
+#49 '~'
+#49 OBJECTID y
+#49 ';'
+#50 CLASS
+#50 OBJECTID elf
 #50 ';'
+#51 '}'
 #52 ELSE
-#52 OBJECTID reflect
-LEXER BUG - UNMATCHED: _
-#52 TYPEID Y
-#52 '('
-#52 ')'
-#52 ':'
-#52 TYPEID Complex
-#52 '{'
-#53 '{'
+#52 '}'
+#52 ';'
 #54 ELSE
-#54 OBJECTID x
-#54 '='
-#54 '~'
-#54 OBJECTID x
-#54 ';'
-#55 CLASS
-#55 OBJECTID elf
-#55 ';'
-#56 '}'
-#57 ELSE
-#57 '}'
+#54 OBJECTID reflect_Y
+#54 '('
+#54 ')'
+#54 ':'
+#54 TYPEID Complex
+#54 '{'
+#55 '{'
+#56 ELSE
+#56 OBJECTID x
+#56 '='
+#56 '~'
+#56 OBJECTID x
+#56 ';'
+#57 CLASS
+#57 OBJECTID elf
 #57 ';'
-#59 WHILE
-#59 OBJECTID qual
-#59 '('
-#59 OBJECTID d
-#59 ':'
-#59 TYPEID Complex
-#59 ')'
-#59 ':'
-#59 TYPEID Bool
-#59 '{'
-#60 IF
-#60 OBJECTID x
-#60 '='
-#60 OBJECTID d
-#60 '.'
-#60 OBJECTID x
-LEXER BUG - UNMATCHED: _
-#60 OBJECTID value
-#60 '('
-#60 ')'
-#61 THEN
-#62 ELSE
+#58 '}'
+#59 ELSE
+#59 '}'
+#59 ';'
+#61 WHILE
+#61 OBJECTID qual
+#61 '('
+#61 OBJECTID d
+#61 ':'
+#61 TYPEID Complex
+#61 ')'
+#61 ':'
+#61 TYPEID Bool
+#61 '{'
 #62 IF
-#62 OBJECTID y
+#62 OBJECTID x
 #62 '='
 #62 OBJECTID d
 #62 '.'
-#62 OBJECTID y
-LEXER BUG - UNMATCHED: _
-#62 OBJECTID value
+#62 OBJECTID x_value
 #62 '('
 #62 ')'
-#63 ELSE
 #63 THEN
-#63 BOOL_CONST true
-#64 WHILE
-#64 OBJECTID lse
+#64 ELSE
 #64 IF
-#64 OBJECTID alse
+#64 OBJECTID y
+#64 '='
+#64 OBJECTID d
+#64 '.'
+#64 OBJECTID y_value
+#64 '('
+#64 ')'
 #65 ELSE
-#65 FI
-#66 ELSE
+#65 THEN
+#65 BOOL_CONST true
+#66 WHILE
+#66 OBJECTID lse
 #66 IF
 #66 OBJECTID alse
+#67 ELSE
 #67 FI
 #68 ELSE
-#68 '}'
-#68 ';'
+#68 IF
+#68 OBJECTID alse
+#69 FI
 #70 ELSE
-#70 OBJECTID x
-LEXER BUG - UNMATCHED: _
-#70 OBJECTID value
-#70 '('
-#70 ')'
-#70 ':'
-#70 FI
-#70 OBJECTID nt
-#70 '{'
-#71 OBJECTID x
+#70 '}'
+#70 ';'
 #72 ELSE
-#72 '}'
-#72 ';'
+#72 OBJECTID x_value
+#72 '('
+#72 ')'
+#72 ':'
+#72 FI
+#72 OBJECTID nt
+#72 '{'
+#73 OBJECTID x
 #74 ELSE
-#74 OBJECTID y
-LEXER BUG - UNMATCHED: _
-#74 OBJECTID value
-#74 '('
-#74 ')'
-#74 ':'
-#74 FI
-#74 OBJECTID nt
-#74 '{'
-#75 OBJECTID y
+#74 '}'
+#74 ';'
 #76 ELSE
-#76 '}'
-#76 ';'
-#77 '}'
-#77 ';'
+#76 OBJECTID y_value
+#76 '('
+#76 ')'
+#76 ':'
+#76 FI
+#76 OBJECTID nt
+#76 '{'
+#77 OBJECTID y
+#78 ELSE
+#78 '}'
+#78 ';'
+#79 '}'
+#79 ';'

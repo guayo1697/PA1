@@ -1,1 +1,9 @@
-STR_CONST "string with no closing quote\\"
+LEXER BUG - UNMATCHED: "
+OBJECTID string
+OBJECTID with
+IN
+OF
+OBJECTID closing
+OBJECTID quote
+LEXER BUG - UNMATCHED: \
+LEXER BUG - UNMATCHED: "
