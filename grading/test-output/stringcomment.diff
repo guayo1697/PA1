@@ -1,8 +1,0 @@
-1a2,8
-> OBJECTID his
-> FI
-> OBJECTID s
-> OBJECTID a
-> OBJECTID comment
-> ','
-> STR_CONST "not a string"

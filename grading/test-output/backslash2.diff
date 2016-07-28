@@ -1,64 +1,7 @@
-1,7c1,55
-< LONGERROR
-< LONGERROR
-< LONGERROR
+2a3,4
+> STR_CONST "This is also not escaped \n"
+> STR_CONST "This is, though \n"
+4,6d5
 < LONGERROR
 < STR_CONST "This is, though \\\n"
 < STR_CONST "\\"
-< STR_CONST "It's fine to have this: \n in a string"
----
-> LEXER BUG - UNMATCHED: "
-> TYPEID I
-> LEXER BUG - UNMATCHED: '
-> OBJECTID m
-> IN
-> OBJECTID ot
-> OBJECTID going
-> OBJECTID to
-> OBJECTID escape
-> OBJECTID this
-> IN
-> OBJECTID ewline
-> LEXER BUG - UNMATCHED: "
-> LEXER BUG - UNMATCHED: "
-> TYPEID This
-> FI
-> OBJECTID s
-> OBJECTID also
-> IN
-> OBJECTID ot
-> OBJECTID escaped
-> LEXER BUG - UNMATCHED: \
-> LEXER BUG - UNMATCHED: \
-> LEXER BUG - UNMATCHED: "
-> LEXER BUG - UNMATCHED: "
-> TYPEID This
-> FI
-> OBJECTID s
-> ','
-> OBJECTID though
-> LEXER BUG - UNMATCHED: \
-> LEXER BUG - UNMATCHED: \
-> LEXER BUG - UNMATCHED: \
-> LEXER BUG - UNMATCHED: "
-> LEXER BUG - UNMATCHED: "
-> LEXER BUG - UNMATCHED: \
-> LEXER BUG - UNMATCHED: \
-> LEXER BUG - UNMATCHED: "
-> LEXER BUG - UNMATCHED: "
-> TYPEID It
-> LEXER BUG - UNMATCHED: '
-> OBJECTID s
-> IF
-> OBJECTID ine
-> OBJECTID to
-> OBJECTID have
-> OBJECTID this
-> ':'
-> LEXER BUG - UNMATCHED: \
-> OBJECTID n
-> FI
-> OBJECTID n
-> OBJECTID a
-> OBJECTID string
-> LEXER BUG - UNMATCHED: "

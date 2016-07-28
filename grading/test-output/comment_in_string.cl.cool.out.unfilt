@@ -1,9 +1,0 @@
-#name "./comment_in_string.cl.cool"
-#1 STR_CONST "string (* 123 *) string"
-LEXER BUG - UNMATCHED: "
-#2 OBJECTID string
-LEXER BUG - UNMATCHED: \
-LEXER BUG - UNMATCHED: "
-LEXER BUG - UNMATCHED: "
-#4 OBJECTID string
-LEXER BUG - UNMATCHED: "

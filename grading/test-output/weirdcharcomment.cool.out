@@ -1,8 +1,4 @@
-#name "./s04.test.cool"
-#2 INT_CONST 0
-#4 INT_CONST 1
-LEXER BUG - UNMATCHED: 
-#6 INT_CONST 2
+#name "./weirdcharcomment.cool"
 Exception in thread "main" java.lang.Error: Lexical Error: Unmatched Input.
 	at CoolLexer.next_token(CoolLexer.java:669)
 	at Lexer.main(Lexer.java:43)

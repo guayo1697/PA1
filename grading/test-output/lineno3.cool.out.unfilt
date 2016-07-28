@@ -1,9 +1,0 @@
-#name "./lineno3.cool"
-#2 OBJECTID sixth
-#2 OBJECTID line
-#3 '+'
-#4 OBJECTID abc
-#5 OBJECTID ninth
-#5 OBJECTID line
-#7 TYPEID DEF
-#8 STR_CONST "string"

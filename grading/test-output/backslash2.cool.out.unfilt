@@ -1,56 +1,7 @@
 #name "./backslash2.cool"
-LEXER BUG - UNMATCHED: "
-#1 TYPEID I
-LEXER BUG - UNMATCHED: '
-#1 OBJECTID m
-#1 IN
-#1 OBJECTID ot
-#1 OBJECTID going
-#1 OBJECTID to
-#1 OBJECTID escape
-#1 OBJECTID this
-#1 IN
-#1 OBJECTID ewline
-LEXER BUG - UNMATCHED: "
-LEXER BUG - UNMATCHED: "
-#4 TYPEID This
-#4 FI
-#4 OBJECTID s
-#4 OBJECTID also
-#4 IN
-#4 OBJECTID ot
-#4 OBJECTID escaped
-LEXER BUG - UNMATCHED: \
-LEXER BUG - UNMATCHED: \
-LEXER BUG - UNMATCHED: "
-LEXER BUG - UNMATCHED: "
-#7 TYPEID This
-#7 FI
-#7 OBJECTID s
-#7 ','
-#7 OBJECTID though
-LEXER BUG - UNMATCHED: \
-LEXER BUG - UNMATCHED: \
-LEXER BUG - UNMATCHED: \
-LEXER BUG - UNMATCHED: "
-LEXER BUG - UNMATCHED: "
-LEXER BUG - UNMATCHED: \
-LEXER BUG - UNMATCHED: \
-LEXER BUG - UNMATCHED: "
-LEXER BUG - UNMATCHED: "
-#12 TYPEID It
-LEXER BUG - UNMATCHED: '
-#12 OBJECTID s
-#12 IF
-#12 OBJECTID ine
-#12 OBJECTID to
-#12 OBJECTID have
-#12 OBJECTID this
-#12 ':'
-LEXER BUG - UNMATCHED: \
-#12 OBJECTID n
-#12 FI
-#12 OBJECTID n
-#12 OBJECTID a
-#12 OBJECTID string
-LEXER BUG - UNMATCHED: "
+#1 ERROR "Undetermined string constant"
+#1 ERROR "Undetermined string constant"
+#2 STR_CONST "This is also not escaped \n"
+#4 STR_CONST "This is, though \n"
+#6 ERROR "Undetermined string constant"
+#7 STR_CONST "It's fine to have this: \n in a string"

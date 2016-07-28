@@ -1,12 +1,1 @@
-#name "./s04.test.cool"
-#2 INT_CONST 0
-#3 INHERITS
-#4 INT_CONST 1
-#5 CLASS
-#6 INT_CONST 2
-#7 CLASS
-#8 INT_CONST 3
-#10 INT_CONST 4
-LEXER BUG - UNMATCHED: 
-#11 CLASS
-#12 INT_CONST 5
+#name "./s03.test.cool"
