@@ -1,6 +1,6 @@
-LONGERROR
-LONGERROR
-STR_CONST "This is also not escaped \n"
-STR_CONST "This is, though \n"
-LONGERROR
-STR_CONST "It's fine to have this: \n in a string"
+#name "./backslash2.cool"
+#0 ERROR "Undetermined string constant"
+#-1 ERROR "Undetermined string constant"
+#0 ERROR "Exception in thread "main" java.lang.NullPointerException
+	at Utilities.dumpToken(Utilities.java:219)
+	at Lexer.main(Lexer.java:44)

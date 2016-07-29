@@ -1,24 +1,4 @@
-STR_CONST "-"
-'-'
-STR_CONST "--"
-STR_CONST "\""
-LEXER BUG - UNMATCHED: \
-STR_CONST "--\""
-LEXER BUG - UNMATCHED: \
-'-'
-LEXER BUG - UNMATCHED: \
-STR_CONST ""
-LEXER BUG - UNMATCHED: \
-STR_CONST "--\"\"\"--"
-STR_CONST "\"--"
-LONGERROR
-STR_CONST "\""
-LEXER BUG - UNMATCHED: \
-STR_CONST "--\""
-LEXER BUG - UNMATCHED: \
-LEXER BUG - UNMATCHED: \
-STR_CONST ""
-LEXER BUG - UNMATCHED: \
-STR_CONST "--\"\"\""
-STR_CONST "-\""
-LEXER BUG - UNMATCHED: \
+#name "./wq0607-c4.cool"
+#3 ERROR "Exception in thread "main" java.lang.NullPointerException
+	at Utilities.dumpToken(Utilities.java:219)
+	at Lexer.main(Lexer.java:44)

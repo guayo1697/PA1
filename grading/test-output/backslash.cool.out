@@ -1,3 +1,4 @@
-STR_CONST "012012\t\f\b\nra\bcde\fg"
-STR_CONST "\"this is still inside the string"
-STR_CONST "I'm about to excape a newline \n"
+#name "./backslash.cool"
+#1 ERROR "Exception in thread "main" java.lang.NullPointerException
+	at Utilities.dumpToken(Utilities.java:219)
+	at Lexer.main(Lexer.java:44)

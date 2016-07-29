@@ -1,7 +1,0 @@
-2a3,4
-> STR_CONST "This is also not escaped \n"
-> STR_CONST "This is, though \n"
-4,6d5
-< LONGERROR
-< STR_CONST "This is, though \\\n"
-< STR_CONST "\\"
