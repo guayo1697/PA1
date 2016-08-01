@@ -61,10 +61,10 @@ import java_cup.runtime.Symbol;
 	break;
 		case COMMENT:
 	    	yybegin(ESTOFERROR);	
-	   		return new Symbol(TokenConstants.ERROR, "Se alcanzo EOF en comentario!");
+	   		return new Symbol(TokenConstants.ERROR, "EOF in comment");
 	   	case STR:
 	   		yybegin(ESTOFERROR);
-	   		return new Symbol(TokenConstants.ERROR, "Se alcanzo EOF en String");
+	   		return new Symbol(TokenConstants.ERROR, "EOF in string constant");
 	   case ESTOFERROR:
 	   break;
     }
@@ -83,7 +83,7 @@ import java_cup.runtime.Symbol;
 <COMMENT>"*)"				{if (--comentario == 0) {yybegin(YYINITIAL);}}
 <COMMENTLINEAL, COMMENT>.	{}
 <COMMENT>\n					{curr_lineno++;}
-<YYINITIAL>"*)"				{return new Symbol(TokenConstants.ERROR, "No se encontro *)");}
+<YYINITIAL>"*)"				{return new Symbol(TokenConstants.ERROR, " Unmatched *)");}
 
 
 
@@ -177,17 +177,17 @@ import java_cup.runtime.Symbol;
 <STR>\\\\					{string_buf.append("\\");}
 <STR>\\ 					{}
 <STR>[^\"\0\n\\]+ 			{string_buf.append(yytext());}
-<STR>\n						{yybegin(YYINITIAL); string_buf.setLength(0); return new Symbol(TokenConstants.ERROR, "Enter en String");}
+<STR>\n						{yybegin(YYINITIAL); string_buf.setLength(0); return new Symbol(TokenConstants.ERROR, "Undetermined string constant");}
 
 <STR>\" 					{yybegin(YYINITIAL);
 							String str = string_buf.toString();
 							if (str.length() >= MAX_STR_CONST):{
-								return new Symbol(TokenConstants.ERROR, "String es muy largo");
+								return new Symbol(TokenConstants.ERROR, "String constant too long");
 							}else{
 								return new Symbol(TokenConstants.STR_CONST, new StringSymbol(str,str.length(),str.hashCode()))
 
 							} }
-<STR>\x00					{yybegin(STRERROR); return new Symbol(TokenConstants.ERROR, "String tiene null");}
+<STR>\x00					{yybegin(STRERROR); return new Symbol(TokenConstants.ERROR, "String contains null character");}
 <STRERROR>\"|\n				{yybegin(YYINITIAL);}
 <STRERROR>.					{}
 

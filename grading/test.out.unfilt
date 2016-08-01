@@ -25,6 +25,6 @@
 #5 ERROR "\\"
 #5 STR_CONST "\""
 #5 ERROR "\\"
-#5 ERROR "Enter en String"
+#5 ERROR "Undetermined string constant"
 #5 STR_CONST "-\""
 #5 ERROR "\\"

@@ -687,10 +687,10 @@ class CoolLexer implements java_cup.runtime.Scanner {
 	break;
 		case COMMENT:
 	    	yybegin(ESTOFERROR);	
-	   		return new Symbol(TokenConstants.ERROR, "Se alcanzo EOF en comentario!");
+	   		return new Symbol(TokenConstants.ERROR, "EOF in comment");
 	   	case STR:
 	   		yybegin(ESTOFERROR);
-	   		return new Symbol(TokenConstants.ERROR, "Se alcanzo EOF en String");
+	   		return new Symbol(TokenConstants.ERROR, "EOF in string constant");
 	   case ESTOFERROR:
 	   break;
     }
@@ -888,7 +888,7 @@ class CoolLexer implements java_cup.runtime.Scanner {
 					case -42:
 						break;
 					case 42:
-						{return new Symbol(TokenConstants.ERROR, "No se encontro *)");}
+						{return new Symbol(TokenConstants.ERROR, " Unmatched *)");}
 					case -43:
 						break;
 					case 43:
@@ -1000,11 +1000,11 @@ class CoolLexer implements java_cup.runtime.Scanner {
 					case -70:
 						break;
 					case 70:
-						{yybegin(YYINITIAL); string_buf.setLength(0); return new Symbol(TokenConstants.ERROR, "Enter en String");}
+						{yybegin(YYINITIAL); string_buf.setLength(0); return new Symbol(TokenConstants.ERROR, "Undetermined string constant");}
 					case -71:
 						break;
 					case 71:
-						{yybegin(STRERROR); return new Symbol(TokenConstants.ERROR, "String tiene null");}
+						{yybegin(STRERROR); return new Symbol(TokenConstants.ERROR, "String contains null character");}
 					case -72:
 						break;
 					case 72:
