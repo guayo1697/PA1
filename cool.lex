@@ -1,5 +1,6 @@
 /*
  *  The scanner definition for COOL.
+ *	Eduardo Mendez 15001113 II
  */
 
 import java_cup.runtime.Symbol;
