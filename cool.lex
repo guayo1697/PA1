@@ -73,7 +73,7 @@ import java_cup.runtime.Symbol;
 
 %class CoolLexer
 %cup
-%state COMMENT,COMMENTLINEAL,ESTOFERROR,STR
+%state COMMENT,COMMENTLINEAL,ESTOFERROR,STR,STRERROR
 
 %%
 
@@ -83,11 +83,11 @@ import java_cup.runtime.Symbol;
 <COMMENT>"*)"				{if (--comentario == 0) {yybegin(YYINITIAL);}}
 <COMMENTLINEAL, COMMENT>.	{}
 <COMMENT>\n					{curr_lineno++;}
-<YYINITIAL>"*)"				{return new Symbol(TokenConstants.ERROR, "Unmatched *)");}
+<YYINITIAL>"*)"				{return new Symbol(TokenConstants.ERROR, "No se encontro *)");}
 
 
 
-<YYINITIAL>[" "]|[\t]|[\r][\f]       {} 
+<YYINITIAL>[" "]|[\t]|[\r]|[\f]|[\u000B]       {} 
 <YYINITIAL>"=>"				{return new Symbol(TokenConstants.DARROW); }
 <YYINITIAL>\b 				{}                              
 <YYINITIAL>\n          		{curr_lineno++;}
@@ -135,6 +135,20 @@ import java_cup.runtime.Symbol;
 <YYINITIAL>[\(]  		{return new Symbol(TokenConstants.LPAREN); }
 <YYINITIAL>[\)]  		{return new Symbol(TokenConstants.RPAREN); }
 <YYINITIAL>"_"			{return new Symbol(TokenConstants.ERROR, "_");}
+<YYINITIAL>"_"			{return new Symbol(TokenConstants.ERROR, "_");}
+<YYINITIAL>["!"]			{return new Symbol(TokenConstants.ERROR, "!");}
+<YYINITIAL>["#"]			{return new Symbol(TokenConstants.ERROR, "#");}
+<YYINITIAL>["$"]			{return new Symbol(TokenConstants.ERROR, "$");}
+<YYINITIAL>["%"]			{return new Symbol(TokenConstants.ERROR, "%");}
+<YYINITIAL>["^"]			{return new Symbol(TokenConstants.ERROR, "^");}
+<YYINITIAL>["&"]			{return new Symbol(TokenConstants.ERROR, "&");}
+<YYINITIAL>[">"]			{return new Symbol(TokenConstants.ERROR, ">");}
+<YYINITIAL>["?"]			{return new Symbol(TokenConstants.ERROR, "?");}
+<YYINITIAL>["`"]			{return new Symbol(TokenConstants.ERROR, "`");}
+<YYINITIAL>["["]			{return new Symbol(TokenConstants.ERROR, "[");}
+<YYINITIAL>["]"]			{return new Symbol(TokenConstants.ERROR, "]");}
+<YYINITIAL>["|"]			{return new Symbol(TokenConstants.ERROR, "|");}
+<YYINITIAL>\\				{return new Symbol(TokenConstants.ERROR, "\\");}
 
 
 
@@ -160,22 +174,28 @@ import java_cup.runtime.Symbol;
 <STR>\\n 					{string_buf.append("\n");curr_lineno++; }
 <STR>\\\n 					{string_buf.append("\n");}
 <STR>\\\" 					{string_buf.append("\"");}
-<STR>\\\ 					{string_buf.append("\\");}
+<STR>\\\\					{string_buf.append("\\");}
 <STR>\\ 					{}
 <STR>[^\"\0\n\\]+ 			{string_buf.append(yytext());}
-<STR>\n					{curr_lineno--; yybegin(YYINITIAL); string_buf.setLength(0); return new Symbol(TokenConstants.ERROR, "Undetermined string constant");}
+<STR>\n						{yybegin(YYINITIAL); string_buf.setLength(0); return new Symbol(TokenConstants.ERROR, "Enter en String");}
+
 <STR>\" 					{yybegin(YYINITIAL);
 							String str = string_buf.toString();
 							if (str.length() >= MAX_STR_CONST):{
-								return new Symbol(TokenConstants.ERROR, "String demasiado largo");
+								return new Symbol(TokenConstants.ERROR, "String es muy largo");
 							}else{
 								return new Symbol(TokenConstants.STR_CONST, new StringSymbol(str,str.length(),str.hashCode()))
 
 							} }
+<STR>\x00					{yybegin(STRERROR); return new Symbol(TokenConstants.ERROR, "String tiene null");}
+<STRERROR>\"|\n				{yybegin(YYINITIAL);}
+<STRERROR>.					{}
 
 
 .                               { /* This rule should be the very last
                                      in your lexical specification and
                                      will match match everything not
                                      matched by other lexical rules. */
-                                  System.err.println("LEXER BUG - UNMATCHED: " + yytext()); }
+                                  return new Symbol(TokenConstants.ERROR, yytext());}
+
+
